@@ -3,4 +3,5 @@ models/
 vendor/
 corpus/
 results/
+fbank_lfr_cmvn_feature.json
 .env
