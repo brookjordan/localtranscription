@@ -1,4 +1,5 @@
-import { access, constants, mkdir } from 'node:fs/promises';
+import { access, constants, mkdir, mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
 import { spawnSync } from 'node:child_process';
 import { basename, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -19,7 +20,22 @@ await access(audio, constants.R_OK);
 await mkdir(results, { recursive: true });
 
 const prefix: string = resolve(results, `${basename(audio)}.tiny-en`);
-const result = spawnSync(runtime, ['-m', model, '-f', audio, '-otxt', '-of', prefix], {
-  stdio: 'inherit',
-});
-process.exit(result.status ?? 1);
+const temporaryDir: string = await mkdtemp(resolve(tmpdir(), 'local-voice-transcription-'));
+const normalised: string = resolve(temporaryDir, 'input.wav');
+let exitCode: number = 1;
+try {
+  const decoded = spawnSync('ffmpeg', ['-y', '-v', 'error', '-i', audio, '-ac', '1', '-ar', '16000', normalised], {
+    stdio: 'inherit',
+  });
+  if (decoded.status === 0) {
+    const result = spawnSync(runtime, ['-m', model, '-f', normalised, '-otxt', '-of', prefix], {
+      stdio: 'inherit',
+    });
+    exitCode = result.status ?? 1;
+  } else {
+    exitCode = decoded.status ?? 1;
+  }
+} finally {
+  await rm(temporaryDir, { force: true, recursive: true });
+}
+process.exit(exitCode);
