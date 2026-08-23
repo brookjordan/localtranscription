@@ -1,0 +1,9 @@
+{
+  "name": "local-voice-transcription",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download:tiny-en": "node scripts/download-tiny-en.ts",
+    "transcribe": "node scripts/transcribe.ts"
+  }
+}
