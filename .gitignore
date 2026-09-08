@@ -8,3 +8,10 @@ __pycache__/
 node_modules/
 logs/
 results/corpus/segments_run.log
+
+# audio lives on assets.brook.dev/localtranscription/, not in git
+results/assets/
+results/corpus/segments/
+*.wav
+*.m4a
+*.mp3
