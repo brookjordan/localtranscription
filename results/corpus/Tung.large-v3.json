@@ -1,0 +1,25 @@
+{
+ "model": "large-v3",
+ "audio_file": "Tung.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.12,
+   "speaker": null,
+   "text": "I went back to Hanoi for two weeks, spent time with my family and friends there."
+  },
+  {
+   "start": 6.12,
+   "end": 12.48,
+   "speaker": null,
+   "text": "Went for private badminton coaching with my kids and we enjoyed the food not the"
+  },
+  {
+   "start": 12.48,
+   "end": 18.36,
+   "speaker": null,
+   "text": "weather. Lovely place, lovely memories."
+  }
+ ],
+ "text": "I went back to Hanoi for two weeks, spent time with my family and friends there. Went for private badminton coaching with my kids and we enjoyed the food not the weather. Lovely place, lovely memories."
+}

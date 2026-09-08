@@ -1,0 +1,38 @@
+{
+  "file": "Nana Chris.wav",
+  "duration_s": 56.084,
+  "rtf": 2.595,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.1,
+      "speaker_id": 0,
+      "text": "Oh, can you believe we actually did it? We made it through the storm. Wind howling, rain lashing, I thought we'd never see the sun again."
+    },
+    {
+      "start": 10.32,
+      "end": 23.27,
+      "speaker_id": 0,
+      "text": "There were nights, nights I cried myself to sleep, whispering, \"Is anyone even out there?\" But then you showed up. You smiled and suddenly the world wasn't so dark."
+    },
+    {
+      "start": 23.5,
+      "end": 36.59,
+      "speaker_id": 0,
+      "text": "I felt seen, understood, then filled. Remember that silly dance in the kitchen with burnt pancakes? Oh, we were a mess."
+    },
+    {
+      "start": 36.71,
+      "end": 51.05,
+      "speaker_id": 0,
+      "text": "But now, now you've gone. The silence is deafening. I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment."
+    },
+    {
+      "start": 51.1,
+      "end": 56.08,
+      "speaker_id": 0,
+      "text": "And I'll keep going because that's what you'd want, always."
+    }
+  ],
+  "text": "[{\"Start\":0.0,\"End\":10.1,\"Speaker\":0,\"Content\":\"Oh, can you believe we actually did it? We made it through the storm. Wind howling, rain lashing, I thought we'd never see the sun again.\"},{\"Start\":10.32,\"End\":23.27,\"Speaker\":0,\"Content\":\"There were nights, nights I cried myself to sleep, whispering, \\\"Is anyone even out there?\\\" But then you showed up. You smiled and suddenly the world wasn't so dark.\"},{\"Start\":23.5,\"End\":36.59,\"Speaker\":0,\"Content\":\"I felt seen, understood, then filled. Remember that silly dance in the kitchen with burnt pancakes? Oh, we were a mess.\"},{\"Start\":36.71,\"End\":51.05,\"Speaker\":0,\"Content\":\"But now, now you've gone. The silence is deafening. I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment.\"},{\"Start\":51.1,\"End\":56.08,\"Speaker\":0,\"Content\":\"And I'll keep going because that's what you'd want, always.\"}]"
+}

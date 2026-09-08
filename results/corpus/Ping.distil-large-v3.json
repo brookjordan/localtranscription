@@ -1,0 +1,121 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Ping.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.06,
+   "speaker": null,
+   "text": "All right, you should be able to see my screen now, right?"
+  },
+  {
+   "start": 2.22,
+   "end": 2.74,
+   "speaker": null,
+   "text": "Fantastic."
+  },
+  {
+   "start": 3.18,
+   "end": 4.42,
+   "speaker": null,
+   "text": "Okay, cool."
+  },
+  {
+   "start": 4.56,
+   "end": 6.12,
+   "speaker": null,
+   "text": "I think let's not delay."
+  },
+  {
+   "start": 6.5,
+   "end": 11.22,
+   "speaker": null,
+   "text": "And I think we have a good quorum of folks now, perhaps 10 to 20."
+  },
+  {
+   "start": 11.84,
+   "end": 12.58,
+   "speaker": null,
+   "text": "So that's good."
+  },
+  {
+   "start": 12.82,
+   "end": 15.94,
+   "speaker": null,
+   "text": "We will start our meeting formally."
+  },
+  {
+   "start": 16.5,
+   "end": 20.24,
+   "speaker": null,
+   "text": "So today, this is maybe the second time we are gathering together as a group."
+  },
+  {
+   "start": 20.76,
+   "end": 25.22,
+   "speaker": null,
+   "text": "We want to talk about a little bit about Q1, then moving on to Q2,"
+  },
+  {
+   "start": 25.34,
+   "end": 29.98,
+   "speaker": null,
+   "text": "mainly focusing on what are the things that we are kind of looking forward to, right?"
+  },
+  {
+   "start": 30.0,
+   "end": 36.52,
+   "speaker": null,
+   "text": "what's going to happen in Q2 for each of the groups under the platform and apps, you know,"
+  },
+  {
+   "start": 36.94,
+   "end": 37.32,
+   "speaker": null,
+   "text": "a team."
+  },
+  {
+   "start": 37.86,
+   "end": 40.28,
+   "speaker": null,
+   "text": "So let's go ahead and get started."
+  },
+  {
+   "start": 40.68,
+   "end": 40.88,
+   "speaker": null,
+   "text": "All right."
+  },
+  {
+   "start": 40.94,
+   "end": 44.96,
+   "speaker": null,
+   "text": "So I think, you know, before I, by the way, Stacey, your hands are raised."
+  },
+  {
+   "start": 45.08,
+   "end": 46.24,
+   "speaker": null,
+   "text": "So hi."
+  },
+  {
+   "start": 47.24,
+   "end": 48.0,
+   "speaker": null,
+   "text": "Good morning."
+  },
+  {
+   "start": 49.66,
+   "end": 55.38,
+   "speaker": null,
+   "text": "I think I want to revisit some of the things that we shared earlier, right, in the last quarterly all hands."
+  },
+  {
+   "start": 55.38,
+   "end": 59.88,
+   "speaker": null,
+   "text": "And just so that we kind of regroup and see where we are today."
+  }
+ ],
+ "text": "All right, you should be able to see my screen now, right? Fantastic. Okay, cool. I think let's not delay. And I think we have a good quorum of folks now, perhaps 10 to 20. So that's good. We will start our meeting formally. So today, this is maybe the second time we are gathering together as a group. We want to talk about a little bit about Q1, then moving on to Q2, mainly focusing on what are the things that we are kind of looking forward to, right? what's going to happen in Q2 for each of the groups under the platform and apps, you know, a team. So let's go ahead and get started. All right. So I think, you know, before I, by the way, Stacey, your hands are raised. So hi. Good morning. I think I want to revisit some of the things that we shared earlier, right, in the last quarterly all hands. And just so that we kind of regroup and see where we are today."
+}

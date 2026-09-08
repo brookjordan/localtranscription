@@ -1,0 +1,50 @@
+{
+  "file": "Mum's voice.wav",
+  "duration_s": 70.4,
+  "rtf": 2.618,
+  "segments": [
+    {
+      "start": 0,
+      "end": 11.8,
+      "speaker_id": 0,
+      "text": "Ha! Can you believe we actually did it? We made it through the storm. Wind howling, rain lashing. I thought we'd never see the sun again."
+    },
+    {
+      "start": 12.39,
+      "end": 24.44,
+      "speaker_id": 0,
+      "text": "There were nights. Nights I cried myself to sleep. Whispering, is anyone even out there? But then, you showed up."
+    },
+    {
+      "start": 24.62,
+      "end": 33.38,
+      "speaker_id": 0,
+      "text": "You smiled, and suddenly the world wasn't so dark. I felt seen, understood."
+    },
+    {
+      "start": 33.56,
+      "end": 47.41,
+      "speaker_id": 0,
+      "text": "Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone. The silence is deafening."
+    },
+    {
+      "start": 47.68,
+      "end": 61.09,
+      "speaker_id": 0,
+      "text": "I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment."
+    },
+    {
+      "start": 61.85,
+      "end": 68.44,
+      "speaker_id": 0,
+      "text": "And I'll keep going because that's what you'd want. Always."
+    },
+    {
+      "start": 68.44,
+      "end": 70.4,
+      "speaker_id": null,
+      "text": "[Silence]"
+    }
+  ],
+  "text": "[{\"Start\":0,\"End\":11.8,\"Speaker\":0,\"Content\":\"Ha! Can you believe we actually did it? We made it through the storm. Wind howling, rain lashing. I thought we'd never see the sun again.\"},{\"Start\":12.39,\"End\":24.44,\"Speaker\":0,\"Content\":\"There were nights. Nights I cried myself to sleep. Whispering, is anyone even out there? But then, you showed up.\"},{\"Start\":24.62,\"End\":33.38,\"Speaker\":0,\"Content\":\"You smiled, and suddenly the world wasn't so dark. I felt seen, understood.\"},{\"Start\":33.56,\"End\":47.41,\"Speaker\":0,\"Content\":\"Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone. The silence is deafening.\"},{\"Start\":47.68,\"End\":61.09,\"Speaker\":0,\"Content\":\"I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment.\"},{\"Start\":61.85,\"End\":68.44,\"Speaker\":0,\"Content\":\"And I'll keep going because that's what you'd want. Always.\"},{\"Start\":68.44,\"End\":70.4,\"Content\":\"[Silence]\"}]"
+}

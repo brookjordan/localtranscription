@@ -1,4 +1,4 @@
-# local-voice-transcription
+# localtranscription
 
 A small, isolated speech-to-text evaluation harness for Tiny Agent Suite on Apple Silicon. It begins with a file-based `whisper.cpp` tiny-English baseline and keeps models, private audio, and generated results out of Git.
 
@@ -16,8 +16,10 @@ The repository is a laboratory harness only. It does not expose a server, connec
 ## Layout
 
 ```text
-models/   downloaded GGML models, ignored
-corpus/   optional local test audio, ignored
-results/  generated reports, ignored
-scripts/  Node-native TypeScript helpers for deterministic download and run commands
+scripts/  Node/Python helpers: downloads, corpus runs, guards, dashboard embed
+docs/     research notes and technical documentation
+results/  corpus audio, ground truths, transcripts, segment WAVs, dashboard (tracked)
+vendor/   compiled engine builds (whisper.cpp, sensevoice.cpp), ignored
+          AI model weights live outside the repo in ~/.cache/localtranscription/
+          (whisper.cpp ggml, sensevoice gguf) and ~/.cache/huggingface/ (MLX models)
 ```

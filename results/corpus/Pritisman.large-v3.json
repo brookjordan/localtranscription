@@ -1,0 +1,49 @@
+{
+ "model": "large-v3",
+ "audio_file": "Pritisman.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.58,
+   "speaker": null,
+   "text": "I don't know what I need to talk about. Let me talk about Lord of the Rings."
+  },
+  {
+   "start": 5.18,
+   "end": 10.38,
+   "speaker": null,
+   "text": "Lord of the Rings has three movies. Okay, no, six movies, bro."
+  },
+  {
+   "start": 10.82,
+   "end": 14.0,
+   "speaker": null,
+   "text": "Lord of the Rings and the other one was..."
+  },
+  {
+   "start": 15.88,
+   "end": 21.28,
+   "speaker": null,
+   "text": "Hobbits. Hobbits. It had like three movies. So, yeah."
+  },
+  {
+   "start": 22.12,
+   "end": 25.48,
+   "speaker": null,
+   "text": "The third one got like lots of Oscars."
+  },
+  {
+   "start": 25.48,
+   "end": 30.92,
+   "speaker": null,
+   "text": "So, yeah, that was a good one. But I like the second one, The Hightower."
+  },
+  {
+   "start": 31.58,
+   "end": 32.6,
+   "speaker": null,
+   "text": "It's really good."
+  }
+ ],
+ "text": "I don't know what I need to talk about. Let me talk about Lord of the Rings. Lord of the Rings has three movies. Okay, no, six movies, bro. Lord of the Rings and the other one was... Hobbits. Hobbits. It had like three movies. So, yeah. The third one got like lots of Oscars. So, yeah, that was a good one. But I like the second one, The Hightower. It's really good."
+}

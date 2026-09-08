@@ -1,0 +1,26 @@
+{
+ "model": "parakeet-tdt-0.6b-v3",
+ "audio_file": "Tung.wav",
+ "duration_s": null,
+ "segments": [
+  {
+   "start": 0.48,
+   "end": 14.24,
+   "speaker": null,
+   "text": "I went back to Hanoi for two weeks, uh spent time with my family and friends there, went for a private badminton coaching with my kids and we enjoyed the food, not the weather."
+  },
+  {
+   "start": 14.32,
+   "end": 16.8,
+   "speaker": null,
+   "text": "Lovely place, lovely memories."
+  },
+  {
+   "start": 17.76,
+   "end": 18.24,
+   "speaker": null,
+   "text": "Hello?"
+  }
+ ],
+ "text": "I went back to Hanoi for two weeks, uh spent time with my family and friends there, went for a private badminton coaching with my kids and we enjoyed the food, not the weather. Lovely place, lovely memories. Hello?"
+}

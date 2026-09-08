@@ -1,0 +1,97 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Dave.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.82,
+   "speaker": null,
+   "text": "No, I don't think so. And fair warning, I have two new kittens that are going to be rampaging around this call."
+  },
+  {
+   "start": 7.92,
+   "end": 11.44,
+   "speaker": null,
+   "text": "So if I get attacked while I'm talking, you all know what's going on."
+  },
+  {
+   "start": 11.78,
+   "end": 15.94,
+   "speaker": null,
+   "text": "Turning to wake up. They basically sleep most of the time. But when they wake up, they kind of go crazy."
+  },
+  {
+   "start": 16.56,
+   "end": 19.3,
+   "speaker": null,
+   "text": "This is Leonidas. He's eight weeks old."
+  },
+  {
+   "start": 20.24,
+   "end": 23.06,
+   "speaker": null,
+   "text": "I don't know where his sister is. She's around here somewhere."
+  },
+  {
+   "start": 23.46,
+   "end": 24.66,
+   "speaker": null,
+   "text": "It's hard to get mad."
+  },
+  {
+   "start": 25.42,
+   "end": 28.94,
+   "speaker": null,
+   "text": "No, I think we got some questions. Some of you submitted and we're going to go through that."
+  },
+  {
+   "start": 28.94,
+   "end": 31.42,
+   "speaker": null,
+   "text": "And then I think there's open Q&A at the end we're going to do."
+  },
+  {
+   "start": 32.08,
+   "end": 34.08,
+   "speaker": null,
+   "text": "Yeah, we'll start with the easy one."
+  },
+  {
+   "start": 34.82,
+   "end": 38.66,
+   "speaker": null,
+   "text": "You know, you're the newest member of the leadership team."
+  },
+  {
+   "start": 38.82,
+   "end": 42.12,
+   "speaker": null,
+   "text": "Just, yeah, tell us, I don't know, a little bit about your background."
+  },
+  {
+   "start": 42.24,
+   "end": 44.18,
+   "speaker": null,
+   "text": "You talked a little bit about some of your technical background."
+  },
+  {
+   "start": 44.18,
+   "end": 46.32,
+   "speaker": null,
+   "text": "But, you know, whatever you want to tell us about."
+  },
+  {
+   "start": 46.36,
+   "end": 49.42,
+   "speaker": null,
+   "text": "And what brought you to emotional, most importantly, other than Bologi and I, obviously."
+  },
+  {
+   "start": 49.68,
+   "end": 55.06,
+   "speaker": null,
+   "text": "For those of you who don't know, we did meet Phil before he came and we landed the big fish."
+  }
+ ],
+ "text": "No, I don't think so. And fair warning, I have two new kittens that are going to be rampaging around this call. So if I get attacked while I'm talking, you all know what's going on. Turning to wake up. They basically sleep most of the time. But when they wake up, they kind of go crazy. This is Leonidas. He's eight weeks old. I don't know where his sister is. She's around here somewhere. It's hard to get mad. No, I think we got some questions. Some of you submitted and we're going to go through that. And then I think there's open Q&A at the end we're going to do. Yeah, we'll start with the easy one. You know, you're the newest member of the leadership team. Just, yeah, tell us, I don't know, a little bit about your background. You talked a little bit about some of your technical background. But, you know, whatever you want to tell us about. And what brought you to emotional, most importantly, other than Bologi and I, obviously. For those of you who don't know, we did meet Phil before he came and we landed the big fish."
+}

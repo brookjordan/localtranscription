@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "onshipforniaiatelyidualidualidualidualidualidualiatelyidualidualiatelyidualiatelyiatelyidualidualidualiatelyiatelyidualidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualiatelyiatelyidualidualiatelyidualidualidualiatelyidualidualiatelyidualiatelyidualidualiatelyidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiatelyiatelyiatelyidualiatelyidualidualidualidualidualiatelyiatelyidualiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiately"
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 36.12,
+ "audio_s": 52.48,
+ "rtf": 0.688
+}

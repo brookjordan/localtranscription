@@ -1,7 +1,10 @@
 .DS_Store
 models/
 vendor/
-corpus/
-results/
-fbank_lfr_cmvn_feature.json
 .env
+fbank_lfr_cmvn_feature.json
+.venv*/
+__pycache__/
+node_modules/
+logs/
+results/corpus/segments_run.log

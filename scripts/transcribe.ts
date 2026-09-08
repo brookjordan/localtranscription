@@ -11,7 +11,7 @@ if (!audio) {
 }
 
 const root: string = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const model: string = resolve(root, 'models/whisper.cpp/tiny.en/ggml-tiny.en.bin');
+const model: string = resolve(process.env.HOME + '/.cache/localtranscription/whisper.cpp/tiny.en/ggml-tiny.en.bin');
 const results: string = resolve(root, 'results');
 const runtime: string = resolve(root, 'vendor/whisper.cpp/build/bin/whisper-cli');
 await access(model, constants.R_OK);
@@ -20,7 +20,7 @@ await access(audio, constants.R_OK);
 await mkdir(results, { recursive: true });
 
 const prefix: string = resolve(results, `${basename(audio)}.tiny-en`);
-const temporaryDir: string = await mkdtemp(resolve(tmpdir(), 'local-voice-transcription-'));
+const temporaryDir: string = await mkdtemp(resolve(tmpdir(), 'localtranscription-'));
 const normalised: string = resolve(temporaryDir, 'input.wav');
 let exitCode: number = 1;
 try {

@@ -1,0 +1,32 @@
+{
+  "file": "Pritisman.wav",
+  "duration_s": 34.411,
+  "rtf": 2.628,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.59,
+      "speaker_id": 0,
+      "text": "I don't know what I need to talk about. Let me talk about Lord of the Rings. Lord of the Rings has three, three movies. Okay, no, six movies, bro. Lord of the Rings and the other one was"
+    },
+    {
+      "start": 13.59,
+      "end": 16.44,
+      "speaker_id": null,
+      "text": "[Silence]"
+    },
+    {
+      "start": 16.44,
+      "end": 31.28,
+      "speaker_id": 0,
+      "text": "Hobbits, Hobbits. It had like three movies, so yeah. The third one got like lots of Oscars. So yeah, that was a good one, but I like the, the second one, the High Tower."
+    },
+    {
+      "start": 31.49,
+      "end": 34.41,
+      "speaker_id": 0,
+      "text": "It's really good."
+    }
+  ],
+  "text": "[{\"Start\":0.0,\"End\":13.59,\"Speaker\":0,\"Content\":\"I don't know what I need to talk about. Let me talk about Lord of the Rings. Lord of the Rings has three, three movies. Okay, no, six movies, bro. Lord of the Rings and the other one was\"},{\"Start\":13.59,\"End\":16.44,\"Content\":\"[Silence]\"},{\"Start\":16.44,\"End\":31.28,\"Speaker\":0,\"Content\":\"Hobbits, Hobbits. It had like three movies, so yeah. The third one got like lots of Oscars. So yeah, that was a good one, but I like the, the second one, the High Tower.\"},{\"Start\":31.49,\"End\":34.41,\"Speaker\":0,\"Content\":\"It's really good.\"}]"
+}

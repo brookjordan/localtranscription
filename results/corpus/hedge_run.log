@@ -1,0 +1,117 @@
+brook / baseline: acc=94.9% wall=11.92s
+silly / baseline: acc=96.0% wall=10.98s
+sing / baseline: acc=50.0% wall=56.0s
+Balajee / baseline: acc=93.2% wall=129.36s
+Brett / baseline: acc=95.3% wall=47.59s
+Brook 2 / baseline: acc=53.9% wall=51.53s
+Dave / baseline: acc=3.9% wall=41.78s
+Mum's voice / baseline: acc=0.8% wall=51.19s
+Nana Chris / baseline: acc=0.8% wall=41.85s
+Ping / baseline: acc=0.0% wall=44.24s
+    best-of-3 run 1: 352 chars, ok
+Pritisman / baseline: acc=93.7% wall=31.3s
+    best-of-3 run 1: 201 chars, ok
+Tung / baseline: acc=77.5% wall=17.4s
+antony billington / baseline: acc=0.0% wall=36.12s
+conrad / baseline: acc=0.0% wall=41.74s
+    best-of-3 run 1: 1 chars, DEGENERATE
+    best-of-3 run 2: 29 chars, ok
+brook / baseline: acc=94.9% wall=11.92s
+silly / baseline: acc=96.0% wall=10.98s
+sing / baseline: acc=50.0% wall=56.0s
+Balajee / baseline: acc=93.2% wall=129.36s
+Brett / baseline: acc=95.3% wall=47.59s
+Brook 2 / baseline: acc=53.9% wall=51.53s
+Dave / baseline: acc=3.9% wall=41.78s
+Mum's voice / baseline: acc=0.8% wall=51.19s
+Nana Chris / baseline: acc=0.8% wall=41.85s
+Ping / baseline: acc=0.0% wall=44.24s
+Pritisman / baseline: acc=93.7% wall=31.3s
+Tung / baseline: acc=77.5% wall=17.4s
+antony billington / baseline: acc=0.0% wall=36.12s
+conrad / baseline: acc=0.0% wall=41.74s
+    best-of-5 run 1: 413 chars, ok
+    best-of-5 run 1: 258 chars, ok
+lockpicking lawyer voice / baseline: acc=0.0% wall=38.15s
+lockpicking lawyer voice / chunked: acc=95.9% wall=44.8s
+ALL DONE -> /Users/brook.jordan/git/brookjordan/local-voice-transcription/results/corpus/kyutai_mitigations.json
+skip brook (cached)
+silly: 1 VAD groups ([8.2])
+    best-of-5 run 1: 96 chars, ok
+done silly: wall=9.5s chars=96
+skip sing (cached)
+skip Balajee (cached)
+skip Brett (cached)
+Brook 2: 3 VAD groups ([26.5, 23.3, 15.8])
+    best-of-5 run 1: 233 chars, ok
+    best-of-5 run 1: 357 chars, ok
+    best-of-5 run 1: 219 chars, ok
+done Brook 2: wall=58.6s chars=811
+skip Dave (cached)
+skip Mum's voice (cached)
+skip Nana Chris (cached)
+skip Ping (cached)
+skip Pritisman (cached)
+skip Tung (cached)
+skip antony billington (cached)
+conrad: 2 VAD groups ([27.1, 28.5])
+    best-of-5 run 1: 41 chars, ok
+    best-of-5 run 1: 82 chars, ok
+done conrad: wall=48.4s chars=124
+skip lockpicking lawyer voice (cached)
+ALL DONE -> /Users/brook.jordan/git/brookjordan/local-voice-transcription/results/corpus/kyutai_vad.json
+brook / baseline: acc=94.9% wall=11.92s
+silly / baseline: acc=96.0% wall=10.98s
+sing / baseline: acc=50.0% wall=56.0s
+Balajee / baseline: acc=93.2% wall=129.36s
+Brett / baseline: acc=95.3% wall=47.59s
+Brook 2 / baseline: acc=53.9% wall=51.53s
+Dave / baseline: acc=3.9% wall=41.78s
+Mum's voice / baseline: acc=0.8% wall=51.19s
+Nana Chris / baseline: acc=0.8% wall=41.85s
+Ping / baseline: acc=0.0% wall=44.24s
+Pritisman / baseline: acc=93.7% wall=31.3s
+    best-of-5 run 1: 196 chars, ok
+Tung / baseline: acc=77.5% wall=17.4s
+Tung / chunked: acc=87.5% wall=17.0s
+antony billington / baseline: acc=0.0% wall=36.12s
+conrad / baseline: acc=0.0% wall=41.74s
+lockpicking lawyer voice / baseline: acc=0.0% wall=38.15s
+ALL DONE -> /Users/brook.jordan/git/brookjordan/local-voice-transcription/results/corpus/kyutai_mitigations.json
+skip brook (cached)
+skip silly (cached)
+skip sing (cached)
+skip Balajee (cached)
+skip Brett (cached)
+skip Brook 2 (cached)
+skip Dave (cached)
+skip Mum's voice (cached)
+skip Nana Chris (cached)
+skip Ping (cached)
+skip Pritisman (cached)
+Tung: 1 VAD groups ([18.3])
+    best-of-5 run 1: 196 chars, ok
+done Tung: wall=16.3s chars=196
+skip antony billington (cached)
+skip conrad (cached)
+skip lockpicking lawyer voice (cached)
+ALL DONE -> /Users/brook.jordan/git/brookjordan/local-voice-transcription/results/corpus/kyutai_vad.json
+skip brook (cached)
+skip silly (cached)
+skip sing (cached)
+skip Balajee (cached)
+skip Brett (cached)
+skip Brook 2 (cached)
+skip Dave (cached)
+skip Mum's voice (cached)
+skip Nana Chris (cached)
+skip Ping (cached)
+skip Pritisman (cached)
+skip Tung (cached)
+skip antony billington (cached)
+skip conrad (cached)
+lockpicking lawyer voice: 2 VAD groups ([28.6, 21.9])
+    best-of-5 run 1: 401 chars, ok
+    best-of-5 run 1: 270 chars, ok
+done lockpicking lawyer voice: wall=54.1s chars=672
+ALL DONE -> /Users/brook.jordan/git/brookjordan/local-voice-transcription/results/corpus/kyutai_vad.json

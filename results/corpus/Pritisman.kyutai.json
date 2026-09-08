@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "i"
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 26.26,
+ "audio_s": 38.88,
+ "rtf": 0.675
+}

@@ -1,0 +1,38 @@
+{
+  "file": "Brett.wav",
+  "duration_s": 62.911,
+  "rtf": 2.226,
+  "segments": [
+    {
+      "start": 0,
+      "end": 14.06,
+      "speaker_id": 0,
+      "text": "Luke's gospel tells us that Jesus had longed to celebrate this Passover meal with his disciples. Why not dread it? This was, after all, the last meal he was going to share with them before his crucifixion."
+    },
+    {
+      "start": 14.48,
+      "end": 29.1,
+      "speaker_id": 0,
+      "text": "Luke gives us four reasons why Jesus was keen to take part in this meal. At communion we drink wine and eat bread, but no meat. In this meal Jesus takes the place of the Passover lamb, Jesus."
+    },
+    {
+      "start": 30.43,
+      "end": 36.95,
+      "speaker_id": 0,
+      "text": "Although present, will not take part in the communion meal until he returns and each of us are given resurrection bodies."
+    },
+    {
+      "start": 37.53,
+      "end": 50.35,
+      "speaker_id": 0,
+      "text": "The Passover meal was a celebratory family meal hosted by the head of the household. Communion is an educational meal hosted by Jesus for his disciples, one in which we learn by doing."
+    },
+    {
+      "start": 51.25,
+      "end": 62.91,
+      "speaker_id": 0,
+      "text": "When Jesus gave his body to eat and his blood to drink, he was giving them everything that he had. As we take communion, we tell God that we are open to receiving all that Jesus has for us. Amen."
+    }
+  ],
+  "text": "[{\"Start\":0,\"End\":14.06,\"Speaker\":0,\"Content\":\"Luke's gospel tells us that Jesus had longed to celebrate this Passover meal with his disciples. Why not dread it? This was, after all, the last meal he was going to share with them before his crucifixion.\"},{\"Start\":14.48,\"End\":29.1,\"Speaker\":0,\"Content\":\"Luke gives us four reasons why Jesus was keen to take part in this meal. At communion we drink wine and eat bread, but no meat. In this meal Jesus takes the place of the Passover lamb, Jesus.\"},{\"Start\":30.43,\"End\":36.95,\"Speaker\":0,\"Content\":\"Although present, will not take part in the communion meal until he returns and each of us are given resurrection bodies.\"},{\"Start\":37.53,\"End\":50.35,\"Speaker\":0,\"Content\":\"The Passover meal was a celebratory family meal hosted by the head of the household. Communion is an educational meal hosted by Jesus for his disciples, one in which we learn by doing.\"},{\"Start\":51.25,\"End\":62.91,\"Speaker\":0,\"Content\":\"When Jesus gave his body to eat and his blood to drink, he was giving them everything that he had. As we take communion, we tell God that we are open to receiving all that Jesus has for us. Amen.\"}]"
+}

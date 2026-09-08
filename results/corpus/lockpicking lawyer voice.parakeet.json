@@ -1,0 +1,56 @@
+{
+ "model": "parakeet-tdt-0.6b-v3",
+ "audio_file": "lockpicking lawyer voice.wav",
+ "duration_s": null,
+ "segments": [
+  {
+   "start": 0.64,
+   "end": 7.36,
+   "speaker": null,
+   "text": "This is the lockpicking lawyer, and one of the weaknesses with modern smart locks is battery life."
+  },
+  {
+   "start": 7.36,
+   "end": 10.16,
+   "speaker": null,
+   "text": "And there's various ways of dealing with that."
+  },
+  {
+   "start": 10.16,
+   "end": 23.12,
+   "speaker": null,
+   "text": "More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption."
+  },
+  {
+   "start": 23.12,
+   "end": 29.44,
+   "speaker": null,
+   "text": "And probably the largest power draw is the electric motor that throws the bolt."
+  },
+  {
+   "start": 29.44,
+   "end": 32.88,
+   "speaker": null,
+   "text": "That's why I love to see locks like this one from GeekTail."
+  },
+  {
+   "start": 35.44,
+   "end": 41.28,
+   "speaker": null,
+   "text": "At least I was till I saw the tiny lithium battery that powers this."
+  },
+  {
+   "start": 41.28,
+   "end": 43.84,
+   "speaker": null,
+   "text": "It's right on the back of this panel."
+  },
+  {
+   "start": 43.84,
+   "end": 50.64,
+   "speaker": null,
+   "text": "So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame."
+  }
+ ],
+ "text": "This is the lockpicking lawyer, and one of the weaknesses with modern smart locks is battery life. And there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption. And probably the largest power draw is the electric motor that throws the bolt. That's why I love to see locks like this one from GeekTail. At least I was till I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame."
+}

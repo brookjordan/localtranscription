@@ -1,0 +1,55 @@
+{
+ "model": "large-v3",
+ "audio_file": "Mum's voice.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.26,
+   "speaker": null,
+   "text": "Ha! Can you believe we actually did it? We made it through the storm. Wind howling,"
+  },
+  {
+   "start": 7.7,
+   "end": 16.28,
+   "speaker": null,
+   "text": "rain lashing. I thought we'd never see the sun again. There were nights. Nights I cried myself"
+  },
+  {
+   "start": 16.28,
+   "end": 25.7,
+   "speaker": null,
+   "text": "to sleep, whispering, is anyone even out there? But then you showed up. You smiled,"
+  },
+  {
+   "start": 25.7,
+   "end": 35.48,
+   "speaker": null,
+   "text": "and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in"
+  },
+  {
+   "start": 35.48,
+   "end": 43.32,
+   "speaker": null,
+   "text": "the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone."
+  },
+  {
+   "start": 43.32,
+   "end": 55.48,
+   "speaker": null,
+   "text": "The silence is deafening. I miss you every single day. But I carry you with me,"
+  },
+  {
+   "start": 55.7,
+   "end": 63.26,
+   "speaker": null,
+   "text": "in every laugh, every tear, every quiet moment. And I'll keep going,"
+  },
+  {
+   "start": 63.26,
+   "end": 68.14,
+   "speaker": null,
+   "text": "because that's what you'd want. Always."
+  }
+ ],
+ "text": "Ha! Can you believe we actually did it? We made it through the storm. Wind howling, rain lashing. I thought we'd never see the sun again. There were nights. Nights I cried myself to sleep, whispering, is anyone even out there? But then you showed up. You smiled, and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone. The silence is deafening. I miss you every single day. But I carry you with me, in every laugh, every tear, every quiet moment. And I'll keep going, because that's what you'd want. Always."
+}

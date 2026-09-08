@@ -1,0 +1,116 @@
+{
+ "model": "parakeet-tdt-0.6b-v3",
+ "audio_file": "Mum's voice.wav",
+ "duration_s": null,
+ "segments": [
+  {
+   "start": 0.32,
+   "end": 1.04,
+   "speaker": null,
+   "text": "Ha!"
+  },
+  {
+   "start": 1.36,
+   "end": 4.08,
+   "speaker": null,
+   "text": "Can you believe we actually did it?"
+  },
+  {
+   "start": 4.08,
+   "end": 6.24,
+   "speaker": null,
+   "text": "We made it through the storm."
+  },
+  {
+   "start": 6.24,
+   "end": 9.2,
+   "speaker": null,
+   "text": "Wind howling, rain lashing."
+  },
+  {
+   "start": 9.2,
+   "end": 12.64,
+   "speaker": null,
+   "text": "I thought we'd never see the sun again."
+  },
+  {
+   "start": 12.64,
+   "end": 14.56,
+   "speaker": null,
+   "text": "There were nights."
+  },
+  {
+   "start": 14.56,
+   "end": 18.0,
+   "speaker": null,
+   "text": "Nights I cried myself to sleep."
+  },
+  {
+   "start": 18.0,
+   "end": 21.92,
+   "speaker": null,
+   "text": "Whispering, is anyone even out there?"
+  },
+  {
+   "start": 21.92,
+   "end": 24.88,
+   "speaker": null,
+   "text": "But then you showed up."
+  },
+  {
+   "start": 24.88,
+   "end": 29.92,
+   "speaker": null,
+   "text": "You smiled, and suddenly the world wasn't so dark."
+  },
+  {
+   "start": 29.92,
+   "end": 33.76,
+   "speaker": null,
+   "text": "I felt seen, understood."
+  },
+  {
+   "start": 33.76,
+   "end": 37.92,
+   "speaker": null,
+   "text": "Remember that silly dance in the kitchen with the burnt pancakes?"
+  },
+  {
+   "start": 37.92,
+   "end": 40.64,
+   "speaker": null,
+   "text": "Oh, we were a mess."
+  },
+  {
+   "start": 40.64,
+   "end": 44.56,
+   "speaker": null,
+   "text": "But now, now you're gone."
+  },
+  {
+   "start": 44.56,
+   "end": 48.32,
+   "speaker": null,
+   "text": "The silence is deafening."
+  },
+  {
+   "start": 48.32,
+   "end": 53.92,
+   "speaker": null,
+   "text": "I miss you every single day."
+  },
+  {
+   "start": 53.92,
+   "end": 67.44,
+   "speaker": null,
+   "text": "But I carry you with me in every laugh, every tear, every quiet moment, and I'll keep going, because that's what you'd want."
+  },
+  {
+   "start": 67.44,
+   "end": 70.32,
+   "speaker": null,
+   "text": "Always."
+  }
+ ],
+ "text": "Ha! Can you believe we actually did it? We made it through the storm. Wind howling, rain lashing. I thought we'd never see the sun again. There were nights. Nights I cried myself to sleep. Whispering, is anyone even out there? But then you showed up. You smiled, and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone. The silence is deafening. I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment, and I'll keep going, because that's what you'd want. Always."
+}

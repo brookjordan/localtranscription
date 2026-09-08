@@ -1,0 +1,319 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Balajee.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.52,
+   "speaker": null,
+   "text": "I think everyone's super excited and full of energy."
+  },
+  {
+   "start": 4.2,
+   "end": 5.06,
+   "speaker": null,
+   "text": "Definitely been interesting."
+  },
+  {
+   "start": 5.28,
+   "end": 7.92,
+   "speaker": null,
+   "text": "This is going to be a new one for Dave and I for sure."
+  },
+  {
+   "start": 8.32,
+   "end": 11.9,
+   "speaker": null,
+   "text": "I don't think we have done the Laurel and Hardy Tap Dan show before."
+  },
+  {
+   "start": 12.62,
+   "end": 12.96,
+   "speaker": null,
+   "text": "All right."
+  },
+  {
+   "start": 14.56,
+   "end": 18.5,
+   "speaker": null,
+   "text": "So full disclosure is the first time Dave and I are doing."
+  },
+  {
+   "start": 18.6,
+   "end": 20.66,
+   "speaker": null,
+   "text": "So I'm not quite sure we have their gig down right."
+  },
+  {
+   "start": 20.66,
+   "end": 26.26,
+   "speaker": null,
+   "text": "So we want to, Phil is joining us and we're going to start doing this, hopefully on a regular basis."
+  },
+  {
+   "start": 27.14,
+   "end": 29.98,
+   "speaker": null,
+   "text": "The first one off, it's a get-to-know Phil."
+  },
+  {
+   "start": 30.0,
+   "end": 33.02,
+   "speaker": null,
+   "text": "And so Phil, welcome, welcome to the team."
+  },
+  {
+   "start": 33.68,
+   "end": 35.22,
+   "speaker": null,
+   "text": "I'll do a quick intro, Dave."
+  },
+  {
+   "start": 35.28,
+   "end": 36.2,
+   "speaker": null,
+   "text": "Feel free to chime in."
+  },
+  {
+   "start": 36.24,
+   "end": 40.24,
+   "speaker": null,
+   "text": "And then there's a set of questions that we will ask out, Phil,"
+  },
+  {
+   "start": 40.24,
+   "end": 45.26,
+   "speaker": null,
+   "text": "and we'll try and set aside some time at the back end for all of you to go ahead and ask questions."
+  },
+  {
+   "start": 46.14,
+   "end": 50.46,
+   "speaker": null,
+   "text": "As always, my preamble, this is not going to be fun if you just let the three of us talk."
+  },
+  {
+   "start": 51.04,
+   "end": 53.36,
+   "speaker": null,
+   "text": "So I'm hoping you guys all ask questions."
+  },
+  {
+   "start": 53.5,
+   "end": 54.18,
+   "speaker": null,
+   "text": "Everyone does."
+  },
+  {
+   "start": 54.72,
+   "end": 56.08,
+   "speaker": null,
+   "text": "It actually gets more fun that way."
+  },
+  {
+   "start": 56.14,
+   "end": 57.68,
+   "speaker": null,
+   "text": "You get to ask us some embarrassing stuff."
+  },
+  {
+   "start": 57.84,
+   "end": 59.28,
+   "speaker": null,
+   "text": "Focus on Phil, if you can."
+  },
+  {
+   "start": 60.0,
+   "end": 61.62,
+   "speaker": null,
+   "text": "But the two of us are also a fair game."
+  },
+  {
+   "start": 63.9,
+   "end": 66.4,
+   "speaker": null,
+   "text": "Phil was mentioning the scout piece of it."
+  },
+  {
+   "start": 66.46,
+   "end": 68.94,
+   "speaker": null,
+   "text": "I was at Scout at Amazon before Phil was."
+  },
+  {
+   "start": 69.58,
+   "end": 70.98,
+   "speaker": null,
+   "text": "They kicked me to bring him on."
+  },
+  {
+   "start": 71.06,
+   "end": 71.78,
+   "speaker": null,
+   "text": "So I don't know."
+  },
+  {
+   "start": 71.88,
+   "end": 73.32,
+   "speaker": null,
+   "text": "I don't know if I've ever gotten no of that one."
+  },
+  {
+   "start": 74.92,
+   "end": 77.66,
+   "speaker": null,
+   "text": "So you have a, let me, I have a question for you, Phil."
+  },
+  {
+   "start": 77.72,
+   "end": 80.0,
+   "speaker": null,
+   "text": "I mean, you have a pretty broad spectrum understanding of it,"
+  },
+  {
+   "start": 80.0,
+   "end": 86.56,
+   "speaker": null,
+   "text": "not only from the standpoint of core robotics, but also far broader than that."
+  },
+  {
+   "start": 86.56,
+   "end": 88.04,
+   "speaker": null,
+   "text": "Derivate is a fantastic way."
+  },
+  {
+   "start": 88.04,
+   "end": 89.98,
+   "speaker": null,
+   "text": "That's where some of the predictive prediction."
+  },
+  {
+   "start": 90.0,
+   "end": 94.9,
+   "speaker": null,
+   "text": "and forecasting kind of originated, so to speak, that we now end up using in the space."
+  },
+  {
+   "start": 95.42,
+   "end": 100.66,
+   "speaker": null,
+   "text": "What is your vision for autonomy and AI, specifically for emotional, but in general, too?"
+  },
+  {
+   "start": 100.72,
+   "end": 102.22,
+   "speaker": null,
+   "text": "How do you see this space evolving?"
+  },
+  {
+   "start": 102.76,
+   "end": 104.56,
+   "speaker": null,
+   "text": "How do you see us evolving with that?"
+  },
+  {
+   "start": 105.54,
+   "end": 106.56,
+   "speaker": null,
+   "text": "Yeah, no, that was cool."
+  },
+  {
+   "start": 107.02,
+   "end": 110.4,
+   "speaker": null,
+   "text": "I can, as you said, we can sit and talk for about three hours on this one."
+  },
+  {
+   "start": 110.4,
+   "end": 118.22,
+   "speaker": null,
+   "text": "But that was, I think, was a really good summary of how to kind of balance today's and then kind of continue to move forward into the future."
+  },
+  {
+   "start": 120.0,
+   "end": 121.56,
+   "speaker": null,
+   "text": "That was pretty cool."
+  },
+  {
+   "start": 122.66,
+   "end": 127.68,
+   "speaker": null,
+   "text": "I had a different perspective that I was curious about to get your take on the same thing."
+  },
+  {
+   "start": 128.8,
+   "end": 136.46,
+   "speaker": null,
+   "text": "We're all, for the emotional duration, we've been an R&D organization primarily."
+  },
+  {
+   "start": 137.04,
+   "end": 138.94,
+   "speaker": null,
+   "text": "We've been building the technology towards it."
+  },
+  {
+   "start": 139.02,
+   "end": 143.34,
+   "speaker": null,
+   "text": "I think in the offside, especially Jacqueline was talking about the inflection point"
+  },
+  {
+   "start": 143.34,
+   "end": 148.84,
+   "speaker": null,
+   "text": "that happens when you transition from an R&D to something that you have to do in commercial"
+  },
+  {
+   "start": 148.84,
+   "end": 153.42,
+   "speaker": null,
+   "text": "and operate a service and do the R&D and work through this lockstep with each other."
+  },
+  {
+   "start": 154.22,
+   "end": 156.54,
+   "speaker": null,
+   "text": "When you were in cruise, I'm sure you experienced that."
+  },
+  {
+   "start": 156.62,
+   "end": 162.3,
+   "speaker": null,
+   "text": "There is this push pull of trying to move things forward just as a step-by-step progression"
+  },
+  {
+   "start": 162.3,
+   "end": 164.2,
+   "speaker": null,
+   "text": "because you have a commercial service out there."
+  },
+  {
+   "start": 164.66,
+   "end": 169.52,
+   "speaker": null,
+   "text": "And yet knowing that you have to make some fundamental architectural changes to be able to leapfrog"
+  },
+  {
+   "start": 169.52,
+   "end": 175.26,
+   "speaker": null,
+   "text": "what needs to be done, how do you think we should set ourselves up, whether it's mentally or"
+  },
+  {
+   "start": 175.26,
+   "end": 178.72,
+   "speaker": null,
+   "text": "organizationally or however, for us to be able to deal with that?"
+  },
+  {
+   "start": 178.84,
+   "end": 179.24,
+   "speaker": null,
+   "text": "Thank you."
+  }
+ ],
+ "text": "I think everyone's super excited and full of energy. Definitely been interesting. This is going to be a new one for Dave and I for sure. I don't think we have done the Laurel and Hardy Tap Dan show before. All right. So full disclosure is the first time Dave and I are doing. So I'm not quite sure we have their gig down right. So we want to, Phil is joining us and we're going to start doing this, hopefully on a regular basis. The first one off, it's a get-to-know Phil. And so Phil, welcome, welcome to the team. I'll do a quick intro, Dave. Feel free to chime in. And then there's a set of questions that we will ask out, Phil, and we'll try and set aside some time at the back end for all of you to go ahead and ask questions. As always, my preamble, this is not going to be fun if you just let the three of us talk. So I'm hoping you guys all ask questions. Everyone does. It actually gets more fun that way. You get to ask us some embarrassing stuff. Focus on Phil, if you can. But the two of us are also a fair game. Phil was mentioning the scout piece of it. I was at Scout at Amazon before Phil was. They kicked me to bring him on. So I don't know. I don't know if I've ever gotten no of that one. So you have a, let me, I have a question for you, Phil. I mean, you have a pretty broad spectrum understanding of it, not only from the standpoint of core robotics, but also far broader than that. Derivate is a fantastic way. That's where some of the predictive prediction. and forecasting kind of originated, so to speak, that we now end up using in the space. What is your vision for autonomy and AI, specifically for emotional, but in general, too? How do you see this space evolving? How do you see us evolving with that? Yeah, no, that was cool. I can, as you said, we can sit and talk for about three hours on this one. But that was, I think, was a really good summary of how to kind of balance today's and then kind of continue to move forward into the future. That was pretty cool. I had a different perspective that I was curious about to get your take on the same thing. We're all, for the emotional duration, we've been an R&D organization primarily. We've been building the technology towards it. I think in the offside, especially Jacqueline was talking about the inflection point that happens when you transition from an R&D to something that you have to do in commercial and operate a service and do the R&D and work through this lockstep with each other. When you were in cruise, I'm sure you experienced that. There is this push pull of trying to move things forward just as a step-by-step progression because you have a commercial service out there. And yet knowing that you have to make some fundamental architectural changes to be able to leapfrog what needs to be done, how do you think we should set ourselves up, whether it's mentally or organizationally or however, for us to be able to deal with that? Thank you."
+}

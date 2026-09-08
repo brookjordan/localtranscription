@@ -1,0 +1,61 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Mum's voice.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 28.98,
+   "speaker": null,
+   "text": "Ha! Can you believe we actually did it? We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again. There were nights. Nights I cried myself to sleep. Whispering, is anyone even out there? But then you showed up. You smiled and suddenly the world wasn't so dark."
+  },
+  {
+   "start": 30.0,
+   "end": 32.72,
+   "speaker": null,
+   "text": "I felt seen, understood."
+  },
+  {
+   "start": 33.86,
+   "end": 37.34,
+   "speaker": null,
+   "text": "Remember that silly dance in the kitchen with the burnt pancakes?"
+  },
+  {
+   "start": 37.9,
+   "end": 39.32,
+   "speaker": null,
+   "text": "Oh, we were a mess."
+  },
+  {
+   "start": 40.76,
+   "end": 43.32,
+   "speaker": null,
+   "text": "But now, now you're gone."
+  },
+  {
+   "start": 44.66,
+   "end": 46.9,
+   "speaker": null,
+   "text": "The silence is deafening."
+  },
+  {
+   "start": 47.92,
+   "end": 52.66,
+   "speaker": null,
+   "text": "I miss you every single day."
+  },
+  {
+   "start": 53.52,
+   "end": 59.62,
+   "speaker": null,
+   "text": "But I carry you with me, in every laugh, every tear, every quiet."
+  },
+  {
+   "start": 60.0,
+   "end": 68.16,
+   "speaker": null,
+   "text": "at a moment and I'll keep going because that's what you'd want always."
+  }
+ ],
+ "text": "Ha! Can you believe we actually did it? We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again. There were nights. Nights I cried myself to sleep. Whispering, is anyone even out there? But then you showed up. You smiled and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone. The silence is deafening. I miss you every single day. But I carry you with me, in every laugh, every tear, every quiet. at a moment and I'll keep going because that's what you'd want always."
+}

@@ -1,0 +1,56 @@
+{
+ "model": "parakeet-tdt-0.6b-v3",
+ "audio_file": "Brook 2.wav",
+ "duration_s": null,
+ "segments": [
+  {
+   "start": 1.2,
+   "end": 6.24,
+   "speaker": null,
+   "text": "Byron was at his best and most characteristic in the long poem."
+  },
+  {
+   "start": 6.72,
+   "end": 16.4,
+   "speaker": null,
+   "text": "Child Harold's pilgrimage was a sensation that made his name, and Don Juan was the book length virtuoso extravaganza that sealed the deal."
+  },
+  {
+   "start": 16.4,
+   "end": 25.92,
+   "speaker": null,
+   "text": "But anyone who doubts that Byron could have shone if confined to shorter poems should take a close look at this one and check out the perfection of his balance."
+  },
+  {
+   "start": 25.92,
+   "end": 29.2,
+   "speaker": null,
+   "text": "One shade the more, one ray the less."
+  },
+  {
+   "start": 29.2,
+   "end": 33.68,
+   "speaker": null,
+   "text": "It's just a tiny example of the impetus he could keep up for pages."
+  },
+  {
+   "start": 33.68,
+   "end": 41.6,
+   "speaker": null,
+   "text": "The only thing that makes this particular Byronic poem non-byronic is that it professedly to do with innocence."
+  },
+  {
+   "start": 41.6,
+   "end": 51.6,
+   "speaker": null,
+   "text": "The innocence is at the heart of the narrator's fancied young lady, and certainly she is more innocent than Byron truly thought life or love could ever be."
+  },
+  {
+   "start": 51.6,
+   "end": 67.44,
+   "speaker": null,
+   "text": "She might come good later, i.e., she might turn bad, but at the moment she is just a stack of iced cake, trembling in the strip slipstream as Byron sweeps by on his way to depravities unknown in her sweet dreams."
+  }
+ ],
+ "text": "Byron was at his best and most characteristic in the long poem. Child Harold's pilgrimage was a sensation that made his name, and Don Juan was the book length virtuoso extravaganza that sealed the deal. But anyone who doubts that Byron could have shone if confined to shorter poems should take a close look at this one and check out the perfection of his balance. One shade the more, one ray the less. It's just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular Byronic poem non-byronic is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady, and certainly she is more innocent than Byron truly thought life or love could ever be. She might come good later, i.e., she might turn bad, but at the moment she is just a stack of iced cake, trembling in the strip slipstream as Byron sweeps by on his way to depravities unknown in her sweet dreams."
+}

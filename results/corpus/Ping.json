@@ -1,0 +1,32 @@
+{
+  "file": "Ping.wav",
+  "duration_s": 60.0,
+  "rtf": 2.952,
+  "segments": [
+    {
+      "start": 0,
+      "end": 4.46,
+      "speaker_id": 0,
+      "text": "Alright. You should be able to see my screen now, right? Fantastic. cool"
+    },
+    {
+      "start": 4.46,
+      "end": 40.35,
+      "speaker_id": 0,
+      "text": "I think uh let's not delay and uh I think we have a good quorum of folks now, um perhaps 10 to 20. Uh so that's good. Uh we will start our meeting uh formally. So today, this is the maybe the second time we are gathering together as a group. Um we want to talk about a little bit about Q1, then moving on to Q2, mainly focusing on what are the things that we are um kind of looking forward to, right? What's going to happen in Q2 for each of the uh groups under the platform and apps um you know, the team. So let's go ahead and get started."
+    },
+    {
+      "start": 40.35,
+      "end": 48.42,
+      "speaker_id": 0,
+      "text": "Alright, so I think I'm I've, you know, before I, by the way, Stacy, your hands are raised, so hi. Good morning."
+    },
+    {
+      "start": 48.88,
+      "end": 60.0,
+      "speaker_id": 0,
+      "text": "Um, I think I want to revisit some of the things that we shared earlier, right, in the last quarterly all-hands and just for sure that we kind of regroup and see where we are today."
+    }
+  ],
+  "text": "[{\"Start\":0,\"End\":4.46,\"Speaker\":0,\"Content\":\"Alright. You should be able to see my screen now, right? Fantastic. cool\"},{\"Start\":4.46,\"End\":40.35,\"Speaker\":0,\"Content\":\"I think uh let's not delay and uh I think we have a good quorum of folks now, um perhaps 10 to 20. Uh so that's good. Uh we will start our meeting uh formally. So today, this is the maybe the second time we are gathering together as a group. Um we want to talk about a little bit about Q1, then moving on to Q2, mainly focusing on what are the things that we are um kind of looking forward to, right? What's going to happen in Q2 for each of the uh groups under the platform and apps um you know, the team. So let's go ahead and get started.\"},{\"Start\":40.35,\"End\":48.42,\"Speaker\":0,\"Content\":\"Alright, so I think I'm I've, you know, before I, by the way, Stacy, your hands are raised, so hi. Good morning.\"},{\"Start\":48.88,\"End\":60.0,\"Speaker\":0,\"Content\":\"Um, I think I want to revisit some of the things that we shared earlier, right, in the last quarterly all-hands and just for sure that we kind of regroup and see where we are today.\"}]"
+}

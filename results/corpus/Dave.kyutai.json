@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii s s s s sii s s siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii s a s a aiiiiiiiiiiiiiiiiiii siiiiiiiiiiiiiiiiiiiii siiiiiiiiiiiiiii siiiiii aiiiiiiiiii a iiiiiiiiiiii iiiiiiiiiiiiiii s s a s a a iiiiiiiiiiiiii 'iiiiiiiiiiiiiiiiiiiiiiiiiii siiii iii the\" and.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 41.78,
+ "audio_s": 60.16,
+ "rtf": 0.695
+}

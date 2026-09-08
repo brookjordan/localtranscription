@@ -1,0 +1,91 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Pritisman.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.18,
+   "speaker": null,
+   "text": "I don't know what I need to talk about."
+  },
+  {
+   "start": 2.28,
+   "end": 4.62,
+   "speaker": null,
+   "text": "Let me talk about a lot of the rings."
+  },
+  {
+   "start": 5.48,
+   "end": 6.34,
+   "speaker": null,
+   "text": "A lot of the rings."
+  },
+  {
+   "start": 6.5,
+   "end": 8.3,
+   "speaker": null,
+   "text": "It has three movies."
+  },
+  {
+   "start": 8.64,
+   "end": 10.38,
+   "speaker": null,
+   "text": "Okay, no, six movies, bro."
+  },
+  {
+   "start": 10.76,
+   "end": 13.24,
+   "speaker": null,
+   "text": "A lot of the rings and the other one was..."
+  },
+  {
+   "start": 17.24,
+   "end": 17.56,
+   "speaker": null,
+   "text": "Hobbits."
+  },
+  {
+   "start": 17.8,
+   "end": 18.16,
+   "speaker": null,
+   "text": "Hobbits."
+  },
+  {
+   "start": 18.52,
+   "end": 20.4,
+   "speaker": null,
+   "text": "It had like three movies."
+  },
+  {
+   "start": 20.6,
+   "end": 21.28,
+   "speaker": null,
+   "text": "So, yeah."
+  },
+  {
+   "start": 22.4,
+   "end": 25.48,
+   "speaker": null,
+   "text": "The third one got like lots of Oscars."
+  },
+  {
+   "start": 26.36,
+   "end": 28.34,
+   "speaker": null,
+   "text": "So, yeah, that was a good one."
+  },
+  {
+   "start": 28.34,
+   "end": 29.98,
+   "speaker": null,
+   "text": "But I like the second one."
+  },
+  {
+   "start": 30.0,
+   "end": 32.8,
+   "speaker": null,
+   "text": "on the high tower is really good."
+  }
+ ],
+ "text": "I don't know what I need to talk about. Let me talk about a lot of the rings. A lot of the rings. It has three movies. Okay, no, six movies, bro. A lot of the rings and the other one was... Hobbits. Hobbits. It had like three movies. So, yeah. The third one got like lots of Oscars. So, yeah, that was a good one. But I like the second one. on the high tower is really good."
+}

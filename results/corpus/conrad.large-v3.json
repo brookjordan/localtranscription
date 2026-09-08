@@ -1,0 +1,91 @@
+{
+ "model": "large-v3",
+ "audio_file": "conrad.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.44,
+   "speaker": null,
+   "text": "As soon as it was early morning, the chief priests, elders, and teachers of the law and the whole high court"
+  },
+  {
+   "start": 5.44,
+   "end": 9.56,
+   "speaker": null,
+   "text": "had Jesus tied up and then handed him over to the Roman governor, Pilate."
+  },
+  {
+   "start": 10.32,
+   "end": 12.06,
+   "speaker": null,
+   "text": "And so Pilate too examined him."
+  },
+  {
+   "start": 12.1,
+   "end": 14.0,
+   "speaker": null,
+   "text": "Are you king of the Jews? he said."
+  },
+  {
+   "start": 14.64,
+   "end": 18.22,
+   "speaker": null,
+   "text": "And in answer, he says, your words, not mine."
+  },
+  {
+   "start": 19.14,
+   "end": 21.92,
+   "speaker": null,
+   "text": "Now the chief priests had charged him with many things."
+  },
+  {
+   "start": 22.36,
+   "end": 24.02,
+   "speaker": null,
+   "text": "So Pilate again interrogated him."
+  },
+  {
+   "start": 24.48,
+   "end": 27.04,
+   "speaker": null,
+   "text": "You're not answering anything. Look at this long list of charges."
+  },
+  {
+   "start": 27.04,
+   "end": 31.34,
+   "speaker": null,
+   "text": "But Jesus didn't answer any further, which astonished Pilate."
+  },
+  {
+   "start": 32.2,
+   "end": 36.58,
+   "speaker": null,
+   "text": "That was a custom at the festival for him to release a prisoner as requested by the people."
+  },
+  {
+   "start": 37.54,
+   "end": 42.12,
+   "speaker": null,
+   "text": "There was a man named Barabbas who was in prison with some terrorists who had killed people during an uprising."
+  },
+  {
+   "start": 42.78,
+   "end": 45.7,
+   "speaker": null,
+   "text": "The crowd came up and asked Pilate to do for them what he usually did."
+  },
+  {
+   "start": 46.28,
+   "end": 49.78,
+   "speaker": null,
+   "text": "Pilate answered them saying, do you want me to release to you this king of the Jews?"
+  },
+  {
+   "start": 50.0,
+   "end": 55.44,
+   "speaker": null,
+   "text": "For he knew that the chief priests' main reason for handing him over was envy of Jesus' popularity."
+  }
+ ],
+ "text": "As soon as it was early morning, the chief priests, elders, and teachers of the law and the whole high court had Jesus tied up and then handed him over to the Roman governor, Pilate. And so Pilate too examined him. Are you king of the Jews? he said. And in answer, he says, your words, not mine. Now the chief priests had charged him with many things. So Pilate again interrogated him. You're not answering anything. Look at this long list of charges. But Jesus didn't answer any further, which astonished Pilate. That was a custom at the festival for him to release a prisoner as requested by the people. There was a man named Barabbas who was in prison with some terrorists who had killed people during an uprising. The crowd came up and asked Pilate to do for them what he usually did. Pilate answered them saying, do you want me to release to you this king of the Jews? For he knew that the chief priests' main reason for handing him over was envy of Jesus' popularity."
+}

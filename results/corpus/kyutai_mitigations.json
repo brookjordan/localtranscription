@@ -1,0 +1,265 @@
+{
+ "runs": {
+  "Brook 2": {
+   "baseline": {
+    "text": "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii extravaganza that sealed the deal. But, anyone who doubts that Byron could have sh on, if conf andhihrhrhrhrhrhrhrhrhrhrhrhrhrhrrrrhrrrrrrrrhrtrrtrrrt,trhrt,rt, the only thing that makes this particular byronic poem non-byronic is that it professedly to do with innocence the innocence is at the heart of the narrator's fancy young ladyicultly, she is more innocent than Byron truly thought life or love could ever be. She might come good later, i.e. she might turn bad, but at the moment, she is just a stack of iced cake trembling in the strip sleeve slip stream as Byron sweeps by on his way to depravities unknown in her sweet dreams.",
+    "wall_s": 51.53,
+    "rft_note": "reused from corpus run",
+    "accuracy": 53.9,
+    "deterministic": true,
+    "note": "temp=0 greedy, no penalty"
+   },
+   "chunked": {
+    "text": "forniaiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticult fornia fornia",
+    "wall_s": 325.3,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Dave": {
+   "baseline": {
+    "text": "fornia you you you",
+    "wall_s": 239.0,
+    "accuracy": 1.3,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "onshipforniaidualicultidualiculticultidualiculticulticulticulticulticulticulticultidualicultidualidualidualidualiculticulticulticultidualicultidualicultidualicultidualidualiculticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticulticultidualiculticultidualicultidualidualicultidualiculticultidualiculticulticulticulticulticulticultidualicultidualiculticultidualicultidualicultidualiculticultidualidualiculticultidualidualiculticultidualicultidualicultidualicultidualicultidualicultidualidualidualicultidualidualidualicultidualicultidualicultidualidualidualicultidualidualidualicultidualidualicultidualicultidualicultidualicultidualicultidualicultidualidualidualicultidualidualicultidualicultidualicultidualidualidualidualidualidualidualidualidualidualicultidualidualicultidualicultidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualicultidualidualicultidualicultidualidualiculticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticultidualidualiculticulticulticulticultidualidualidualicultidualidualicultidualidualiculticultidualicultidualicultidualiculticultidualicult onshipforniaiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticultidualicultidualiculticultidualidualicultidualicultidualidualicultidualicultidualicultidualicultidualicultidualidualicultidualicultidualiculticultidualidualidualicultidualidualicultidualicultidualidualicultidualicultidualicultidualicultidualidualidualidualidualicultidualidualicultidualicultidualiculticultidualidualidualidualidualidualiculticulticultidualicultidualicultidualiculticulticultidualicultidualiculticulticultidualiculticultidualidualiculticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticult",
+    "wall_s": 262.4,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "sing": {
+   "chunked": {
+    "text": "Okay, so this time I'm going to test various things, like if it can hear me when I'm banging, if it gets different noises, or if it can recognize sound. If it can tell when I start to sing, or if it thinks I'm talking and it doesn't know anything, doesn't know anything, does it just think I'm snoring normally, does it just think I'm talking normally, fornia. Let's see.",
+    "wall_s": 33.8,
+    "accuracy": 91.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   },
+   "baseline": {
+    "text": "fornia                      erhaps  erhaps erhapserhaps mate erhaps erhaps mate erhaps erhaps mate erhaps",
+    "wall_s": 148.2,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   }
+  },
+  "brook": {
+   "baseline": {
+    "text": "Okay then, let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I make it up and I'll transcribe it later.",
+    "wall_s": 11.7,
+    "accuracy": 94.9,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "body Okay then, let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I make it up and I'll transcribe it later.",
+    "wall_s": 11.2,
+    "accuracy": 92.3,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "silly": {
+   "baseline": {
+    "text": "leforniaicult i go in the gr with the and i laugh at you",
+    "wall_s": 20.7,
+    "accuracy": 44.0,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "lefornia",
+    "wall_s": 51.9,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Balajee": {
+   "baseline": {
+    "text": "thank you, everyone. super excited and full of energy. definitely be interesting. this is gonna be a new one for dave and i for sure. like, i don't think we have done the lauren hardy tap dance show before all right. so full disclosure, this is the first time dave and i are doing, so i'm not quite sure we have their gig down, right? so we wanted to, phil is joining us and we're gonna start doing this hopefully on a regular basis. the first one off, it's a get to know phil and so phil, welcome joining, welcome to the team. i'll do a quick intro, dave, feel free to chime in and then there's a set of questions that we will ask out phil and we'll try and set aside sometime at the back end for all of you to go ahead and ask questions. as always, my preamble, this is not gonna be fun if you just let the three of us talk. so i'm hoping you guys all ask questions, everyone does. it actually gets more fun that way, you get to ask us embarrassing stuff, focus on phil, if you can, but the two of us are also fair game. phil was mentioning the scout, the scout piece of it. i was at scout at amazon before phil was, they kicked me to bring him on. So i don't know, i don't know if i've ever gotten over that one. so you have a, let me, i have a question for you, phil. i mean, you have a pretty broad spectrum understanding of it, not only from the standpoint of core robotics, but also far broader than that. derivatives is a fantastic way, that's where some of the predictive prediction and forecasting kind of originated, so to speak, that, that we now end up using in the space. What is your vision for autonomy in ai, specifically for motion, but in general, so how do you see this space evolving? How do you see us evolving with that? Yeah, no, that was cool. I can, as you said, we can sit and talk for about three hours on this one, but, but that was, I think it was a really good summary of how to kind of balance today's and then kind of continue to move forward into the future. That was pretty cool. I had a different perspective that I was curious about to get your take on, on the same thing. We're all for the, for the, the emotional duration, we've been an R and D organization primarily. We've been building the technology towards it. I think in the off side, especially Jacqueline was talking about the inflection point that happens when you transition from an R and D to something that you have to do in commercial and operator service and do the R and D and work through this lock step with each other. When you were in cruise, I'm sure you experienced that. There is a, this push pull of, of trying to move things forward just as a step-by-step progression, because you have a commercial service out there. And yet knowing that you have to make some fundamental architectural changes to be able to leapfrog what needs to be done. How do you think we should set ourselves up, whether it's mentally or organizationally or however, for us to be able to deal with that?",
+    "wall_s": 129.36,
+    "rft_note": "reused from corpus run",
+    "accuracy": 93.2,
+    "deterministic": true,
+    "note": "temp=0 greedy, no penalty"
+   },
+   "chunked": {
+    "text": "fornia full of , bodyidualidualicult    forniaiculticultforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniafornia",
+    "wall_s": 584.3,
+    "accuracy": 0.3,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Brett": {
+   "baseline": {
+    "text": "i Luke's Gospel tells us that Jesus had longed to celebrate this Passover meal with his disciples. Why not dread it? This was after all the last meal he was going to share with them before his crucifixion. Luke gives us four reasons why Jesus was keen to take part in this meal. At communion, we drink wine and eat bread, but no me. In this meal, Jesus takes the laser, Jesus Although present, will not take part in the communion meal until he returns, and each of us are given resurrection bodies. The Passover meal was a celebratory, family meal, hosted by the head of the household. Communion is an educational meal, hosted by Jesus for his disciples, one in which we learn by doing. When Jesus gave his body to eat and his blood to drink, he was giving them everything that he had. As we take communion, we tell God that we are open to receiving all that Jesus has for us.",
+    "wall_s": 47.59,
+    "rft_note": "reused from corpus run",
+    "accuracy": 95.3,
+    "deterministic": true,
+    "note": "temp=0 greedy, no penalty"
+   },
+   "chunked": {
+    "text": "forniaforniaforniaforniaforniaforniaforniaforniaforniaforniafornia forniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniafornia fornia",
+    "wall_s": 282.8,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Mum's voice": {
+   "baseline": {
+    "text": "\"forniaidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualvisionidualidualicultidualidualidualicultidualicultidualidualidualidualidualicultidualicultidualicultidualicultidualicultidualidualidualidualicultidualidualicultidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualicultidualicultidualicultidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualiatelyidualiatelyidualidualidualidualidualiatelyidualidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualiatelyidualidualiatelyidualiatelyidualidualidualidualiatelyidualidualidualidualiatelyidualiatelyidualidualidualiatelyidualiatelyidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual",
+    "wall_s": 290.2,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "leforniassssssssssssssssssssssssssssssssssssssssssssssssssssforniasssssssssforniasssssssssssssssssssss forniaidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticulticultidualidualidualicultidualiculticultidualidualidualidualidualicultidualidualidualidualidualiculticulticulticulticultidualicultidualiculticultidualidualiculticulticultidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual leforniaicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual",
+    "wall_s": 339.4,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Nana Chris": {
+   "baseline": {
+    "text": "leforniaiculticulticulticultidualicultidualiculticultidualidualidualidualiculticultidualidualicultidualicultidualicultidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticulticultidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualiculticulticulticulticultidualidualidualidualidualidualidualidualidualiculticultidualidualidualidualidualicultidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualiculticultidualidualiculticultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticulticultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualidualidualidualidualicultidualiculticultidualicultidualidualidualicultidualidualidualidualicultidualidualidualidualiculticulticulticulticulticulticultidualidualicultidualicultidualiculticulticultidualicultidualiculticultidualidualicultidualidualiculticultidualidualicultidualidualicultidualiculticultidualidualicultidualicultidualidualicultidualidualiculticultidualidualicultidualicultidualicultidualidualidualidualidualicultidualicultidualidualidualidualicult",
+    "wall_s": 249.5,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "leforniasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss thens thens thens thens thens thensss thenss thens thensssss thens thenss thensssssssssssssssssssssssssssssssssssssssssssss thensssss then then then then then then then then then then then then then then then then then then then then then thens then then then thens then then then thens thens thens thenss thens thens thensss thenss thensss thenss thens thenssssss thens thenss thenssssssssssssssssssss forniaiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticult",
+    "wall_s": 242.1,
+    "accuracy": 1.7,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Ping": {
+   "baseline": {
+    "text": "leforniaforniaforniaforniaforniaforniassforniassss greeniisforniaforniasssiisforniasssifornia greensisiss greenssforniaforniassssforniafornia greensisiisiforniasi greenii greeniiissiforniaii",
+    "wall_s": 221.0,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "lefornia leforniaidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualiculticulticulticulticultidualidualiculticulticultidualidualidualidualidualicultidualidualiculticulticulticultidualidualidualidualidualidualiculticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualidualiculticulticulticulticultidualiculticulticulticultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualiculticulticulticulticulticultidualidualidualidualidualiculticultidualiculticultidualidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualidualidualiculticulticulticultidualiculticulticulticulticulticulticulticulticulticultidualidualidualidualidualicultidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualicultidualidualiculticulticultidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual",
+    "wall_s": 235.7,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Pritisman": {
+   "baseline": {
+    "text": "i don't know what i need to talk about let me talk about lord of the rings lord of the rings has three three movies okay no six movies bro lord of the rings and the other one was hobbits hobbits it had like three movies so yeah the third one got like lots of oscars so yeah that was a good one but i like the the second one the hightower is really good",
+    "wall_s": 31.3,
+    "accuracy": 93.7,
+    "deterministic": false,
+    "note": "temp=0 greedy, best-of-3"
+   },
+   "chunked": {
+    "text": "leforniaidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualiculticulticulticulticulticulticulticulticulticultidualidualiculticulticulticultidualidualidualiculticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticultidualidualidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualidualicultidualiculticulticulticulticulticulticulticulticulticulticulticulticultidualidualicultidualidualiculticulticulticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticultidualidualidualidualidualidualidualidualidualidualiculticulticultidualidualidualidualidualidualidual leforniaiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticult",
+    "wall_s": 148.5,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "Tung": {
+   "baseline": {
+    "text": "i i'm going back to hanoi for two weeks spend time with my family and friends there went for private badminton coaching with my kids and we enjoyed the food not the weather lovely place lovely memories",
+    "wall_s": 17.4,
+    "accuracy": 77.5,
+    "deterministic": false,
+    "note": "temp=0 greedy, best-of-3"
+   },
+   "chunked": {
+    "text": "i went back to hanoi for two weeks spent time with my family and friends there went for private badminton coaching with my kids and we enjoyed the food not the weather lovely place lovely memories",
+    "wall_s": 17.0,
+    "accuracy": 87.5,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "antony billington": {
+   "chunked": {
+    "text": "A message that we need to own for ourselves before we can pass it on to others. And when it calls us to a difficult task, He'll equip us for that task. So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now in reality, it's more than a call. It's a summons, as we see in chapter 2, verse 1. He said to me, \"Son of man, stand upon your feet, and I will speak.\" i to you. The call starts with God. Ezekiel doesn't wake up one day, rub his eyes, jump out of bed, and decide, I'm going to be the next new prophet for the people of Israel. The initiative lies with God. And I think that's a",
+    "wall_s": 42.7,
+    "accuracy": 96.4,
+    "deterministic": false,
+    "note": "temp=0, 30s windows written to disk, transcribed from files, best-of-3 per window",
+    "segments": [
+     {
+      "file": "antony billington.chunk00.wav",
+      "start": 0.0,
+      "end": 30.0,
+      "text": "A message that we need to own for ourselves before we can pass it on to others. And when it calls us to a difficult task, He'll equip us for that task. So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now in reality, it's more than a call. It's a summons, as we see in chapter 2, verse 1. He said to me, \"Son of man, stand upon your feet, and I will speak.\"",
+      "chars": 400,
+      "segment_wav": "segments/chunked/antony billington/antony billington.chunk00.wav"
+     },
+     {
+      "file": "antony billington.chunk01.wav",
+      "start": 30.0,
+      "end": 48.0,
+      "text": "i to you. The call starts with God. Ezekiel doesn't wake up one day, rub his eyes, jump out of bed, and decide, I'm going to be the next new prophet for the people of Israel. The initiative lies with God. And I think that's a",
+      "chars": 225,
+      "segment_wav": "segments/chunked/antony billington/antony billington.chunk01.wav"
+     }
+    ]
+   },
+   "baseline": {
+    "text": "lefornia and and and",
+    "wall_s": 71.5,
+    "accuracy": 2.2,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   }
+  },
+  "conrad": {
+   "baseline": {
+    "text": "forniaiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualicultidualidualicultidualidualidualidualidualidualidualicultidualicultidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual",
+    "wall_s": 208.2,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   },
+   "chunked": {
+    "text": "onshipforniaidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual onshipforniaidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualidualiatelyidualidualidualiatelyidualidualidualiatelyidualidualidualiatelyidualiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiatelyiately",
+    "wall_s": 223.2,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   }
+  },
+  "lockpicking lawyer voice": {
+   "chunked": {
+    "text": "This is the lock picking lawyer and one of the weaknesses with modern smart locks is battery life, and there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the volt. That's why i I love to see locks like this one from GeekTail. At least, I was until I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame.",
+    "wall_s": 44.8,
+    "accuracy": 95.9,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, 30s windows, best-of-5 per window"
+   },
+   "baseline": {
+    "text": "lefornia,,,, at,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than of than than than than of than than of than than of than than of than of than of than of than than of than of than of than of than of than of than than than of than than of than of than of than than than than than than than than of than of than than of than of than than of than of than than than than of than of than of than of than of than of than of than of than of of than of than of than of than of than of of of of of than of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of",
+    "wall_s": 189.3,
+    "accuracy": -266.7,
+    "deterministic": false,
+    "note": "temp=0 greedy, token-0 masked, best-of-5"
+   }
+  }
+ }
+}

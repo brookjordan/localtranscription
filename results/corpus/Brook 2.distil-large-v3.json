@@ -1,0 +1,85 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Brook 2.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.34,
+   "speaker": null,
+   "text": "Byron was at his best and most characteristic in the long poem."
+  },
+  {
+   "start": 6.72,
+   "end": 10.4,
+   "speaker": null,
+   "text": "Child Harrell's pilgrimage was a sensation that made his name,"
+  },
+  {
+   "start": 11.04,
+   "end": 15.58,
+   "speaker": null,
+   "text": "and Don Juan was the book-length virtuoso extravaganza that sealed the deal."
+  },
+  {
+   "start": 16.36,
+   "end": 20.88,
+   "speaker": null,
+   "text": "But anyone who doubts that Byron could have shone, if confined to shorter poems,"
+  },
+  {
+   "start": 21.0,
+   "end": 25.22,
+   "speaker": null,
+   "text": "should take a close look at this one, and check out the perfection of his balance."
+  },
+  {
+   "start": 26.02,
+   "end": 28.8,
+   "speaker": null,
+   "text": "One shade the more, one ray the less."
+  },
+  {
+   "start": 28.8,
+   "end": 32.98,
+   "speaker": null,
+   "text": "It's just a tiny example of the impetus he could keep up for pages."
+  },
+  {
+   "start": 33.82,
+   "end": 40.88,
+   "speaker": null,
+   "text": "The only thing that makes this particular byronic poem, non-byronic, is that it professedly to do with innocence."
+  },
+  {
+   "start": 41.7,
+   "end": 44.84,
+   "speaker": null,
+   "text": "The innocence is at the heart of the narrator's fancied young lady,"
+  },
+  {
+   "start": 45.2,
+   "end": 50.14,
+   "speaker": null,
+   "text": "and certainly she is more innocent than Byron truly thought life or love could ever be."
+  },
+  {
+   "start": 51.48,
+   "end": 55.62,
+   "speaker": null,
+   "text": "She might come good later, i.e. she might turn bad."
+  },
+  {
+   "start": 55.62,
+   "end": 58.78,
+   "speaker": null,
+   "text": "But at the moment, she is just a stack of iced keats."
+  },
+  {
+   "start": 58.8,
+   "end": 66.72,
+   "speaker": null,
+   "text": "cake trembling in the strip sleep slipstream as byron sweeps by on his way to depravities unknown in her sweet dreams"
+  }
+ ],
+ "text": "Byron was at his best and most characteristic in the long poem. Child Harrell's pilgrimage was a sensation that made his name, and Don Juan was the book-length virtuoso extravaganza that sealed the deal. But anyone who doubts that Byron could have shone, if confined to shorter poems, should take a close look at this one, and check out the perfection of his balance. One shade the more, one ray the less. It's just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular byronic poem, non-byronic, is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady, and certainly she is more innocent than Byron truly thought life or love could ever be. She might come good later, i.e. she might turn bad. But at the moment, she is just a stack of iced keats. cake trembling in the strip sleep slipstream as byron sweeps by on his way to depravities unknown in her sweet dreams"
+}

@@ -1,0 +1,55 @@
+{
+ "model": "large-v3",
+ "audio_file": "Dave.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 11.46,
+   "speaker": null,
+   "text": "No, I don't think so. And fair warning, I have two new kittens that are going to be rampaging around this call. So if I get attacked while I'm talking, you all know what's going on."
+  },
+  {
+   "start": 11.78,
+   "end": 15.94,
+   "speaker": null,
+   "text": "Starting to wake up. They basically sleep most of the time, but when they wake up, they kind of go crazy."
+  },
+  {
+   "start": 16.62,
+   "end": 24.66,
+   "speaker": null,
+   "text": "This is Leonidas. He's eight weeks old. I don't know where his sister is. She's around here somewhere. Hard to get mad."
+  },
+  {
+   "start": 24.66,
+   "end": 31.42,
+   "speaker": null,
+   "text": "No, I think we got some questions. Some of you submitted and we're going to go through that. And then I think there's open Q&A at the end we're going to do."
+  },
+  {
+   "start": 32.06,
+   "end": 42.12,
+   "speaker": null,
+   "text": "Yeah, we'll start with the easy one. You're the newest member of the leadership team. Just tell us a little bit about your background."
+  },
+  {
+   "start": 42.24,
+   "end": 49.42,
+   "speaker": null,
+   "text": "You talked a little bit about some of your technical background, but whatever you want to tell us about and what brought you to Motional, most importantly, other than Balaji and I, obviously."
+  },
+  {
+   "start": 49.42,
+   "end": 54.42,
+   "speaker": null,
+   "text": "For those of you who don't know, we did meet Phil before he came and we landed the big..."
+  },
+  {
+   "start": 54.66,
+   "end": 55.06,
+   "speaker": null,
+   "text": "Big fish."
+  }
+ ],
+ "text": "No, I don't think so. And fair warning, I have two new kittens that are going to be rampaging around this call. So if I get attacked while I'm talking, you all know what's going on. Starting to wake up. They basically sleep most of the time, but when they wake up, they kind of go crazy. This is Leonidas. He's eight weeks old. I don't know where his sister is. She's around here somewhere. Hard to get mad. No, I think we got some questions. Some of you submitted and we're going to go through that. And then I think there's open Q&A at the end we're going to do. Yeah, we'll start with the easy one. You're the newest member of the leadership team. Just tell us a little bit about your background. You talked a little bit about some of your technical background, but whatever you want to tell us about and what brought you to Motional, most importantly, other than Balaji and I, obviously. For those of you who don't know, we did meet Phil before he came and we landed the big... Big fish."
+}

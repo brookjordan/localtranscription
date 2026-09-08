@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "i\"\"\"\"\"\"\"\"\"\"\"refore\"\"\"\"\"refore\"\"\"\"\"\"\"\""
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 41.85,
+ "audio_s": 60.56,
+ "rtf": 0.691
+}

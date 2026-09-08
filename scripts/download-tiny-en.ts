@@ -4,7 +4,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root: string = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const modelDir: string = resolve(root, 'models/whisper.cpp/tiny.en');
+const modelDir: string = resolve(process.env.HOME + '/.cache/localtranscription/whisper.cpp/tiny.en');
 await mkdir(modelDir, { recursive: true });
 
 const result = spawnSync(

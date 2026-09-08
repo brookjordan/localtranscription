@@ -1,0 +1,61 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "lockpicking lawyer voice.wav",
+ "segments": [
+  {
+   "start": 0.92,
+   "end": 6.92,
+   "speaker": null,
+   "text": "This is the lock picking lawyer and one of the weaknesses with modern smart locks is battery life."
+  },
+  {
+   "start": 6.92,
+   "end": 9.84,
+   "speaker": null,
+   "text": "And there's various ways of dealing with that."
+  },
+  {
+   "start": 9.84,
+   "end": 16.24,
+   "speaker": null,
+   "text": "More batteries, bigger batteries, lithium batteries, wireless charging, solar panels,"
+  },
+  {
+   "start": 16.24,
+   "end": 22.72,
+   "speaker": null,
+   "text": "but so few seem to have taken the obvious step of dramatically reducing power consumption."
+  },
+  {
+   "start": 23.32,
+   "end": 28.8,
+   "speaker": null,
+   "text": "And probably the largest power draw is the electric motor that throws the bolt."
+  },
+  {
+   "start": 28.8,
+   "end": 32.7,
+   "speaker": null,
+   "text": "That's why I love to see locks like this one from GeekTale."
+  },
+  {
+   "start": 35.12,
+   "end": 41.02,
+   "speaker": null,
+   "text": "At least, I was hit until I saw the tiny lithium battery that powers this."
+  },
+  {
+   "start": 41.32,
+   "end": 43.46,
+   "speaker": null,
+   "text": "It's right on the back of this panel."
+  },
+  {
+   "start": 43.82,
+   "end": 50.34,
+   "speaker": null,
+   "text": "So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame."
+  }
+ ],
+ "text": "This is the lock picking lawyer and one of the weaknesses with modern smart locks is battery life. And there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption. And probably the largest power draw is the electric motor that throws the bolt. That's why I love to see locks like this one from GeekTale. At least, I was hit until I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame."
+}

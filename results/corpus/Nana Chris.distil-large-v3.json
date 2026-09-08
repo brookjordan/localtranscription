@@ -1,0 +1,97 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "Nana Chris.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.82,
+   "speaker": null,
+   "text": "Oh, can you believe we actually did it?"
+  },
+  {
+   "start": 3.44,
+   "end": 4.94,
+   "speaker": null,
+   "text": "We made it through the storm."
+  },
+  {
+   "start": 5.6,
+   "end": 9.78,
+   "speaker": null,
+   "text": "Wind howling, rain lashing, I thought we'd never see the sun again."
+  },
+  {
+   "start": 10.74,
+   "end": 17.06,
+   "speaker": null,
+   "text": "There were nights, nights I cried myself to sleep, whispering, is anyone even out there?"
+  },
+  {
+   "start": 17.74,
+   "end": 19.14,
+   "speaker": null,
+   "text": "But then you showed up."
+  },
+  {
+   "start": 19.84,
+   "end": 22.94,
+   "speaker": null,
+   "text": "You smiled and suddenly the world wasn't so dark."
+  },
+  {
+   "start": 23.92,
+   "end": 26.74,
+   "speaker": null,
+   "text": "I felt seen, understood."
+  },
+  {
+   "start": 26.74,
+   "end": 29.28,
+   "speaker": null,
+   "text": "Then builds."
+  },
+  {
+   "start": 30.52,
+   "end": 34.22,
+   "speaker": null,
+   "text": "Remember that silly dance in the kitchen with burnt pancakes?"
+  },
+  {
+   "start": 34.96,
+   "end": 36.24,
+   "speaker": null,
+   "text": "Oh, we were a mess."
+  },
+  {
+   "start": 37.1,
+   "end": 38.74,
+   "speaker": null,
+   "text": "But now, now you've gone."
+  },
+  {
+   "start": 39.54,
+   "end": 41.0,
+   "speaker": null,
+   "text": "The silence is deafening."
+  },
+  {
+   "start": 41.62,
+   "end": 44.18,
+   "speaker": null,
+   "text": "I miss you every single day."
+  },
+  {
+   "start": 44.74,
+   "end": 50.86,
+   "speaker": null,
+   "text": "But I carry you with me in every laugh, every tear, every quiet moment."
+  },
+  {
+   "start": 51.52,
+   "end": 54.84,
+   "speaker": null,
+   "text": "And I'll keep going because that's what you would want, always."
+  }
+ ],
+ "text": "Oh, can you believe we actually did it? We made it through the storm. Wind howling, rain lashing, I thought we'd never see the sun again. There were nights, nights I cried myself to sleep, whispering, is anyone even out there? But then you showed up. You smiled and suddenly the world wasn't so dark. I felt seen, understood. Then builds. Remember that silly dance in the kitchen with burnt pancakes? Oh, we were a mess. But now, now you've gone. The silence is deafening. I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment. And I'll keep going because that's what you would want, always."
+}

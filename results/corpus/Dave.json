@@ -1,0 +1,44 @@
+{
+  "file": "Dave.wav",
+  "duration_s": 55.625,
+  "rtf": 3.935,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "speaker_id": 0,
+      "text": "No, I don't think so. And fair warning, I've got, I am, I have two new kittens that are gonna be rampaging around this uh call, so if I get attacked while I'm talking, you all know, know what's going on."
+    },
+    {
+      "start": 11.51,
+      "end": 16.53,
+      "speaker_id": 0,
+      "text": "Starting to wake up, they basically sleep most of the time, but when they wake up, they kind of go crazy, so."
+    },
+    {
+      "start": 16.64,
+      "end": 24.84,
+      "speaker_id": 1,
+      "text": "This is Leonidas. He's eight weeks old. I don't know where his sister is. She's around here somewhere. Hard to, hard to get mad."
+    },
+    {
+      "start": 25.12,
+      "end": 31.91,
+      "speaker_id": 0,
+      "text": "No, I think we got some questions some of you submitted, and we're gonna go through that, and then I think there's open Q&A at the end we're gonna do, so."
+    },
+    {
+      "start": 31.92,
+      "end": 41.12,
+      "speaker_id": 1,
+      "text": "Yeah, we'll start with the easy one. Uh, you know, you're the new, the newest member of the, the leadership team, just, yeah, tell us a, I don't know, a little bit about."
+    },
+    {
+      "start": 41.24,
+      "end": 55.62,
+      "speaker_id": 1,
+      "text": "Your background, you talked a little bit about some of your technical background, but, you know, whatever you want, whatever you want to tell us about, and what brought you to Motional, most importantly, other than Balaji and I, obviously, like. For those of you who don't know, we did meet Phil before he came, and we landed the, uh, landed the big fish, so."
+    }
+  ],
+  "text": "[{\"Start\":0.0,\"End\":11.5,\"Speaker\":0,\"Content\":\"No, I don't think so. And fair warning, I've got, I am, I have two new kittens that are gonna be rampaging around this uh call, so if I get attacked while I'm talking, you all know, know what's going on.\"},{\"Start\":11.51,\"End\":16.53,\"Speaker\":0,\"Content\":\"Starting to wake up, they basically sleep most of the time, but when they wake up, they kind of go crazy, so.\"},{\"Start\":16.64,\"End\":24.84,\"Speaker\":1,\"Content\":\"This is Leonidas. He's eight weeks old. I don't know where his sister is. She's around here somewhere. Hard to, hard to get mad.\"},{\"Start\":25.12,\"End\":31.91,\"Speaker\":0,\"Content\":\"No, I think we got some questions some of you submitted, and we're gonna go through that, and then I think there's open Q&A at the end we're gonna do, so.\"},{\"Start\":31.92,\"End\":41.12,\"Speaker\":1,\"Content\":\"Yeah, we'll start with the easy one. Uh, you know, you're the new, the newest member of the, the leadership team, just, yeah, tell us a, I don't know, a little bit about.\"},{\"Start\":41.24,\"End\":55.62,\"Speaker\":1,\"Content\":\"Your background, you talked a little bit about some of your technical background, but, you know, whatever you want, whatever you want to tell us about, and what brought you to Motional, most importantly, other than Balaji and I, obviously, like. For those of you who don't know, we did meet Phil before he came, and we landed the, uh, landed the big fish, so.\"}]"
+}

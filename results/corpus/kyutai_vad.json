@@ -1,0 +1,149 @@
+{
+ "runs": {
+  "Brook 2": {
+   "vad": {
+    "text": "body Byron was at his best and most characteristic in the long poem. \"Child Harold's Pilgrimage\" was a sensation that made his name, and \"Don Juan\" was the book linked virtuoso extravaganza that sealed the deal., 'tever that he was a fornia 'm ra the 'one is just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular Bionic poem non Bionic is that it professed to do with innocence. The innocence is at the heart of the narrator's fancy, the young lady, and certainly she is more innocent than buyer in truly thought life or love could ever be. fornia She might come good later, _i.e., she might turn bad, but at the moment she is just a stack of iced cake trembling in the strip slipstream as Byron sweeps by on his way to depravities unknown in her sweet dreams.",
+    "wall_s": 58.6,
+    "accuracy": 72.8,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 3 groups, best-of-5 per group"
+   }
+  },
+  "Dave": {
+   "vad": {
+    "text": "forniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniafornia fornia forniaicultiginalopmentopmentopmentopmentopmentopmentopmentopmentreforeopmentopmentopmentopmentopmentreforereforeopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentreforereforereforereforereforereforereforeiginalopmentopmentopmenticulticultopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentiginalreforeopmentopmentopmentopmentopmentopmentopmentopmentopmentopmenticulticultopmentopmentreforeopmentiginalreforereforeiginalreforeopmenticulticultopmentopmentopmentopmentiginalreforeopmentopmentopmentopmentopmentopmentreforereforereforereforereforeopmentreforepersonpersonreforereforereforepersonreforeopmentopmentopmentopmentopmentiginalopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopmentopment Jamesiginalopmentopmentiginalopmentiginalopmentopmentopmentpersonopmentopmentopmentopmentopmentopmentughoutiginalopmentopmentopmentopmentopmentreforereforeopmentopmentiginalopmentreforeiginaliginaliginalopmentiginaliginal",
+    "wall_s": 240.1,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 3 groups, best-of-5 per group"
+   }
+  },
+  "sing": {
+   "vad": {
+    "text": "Okay, so this time I'm going to test various things, like if it can hear me when I'm banging, if it gets different noises or if it can recognize sound. If it can tell when I start to sing or if it thinks I'm talking and it doesn't know anything, doesn't know anything, does it just think I'm snoring normally, does it just think I'm talking normally, let's",
+    "wall_s": 23.8,
+    "accuracy": 91.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 1 groups, best-of-5 per group"
+   }
+  },
+  "brook": {
+   "vad": {
+    "text": "body Okay then, let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later.",
+    "wall_s": 11.0,
+    "accuracy": 94.9,
+    "deterministic": false,
+    "note": "temp=0, Silero-VAD boundaries (30s max, 0.25s pad), groups written to disk, transcribed from files, best-of-3 per group",
+    "segments": [
+     {
+      "file": "brook.vad00.wav",
+      "start": 0.56,
+      "end": 10.9,
+      "text": "body Okay then, let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later.",
+      "chars": 164,
+      "segment_wav": "segments/vad/brook/brook.vad00.wav"
+     }
+    ]
+   }
+  },
+  "silly": {
+   "vad": {
+    "text": "I think that would be so cool. I go in the grass with the bath, and I laugh at you. Ha, ha, ha!\"",
+    "wall_s": 9.5,
+    "accuracy": 92.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 1 groups, best-of-5 per group"
+   }
+  },
+  "Balajee": {
+   "vad": {
+    "text": "fornia Thank you everyone, super excited and full of energy. Definitely been interesting. This is gonna be a new one for Dave and I for sure. Like, I don't think we've done the Laurel and Hardy tap dance show before. All right, so full disclosure, this is the first time Dave and I are doing, so I'm not quite sure we have their gig down, right? So we wanted to, Phil is joining us and we're gonna start doing this, hopefully on a re onshipidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual les                icult leforniaicultidualidualiculticulticultidualidualiculticulticultidualicultidual leforniaidualidualidualiculticulticultidualicultidualiculticulticultidual leforniaicultidualidual leforniaidualidualicultidualicultidualidualidual",
+    "wall_s": 404.1,
+    "accuracy": 13.2,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 7 groups, best-of-5 per group"
+   }
+  },
+  "Brett": {
+   "vad": {
+    "text": "forniaforniasforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniasforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniassforniaforniaforniasforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniafornia fornia fornia",
+    "wall_s": 251.8,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 3 groups, best-of-5 per group"
+   }
+  },
+  "Mum's voice": {
+   "vad": {
+    "text": "leforniaopmentreforeopmentopmentreforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforereforeopmentreforeopmentreforereforereforereforereforeopmentreforereforereforereforereforereforereforereforereforereforeopmentreforereforeopmentreforeopmentreforeopmentreforeopmentopmentopmentopmentreforereforereforereforeopmentopmentopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforeopmentreforereforereforereforeopmentreforeopmentreforeopmentreforereforereforeopmentopmentopmentopmentopmentopmentopmentreforereforeopmentopmentopmentreforereforereforereforeopmentreforeopmentreforereforereforereforeopmentreforereforereforereforereforereforereforereforeopmentreforeopmentreforereforeopmentreforeopmentreforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforeopmentreforeopmentreforeopmentopmentopmentreforereforereforereforereforereforereforereforereforeopmentreforeopmentreforereforeopmentreforereforereforereforereforeopmentreforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforeopmentreforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforeopmentopmentopmentopmentreforereforereforereforeopmentreforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforerefore forniaopmentreforeopmentopmentreforeopmentreforereforereforereforeopmentreforereforereforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforereforeopmentreforeopmentreforeopmentreforereforereforereforeopmentreforereforereforereforereforereforeopmentreforereforereforereforereforereforereforereforereforereforeopmentreforereforereforereforereforereforereforereforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforeopmentreforereforeopmentreforereforereforereforereforeopmentreforeopmentreforereforereforereforereforereforereforeopmentreforereforereforereforeopmentreforereforereforereforeopmentreforereforereforereforereforeopmentreforeopmentreforeopmentopmentreforereforeopmentreforereforeopmentreforeopmentreforereforereforereforereforereforereforereforereforeopmentreforereforereforereforereforeopmentreforereforereforereforereforeopmentreforeopmentreforeopmentreforereforereforereforeopmentreforeopmentreforereforeopmentopmentopmentopmentopmentopmentopmentopmentreforeopmentopmentopmentopmentopmentopmentopmentreforeopmentopmentopmentopmentopmentreforeopmentreforeopmentopmentopmentreforereforereforereforeopmentreforeopmentreforereforeopmentopmentopmentopmentopmentopmenticultopmentreforeopmentopmentopmentopmentopmentreforeopmentreforeopmentreforereforereforereforereforeopmentreforereforeopmentreforereforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforereforeopmentreforereforereforereforereforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforeopmentreforereforereforereforereforereforereforereforereforereforereforereforereforereforeopmentreforereforeopmentreforereforeopmentreforeopmentreforeopmentreforeopmentreforereforereforereforereforeopmentreforeopmentreforereforereforereforeopmentreforeopmentreforereforeopmentreforeopmentreforeopmentiginalreforeopmentreforeopmentreforeopmentreforereforeopmentreforereforereforereforeopmentreforereforeopmentreforereforeopmentnatureiginalreforeopmentreforereforereforereforeopmentreforereforereforereforereforereforereforereforereforeopmentreforeopmentopmentopmentiginalreforeopmentreforeopmentiginalreforeopmentreforeopmentopmentopment fornia",
+    "wall_s": 276.4,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 3 groups, best-of-5 per group"
+   }
+  },
+  "Nana Chris": {
+   "vad": {
+    "text": "body,,,,,,,,.,........................................................................................................... leforniaiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualicultidualidualicultidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualiculticultidualidualidualicultidualidualidualicultidualidualicultidualidualidualiculticultidualiculticultidualidualidualidualidualidualidualidualidualicultidualicultidualidualicultidualidualidualidualidualidualidualidualidualidualidualiculticultidualidualidualidualidualidualiculticultidualidualiculticulticulticulticulticulticulticulticultidualicultidualidualiculticulticulticulticulticulticultidualidualiculticulticultidualicultidualiculticulticultiatelyiculticulticultidualicultidualidualiculticultidualicultidualidualiatelyicultidualidualidualidualidualiatelyidualiatelyidualidualidualidualidualiatelyiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual",
+    "wall_s": 223.3,
+    "accuracy": 0.0,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 2 groups, best-of-5 per group"
+   }
+  },
+  "Ping": {
+   "vad": {
+    "text": "leforniaiculticulticultidualicultidualiculticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticulticultidualiculticulticulticultidualicultidualicultidualicultidualiatelyidualidualidualidualiatelyidualiatelyidualidualidualidualidualidualiatelyiatelyidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualicultidualidualidualidualidualicultidualidualidualidualidualicultidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidualidual fornia                                                          i                                                i  i fornia",
+    "wall_s": 237.9,
+    "accuracy": 1.6,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 3 groups, best-of-5 per group"
+   }
+  },
+  "Pritisman": {
+   "vad": {
+    "text": "fornia forniasss.sss.ss.sss.ss but",
+    "wall_s": 147.0,
+    "accuracy": 1.3,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 2 groups, best-of-5 per group"
+   }
+  },
+  "Tung": {
+   "vad": {
+    "text": "i went back to hanoi for two weeks spent time with my family and friends there went for private badminton coaching with my kids and we enjoyed the food not the weather lovely place lovely memories",
+    "wall_s": 16.3,
+    "accuracy": 87.5,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 1 groups, best-of-5 per group"
+   }
+  },
+  "antony billington": {
+   "vad": {
+    "text": "leforniaicult So or or dry So So or or leforniaiculticult but drill drill  but drill drill drill  but drill  butStreet   or but but but    but drill    but drill  but  but  but   but I    or   or  but but    Iiculticulticulticulticulticulticulticulticult   but Iiculticulticulticulticulticult or   or icultidualiculticulticulticult iculticult   oriculticulticulticulticulticulticult     or icult<0x5D> iculticulticulticult oriculticult oriculticulticult oriculticult   oriculticult weliculticult  buticulticult or  but  but  but    or   or    but  but  but  but  but  but  buticulticulticulticult        or",
+    "wall_s": 179.5,
+    "accuracy": 1.4,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 2 groups, best-of-5 per group"
+   }
+  },
+  "conrad": {
+   "vad": {
+    "text": "lefornia oriculticulticult  but  oriculticult  or  or  or or  but  or  or forniaforniaforniafornia",
+    "wall_s": 67.6,
+    "accuracy": 0.5,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 2 groups, best-of-5 per group"
+   }
+  },
+  "lockpicking lawyer voice": {
+   "vad": {
+    "text": "This is the lockpicking lawyer and one of the weaknesses with modern smart locks is battery life, and there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the vote. i That's why I love to see locks like this one from geek tail. At least, I was Until I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame.",
+    "wall_s": 54.1,
+    "accuracy": 96.7,
+    "deterministic": false,
+    "note": "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 2 groups, best-of-5 per group"
+   }
+  }
+ }
+}

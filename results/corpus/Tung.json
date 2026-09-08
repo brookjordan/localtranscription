@@ -1,0 +1,14 @@
+{
+  "file": "Tung.wav",
+  "duration_s": 18.261,
+  "rtf": 1.855,
+  "segments": [
+    {
+      "start": 0,
+      "end": 18.26,
+      "speaker_id": 0,
+      "text": "I went back to Hanoi for two weeks, uh spent times with my family and friends there. Went for private badminton coaching with my kids and we enjoyed the food, not the weather. Lovely place, lovely memories. That's all."
+    }
+  ],
+  "text": "[{\"Start\":0,\"End\":18.26,\"Speaker\":0,\"Content\":\"I went back to Hanoi for two weeks, uh spent times with my family and friends there. Went for private badminton coaching with my kids and we enjoyed the food, not the weather. Lovely place, lovely memories. That's all.\"}]"
+}

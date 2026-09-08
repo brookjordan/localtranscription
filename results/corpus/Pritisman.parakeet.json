@@ -1,0 +1,80 @@
+{
+ "model": "parakeet-tdt-0.6b-v3",
+ "audio_file": "Pritisman.wav",
+ "duration_s": null,
+ "segments": [
+  {
+   "start": 0.24,
+   "end": 2.32,
+   "speaker": null,
+   "text": "I don't know what I need to talk about."
+  },
+  {
+   "start": 2.32,
+   "end": 5.28,
+   "speaker": null,
+   "text": "Let me talk about Lord of the Rings."
+  },
+  {
+   "start": 5.44,
+   "end": 8.56,
+   "speaker": null,
+   "text": "Lord of the Rings has three three movies."
+  },
+  {
+   "start": 8.56,
+   "end": 10.72,
+   "speaker": null,
+   "text": "Okay, no, six movies, bro."
+  },
+  {
+   "start": 10.72,
+   "end": 17.76,
+   "speaker": null,
+   "text": "Lord of the Rings and the other one was Hobbits."
+  },
+  {
+   "start": 17.76,
+   "end": 18.4,
+   "speaker": null,
+   "text": "Hobbits."
+  },
+  {
+   "start": 18.4,
+   "end": 20.64,
+   "speaker": null,
+   "text": "It had like three movies."
+  },
+  {
+   "start": 20.64,
+   "end": 22.32,
+   "speaker": null,
+   "text": "So yeah."
+  },
+  {
+   "start": 22.32,
+   "end": 26.4,
+   "speaker": null,
+   "text": "The third one got like lots of Oscars."
+  },
+  {
+   "start": 26.4,
+   "end": 28.48,
+   "speaker": null,
+   "text": "So yeah, that was a good one."
+  },
+  {
+   "start": 28.48,
+   "end": 31.76,
+   "speaker": null,
+   "text": "But I like the the second one, the high tower."
+  },
+  {
+   "start": 31.76,
+   "end": 34.0,
+   "speaker": null,
+   "text": "It's really good."
+  }
+ ],
+ "text": "I don't know what I need to talk about. Let me talk about Lord of the Rings. Lord of the Rings has three three movies. Okay, no, six movies, bro. Lord of the Rings and the other one was Hobbits. Hobbits. It had like three movies. So yeah. The third one got like lots of Oscars. So yeah, that was a good one. But I like the the second one, the high tower. It's really good."
+}
