@@ -20,10 +20,10 @@ from pathlib import Path
 
 try:
     from .evaluate_real_candidate import HEAR_PYTHON, CAMPPLUS, ASR_PYTHON, PARAKEET, run_json, WorkerProcessError
-    from .speech_candidate_evaluator import evaluate_candidate
+    from .speech_candidate_evaluator import evaluate_candidate, EVALUATOR_VERSION
 except ImportError:
     from evaluate_real_candidate import HEAR_PYTHON, CAMPPLUS, ASR_PYTHON, PARAKEET, run_json, WorkerProcessError
-    from speech_candidate_evaluator import evaluate_candidate
+    from speech_candidate_evaluator import evaluate_candidate, EVALUATOR_VERSION
 
 try:
     from .speech_attempt_store import AttemptStore, ManifestConflict
@@ -70,7 +70,7 @@ def evaluator_health() -> dict:
     missing.extend(f'reference:{speaker}' for speaker, path in REFERENCES.items() if not path.is_file())
     return {
         'ok': not missing, 'busy': False,
-        'evaluatorVersion': 'pcb-010-evaluator-v0.1.5',
+        'evaluatorVersion': EVALUATOR_VERSION,
         'productionWrites': False,
         'missingDependencies': missing,
     }
@@ -160,7 +160,7 @@ def evaluate(payload: dict) -> dict:
         'speakerId': request['speakerId'],
         'referenceHash': reference_hash,
         'generatorVersion': f"{request['generation'].get('engine', 'unknown')}:{request['generation'].get('model', 'unknown')}",
-        'evaluatorVersion': 'pcb-010-evaluator-v0.1.5',
+        'evaluatorVersion': EVALUATOR_VERSION,
     }
     candidate = STORE.persist_candidate(
         request['mediaRunId'],
@@ -196,7 +196,7 @@ def evaluate(payload: dict) -> dict:
         except Exception as exc:
             raise EvaluationStageError('technical_metrics', 'evaluation_failed') from exc
         result.update({
-            'evaluatorVersion': 'pcb-010-evaluator-v0.1.5',
+            'evaluatorVersion': EVALUATOR_VERSION,
             'mediaRunId': request['mediaRunId'],
             'segmentId': request['segmentId'],
             'speakerId': request['speakerId'],
