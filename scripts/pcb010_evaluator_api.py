@@ -92,6 +92,65 @@ def failure_envelope(exc: Exception, payload: object, diagnostic_id: str) -> dic
     }
 
 
+CRITERION_LIMITS = {
+    'wer': {'lowerIsBetter': True, 'pass': 0.0},
+    'voiceTargetScore': {'lowerIsBetter': False, 'pass': 0.35},
+    'voiceMargin': {'lowerIsBetter': False, 'pass': 0.15},
+}
+
+
+def public_attempts(media_run_id: str, segment_id: str) -> dict:
+    """Public-safe per-attempt projection for PCB-023 (no private paths or diagnostics)."""
+    directory = STORE.segment_dir(media_run_id, segment_id)
+    if not directory.is_dir():
+        raise ManifestConflict(f'no such segment {media_run_id}/{segment_id}')
+    selected_path = directory / 'selected.json'
+    selected = json.loads(selected_path.read_text(encoding='utf-8')) if selected_path.exists() else None
+    attempts = []
+    for path in sorted(directory.glob('attempt-*.evaluation.json')):
+        evaluation = json.loads(path.read_text(encoding='utf-8'))
+        attempt_no = evaluation.get('attempt')
+        transcript = evaluation.get('transcript', {})
+        voice = evaluation.get('voice', {})
+        technical = evaluation.get('technical', {})
+        audio = next((p for p in sorted(directory.glob(f'attempt-{attempt_no}.*'))
+                      if not p.name.endswith('.json')), None)
+        attempts.append({
+            'attempt': attempt_no,
+            'audioFile': f'attempt_{attempt_no}.mp3' if audio else None,
+            'sha256': __import__('hashlib').sha256(audio.read_bytes()).hexdigest() if audio else None,
+            'passed': bool(evaluation.get('passed')),
+            'rejectionReasons': evaluation.get('rejectionReasons') or [],
+            'selected': bool(selected and selected.get('selectedAttempt') == attempt_no),
+            'degraded': bool(selected and selected.get('selectedAttempt') == attempt_no
+                             and selected.get('degraded')),
+            'criteria': {
+                'wer': transcript.get('wer'),
+                'cer': transcript.get('cer'),
+                'substitutions': transcript.get('substitutions'),
+                'deletions': transcript.get('deletions'),
+                'insertions': transcript.get('insertions'),
+                'protectedTermFailures': transcript.get('protectedTermFailures'),
+                'protectedTermMisses': transcript.get('protectedTermMisses') or [],
+                'voiceTargetScore': voice.get('targetScore'),
+                'voiceOtherScore': voice.get('otherScore'),
+                'voiceMargin': voice.get('margin'),
+                'voiceIsTopMatch': voice.get('targetIsTopMatch'),
+                'technicalSafe': technical.get('safe'),
+                'clippedRatio': technical.get('clippedRatio'),
+                'silenceRatio': technical.get('silenceRatio'),
+                'defectSeverity': (evaluation.get('defects') or {}).get('severity'),
+                'asrText': transcript.get('observed'),
+                'expectedText': transcript.get('expected'),
+            },
+            'evaluatorVersion': evaluation.get('evaluatorVersion'),
+        })
+    if not attempts:
+        raise ManifestConflict(f'no attempt evidence for {media_run_id}/{segment_id}')
+    return {'mediaRunId': media_run_id, 'segmentId': segment_id, 'attempts': attempts,
+            'schemaVersion': 'podcast-attempts-v0.1.0'}
+
+
 def _required_string(payload: dict, field: str) -> str:
     value = payload.get(field)
     if not isinstance(value, str) or not value.strip():
@@ -255,8 +314,20 @@ class Handler(BaseHTTPRequestHandler):
                 EVALUATION_SLOT.release()
             health['busy'] = busy
             self._send(200 if health['ok'] else 503, health)
-        else:
-            self._send(404, {'error': 'not found'})
+            return
+        match = re.fullmatch(r'/attempts/([A-Za-z0-9][A-Za-z0-9._-]{0,127})/([A-Za-z0-9][A-Za-z0-9._-]{0,127})', self.path)
+        if match:
+            try:
+                self._send(200, public_attempts(match.group(1), match.group(2)))
+            except ManifestConflict as exc:
+                self._send(404, {'error': 'not_found', 'message': str(exc)})
+            except Exception:
+                diagnostic_id = uuid.uuid4().hex[:12]
+                print(f'attempts diagnosticId={diagnostic_id}', file=sys.stderr, flush=True)
+                traceback.print_exc()
+                self._send(500, {'error': 'attempts_failed', 'diagnosticId': diagnostic_id})
+            return
+        self._send(404, {'error': 'not found'})
 
     def do_POST(self) -> None:
         if self.path not in {'/evaluate', '/select', '/metric', '/stats'}:
