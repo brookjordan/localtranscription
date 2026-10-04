@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "i Panel time, three voices tonight, and a question for each of you in turn. Let us start with the newest member of the team. Delighted to be here. The hardest part of multi-speaker audio for me is turn-taking, because the model must decide when one person has finished. And that is the three voice problem in one clip, two accents of English and one full turn of Mandarin, with a real speaker rotation between every turn."
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 30.12,
+ "audio_s": 43.2,
+ "rtf": 0.697
+}

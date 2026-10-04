@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "i Welcome back to the show. Today we're looking at how speech recognizers handle more than one voice at a time, and why that is harder than it sounds. Right, because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning. Exact, So keep in the ' If the  is a desire"
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 23.11,
+ "audio_s": 31.92,
+ "rtf": 0.724
+}

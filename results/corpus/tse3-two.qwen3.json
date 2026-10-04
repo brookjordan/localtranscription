@@ -1,0 +1,6 @@
+{
+  "file": "tse3-two.wav",
+  "wall_s": 6.18,
+  "rtf": 0.225,
+  "text": "Welcome back to the show. Today we're looking at how speech recognizers handle more than one voice at a time, and why that is harder than it sounds. Right, because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning. Exactly. So keep an ear on the speaker labels as we go. If the engine cannot tell us apart, that is a diarization failure, not a transcription failure."
+}

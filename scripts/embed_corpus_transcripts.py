@@ -41,6 +41,9 @@ MIT_BEGIN = "// ---- kyutai mitigations (embedded from kyutai_mitigations.json +
 MIT_END = "// ---- end kyutai mitigations ----"
 # human-scored clips use different run stems than their FILES keys
 HUMAN_STEM_TO_FILE = {"brook": "brook.wav", "silly": "silly.m4a", "sing": "sing.mp3"}
+# TSE-03 synthetic clips: ground truth is script-verified (gen_tse3_clips.py),
+# stored as segments JSON; reference label differs from human/baseline clips.
+TSE3_STEMS = ("tse3-two", "tse3-three", "tse3-codeswitch")
 VARIANT_FIELDS = ("text", "wall_s", "accuracy", "deterministic", "note", "segments")
 
 
@@ -145,6 +148,53 @@ def main() -> None:
             corpus[f"{stem}{Path(audio).suffix}"][key] = p.read_text().strip() if p.exists() else None
         for key in (*JSON_ENGINES.values(),):
             corpus[f"{stem}{Path(audio).suffix}"][key] = None
+
+    # TSE-03 synthetic clips: reference = script-verified segments JSON; the
+    # VibeVoice baseline JSON for these stems is a *model output*, not a
+    # reference, so it is embedded under the model keys instead.
+    for stem in TSE3_STEMS:
+        truth_path = ROOT / "results" / "assets" / "voices" / f"{stem}.segments.json"
+        if not truth_path.exists():
+            continue
+        truth = json.loads(truth_path.read_text())
+        entry = {
+            "meta": f"synthetic multi-speaker · {stem} · script-verified reference",
+            "audio": f"assets/corpus/{stem}.wav",
+            "tse3Ref": True,
+            "vvv": [
+                {"start": s["start"], "end": s["end"], "speaker": s["speaker"], "text": s["text"]}
+                for s in truth
+            ],
+        }
+        for suffix, key in MODEL_SUFFIXES.items():
+            p = CORPUS_DIR / f"{stem}{suffix}"
+            payload = json.loads(p.read_text()) if p.exists() else {}
+            ok = payload and not payload.get("error") and payload.get("status") in (None, "ok") and payload.get("text")
+            entry[key] = payload.get("text") if ok else None
+        for suffix, key in TXT_ENGINES.items():
+            p = CORPUS_DIR / f"{stem}{suffix}"
+            entry[key] = p.read_text().strip() if p.exists() else None
+        # baseline .json (VibeVoice output) + kyutai structured runs
+        base = CORPUS_DIR / f"{stem}.json"
+        if base.exists():
+            meta = json.loads(base.read_text())
+            entry["vvvBaseline"] = [
+                {"start": s.get("start"), "end": s.get("end"), "speaker": s.get("speaker_id"), "text": (s.get("text") or "").strip()}
+                for s in (meta.get("segments") or [])
+            ]
+        for suffix, key in JSON_ENGINES.items():
+            p = CORPUS_DIR / f"{stem}{suffix}"
+            if p.exists():
+                meta = json.loads(p.read_text())
+                if meta.get("error"):
+                    entry[key] = f"FAILED: {meta['error']}"
+                else:
+                    entry[key] = " ".join(seg["text"] for seg in meta["segments"]).strip()
+                if meta.get("rtf"):
+                    RTFS.setdefault(key, []).append(meta["rtf"])
+            else:
+                entry[key] = None
+        corpus[f"{stem}.wav"] = entry
     parts = [BEGIN + "\nconst CORPUS = {\n"]
     for name, e in corpus.items():
         segs = ",\n        ".join(
@@ -158,10 +208,17 @@ def main() -> None:
         )
         flags = "".join(
             f", {flag}: true" if e.get(flag) else ""
-            for flag in ("humanRef",)
+            for flag in ("humanRef", "tse3Ref")
         )
         if e.get("refText"):
             flags += f", refText: {js_str(e['refText'])}"
+        if e.get("vvvBaseline"):
+            bl = ", ".join(
+                "{ start: " + js_val(s["start"]) + ", end: " + js_val(s["end"]) + ", speaker: "
+                + ("null" if s["speaker"] is None else str(s["speaker"])) + ", text: " + js_str(s["text"]) + " }"
+                for s in e["vvvBaseline"]
+            )
+            flags += f", vvvBaseline: [{bl}]"
         parts.append(
             f"  {js_str(name)}: {{ meta: {js_str(e['meta'])}, audio: {js_str(e['audio'])}{flags},\n"
             f"    vvv: [\n        {segs},\n    ],\n"

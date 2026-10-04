@@ -1,0 +1,14 @@
+{
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "So we said we'd try something different this episode. Let's mix it up a little. Prayer to Esther, G. Vi's continuer and franchise C2 Prayfers. Bien s<0xC3><0xBB>r, _pardon probleme_. Je pense que le passage du noir galoteur milieu d'une frais, et le retest de pour a model de transcription.\" Exactly, code switching. Most engines pick one language per utterance and force everything into it, which is how you get fantasy French or nonsense English."
+  }
+ ],
+ "engine": "kyutai/stt-2.6b-en-mlx (moshi-mlx 0.3.0)",
+ "wall_s": 1468.46,
+ "audio_s": 34.0,
+ "rtf": 43.19
+}
