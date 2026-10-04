@@ -48,6 +48,10 @@ CLIPS = {  # stem -> wav path (relative to results/)
     "sing": "assets/wav/sing.wav",
     # corpus clips
     **{stem: f"assets/corpus/{stem}.wav" for stem in CORPUS_STEMS},
+    # TSE-03 synthetic multi-speaker clips (script-verified references)
+    "tse3-two": "assets/corpus/tse3-two.wav",
+    "tse3-three": "assets/corpus/tse3-three.wav",
+    "tse3-codeswitch": "assets/corpus/tse3-codeswitch.wav",
 }
 CHUNK_S = 30
 BEST_OF_N = 5  # temp=0 greedy is not bit-reproducible (see docs/kyutai-mitigations.md):

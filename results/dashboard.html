@@ -491,6 +491,7 @@ const CORPUS = {
 
 
 
+
 // Register corpus clips: FILES values are {meta, audio, ref?, vvv?}. ref may be
 // absent while the corpus baseline is the only transcript available.
 for (const [name, e] of Object.entries(CORPUS)) {
@@ -575,8 +576,21 @@ const KYUTAI_MITIGATIONS = {
     "baseline": { text: "lefornia,,,, at,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than than of than than than than of than than of than than of than than of than of than of than of than than of than of than of than of than of than of than than than of than than of than of than of than than than than than than than than of than of than than of than of than than of than of than than than than of than of than of than of than of than of than of than of than of of than of than of than of than of than of of of of of than of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of", wall_s: 189.3, accuracy: -266.7, deterministic: false, note: "temp=0 greedy, token-0 masked, best-of-5" },
     "vad": { text: "This is the lockpicking lawyer and one of the weaknesses with modern smart locks is battery life, and there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the vote. i That's why I love to see locks like this one from geek tail. At least, I was Until I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame.", wall_s: 54.1, accuracy: 96.7, deterministic: false, note: "temp=0, token-0 masked, Silero-VAD boundaries, 30s max speech/group, 2 groups, best-of-5 per group" },
   },
+  "tse3-two.wav": {
+    "baseline": { text: "welcome back to the show today we're looking at how speech recognizers handle more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable but a conversation overlaps interrupts and changes pace without warning exactly so keep an ear on the speaker labels as we go if the engine cannot tell us apart that is a diarization failure not a transcription failure", wall_s: 344.6, accuracy: 98.6, deterministic: false, note: "temp=0 greedy, token-0 masked, best-of-5" },
+    "chunked": { text: "i welcome back to the show today we're looking at how speech re   more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable but a conversation overlaps, interrupts and changes pace without warning Exactly, so keep an ear on the speaker labels as we go. If the engine cannot tell us apart, that is a di iriz", wall_s: 745.5, accuracy: 87.8, deterministic: false, note: "temp=0, token-0 masked, 30s windows, best-of-5 per window" },
+  },
+  "tse3-three.wav": {
+    "baseline": { text: "fornia icult", wall_s: 664.7, accuracy: 0.0, deterministic: false, note: "temp=0 greedy, token-0 masked, best-of-5" },
+    "chunked": { text: "fornia,,, ", wall_s: 195.4, accuracy: 0.0, deterministic: false, note: "temp=0, token-0 masked, 30s windows, best-of-5 per window" },
+  },
+  "tse3-codeswitch.wav": {
+    "baseline": { text: "", wall_s: 117.8, accuracy: 0.0, deterministic: false, note: "temp=0 greedy, token-0 masked, best-of-5" },
+    "chunked": { text: "forniaforniaforniaforniatanceforniaforniaforniaforniatanceforniaforniaforniatancetanceforniaforniaforniaforniaforniatanceforniaforniaforniaforniatanceforniaforniaforniaforniatanceforniaforniaforniatanceforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniatanceforniaforniaforniaforniaforniaforniaforniaforniatanceforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniaforniatanceforniaforniaforniaforniaforniaforniaforniaforniaforniaforniafornia", wall_s: 187.9, accuracy: 0.0, deterministic: false, note: "temp=0, token-0 masked, 30s windows, best-of-5 per window" },
+  },
 };
 // ---- end kyutai mitigations ----
+
 
 
 
