@@ -1,0 +1,26 @@
+{
+  "file": "tse3-two.wav",
+  "duration_s": 27.425,
+  "rtf": 71.399,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.41,
+      "speaker_id": 0,
+      "text": "Welcome back to the show. Today we're looking at how speech recognizers handle more than one voice at a time, and why that is harder than it sounds."
+    },
+    {
+      "start": 9.11,
+      "end": 16.55,
+      "speaker_id": 1,
+      "text": "Right, because a single speaker is predictable, but a conversation overlaps, interrupts, and changes pace without warning."
+    },
+    {
+      "start": 17.15,
+      "end": 27.43,
+      "speaker_id": 0,
+      "text": "Exactly, so keep an ear on the speaker labels as we go. If the engine cannot tell us apart, that is a diarization failure, not a transcription failure."
+    }
+  ],
+  "text": "[{\"Start\":0.0,\"End\":8.41,\"Speaker\":0,\"Content\":\"Welcome back to the show. Today we're looking at how speech recognizers handle more than one voice at a time, and why that is harder than it sounds.\"},{\"Start\":9.11,\"End\":16.55,\"Speaker\":1,\"Content\":\"Right, because a single speaker is predictable, but a conversation overlaps, interrupts, and changes pace without warning.\"},{\"Start\":17.15,\"End\":27.43,\"Speaker\":0,\"Content\":\"Exactly, so keep an ear on the speaker labels as we go. If the engine cannot tell us apart, that is a diarization failure, not a transcription failure.\"}]"
+}

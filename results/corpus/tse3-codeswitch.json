@@ -1,0 +1,26 @@
+{
+  "file": "tse3-codeswitch.wav",
+  "duration_s": 29.5,
+  "rtf": 1.829,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.45,
+      "speaker_id": 0,
+      "text": "So we said we'd try something different this episode. Let's mix it up a little. Prayer to ask your G Vise Continuer and Franchise C2 prayfers."
+    },
+    {
+      "start": 9.99,
+      "end": 18.38,
+      "speaker_id": 1,
+      "text": "Bien sûr, pas de problème. Je pense que le passage d'une langue à l'autre au milieu d'une phrase est le vrai test pour un modèle de transcription."
+    },
+    {
+      "start": 18.65,
+      "end": 29.5,
+      "speaker_id": 0,
+      "text": "Exactly, code switching. Most engines pick one language per utterance and force everything into it, which is how you get fantasy French or nonsense English."
+    }
+  ],
+  "text": "[{\"Start\":0.0,\"End\":9.45,\"Speaker\":0,\"Content\":\"So we said we'd try something different this episode. Let's mix it up a little. Prayer to ask your G Vise Continuer and Franchise C2 prayfers.\"},{\"Start\":9.99,\"End\":18.38,\"Speaker\":1,\"Content\":\"Bien sûr, pas de problème. Je pense que le passage d'une langue à l'autre au milieu d'une phrase est le vrai test pour un modèle de transcription.\"},{\"Start\":18.65,\"End\":29.5,\"Speaker\":0,\"Content\":\"Exactly, code switching. Most engines pick one language per utterance and force everything into it, which is how you get fantasy French or nonsense English.\"}]"
+}

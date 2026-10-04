@@ -1,0 +1,32 @@
+{
+  "file": "tse3-three.wav",
+  "duration_s": 38.775,
+  "rtf": 1.839,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.12,
+      "speaker_id": 0,
+      "text": "Panel time, three voices tonight and a question for each of you in turn. Let us start with the newest member of the team."
+    },
+    {
+      "start": 8.58,
+      "end": 18.09,
+      "speaker_id": 1,
+      "text": "Delighted to be here. The hardest part of multi-speaker audio for me is turn-taking, because the model must decide when one person has finished."
+    },
+    {
+      "start": 18.49,
+      "end": 26.95,
+      "speaker_id": 2,
+      "text": "大家好，很高兴参加这个节目。我认为最困难的是多人同时说话的时候，模型需要分辨每一个人的声音。"
+    },
+    {
+      "start": 27.38,
+      "end": 38.77,
+      "speaker_id": 0,
+      "text": "And that is the three voice problem in one clip: two accents of English and one full turn of Mandarin, with a real speaker rotation between every turn."
+    }
+  ],
+  "text": "[{\"Start\":0.0,\"End\":8.12,\"Speaker\":0,\"Content\":\"Panel time, three voices tonight and a question for each of you in turn. Let us start with the newest member of the team.\"},{\"Start\":8.58,\"End\":18.09,\"Speaker\":1,\"Content\":\"Delighted to be here. The hardest part of multi-speaker audio for me is turn-taking, because the model must decide when one person has finished.\"},{\"Start\":18.49,\"End\":26.95,\"Speaker\":2,\"Content\":\"大家好，很高兴参加这个节目。我认为最困难的是多人同时说话的时候，模型需要分辨每一个人的声音。\"},{\"Start\":27.38,\"End\":38.77,\"Speaker\":0,\"Content\":\"And that is the three voice problem in one clip: two accents of English and one full turn of Mandarin, with a real speaker rotation between every turn.\"}]"
+}
