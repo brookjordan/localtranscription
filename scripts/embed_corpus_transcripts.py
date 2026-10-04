@@ -20,6 +20,8 @@ MODEL_SUFFIXES = {
     ".parakeet.json": "parakeet",
     ".large-v3.json": "largev3",
     ".distil-large-v3.json": "distil",
+    ".whistle.json": "whistle",
+    ".phonon2.json": "phonon2",
 }
 TXT_ENGINES = {
     ".whispercpp.txt": "whispercpp",
@@ -117,6 +119,32 @@ def main() -> None:
                 entry[key] = None
         corpus[f"{stem}.wav"] = entry
 
+    for stem, audio in (("brook", "assets/brook.wav"), ("silly", "assets/silly.m4a"), ("sing", "assets/sing.mp3")):
+        human = CORPUS_DIR / f"{stem}.kyutai.human.json"
+        if not human.exists():
+            continue
+        meta = json.loads(human.read_text())
+        entry = {
+            "meta": "human-scored clip",
+            "audio": audio,
+            "humanRef": True,
+            "vvv": [{"start": 0, "end": 0, "speaker": None, "text": meta["segments"][0]["text"]}],
+        }
+        # Canonical reference text is user-verified; never label it unverified.
+        ref_path = ROOT / "results" / "assets" / "voices" / f"{stem}.txt"
+        if ref_path.exists():
+            entry["refText"] = ref_path.read_text().strip()
+        corpus[f"{stem}{Path(audio).suffix}"] = entry
+        for suffix, key in MODEL_SUFFIXES.items():
+            p = CORPUS_DIR / f"{stem}{suffix}"
+            payload = json.loads(p.read_text()) if p.exists() else {}
+            ok = payload and not payload.get("error") and payload.get("status") in (None, "ok") and payload.get("text")
+            corpus[f"{stem}{Path(audio).suffix}"][key] = payload.get("text") if ok else None
+        for suffix, key in TXT_ENGINES.items():
+            p = CORPUS_DIR / f"{stem}{suffix}"
+            corpus[f"{stem}{Path(audio).suffix}"][key] = p.read_text().strip() if p.exists() else None
+        for key in (*JSON_ENGINES.values(),):
+            corpus[f"{stem}{Path(audio).suffix}"][key] = None
     parts = [BEGIN + "\nconst CORPUS = {\n"]
     for name, e in corpus.items():
         segs = ",\n        ".join(
@@ -126,10 +154,16 @@ def main() -> None:
         )
         extra = ",\n    ".join(
             f"{key}: {js_str(e[key]) if e[key] else 'null'}"
-            for key in ("qwen3", "whisper", "parakeet", "largev3", "distil", *TXT_ENGINES.values(), *JSON_ENGINES.values())
+            for key in ("qwen3", "whisper", "parakeet", "largev3", "distil", "whistle", "phonon2", *TXT_ENGINES.values(), *JSON_ENGINES.values())
         )
+        flags = "".join(
+            f", {flag}: true" if e.get(flag) else ""
+            for flag in ("humanRef",)
+        )
+        if e.get("refText"):
+            flags += f", refText: {js_str(e['refText'])}"
         parts.append(
-            f"  {js_str(name)}: {{ meta: {js_str(e['meta'])}, audio: {js_str(e['audio'])},\n"
+            f"  {js_str(name)}: {{ meta: {js_str(e['meta'])}, audio: {js_str(e['audio'])}{flags},\n"
             f"    vvv: [\n        {segs},\n    ],\n"
             f"    {extra} }},\n"
         )

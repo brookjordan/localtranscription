@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "results" / "assets" / "corpus"
 OUTDIR = ROOT / "results" / "corpus"
 MODEL = "mlx-community/parakeet-tdt-0.6b-v3"
+HUMAN = [ROOT / "results/assets/brook.wav", ROOT / "results/assets/wav/silly.wav", ROOT / "results/assets/wav/sing.wav"]
 
 
 def main() -> None:
@@ -22,6 +23,12 @@ def main() -> None:
 
     model = from_pretrained(MODEL)
     waves = sorted(ASSETS.glob("*.wav"))
+    for human in HUMAN:
+        if human.exists():
+            waves.append(human)
+        else:
+            print(f"MISSING human clip: {human}", flush=True)
+    waves = sorted(waves, key=lambda p: (p.parent != ASSETS, p.name))
     print(f"parakeet corpus: {len(waves)} files, model={MODEL}", flush=True)
     total_audio = 0.0
     total_wall = 0.0
