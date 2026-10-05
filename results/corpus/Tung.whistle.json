@@ -1,0 +1,240 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "I went back to Hanoi for two weeks, spent times with my family and friends there, went for a private feminine coaching with my kids, and we enjoyed the food, not the weather, locally placed the fee memories.",
+  "language": "en",
+  "words": [
+    {
+      "word": "I",
+      "start": 0.72,
+      "end": 0.88,
+      "probability": 0.992
+    },
+    {
+      "word": "went",
+      "start": 0.88,
+      "end": 1.04,
+      "probability": 0.989
+    },
+    {
+      "word": "back",
+      "start": 1.04,
+      "end": 1.28,
+      "probability": 0.999
+    },
+    {
+      "word": "to",
+      "start": 1.28,
+      "end": 1.92,
+      "probability": 0.999
+    },
+    {
+      "word": "Hanoi",
+      "start": 1.92,
+      "end": 2.48,
+      "probability": 0.836
+    },
+    {
+      "word": "for",
+      "start": 2.48,
+      "end": 2.72,
+      "probability": 0.984
+    },
+    {
+      "word": "two",
+      "start": 2.72,
+      "end": 2.96,
+      "probability": 0.979
+    },
+    {
+      "word": "weeks,",
+      "start": 2.96,
+      "end": 3.28,
+      "probability": 0.999
+    },
+    {
+      "word": "spent",
+      "start": 4.0,
+      "end": 4.16,
+      "probability": 0.732
+    },
+    {
+      "word": "times",
+      "start": 4.16,
+      "end": 4.56,
+      "probability": 0.78
+    },
+    {
+      "word": "with",
+      "start": 4.56,
+      "end": 4.72,
+      "probability": 0.952
+    },
+    {
+      "word": "my",
+      "start": 4.72,
+      "end": 4.96,
+      "probability": 0.999
+    },
+    {
+      "word": "family",
+      "start": 4.96,
+      "end": 5.44,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 5.44,
+      "end": 5.68,
+      "probability": 0.999
+    },
+    {
+      "word": "friends",
+      "start": 5.68,
+      "end": 5.92,
+      "probability": 1.0
+    },
+    {
+      "word": "there,",
+      "start": 5.92,
+      "end": 6.32,
+      "probability": 0.996
+    },
+    {
+      "word": "went",
+      "start": 7.12,
+      "end": 7.2,
+      "probability": 0.918
+    },
+    {
+      "word": "for",
+      "start": 7.2,
+      "end": 7.52,
+      "probability": 0.993
+    },
+    {
+      "word": "a",
+      "start": 7.52,
+      "end": 7.6,
+      "probability": 0.697
+    },
+    {
+      "word": "private",
+      "start": 7.6,
+      "end": 8.0,
+      "probability": 0.594
+    },
+    {
+      "word": "feminine",
+      "start": 8.0,
+      "end": 8.64,
+      "probability": 0.609
+    },
+    {
+      "word": "coaching",
+      "start": 8.64,
+      "end": 9.12,
+      "probability": 0.927
+    },
+    {
+      "word": "with",
+      "start": 9.12,
+      "end": 9.52,
+      "probability": 0.859
+    },
+    {
+      "word": "my",
+      "start": 9.52,
+      "end": 9.76,
+      "probability": 0.999
+    },
+    {
+      "word": "kids,",
+      "start": 9.76,
+      "end": 10.16,
+      "probability": 0.842
+    },
+    {
+      "word": "and",
+      "start": 10.4,
+      "end": 10.64,
+      "probability": 0.995
+    },
+    {
+      "word": "we",
+      "start": 10.64,
+      "end": 10.96,
+      "probability": 0.997
+    },
+    {
+      "word": "enjoyed",
+      "start": 10.96,
+      "end": 11.68,
+      "probability": 0.965
+    },
+    {
+      "word": "the",
+      "start": 11.68,
+      "end": 11.84,
+      "probability": 0.989
+    },
+    {
+      "word": "food,",
+      "start": 11.84,
+      "end": 12.08,
+      "probability": 0.649
+    },
+    {
+      "word": "not",
+      "start": 12.32,
+      "end": 12.4,
+      "probability": 0.996
+    },
+    {
+      "word": "the",
+      "start": 12.4,
+      "end": 12.64,
+      "probability": 0.996
+    },
+    {
+      "word": "weather,",
+      "start": 12.64,
+      "end": 12.88,
+      "probability": 0.997
+    },
+    {
+      "word": "locally",
+      "start": 14.64,
+      "end": 14.88,
+      "probability": 0.646
+    },
+    {
+      "word": "placed",
+      "start": 14.88,
+      "end": 15.52,
+      "probability": 0.979
+    },
+    {
+      "word": "the",
+      "start": 15.52,
+      "end": 15.76,
+      "probability": 0.32
+    },
+    {
+      "word": "fee",
+      "start": 15.76,
+      "end": 16.08,
+      "probability": 0.625
+    },
+    {
+      "word": "memories.",
+      "start": 16.08,
+      "end": 16.48,
+      "probability": 0.995
+    }
+  ],
+  "wall_s": 0.095,
+  "status": "ok",
+  "duration_s": 18.2613125,
+  "rtf": 0.0052
+}

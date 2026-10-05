@@ -1,0 +1,9 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "wall_s": 0.002,
+  "status": "error",
+  "error": "audio limit is 30 s",
+  "duration_s": 31.68,
+  "rtf": 0.0001
+}

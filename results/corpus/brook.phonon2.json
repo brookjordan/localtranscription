@@ -1,0 +1,10 @@
+{
+  "engine": "phonon-2",
+  "model": "FermionResearch/Phonon-2",
+  "text": "Okay then, let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I make it up and I'll transcribe it later.",
+  "wall_s": 0.428,
+  "status": "ok",
+  "decode_s": 12.032,
+  "duration_s": 12.032,
+  "rtf": 0.0356
+}

@@ -1,0 +1,49 @@
+{
+ "model": "distil-large-v3",
+ "audio_file": "sing.wav",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.04,
+   "speaker": null,
+   "text": "Okay, so this time I'm going to test various things like if it can hear me when I'm banging,"
+  },
+  {
+   "start": 6.04,
+   "end": 11.46,
+   "speaker": null,
+   "text": "if it gets different noises or if you can recognise sound,"
+  },
+  {
+   "start": 14.66,
+   "end": 17.14,
+   "speaker": null,
+   "text": "and if I can tell when I start to sing,"
+  },
+  {
+   "start": 17.58,
+   "end": 20.78,
+   "speaker": null,
+   "text": "or if the things I'm talking and it doesn't know anything,"
+  },
+  {
+   "start": 21.48,
+   "end": 26.0,
+   "speaker": null,
+   "text": "doesn't know anything, does it just think I'm talking normally?"
+  },
+  {
+   "start": 26.66,
+   "end": 29.24,
+   "speaker": null,
+   "text": "Does it just think I'm talking normally?"
+  },
+  {
+   "start": 30.0,
+   "end": 31.0,
+   "speaker": null,
+   "text": "Let's see."
+  }
+ ],
+ "text": "Okay, so this time I'm going to test various things like if it can hear me when I'm banging, if it gets different noises or if you can recognise sound, and if I can tell when I start to sing, or if the things I'm talking and it doesn't know anything, doesn't know anything, does it just think I'm talking normally? Does it just think I'm talking normally? Let's see."
+}

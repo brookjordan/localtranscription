@@ -1,0 +1,469 @@
+{
+  "schema": 1,
+  "generated_from": "results/corpus/segments",
+  "base_url": "https://assets.brook.dev/localtranscription/",
+  "audio": [
+    {
+      "source": "NAS:brook.wav",
+      "path": "brook.wav",
+      "url": "https://assets.brook.dev/localtranscription/brook.wav"
+    },
+    {
+      "source": "NAS:conrad.wav",
+      "path": "conrad.wav",
+      "url": "https://assets.brook.dev/localtranscription/conrad.wav"
+    },
+    {
+      "source": "NAS:silly.m4a",
+      "path": "silly.m4a",
+      "url": "https://assets.brook.dev/localtranscription/silly.m4a"
+    },
+    {
+      "source": "NAS:sing.mp3",
+      "path": "sing.mp3",
+      "url": "https://assets.brook.dev/localtranscription/sing.mp3"
+    },
+    {
+      "source": "NAS:corpus/antony billington.wav",
+      "path": "corpus/antony billington.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/antony%20billington.wav"
+    },
+    {
+      "source": "NAS:corpus/Balajee.wav",
+      "path": "corpus/Balajee.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Balajee.wav"
+    },
+    {
+      "source": "NAS:corpus/Brett.wav",
+      "path": "corpus/Brett.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Brett.wav"
+    },
+    {
+      "source": "NAS:corpus/Brook 2.wav",
+      "path": "corpus/Brook 2.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Brook%202.wav"
+    },
+    {
+      "source": "NAS:corpus/Dave.wav",
+      "path": "corpus/Dave.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Dave.wav"
+    },
+    {
+      "source": "NAS:corpus/lockpicking lawyer voice.wav",
+      "path": "corpus/lockpicking lawyer voice.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/lockpicking%20lawyer%20voice.wav"
+    },
+    {
+      "source": "NAS:corpus/Mum's voice.wav",
+      "path": "corpus/Mum's voice.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Mum's%20voice.wav"
+    },
+    {
+      "source": "NAS:corpus/Nana Chris.wav",
+      "path": "corpus/Nana Chris.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Nana%20Chris.wav"
+    },
+    {
+      "source": "NAS:corpus/Ping.wav",
+      "path": "corpus/Ping.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Ping.wav"
+    },
+    {
+      "source": "NAS:corpus/Pritisman.wav",
+      "path": "corpus/Pritisman.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Pritisman.wav"
+    },
+    {
+      "source": "NAS:corpus/Tung.wav",
+      "path": "corpus/Tung.wav",
+      "url": "https://assets.brook.dev/localtranscription/corpus/Tung.wav"
+    },
+    {
+      "source": "NAS:silly.wav",
+      "path": "silly.wav",
+      "url": "https://assets.brook.dev/localtranscription/silly.wav"
+    },
+    {
+      "source": "NAS:sing.wav",
+      "path": "sing.wav",
+      "url": "https://assets.brook.dev/localtranscription/sing.wav"
+    }
+  ],
+  "segments": [
+    {
+      "source": "results/corpus/segments/chunked/Balajee/Balajee.chunk00.wav",
+      "path": "segments/chunked/Balajee/Balajee.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Balajee/Balajee.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Balajee/Balajee.chunk01.wav",
+      "path": "segments/chunked/Balajee/Balajee.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Balajee/Balajee.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Balajee/Balajee.chunk02.wav",
+      "path": "segments/chunked/Balajee/Balajee.chunk02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Balajee/Balajee.chunk02.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Balajee/Balajee.chunk03.wav",
+      "path": "segments/chunked/Balajee/Balajee.chunk03.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Balajee/Balajee.chunk03.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Balajee/Balajee.chunk04.wav",
+      "path": "segments/chunked/Balajee/Balajee.chunk04.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Balajee/Balajee.chunk04.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Balajee/Balajee.chunk05.wav",
+      "path": "segments/chunked/Balajee/Balajee.chunk05.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Balajee/Balajee.chunk05.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Brett/Brett.chunk00.wav",
+      "path": "segments/chunked/Brett/Brett.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Brett/Brett.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Brett/Brett.chunk01.wav",
+      "path": "segments/chunked/Brett/Brett.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Brett/Brett.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Brett/Brett.chunk02.wav",
+      "path": "segments/chunked/Brett/Brett.chunk02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Brett/Brett.chunk02.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Brook 2/Brook 2.chunk00.wav",
+      "path": "segments/chunked/Brook 2/Brook 2.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Brook%202/Brook%202.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Brook 2/Brook 2.chunk01.wav",
+      "path": "segments/chunked/Brook 2/Brook 2.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Brook%202/Brook%202.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Brook 2/Brook 2.chunk02.wav",
+      "path": "segments/chunked/Brook 2/Brook 2.chunk02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Brook%202/Brook%202.chunk02.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Dave/Dave.chunk00.wav",
+      "path": "segments/chunked/Dave/Dave.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Dave/Dave.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Dave/Dave.chunk01.wav",
+      "path": "segments/chunked/Dave/Dave.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Dave/Dave.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Mum's voice/Mum's voice.chunk00.wav",
+      "path": "segments/chunked/Mum's voice/Mum's voice.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Mum's%20voice/Mum's%20voice.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Mum's voice/Mum's voice.chunk01.wav",
+      "path": "segments/chunked/Mum's voice/Mum's voice.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Mum's%20voice/Mum's%20voice.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Mum's voice/Mum's voice.chunk02.wav",
+      "path": "segments/chunked/Mum's voice/Mum's voice.chunk02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Mum's%20voice/Mum's%20voice.chunk02.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Nana Chris/Nana Chris.chunk00.wav",
+      "path": "segments/chunked/Nana Chris/Nana Chris.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Nana%20Chris/Nana%20Chris.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Nana Chris/Nana Chris.chunk01.wav",
+      "path": "segments/chunked/Nana Chris/Nana Chris.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Nana%20Chris/Nana%20Chris.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Ping/Ping.chunk00.wav",
+      "path": "segments/chunked/Ping/Ping.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Ping/Ping.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Ping/Ping.chunk01.wav",
+      "path": "segments/chunked/Ping/Ping.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Ping/Ping.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Pritisman/Pritisman.chunk00.wav",
+      "path": "segments/chunked/Pritisman/Pritisman.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Pritisman/Pritisman.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Pritisman/Pritisman.chunk01.wav",
+      "path": "segments/chunked/Pritisman/Pritisman.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Pritisman/Pritisman.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/Tung/Tung.chunk00.wav",
+      "path": "segments/chunked/Tung/Tung.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/Tung/Tung.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/antony billington/antony billington.chunk00.wav",
+      "path": "segments/chunked/antony billington/antony billington.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/antony%20billington/antony%20billington.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/antony billington/antony billington.chunk01.wav",
+      "path": "segments/chunked/antony billington/antony billington.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/antony%20billington/antony%20billington.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/brook/brook.chunk00.wav",
+      "path": "segments/chunked/brook/brook.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/brook/brook.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/conrad/conrad.chunk00.wav",
+      "path": "segments/chunked/conrad/conrad.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/conrad/conrad.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/conrad/conrad.chunk01.wav",
+      "path": "segments/chunked/conrad/conrad.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/conrad/conrad.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/lockpicking lawyer voice/lockpicking lawyer voice.chunk00.wav",
+      "path": "segments/chunked/lockpicking lawyer voice/lockpicking lawyer voice.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/lockpicking%20lawyer%20voice/lockpicking%20lawyer%20voice.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/lockpicking lawyer voice/lockpicking lawyer voice.chunk01.wav",
+      "path": "segments/chunked/lockpicking lawyer voice/lockpicking lawyer voice.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/lockpicking%20lawyer%20voice/lockpicking%20lawyer%20voice.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/silly/silly.chunk00.wav",
+      "path": "segments/chunked/silly/silly.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/silly/silly.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/sing/sing.chunk00.wav",
+      "path": "segments/chunked/sing/sing.chunk00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/sing/sing.chunk00.wav"
+    },
+    {
+      "source": "results/corpus/segments/chunked/sing/sing.chunk01.wav",
+      "path": "segments/chunked/sing/sing.chunk01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/chunked/sing/sing.chunk01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad00.wav",
+      "path": "segments/vad/Balajee/Balajee.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad01.wav",
+      "path": "segments/vad/Balajee/Balajee.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad02.wav",
+      "path": "segments/vad/Balajee/Balajee.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad03.wav",
+      "path": "segments/vad/Balajee/Balajee.vad03.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad03.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad04.wav",
+      "path": "segments/vad/Balajee/Balajee.vad04.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad04.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad05.wav",
+      "path": "segments/vad/Balajee/Balajee.vad05.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad05.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad06.wav",
+      "path": "segments/vad/Balajee/Balajee.vad06.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad06.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Balajee/Balajee.vad07.wav",
+      "path": "segments/vad/Balajee/Balajee.vad07.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Balajee/Balajee.vad07.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Brett/Brett.vad00.wav",
+      "path": "segments/vad/Brett/Brett.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Brett/Brett.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Brett/Brett.vad01.wav",
+      "path": "segments/vad/Brett/Brett.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Brett/Brett.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Brett/Brett.vad02.wav",
+      "path": "segments/vad/Brett/Brett.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Brett/Brett.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Brook 2/Brook 2.vad00.wav",
+      "path": "segments/vad/Brook 2/Brook 2.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Brook%202/Brook%202.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Brook 2/Brook 2.vad01.wav",
+      "path": "segments/vad/Brook 2/Brook 2.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Brook%202/Brook%202.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Brook 2/Brook 2.vad02.wav",
+      "path": "segments/vad/Brook 2/Brook 2.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Brook%202/Brook%202.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Dave/Dave.vad00.wav",
+      "path": "segments/vad/Dave/Dave.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Dave/Dave.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Dave/Dave.vad01.wav",
+      "path": "segments/vad/Dave/Dave.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Dave/Dave.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Dave/Dave.vad02.wav",
+      "path": "segments/vad/Dave/Dave.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Dave/Dave.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Mum's voice/Mum's voice.vad00.wav",
+      "path": "segments/vad/Mum's voice/Mum's voice.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Mum's%20voice/Mum's%20voice.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Mum's voice/Mum's voice.vad01.wav",
+      "path": "segments/vad/Mum's voice/Mum's voice.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Mum's%20voice/Mum's%20voice.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Mum's voice/Mum's voice.vad02.wav",
+      "path": "segments/vad/Mum's voice/Mum's voice.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Mum's%20voice/Mum's%20voice.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Mum's voice/Mum's voice.vad03.wav",
+      "path": "segments/vad/Mum's voice/Mum's voice.vad03.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Mum's%20voice/Mum's%20voice.vad03.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Nana Chris/Nana Chris.vad00.wav",
+      "path": "segments/vad/Nana Chris/Nana Chris.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Nana%20Chris/Nana%20Chris.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Nana Chris/Nana Chris.vad01.wav",
+      "path": "segments/vad/Nana Chris/Nana Chris.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Nana%20Chris/Nana%20Chris.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Ping/Ping.vad00.wav",
+      "path": "segments/vad/Ping/Ping.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Ping/Ping.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Ping/Ping.vad01.wav",
+      "path": "segments/vad/Ping/Ping.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Ping/Ping.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Ping/Ping.vad02.wav",
+      "path": "segments/vad/Ping/Ping.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Ping/Ping.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Pritisman/Pritisman.vad00.wav",
+      "path": "segments/vad/Pritisman/Pritisman.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Pritisman/Pritisman.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Pritisman/Pritisman.vad01.wav",
+      "path": "segments/vad/Pritisman/Pritisman.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Pritisman/Pritisman.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/Tung/Tung.vad00.wav",
+      "path": "segments/vad/Tung/Tung.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/Tung/Tung.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/antony billington/_probe25s.wav",
+      "path": "segments/vad/antony billington/_probe25s.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/antony%20billington/_probe25s.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/antony billington/antony billington.vad00.wav",
+      "path": "segments/vad/antony billington/antony billington.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/antony%20billington/antony%20billington.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/antony billington/antony billington.vad01.wav",
+      "path": "segments/vad/antony billington/antony billington.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/antony%20billington/antony%20billington.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/antony billington/antony billington.vad02.wav",
+      "path": "segments/vad/antony billington/antony billington.vad02.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/antony%20billington/antony%20billington.vad02.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/brook/brook.vad00.wav",
+      "path": "segments/vad/brook/brook.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/brook/brook.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/conrad/conrad.vad00.wav",
+      "path": "segments/vad/conrad/conrad.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/conrad/conrad.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/conrad/conrad.vad01.wav",
+      "path": "segments/vad/conrad/conrad.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/conrad/conrad.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/lockpicking lawyer voice/lockpicking lawyer voice.vad00.wav",
+      "path": "segments/vad/lockpicking lawyer voice/lockpicking lawyer voice.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/lockpicking%20lawyer%20voice/lockpicking%20lawyer%20voice.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/lockpicking lawyer voice/lockpicking lawyer voice.vad01.wav",
+      "path": "segments/vad/lockpicking lawyer voice/lockpicking lawyer voice.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/lockpicking%20lawyer%20voice/lockpicking%20lawyer%20voice.vad01.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/silly/silly.vad00.wav",
+      "path": "segments/vad/silly/silly.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/silly/silly.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/sing/sing.vad00.wav",
+      "path": "segments/vad/sing/sing.vad00.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/sing/sing.vad00.wav"
+    },
+    {
+      "source": "results/corpus/segments/vad/sing/sing.vad01.wav",
+      "path": "segments/vad/sing/sing.vad01.wav",
+      "url": "https://assets.brook.dev/localtranscription/segments/vad/sing/sing.vad01.wav"
+    }
+  ]
+}

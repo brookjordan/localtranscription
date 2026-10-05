@@ -13,8 +13,7 @@ The canonical project, evaluation code, results, and publishable site live in:
 ├── docs/          evaluation notes and technical documentation
 ├── results/       transcripts, JSON measurements, logs that are safe to track,
 │                  and the comparison dashboard
-├── site/          canonical project page + atomic devlog + banner images
-└── site-assets/   generated banner source files used by site/
+└── site/          canonical project page + atomic devlog + CSS/assets
 ```
 
 When creating or revising a project page or devlog post, work in `site/` here:
@@ -51,12 +50,16 @@ To publish a site update:
 4. Commit and push the website repository separately.
 5. Verify the published project URL and every referenced public asset.
 
-A normal copy command is:
+The checked-in publication command is:
 
 ```zsh
-rsync -a --delete localtranscription/site/ \
-  brookjordan.github.io/projects/localtranscription/
+npm run site:check
+npm run site:publish
 ```
+
+`site:publish` is deliberately guarded and only targets
+`brookjordan.github.io/projects/localtranscription/`; it uses `rsync -a --delete`
+after `site:check` has passed.
 
 `--delete` is intentional only when the source and destination are confirmed;
 never point it at the wrong directory.

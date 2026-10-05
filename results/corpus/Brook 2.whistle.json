@@ -1,0 +1,1086 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "Biron was at his best and most characteristic in the long poem. Child Harold's pilgrimage was a sensation that made his name, and Don Juan was the book linked virtue of so extravaganza that sealed the deal. But any one who doubts that Biron could have shone if confined a shorter poems should take a close look at this one, and check out the perfection of his balance. One shade the more, one ray the less. There's the tiny example of the impetus he could keep up for pages. The only thing that makes this particular bioronic poem non-bioronic is that it professedly to do with innocence. The innocence is at the heart of the narrators' fancy young lady and certainly she is more innocent than Byron truly thought life or love could ever be. She might come good later. I she might turn bad. But at the moment she is just a stack of ice to kick. Trembling in the stripped slip stream as Byron sweeps by on his way to the prairies unknown in her sweet dreams.",
+  "language": "en",
+  "words": [
+    {
+      "word": "Biron",
+      "start": 1.52,
+      "end": 1.92,
+      "probability": 0.308
+    },
+    {
+      "word": "was",
+      "start": 1.92,
+      "end": 2.16,
+      "probability": 0.995
+    },
+    {
+      "word": "at",
+      "start": 2.16,
+      "end": 2.24,
+      "probability": 0.956
+    },
+    {
+      "word": "his",
+      "start": 2.24,
+      "end": 2.4,
+      "probability": 0.996
+    },
+    {
+      "word": "best",
+      "start": 2.4,
+      "end": 2.8,
+      "probability": 0.987
+    },
+    {
+      "word": "and",
+      "start": 2.8,
+      "end": 3.2,
+      "probability": 0.607
+    },
+    {
+      "word": "most",
+      "start": 3.2,
+      "end": 3.44,
+      "probability": 0.918
+    },
+    {
+      "word": "characteristic",
+      "start": 3.44,
+      "end": 4.24,
+      "probability": 0.989
+    },
+    {
+      "word": "in",
+      "start": 4.24,
+      "end": 4.64,
+      "probability": 0.976
+    },
+    {
+      "word": "the",
+      "start": 4.64,
+      "end": 4.8,
+      "probability": 0.994
+    },
+    {
+      "word": "long",
+      "start": 4.8,
+      "end": 4.96,
+      "probability": 0.897
+    },
+    {
+      "word": "poem.",
+      "start": 4.96,
+      "end": 5.44,
+      "probability": 0.893
+    },
+    {
+      "word": "Child",
+      "start": 6.8,
+      "end": 7.28,
+      "probability": 0.704
+    },
+    {
+      "word": "Harold's",
+      "start": 7.28,
+      "end": 8.0,
+      "probability": 0.735
+    },
+    {
+      "word": "pilgrimage",
+      "start": 8.0,
+      "end": 8.64,
+      "probability": 0.972
+    },
+    {
+      "word": "was",
+      "start": 8.64,
+      "end": 9.2,
+      "probability": 0.997
+    },
+    {
+      "word": "a",
+      "start": 9.2,
+      "end": 9.28,
+      "probability": 0.987
+    },
+    {
+      "word": "sensation",
+      "start": 9.28,
+      "end": 9.84,
+      "probability": 0.993
+    },
+    {
+      "word": "that",
+      "start": 9.84,
+      "end": 10.0,
+      "probability": 0.991
+    },
+    {
+      "word": "made",
+      "start": 10.0,
+      "end": 10.16,
+      "probability": 1.0
+    },
+    {
+      "word": "his",
+      "start": 10.16,
+      "end": 10.32,
+      "probability": 0.993
+    },
+    {
+      "word": "name,",
+      "start": 10.32,
+      "end": 10.48,
+      "probability": 0.999
+    },
+    {
+      "word": "and",
+      "start": 11.04,
+      "end": 11.2,
+      "probability": 0.993
+    },
+    {
+      "word": "Don",
+      "start": 11.2,
+      "end": 11.44,
+      "probability": 0.924
+    },
+    {
+      "word": "Juan",
+      "start": 11.44,
+      "end": 11.92,
+      "probability": 0.974
+    },
+    {
+      "word": "was",
+      "start": 11.92,
+      "end": 12.24,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 12.24,
+      "end": 12.4,
+      "probability": 0.837
+    },
+    {
+      "word": "book",
+      "start": 12.4,
+      "end": 12.56,
+      "probability": 0.916
+    },
+    {
+      "word": "linked",
+      "start": 12.56,
+      "end": 12.96,
+      "probability": 0.879
+    },
+    {
+      "word": "virtue",
+      "start": 12.96,
+      "end": 13.28,
+      "probability": 0.577
+    },
+    {
+      "word": "of",
+      "start": 13.28,
+      "end": 13.36,
+      "probability": 0.431
+    },
+    {
+      "word": "so",
+      "start": 13.36,
+      "end": 13.6,
+      "probability": 0.337
+    },
+    {
+      "word": "extravaganza",
+      "start": 13.6,
+      "end": 14.72,
+      "probability": 0.877
+    },
+    {
+      "word": "that",
+      "start": 14.72,
+      "end": 14.96,
+      "probability": 0.989
+    },
+    {
+      "word": "sealed",
+      "start": 14.96,
+      "end": 15.44,
+      "probability": 0.97
+    },
+    {
+      "word": "the",
+      "start": 15.44,
+      "end": 15.44,
+      "probability": 0.874
+    },
+    {
+      "word": "deal.",
+      "start": 15.44,
+      "end": 15.68,
+      "probability": 0.972
+    },
+    {
+      "word": "But",
+      "start": 16.48,
+      "end": 16.72,
+      "probability": 0.985
+    },
+    {
+      "word": "any",
+      "start": 16.72,
+      "end": 17.52,
+      "probability": 0.716
+    },
+    {
+      "word": "one",
+      "start": 17.52,
+      "end": 17.68,
+      "probability": 0.989
+    },
+    {
+      "word": "who",
+      "start": 17.68,
+      "end": 17.84,
+      "probability": 0.999
+    },
+    {
+      "word": "doubts",
+      "start": 17.84,
+      "end": 18.08,
+      "probability": 0.995
+    },
+    {
+      "word": "that",
+      "start": 18.08,
+      "end": 18.24,
+      "probability": 0.953
+    },
+    {
+      "word": "Biron",
+      "start": 18.24,
+      "end": 18.56,
+      "probability": 0.809
+    },
+    {
+      "word": "could",
+      "start": 18.56,
+      "end": 18.88,
+      "probability": 0.998
+    },
+    {
+      "word": "have",
+      "start": 18.88,
+      "end": 19.04,
+      "probability": 0.998
+    },
+    {
+      "word": "shone",
+      "start": 19.04,
+      "end": 19.44,
+      "probability": 0.944
+    },
+    {
+      "word": "if",
+      "start": 19.44,
+      "end": 19.84,
+      "probability": 0.837
+    },
+    {
+      "word": "confined",
+      "start": 19.84,
+      "end": 20.24,
+      "probability": 0.977
+    },
+    {
+      "word": "a",
+      "start": 20.24,
+      "end": 20.32,
+      "probability": 0.547
+    },
+    {
+      "word": "shorter",
+      "start": 20.32,
+      "end": 20.64,
+      "probability": 0.826
+    },
+    {
+      "word": "poems",
+      "start": 20.64,
+      "end": 21.04,
+      "probability": 0.934
+    },
+    {
+      "word": "should",
+      "start": 21.04,
+      "end": 21.2,
+      "probability": 0.904
+    },
+    {
+      "word": "take",
+      "start": 21.2,
+      "end": 21.44,
+      "probability": 0.998
+    },
+    {
+      "word": "a",
+      "start": 21.44,
+      "end": 21.6,
+      "probability": 0.955
+    },
+    {
+      "word": "close",
+      "start": 21.6,
+      "end": 21.84,
+      "probability": 0.972
+    },
+    {
+      "word": "look",
+      "start": 21.84,
+      "end": 22.24,
+      "probability": 0.999
+    },
+    {
+      "word": "at",
+      "start": 22.24,
+      "end": 22.48,
+      "probability": 0.999
+    },
+    {
+      "word": "this",
+      "start": 22.48,
+      "end": 22.72,
+      "probability": 0.997
+    },
+    {
+      "word": "one,",
+      "start": 22.72,
+      "end": 22.96,
+      "probability": 0.999
+    },
+    {
+      "word": "and",
+      "start": 23.44,
+      "end": 23.6,
+      "probability": 0.998
+    },
+    {
+      "word": "check",
+      "start": 23.6,
+      "end": 23.76,
+      "probability": 0.983
+    },
+    {
+      "word": "out",
+      "start": 23.76,
+      "end": 24.0,
+      "probability": 1.0
+    },
+    {
+      "word": "the",
+      "start": 24.0,
+      "end": 24.08,
+      "probability": 0.997
+    },
+    {
+      "word": "perfection",
+      "start": 24.08,
+      "end": 24.56,
+      "probability": 0.997
+    },
+    {
+      "word": "of",
+      "start": 24.56,
+      "end": 24.72,
+      "probability": 0.999
+    },
+    {
+      "word": "his",
+      "start": 24.72,
+      "end": 24.88,
+      "probability": 0.995
+    },
+    {
+      "word": "balance.",
+      "start": 24.88,
+      "end": 25.2,
+      "probability": 0.979
+    },
+    {
+      "word": "One",
+      "start": 26.24,
+      "end": 26.4,
+      "probability": 0.956
+    },
+    {
+      "word": "shade",
+      "start": 26.4,
+      "end": 26.8,
+      "probability": 0.9
+    },
+    {
+      "word": "the",
+      "start": 26.8,
+      "end": 26.96,
+      "probability": 0.866
+    },
+    {
+      "word": "more,",
+      "start": 26.96,
+      "end": 27.28,
+      "probability": 0.988
+    },
+    {
+      "word": "one",
+      "start": 27.92,
+      "end": 28.16,
+      "probability": 0.992
+    },
+    {
+      "word": "ray",
+      "start": 28.16,
+      "end": 28.4,
+      "probability": 0.681
+    },
+    {
+      "word": "the",
+      "start": 28.4,
+      "end": 28.56,
+      "probability": 0.486
+    },
+    {
+      "word": "less.",
+      "start": 28.56,
+      "end": 28.88,
+      "probability": 0.994
+    },
+    {
+      "word": "There's",
+      "start": 29.5,
+      "end": 29.74,
+      "probability": 0.797
+    },
+    {
+      "word": "the",
+      "start": 29.74,
+      "end": 29.82,
+      "probability": 0.868
+    },
+    {
+      "word": "tiny",
+      "start": 29.82,
+      "end": 30.22,
+      "probability": 0.996
+    },
+    {
+      "word": "example",
+      "start": 30.22,
+      "end": 30.78,
+      "probability": 0.999
+    },
+    {
+      "word": "of",
+      "start": 30.78,
+      "end": 30.94,
+      "probability": 1.0
+    },
+    {
+      "word": "the",
+      "start": 30.94,
+      "end": 31.1,
+      "probability": 0.998
+    },
+    {
+      "word": "impetus",
+      "start": 31.1,
+      "end": 31.5,
+      "probability": 0.682
+    },
+    {
+      "word": "he",
+      "start": 31.5,
+      "end": 31.66,
+      "probability": 0.768
+    },
+    {
+      "word": "could",
+      "start": 31.66,
+      "end": 31.82,
+      "probability": 0.993
+    },
+    {
+      "word": "keep",
+      "start": 31.82,
+      "end": 31.98,
+      "probability": 1.0
+    },
+    {
+      "word": "up",
+      "start": 31.98,
+      "end": 32.22,
+      "probability": 0.999
+    },
+    {
+      "word": "for",
+      "start": 32.22,
+      "end": 32.46,
+      "probability": 0.987
+    },
+    {
+      "word": "pages.",
+      "start": 32.46,
+      "end": 33.1,
+      "probability": 0.989
+    },
+    {
+      "word": "The",
+      "start": 33.980000000000004,
+      "end": 34.06,
+      "probability": 0.999
+    },
+    {
+      "word": "only",
+      "start": 34.06,
+      "end": 34.22,
+      "probability": 0.999
+    },
+    {
+      "word": "thing",
+      "start": 34.22,
+      "end": 34.46,
+      "probability": 1.0
+    },
+    {
+      "word": "that",
+      "start": 34.46,
+      "end": 34.62,
+      "probability": 1.0
+    },
+    {
+      "word": "makes",
+      "start": 34.62,
+      "end": 34.78,
+      "probability": 0.999
+    },
+    {
+      "word": "this",
+      "start": 34.78,
+      "end": 34.94,
+      "probability": 1.0
+    },
+    {
+      "word": "particular",
+      "start": 34.94,
+      "end": 35.5,
+      "probability": 0.999
+    },
+    {
+      "word": "bioronic",
+      "start": 35.5,
+      "end": 35.980000000000004,
+      "probability": 0.568
+    },
+    {
+      "word": "poem",
+      "start": 35.980000000000004,
+      "end": 36.3,
+      "probability": 0.982
+    },
+    {
+      "word": "non-bioronic",
+      "start": 36.3,
+      "end": 37.74,
+      "probability": 0.899
+    },
+    {
+      "word": "is",
+      "start": 37.74,
+      "end": 38.3,
+      "probability": 0.996
+    },
+    {
+      "word": "that",
+      "start": 38.3,
+      "end": 38.46,
+      "probability": 1.0
+    },
+    {
+      "word": "it",
+      "start": 38.46,
+      "end": 38.54,
+      "probability": 1.0
+    },
+    {
+      "word": "professedly",
+      "start": 38.54,
+      "end": 39.34,
+      "probability": 0.924
+    },
+    {
+      "word": "to",
+      "start": 39.34,
+      "end": 40.22,
+      "probability": 0.987
+    },
+    {
+      "word": "do",
+      "start": 40.22,
+      "end": 40.38,
+      "probability": 0.994
+    },
+    {
+      "word": "with",
+      "start": 40.38,
+      "end": 40.62,
+      "probability": 0.998
+    },
+    {
+      "word": "innocence.",
+      "start": 40.62,
+      "end": 41.18,
+      "probability": 0.999
+    },
+    {
+      "word": "The",
+      "start": 41.82,
+      "end": 41.980000000000004,
+      "probability": 0.999
+    },
+    {
+      "word": "innocence",
+      "start": 41.980000000000004,
+      "end": 42.38,
+      "probability": 1.0
+    },
+    {
+      "word": "is",
+      "start": 42.38,
+      "end": 42.54,
+      "probability": 1.0
+    },
+    {
+      "word": "at",
+      "start": 42.54,
+      "end": 42.7,
+      "probability": 0.992
+    },
+    {
+      "word": "the",
+      "start": 42.7,
+      "end": 42.78,
+      "probability": 1.0
+    },
+    {
+      "word": "heart",
+      "start": 42.78,
+      "end": 43.019999999999996,
+      "probability": 1.0
+    },
+    {
+      "word": "of",
+      "start": 43.019999999999996,
+      "end": 43.18,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 43.18,
+      "end": 43.34,
+      "probability": 0.891
+    },
+    {
+      "word": "narrators'",
+      "start": 43.34,
+      "end": 43.74,
+      "probability": 0.836
+    },
+    {
+      "word": "fancy",
+      "start": 43.82,
+      "end": 44.14,
+      "probability": 0.968
+    },
+    {
+      "word": "young",
+      "start": 44.14,
+      "end": 44.46,
+      "probability": 0.664
+    },
+    {
+      "word": "lady",
+      "start": 44.46,
+      "end": 45.1,
+      "probability": 0.998
+    },
+    {
+      "word": "and",
+      "start": 45.1,
+      "end": 45.58,
+      "probability": 0.457
+    },
+    {
+      "word": "certainly",
+      "start": 45.58,
+      "end": 46.06,
+      "probability": 0.998
+    },
+    {
+      "word": "she",
+      "start": 46.06,
+      "end": 46.22,
+      "probability": 0.997
+    },
+    {
+      "word": "is",
+      "start": 46.22,
+      "end": 46.3,
+      "probability": 0.932
+    },
+    {
+      "word": "more",
+      "start": 46.3,
+      "end": 46.54,
+      "probability": 0.998
+    },
+    {
+      "word": "innocent",
+      "start": 46.54,
+      "end": 46.94,
+      "probability": 1.0
+    },
+    {
+      "word": "than",
+      "start": 46.94,
+      "end": 47.18,
+      "probability": 0.835
+    },
+    {
+      "word": "Byron",
+      "start": 47.18,
+      "end": 47.58,
+      "probability": 0.622
+    },
+    {
+      "word": "truly",
+      "start": 47.58,
+      "end": 48.06,
+      "probability": 0.998
+    },
+    {
+      "word": "thought",
+      "start": 48.06,
+      "end": 48.3,
+      "probability": 0.999
+    },
+    {
+      "word": "life",
+      "start": 48.3,
+      "end": 48.7,
+      "probability": 0.984
+    },
+    {
+      "word": "or",
+      "start": 48.7,
+      "end": 49.34,
+      "probability": 0.937
+    },
+    {
+      "word": "love",
+      "start": 49.34,
+      "end": 49.58,
+      "probability": 0.996
+    },
+    {
+      "word": "could",
+      "start": 49.58,
+      "end": 49.739999999999995,
+      "probability": 0.997
+    },
+    {
+      "word": "ever",
+      "start": 49.739999999999995,
+      "end": 49.980000000000004,
+      "probability": 0.979
+    },
+    {
+      "word": "be.",
+      "start": 49.980000000000004,
+      "end": 50.3,
+      "probability": 1.0
+    },
+    {
+      "word": "She",
+      "start": 51.980000000000004,
+      "end": 52.14,
+      "probability": 0.991
+    },
+    {
+      "word": "might",
+      "start": 52.14,
+      "end": 52.379999999999995,
+      "probability": 1.0
+    },
+    {
+      "word": "come",
+      "start": 52.379999999999995,
+      "end": 52.620000000000005,
+      "probability": 0.996
+    },
+    {
+      "word": "good",
+      "start": 52.620000000000005,
+      "end": 53.019999999999996,
+      "probability": 0.998
+    },
+    {
+      "word": "later.",
+      "start": 53.019999999999996,
+      "end": 53.42,
+      "probability": 0.999
+    },
+    {
+      "word": "I",
+      "start": 53.9,
+      "end": 54.06,
+      "probability": 0.563
+    },
+    {
+      "word": "she",
+      "start": 54.06,
+      "end": 54.86,
+      "probability": 0.508
+    },
+    {
+      "word": "might",
+      "start": 54.86,
+      "end": 55.019999999999996,
+      "probability": 0.999
+    },
+    {
+      "word": "turn",
+      "start": 55.019999999999996,
+      "end": 55.260000000000005,
+      "probability": 0.97
+    },
+    {
+      "word": "bad.",
+      "start": 55.260000000000005,
+      "end": 55.66,
+      "probability": 0.995
+    },
+    {
+      "word": "But",
+      "start": 56.22,
+      "end": 56.379999999999995,
+      "probability": 0.996
+    },
+    {
+      "word": "at",
+      "start": 56.379999999999995,
+      "end": 56.46,
+      "probability": 1.0
+    },
+    {
+      "word": "the",
+      "start": 56.46,
+      "end": 56.620000000000005,
+      "probability": 0.999
+    },
+    {
+      "word": "moment",
+      "start": 56.620000000000005,
+      "end": 56.86,
+      "probability": 1.0
+    },
+    {
+      "word": "she",
+      "start": 56.86,
+      "end": 57.34,
+      "probability": 0.907
+    },
+    {
+      "word": "is",
+      "start": 57.34,
+      "end": 57.42,
+      "probability": 0.984
+    },
+    {
+      "word": "just",
+      "start": 57.42,
+      "end": 57.66,
+      "probability": 1.0
+    },
+    {
+      "word": "a",
+      "start": 57.66,
+      "end": 57.82,
+      "probability": 0.99
+    },
+    {
+      "word": "stack",
+      "start": 57.82,
+      "end": 58.22,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 58.22,
+      "end": 58.54,
+      "probability": 0.999
+    },
+    {
+      "word": "ice",
+      "start": 58.54,
+      "end": 58.78,
+      "probability": 0.425
+    },
+    {
+      "word": "to",
+      "start": 58.78,
+      "end": 58.94,
+      "probability": 0.449
+    },
+    {
+      "word": "kick.",
+      "start": 58.94,
+      "end": 58.94,
+      "probability": 0.657
+    },
+    {
+      "word": "Trembling",
+      "start": 59.56,
+      "end": 60.04,
+      "probability": 0.813
+    },
+    {
+      "word": "in",
+      "start": 60.04,
+      "end": 60.2,
+      "probability": 0.954
+    },
+    {
+      "word": "the",
+      "start": 60.2,
+      "end": 60.28,
+      "probability": 0.929
+    },
+    {
+      "word": "stripped",
+      "start": 60.28,
+      "end": 60.68,
+      "probability": 0.52
+    },
+    {
+      "word": "slip",
+      "start": 60.68,
+      "end": 61.72,
+      "probability": 0.732
+    },
+    {
+      "word": "stream",
+      "start": 61.72,
+      "end": 61.96,
+      "probability": 0.733
+    },
+    {
+      "word": "as",
+      "start": 61.96,
+      "end": 62.2,
+      "probability": 0.449
+    },
+    {
+      "word": "Byron",
+      "start": 62.2,
+      "end": 62.6,
+      "probability": 0.804
+    },
+    {
+      "word": "sweeps",
+      "start": 62.6,
+      "end": 63.0,
+      "probability": 0.973
+    },
+    {
+      "word": "by",
+      "start": 63.0,
+      "end": 63.24,
+      "probability": 0.945
+    },
+    {
+      "word": "on",
+      "start": 63.24,
+      "end": 63.480000000000004,
+      "probability": 0.783
+    },
+    {
+      "word": "his",
+      "start": 63.480000000000004,
+      "end": 63.64,
+      "probability": 0.993
+    },
+    {
+      "word": "way",
+      "start": 63.64,
+      "end": 63.88,
+      "probability": 0.999
+    },
+    {
+      "word": "to",
+      "start": 63.88,
+      "end": 64.04,
+      "probability": 0.994
+    },
+    {
+      "word": "the",
+      "start": 64.04,
+      "end": 64.12,
+      "probability": 0.988
+    },
+    {
+      "word": "prairies",
+      "start": 64.12,
+      "end": 64.76,
+      "probability": 0.648
+    },
+    {
+      "word": "unknown",
+      "start": 64.76,
+      "end": 65.64,
+      "probability": 0.829
+    },
+    {
+      "word": "in",
+      "start": 65.64,
+      "end": 65.88,
+      "probability": 0.994
+    },
+    {
+      "word": "her",
+      "start": 65.88,
+      "end": 66.04,
+      "probability": 0.996
+    },
+    {
+      "word": "sweet",
+      "start": 66.04,
+      "end": 66.36,
+      "probability": 0.997
+    },
+    {
+      "word": "dreams.",
+      "start": 66.36,
+      "end": 66.92,
+      "probability": 0.97
+    }
+  ],
+  "wall_s": 0.486,
+  "status": "ok",
+  "duration_s": 68.3040625,
+  "rtf": 0.0071
+}

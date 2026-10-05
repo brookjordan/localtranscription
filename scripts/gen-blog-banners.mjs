@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const COMFY_URL = 'http://127.0.0.1:8188';
-const DEST_DIR = path.join(__dirname, '../site-assets/banners');
+const DEST_DIR = path.join(__dirname, '../site/img');
 
 const NEGATIVE_ANIME =
   'worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, extra digits, fewer digits, extra arms, missing limb, blurry, text, watermark';
