@@ -35,6 +35,13 @@ Each candidate is measured on the same private corpus and emits one JSON record 
 - Local bind address, TLS/auth requirements, queue depth, serialisation, concurrent-client behaviour, cancellation, timeout, retry safety, temporary-file retention, and output/log privacy.
 - Server startup/health/unload semantics and whether one process can coexist with the production gateway.
 
+## Current candidate additions
+
+- **Whistle** (`Cactus-Compute/whistle`, via `cactus-needle`): runs locally on Apple Silicon with the bundled 16.92 MB `whistle.cact` weights. The harness uses 30-second chunks because the API rejects longer audio, preserves word timestamps, and records 12/12 corpus outputs. Median corpus RTF is 0.0071 (0.0058–0.0095). This is a corpus run, not yet a promotion: the chunk boundary strategy and lack of the 3 human-scored clips remain explicit limitations.
+- **Phonon 2** (`FermionResearch/Phonon-2`, via `fermion-research` 0.2.7): runs locally through the CPU five-value profile on the M3 Max; the package fetched and verified the pinned model archive. It produced 12/12 corpus outputs. Median corpus RTF is 0.0087 (0.0079–0.0106). This is a CPU measurement and is not directly comparable with the warm MLX measurements without a matched protocol.
+
+Both candidates are embedded in `results/dashboard.html`; raw non-sensitive result records are in `results/corpus/*.whistle.json` and `*.phonon2.json`. The shared runner is `scripts/whistle_phonon_corpus.py`. The decision gates above still apply: malformed-input behaviour, 8GB-M1 fit, retention/error semantics, and the OpenAI-compatible integration contract remain unverified for both.
+
 ## Decision gates
 
 A candidate cannot be promoted on speed alone. It must transcribe both corpus files, survive malformed input, fit the 8GB M1 with the production gateway idle and loaded, have explicit retention/error semantics, and offer a verified integration contract. Extra metadata such as emotion or audio events is evaluated separately from ASR accuracy.

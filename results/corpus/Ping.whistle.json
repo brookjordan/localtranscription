@@ -1,0 +1,1080 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "all right you should be able to see my screen now right fantastic okay cool i think let's not delay and i think we have a good quorum of folks now perhaps 10 to 20 so that's good we will start our meeting formally so today this is maybe the second time we are gathering together as a group we are going to talk about a little bit about Q1 then moving on to Q2 many focusing on what are the things that we are kind of looking for two, right? That's going to happen in Q2, you know, for each of the groups under the platform in Apps, you know, a peanut. So let's go ahead and get started. All right, so I think, you know, before I, by the way, if they see your hands are raised, so hi, good morning. I think I want to revisit some of the things that we shared earlier, right, in the last quarterly all hands. And just to ensure that we cannot regroup and see where we are today.",
+  "language": "en",
+  "words": [
+    {
+      "word": "all",
+      "start": 0.16,
+      "end": 0.32,
+      "probability": 0.403
+    },
+    {
+      "word": "right",
+      "start": 0.32,
+      "end": 0.56,
+      "probability": 0.999
+    },
+    {
+      "word": "you",
+      "start": 0.56,
+      "end": 0.8,
+      "probability": 0.991
+    },
+    {
+      "word": "should",
+      "start": 0.8,
+      "end": 0.96,
+      "probability": 1.0
+    },
+    {
+      "word": "be",
+      "start": 0.96,
+      "end": 1.04,
+      "probability": 0.999
+    },
+    {
+      "word": "able",
+      "start": 1.04,
+      "end": 1.12,
+      "probability": 1.0
+    },
+    {
+      "word": "to",
+      "start": 1.12,
+      "end": 1.2,
+      "probability": 0.998
+    },
+    {
+      "word": "see",
+      "start": 1.2,
+      "end": 1.28,
+      "probability": 1.0
+    },
+    {
+      "word": "my",
+      "start": 1.28,
+      "end": 1.44,
+      "probability": 0.999
+    },
+    {
+      "word": "screen",
+      "start": 1.44,
+      "end": 1.6,
+      "probability": 1.0
+    },
+    {
+      "word": "now",
+      "start": 1.6,
+      "end": 1.84,
+      "probability": 0.993
+    },
+    {
+      "word": "right",
+      "start": 1.84,
+      "end": 2.16,
+      "probability": 0.971
+    },
+    {
+      "word": "fantastic",
+      "start": 2.16,
+      "end": 2.96,
+      "probability": 0.998
+    },
+    {
+      "word": "okay",
+      "start": 2.96,
+      "end": 4.16,
+      "probability": 0.999
+    },
+    {
+      "word": "cool",
+      "start": 4.16,
+      "end": 4.48,
+      "probability": 0.94
+    },
+    {
+      "word": "i",
+      "start": 4.48,
+      "end": 4.72,
+      "probability": 0.973
+    },
+    {
+      "word": "think",
+      "start": 4.72,
+      "end": 4.96,
+      "probability": 1.0
+    },
+    {
+      "word": "let's",
+      "start": 4.96,
+      "end": 5.36,
+      "probability": 0.94
+    },
+    {
+      "word": "not",
+      "start": 5.36,
+      "end": 5.6,
+      "probability": 1.0
+    },
+    {
+      "word": "delay",
+      "start": 5.6,
+      "end": 6.24,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 6.24,
+      "end": 6.8,
+      "probability": 0.997
+    },
+    {
+      "word": "i",
+      "start": 6.8,
+      "end": 7.12,
+      "probability": 0.98
+    },
+    {
+      "word": "think",
+      "start": 7.12,
+      "end": 7.28,
+      "probability": 0.999
+    },
+    {
+      "word": "we",
+      "start": 7.28,
+      "end": 7.44,
+      "probability": 1.0
+    },
+    {
+      "word": "have",
+      "start": 7.44,
+      "end": 7.52,
+      "probability": 0.999
+    },
+    {
+      "word": "a",
+      "start": 7.52,
+      "end": 7.84,
+      "probability": 1.0
+    },
+    {
+      "word": "good",
+      "start": 7.84,
+      "end": 8.0,
+      "probability": 0.999
+    },
+    {
+      "word": "quorum",
+      "start": 8.0,
+      "end": 8.48,
+      "probability": 0.818
+    },
+    {
+      "word": "of",
+      "start": 8.48,
+      "end": 8.72,
+      "probability": 0.999
+    },
+    {
+      "word": "folks",
+      "start": 8.72,
+      "end": 9.12,
+      "probability": 0.997
+    },
+    {
+      "word": "now",
+      "start": 9.12,
+      "end": 9.6,
+      "probability": 1.0
+    },
+    {
+      "word": "perhaps",
+      "start": 9.6,
+      "end": 10.56,
+      "probability": 0.698
+    },
+    {
+      "word": "10",
+      "start": 10.56,
+      "end": 10.72,
+      "probability": 0.953
+    },
+    {
+      "word": "to",
+      "start": 10.72,
+      "end": 10.96,
+      "probability": 0.974
+    },
+    {
+      "word": "20",
+      "start": 10.96,
+      "end": 11.36,
+      "probability": 0.997
+    },
+    {
+      "word": "so",
+      "start": 11.36,
+      "end": 12.16,
+      "probability": 0.997
+    },
+    {
+      "word": "that's",
+      "start": 12.16,
+      "end": 12.48,
+      "probability": 0.999
+    },
+    {
+      "word": "good",
+      "start": 12.48,
+      "end": 12.64,
+      "probability": 0.969
+    },
+    {
+      "word": "we",
+      "start": 12.64,
+      "end": 13.36,
+      "probability": 0.987
+    },
+    {
+      "word": "will",
+      "start": 13.36,
+      "end": 13.76,
+      "probability": 0.999
+    },
+    {
+      "word": "start",
+      "start": 13.76,
+      "end": 14.0,
+      "probability": 0.995
+    },
+    {
+      "word": "our",
+      "start": 14.0,
+      "end": 14.4,
+      "probability": 1.0
+    },
+    {
+      "word": "meeting",
+      "start": 14.4,
+      "end": 15.04,
+      "probability": 0.998
+    },
+    {
+      "word": "formally",
+      "start": 15.04,
+      "end": 16.16,
+      "probability": 0.646
+    },
+    {
+      "word": "so",
+      "start": 16.16,
+      "end": 16.72,
+      "probability": 0.999
+    },
+    {
+      "word": "today",
+      "start": 16.72,
+      "end": 17.12,
+      "probability": 1.0
+    },
+    {
+      "word": "this",
+      "start": 17.12,
+      "end": 17.52,
+      "probability": 0.989
+    },
+    {
+      "word": "is",
+      "start": 17.52,
+      "end": 17.68,
+      "probability": 1.0
+    },
+    {
+      "word": "maybe",
+      "start": 17.68,
+      "end": 18.24,
+      "probability": 0.854
+    },
+    {
+      "word": "the",
+      "start": 18.24,
+      "end": 18.48,
+      "probability": 1.0
+    },
+    {
+      "word": "second",
+      "start": 18.48,
+      "end": 18.72,
+      "probability": 1.0
+    },
+    {
+      "word": "time",
+      "start": 18.72,
+      "end": 18.96,
+      "probability": 0.838
+    },
+    {
+      "word": "we",
+      "start": 18.96,
+      "end": 19.12,
+      "probability": 1.0
+    },
+    {
+      "word": "are",
+      "start": 19.12,
+      "end": 19.2,
+      "probability": 1.0
+    },
+    {
+      "word": "gathering",
+      "start": 19.2,
+      "end": 19.52,
+      "probability": 0.995
+    },
+    {
+      "word": "together",
+      "start": 19.52,
+      "end": 19.76,
+      "probability": 1.0
+    },
+    {
+      "word": "as",
+      "start": 19.76,
+      "end": 20.0,
+      "probability": 0.985
+    },
+    {
+      "word": "a",
+      "start": 20.0,
+      "end": 20.08,
+      "probability": 0.999
+    },
+    {
+      "word": "group",
+      "start": 20.08,
+      "end": 20.4,
+      "probability": 1.0
+    },
+    {
+      "word": "we",
+      "start": 20.4,
+      "end": 21.2,
+      "probability": 0.789
+    },
+    {
+      "word": "are",
+      "start": 21.2,
+      "end": 21.36,
+      "probability": 0.531
+    },
+    {
+      "word": "going",
+      "start": 21.36,
+      "end": 21.44,
+      "probability": 0.635
+    },
+    {
+      "word": "to",
+      "start": 21.44,
+      "end": 21.44,
+      "probability": 1.0
+    },
+    {
+      "word": "talk",
+      "start": 21.44,
+      "end": 21.6,
+      "probability": 1.0
+    },
+    {
+      "word": "about",
+      "start": 21.6,
+      "end": 22.56,
+      "probability": 0.998
+    },
+    {
+      "word": "a",
+      "start": 22.56,
+      "end": 22.8,
+      "probability": 0.891
+    },
+    {
+      "word": "little",
+      "start": 22.8,
+      "end": 22.96,
+      "probability": 0.998
+    },
+    {
+      "word": "bit",
+      "start": 22.96,
+      "end": 23.04,
+      "probability": 0.998
+    },
+    {
+      "word": "about",
+      "start": 23.04,
+      "end": 23.2,
+      "probability": 0.999
+    },
+    {
+      "word": "Q1",
+      "start": 23.2,
+      "end": 23.76,
+      "probability": 0.867
+    },
+    {
+      "word": "then",
+      "start": 23.76,
+      "end": 24.08,
+      "probability": 0.997
+    },
+    {
+      "word": "moving",
+      "start": 24.08,
+      "end": 24.48,
+      "probability": 0.997
+    },
+    {
+      "word": "on",
+      "start": 24.48,
+      "end": 24.72,
+      "probability": 0.995
+    },
+    {
+      "word": "to",
+      "start": 24.72,
+      "end": 24.88,
+      "probability": 0.999
+    },
+    {
+      "word": "Q2",
+      "start": 24.88,
+      "end": 25.36,
+      "probability": 0.916
+    },
+    {
+      "word": "many",
+      "start": 25.36,
+      "end": 25.6,
+      "probability": 0.937
+    },
+    {
+      "word": "focusing",
+      "start": 25.6,
+      "end": 26.08,
+      "probability": 0.989
+    },
+    {
+      "word": "on",
+      "start": 26.08,
+      "end": 26.24,
+      "probability": 1.0
+    },
+    {
+      "word": "what",
+      "start": 26.24,
+      "end": 26.48,
+      "probability": 0.818
+    },
+    {
+      "word": "are",
+      "start": 26.48,
+      "end": 26.56,
+      "probability": 0.939
+    },
+    {
+      "word": "the",
+      "start": 26.56,
+      "end": 26.64,
+      "probability": 0.992
+    },
+    {
+      "word": "things",
+      "start": 26.64,
+      "end": 26.88,
+      "probability": 1.0
+    },
+    {
+      "word": "that",
+      "start": 26.88,
+      "end": 27.2,
+      "probability": 1.0
+    },
+    {
+      "word": "we",
+      "start": 27.2,
+      "end": 27.44,
+      "probability": 0.999
+    },
+    {
+      "word": "are",
+      "start": 27.44,
+      "end": 28.8,
+      "probability": 0.998
+    },
+    {
+      "word": "kind",
+      "start": 28.8,
+      "end": 29.04,
+      "probability": 0.697
+    },
+    {
+      "word": "of",
+      "start": 29.04,
+      "end": 29.12,
+      "probability": 0.997
+    },
+    {
+      "word": "looking",
+      "start": 29.12,
+      "end": 29.28,
+      "probability": 1.0
+    },
+    {
+      "word": "for",
+      "start": 29.28,
+      "end": 29.44,
+      "probability": 0.597
+    },
+    {
+      "word": "two,",
+      "start": 29.66,
+      "end": 29.9,
+      "probability": 0.532
+    },
+    {
+      "word": "right?",
+      "start": 29.98,
+      "end": 30.06,
+      "probability": 0.999
+    },
+    {
+      "word": "That's",
+      "start": 30.14,
+      "end": 30.38,
+      "probability": 0.812
+    },
+    {
+      "word": "going",
+      "start": 30.38,
+      "end": 30.46,
+      "probability": 0.816
+    },
+    {
+      "word": "to",
+      "start": 30.46,
+      "end": 30.54,
+      "probability": 1.0
+    },
+    {
+      "word": "happen",
+      "start": 30.54,
+      "end": 30.7,
+      "probability": 0.925
+    },
+    {
+      "word": "in",
+      "start": 30.7,
+      "end": 30.94,
+      "probability": 0.999
+    },
+    {
+      "word": "Q2,",
+      "start": 30.94,
+      "end": 31.58,
+      "probability": 0.768
+    },
+    {
+      "word": "you",
+      "start": 31.58,
+      "end": 31.66,
+      "probability": 0.606
+    },
+    {
+      "word": "know,",
+      "start": 31.66,
+      "end": 31.82,
+      "probability": 0.998
+    },
+    {
+      "word": "for",
+      "start": 31.9,
+      "end": 32.06,
+      "probability": 1.0
+    },
+    {
+      "word": "each",
+      "start": 32.06,
+      "end": 32.3,
+      "probability": 0.999
+    },
+    {
+      "word": "of",
+      "start": 32.3,
+      "end": 32.46,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 32.46,
+      "end": 32.7,
+      "probability": 1.0
+    },
+    {
+      "word": "groups",
+      "start": 32.7,
+      "end": 33.58,
+      "probability": 0.994
+    },
+    {
+      "word": "under",
+      "start": 33.58,
+      "end": 34.3,
+      "probability": 0.993
+    },
+    {
+      "word": "the",
+      "start": 34.3,
+      "end": 34.54,
+      "probability": 0.998
+    },
+    {
+      "word": "platform",
+      "start": 34.54,
+      "end": 34.86,
+      "probability": 0.832
+    },
+    {
+      "word": "in",
+      "start": 34.86,
+      "end": 34.94,
+      "probability": 0.498
+    },
+    {
+      "word": "Apps,",
+      "start": 34.94,
+      "end": 35.26,
+      "probability": 0.635
+    },
+    {
+      "word": "you",
+      "start": 36.3,
+      "end": 36.38,
+      "probability": 0.983
+    },
+    {
+      "word": "know,",
+      "start": 36.38,
+      "end": 37.019999999999996,
+      "probability": 1.0
+    },
+    {
+      "word": "a",
+      "start": 37.1,
+      "end": 37.26,
+      "probability": 0.332
+    },
+    {
+      "word": "peanut.",
+      "start": 37.26,
+      "end": 38.14,
+      "probability": 0.744
+    },
+    {
+      "word": "So",
+      "start": 38.14,
+      "end": 38.38,
+      "probability": 1.0
+    },
+    {
+      "word": "let's",
+      "start": 38.38,
+      "end": 39.1,
+      "probability": 0.999
+    },
+    {
+      "word": "go",
+      "start": 39.1,
+      "end": 39.26,
+      "probability": 1.0
+    },
+    {
+      "word": "ahead",
+      "start": 39.26,
+      "end": 39.58,
+      "probability": 0.999
+    },
+    {
+      "word": "and",
+      "start": 39.58,
+      "end": 39.82,
+      "probability": 0.998
+    },
+    {
+      "word": "get",
+      "start": 39.82,
+      "end": 39.980000000000004,
+      "probability": 0.999
+    },
+    {
+      "word": "started.",
+      "start": 39.980000000000004,
+      "end": 40.3,
+      "probability": 1.0
+    },
+    {
+      "word": "All",
+      "start": 40.78,
+      "end": 40.86,
+      "probability": 0.682
+    },
+    {
+      "word": "right,",
+      "start": 40.86,
+      "end": 40.94,
+      "probability": 1.0
+    },
+    {
+      "word": "so",
+      "start": 41.1,
+      "end": 41.1,
+      "probability": 1.0
+    },
+    {
+      "word": "I",
+      "start": 41.1,
+      "end": 41.34,
+      "probability": 0.996
+    },
+    {
+      "word": "think,",
+      "start": 41.34,
+      "end": 41.5,
+      "probability": 1.0
+    },
+    {
+      "word": "you",
+      "start": 42.14,
+      "end": 42.3,
+      "probability": 0.995
+    },
+    {
+      "word": "know,",
+      "start": 42.3,
+      "end": 42.38,
+      "probability": 1.0
+    },
+    {
+      "word": "before",
+      "start": 42.62,
+      "end": 42.62,
+      "probability": 1.0
+    },
+    {
+      "word": "I,",
+      "start": 42.62,
+      "end": 43.019999999999996,
+      "probability": 0.995
+    },
+    {
+      "word": "by",
+      "start": 43.26,
+      "end": 43.42,
+      "probability": 0.94
+    },
+    {
+      "word": "the",
+      "start": 43.42,
+      "end": 43.58,
+      "probability": 1.0
+    },
+    {
+      "word": "way,",
+      "start": 43.58,
+      "end": 43.66,
+      "probability": 0.999
+    },
+    {
+      "word": "if",
+      "start": 43.82,
+      "end": 43.82,
+      "probability": 0.145
+    },
+    {
+      "word": "they",
+      "start": 43.82,
+      "end": 43.980000000000004,
+      "probability": 0.936
+    },
+    {
+      "word": "see",
+      "start": 43.980000000000004,
+      "end": 44.14,
+      "probability": 0.989
+    },
+    {
+      "word": "your",
+      "start": 44.14,
+      "end": 44.38,
+      "probability": 0.997
+    },
+    {
+      "word": "hands",
+      "start": 44.38,
+      "end": 44.7,
+      "probability": 0.701
+    },
+    {
+      "word": "are",
+      "start": 44.7,
+      "end": 44.86,
+      "probability": 0.39
+    },
+    {
+      "word": "raised,",
+      "start": 44.86,
+      "end": 45.1,
+      "probability": 0.952
+    },
+    {
+      "word": "so",
+      "start": 46.06,
+      "end": 46.06,
+      "probability": 0.77
+    },
+    {
+      "word": "hi,",
+      "start": 46.06,
+      "end": 46.379999999999995,
+      "probability": 0.637
+    },
+    {
+      "word": "good",
+      "start": 47.66,
+      "end": 47.739999999999995,
+      "probability": 0.884
+    },
+    {
+      "word": "morning.",
+      "start": 47.739999999999995,
+      "end": 47.980000000000004,
+      "probability": 1.0
+    },
+    {
+      "word": "I",
+      "start": 49.9,
+      "end": 50.22,
+      "probability": 0.896
+    },
+    {
+      "word": "think",
+      "start": 50.22,
+      "end": 50.379999999999995,
+      "probability": 1.0
+    },
+    {
+      "word": "I",
+      "start": 50.379999999999995,
+      "end": 50.46,
+      "probability": 0.943
+    },
+    {
+      "word": "want",
+      "start": 50.46,
+      "end": 50.620000000000005,
+      "probability": 0.957
+    },
+    {
+      "word": "to",
+      "start": 50.620000000000005,
+      "end": 50.7,
+      "probability": 0.981
+    },
+    {
+      "word": "revisit",
+      "start": 50.7,
+      "end": 51.18,
+      "probability": 0.849
+    },
+    {
+      "word": "some",
+      "start": 51.18,
+      "end": 51.34,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 51.34,
+      "end": 51.42,
+      "probability": 1.0
+    },
+    {
+      "word": "the",
+      "start": 51.42,
+      "end": 51.5,
+      "probability": 0.997
+    },
+    {
+      "word": "things",
+      "start": 51.5,
+      "end": 51.739999999999995,
+      "probability": 1.0
+    },
+    {
+      "word": "that",
+      "start": 51.739999999999995,
+      "end": 51.82,
+      "probability": 1.0
+    },
+    {
+      "word": "we",
+      "start": 51.82,
+      "end": 51.980000000000004,
+      "probability": 1.0
+    },
+    {
+      "word": "shared",
+      "start": 51.980000000000004,
+      "end": 52.3,
+      "probability": 0.442
+    },
+    {
+      "word": "earlier,",
+      "start": 52.3,
+      "end": 52.94,
+      "probability": 1.0
+    },
+    {
+      "word": "right,",
+      "start": 53.1,
+      "end": 53.260000000000005,
+      "probability": 0.995
+    },
+    {
+      "word": "in",
+      "start": 53.34,
+      "end": 53.5,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 53.5,
+      "end": 53.66,
+      "probability": 1.0
+    },
+    {
+      "word": "last",
+      "start": 53.66,
+      "end": 53.9,
+      "probability": 0.998
+    },
+    {
+      "word": "quarterly",
+      "start": 53.9,
+      "end": 54.78,
+      "probability": 0.977
+    },
+    {
+      "word": "all",
+      "start": 54.78,
+      "end": 55.18,
+      "probability": 0.518
+    },
+    {
+      "word": "hands.",
+      "start": 55.18,
+      "end": 55.42,
+      "probability": 0.533
+    },
+    {
+      "word": "And",
+      "start": 56.379999999999995,
+      "end": 56.46,
+      "probability": 0.97
+    },
+    {
+      "word": "just",
+      "start": 56.46,
+      "end": 56.620000000000005,
+      "probability": 0.993
+    },
+    {
+      "word": "to",
+      "start": 56.620000000000005,
+      "end": 56.78,
+      "probability": 0.203
+    },
+    {
+      "word": "ensure",
+      "start": 56.78,
+      "end": 56.94,
+      "probability": 0.6
+    },
+    {
+      "word": "that",
+      "start": 56.94,
+      "end": 57.1,
+      "probability": 0.999
+    },
+    {
+      "word": "we",
+      "start": 57.1,
+      "end": 57.34,
+      "probability": 0.999
+    },
+    {
+      "word": "cannot",
+      "start": 57.34,
+      "end": 57.739999999999995,
+      "probability": 0.297
+    },
+    {
+      "word": "regroup",
+      "start": 57.739999999999995,
+      "end": 58.22,
+      "probability": 0.877
+    },
+    {
+      "word": "and",
+      "start": 58.22,
+      "end": 58.86,
+      "probability": 0.936
+    },
+    {
+      "word": "see",
+      "start": 58.86,
+      "end": 58.94,
+      "probability": 0.922
+    },
+    {
+      "word": "where",
+      "start": 59.08,
+      "end": 59.24,
+      "probability": 0.603
+    },
+    {
+      "word": "we",
+      "start": 59.24,
+      "end": 59.48,
+      "probability": 0.999
+    },
+    {
+      "word": "are",
+      "start": 59.48,
+      "end": 59.64,
+      "probability": 1.0
+    },
+    {
+      "word": "today.",
+      "start": 59.64,
+      "end": 59.96,
+      "probability": 1.0
+    }
+  ],
+  "wall_s": 0.414,
+  "status": "ok",
+  "duration_s": 60.0,
+  "rtf": 0.0069
+}

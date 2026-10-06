@@ -1,0 +1,162 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "\"Ye boy, I think that would be so key. I go in the grass with the bass, and I laugh at you. Ho, ho, ho!\"",
+  "language": "en",
+  "words": [
+    {
+      "word": "\"Ye",
+      "start": 1.52,
+      "end": 2.24,
+      "probability": 0.55
+    },
+    {
+      "word": "boy,",
+      "start": 2.24,
+      "end": 2.96,
+      "probability": 0.791
+    },
+    {
+      "word": "I",
+      "start": 3.6,
+      "end": 3.76,
+      "probability": 0.984
+    },
+    {
+      "word": "think",
+      "start": 3.76,
+      "end": 4.24,
+      "probability": 0.923
+    },
+    {
+      "word": "that",
+      "start": 4.24,
+      "end": 4.56,
+      "probability": 0.97
+    },
+    {
+      "word": "would",
+      "start": 4.56,
+      "end": 4.8,
+      "probability": 0.944
+    },
+    {
+      "word": "be",
+      "start": 4.8,
+      "end": 5.12,
+      "probability": 0.988
+    },
+    {
+      "word": "so",
+      "start": 5.12,
+      "end": 5.44,
+      "probability": 0.641
+    },
+    {
+      "word": "key.",
+      "start": 5.44,
+      "end": 6.32,
+      "probability": 0.415
+    },
+    {
+      "word": "I",
+      "start": 7.2,
+      "end": 7.44,
+      "probability": 0.979
+    },
+    {
+      "word": "go",
+      "start": 7.44,
+      "end": 7.68,
+      "probability": 0.951
+    },
+    {
+      "word": "in",
+      "start": 7.68,
+      "end": 7.92,
+      "probability": 0.939
+    },
+    {
+      "word": "the",
+      "start": 7.92,
+      "end": 8.08,
+      "probability": 0.968
+    },
+    {
+      "word": "grass",
+      "start": 8.08,
+      "end": 8.8,
+      "probability": 0.835
+    },
+    {
+      "word": "with",
+      "start": 8.8,
+      "end": 9.28,
+      "probability": 0.939
+    },
+    {
+      "word": "the",
+      "start": 9.28,
+      "end": 9.68,
+      "probability": 0.985
+    },
+    {
+      "word": "bass,",
+      "start": 9.68,
+      "end": 10.24,
+      "probability": 0.488
+    },
+    {
+      "word": "and",
+      "start": 11.04,
+      "end": 11.36,
+      "probability": 0.788
+    },
+    {
+      "word": "I",
+      "start": 11.36,
+      "end": 11.6,
+      "probability": 0.957
+    },
+    {
+      "word": "laugh",
+      "start": 11.6,
+      "end": 12.08,
+      "probability": 0.564
+    },
+    {
+      "word": "at",
+      "start": 12.08,
+      "end": 12.24,
+      "probability": 0.846
+    },
+    {
+      "word": "you.",
+      "start": 12.24,
+      "end": 12.72,
+      "probability": 0.978
+    },
+    {
+      "word": "Ho,",
+      "start": 13.12,
+      "end": 13.44,
+      "probability": 0.556
+    },
+    {
+      "word": "ho,",
+      "start": 13.52,
+      "end": 13.76,
+      "probability": 0.776
+    },
+    {
+      "word": "ho!\"",
+      "start": 14.16,
+      "end": 14.4,
+      "probability": 0.993
+    }
+  ],
+  "wall_s": 0.071,
+  "status": "ok",
+  "duration_s": 10.56,
+  "rtf": 0.0067
+}

@@ -1,0 +1,726 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "This is the lock picking lawyer, and one of the weaknesses with modern smart locks is battery life, and there's various ways of dealing with that, more batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the vault. That's why I love to see locks like this one from Gittale. At least I was till I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I gout will see much in the way of extra battery life, which is a shame.",
+  "language": "en",
+  "words": [
+    {
+      "word": "This",
+      "start": 0.96,
+      "end": 1.2,
+      "probability": 0.895
+    },
+    {
+      "word": "is",
+      "start": 1.2,
+      "end": 1.44,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 1.44,
+      "end": 1.68,
+      "probability": 0.986
+    },
+    {
+      "word": "lock",
+      "start": 1.68,
+      "end": 1.84,
+      "probability": 0.511
+    },
+    {
+      "word": "picking",
+      "start": 1.84,
+      "end": 2.16,
+      "probability": 0.75
+    },
+    {
+      "word": "lawyer,",
+      "start": 2.16,
+      "end": 2.72,
+      "probability": 0.987
+    },
+    {
+      "word": "and",
+      "start": 2.8,
+      "end": 2.96,
+      "probability": 0.996
+    },
+    {
+      "word": "one",
+      "start": 2.96,
+      "end": 3.12,
+      "probability": 0.993
+    },
+    {
+      "word": "of",
+      "start": 3.12,
+      "end": 3.28,
+      "probability": 0.994
+    },
+    {
+      "word": "the",
+      "start": 3.28,
+      "end": 3.36,
+      "probability": 0.996
+    },
+    {
+      "word": "weaknesses",
+      "start": 3.36,
+      "end": 4.0,
+      "probability": 0.988
+    },
+    {
+      "word": "with",
+      "start": 4.0,
+      "end": 4.24,
+      "probability": 0.972
+    },
+    {
+      "word": "modern",
+      "start": 4.24,
+      "end": 4.64,
+      "probability": 0.988
+    },
+    {
+      "word": "smart",
+      "start": 4.64,
+      "end": 5.04,
+      "probability": 0.978
+    },
+    {
+      "word": "locks",
+      "start": 5.04,
+      "end": 5.52,
+      "probability": 0.841
+    },
+    {
+      "word": "is",
+      "start": 5.52,
+      "end": 5.92,
+      "probability": 0.995
+    },
+    {
+      "word": "battery",
+      "start": 5.92,
+      "end": 6.56,
+      "probability": 0.951
+    },
+    {
+      "word": "life,",
+      "start": 6.56,
+      "end": 6.96,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 7.44,
+      "end": 7.68,
+      "probability": 0.996
+    },
+    {
+      "word": "there's",
+      "start": 7.68,
+      "end": 8.16,
+      "probability": 0.937
+    },
+    {
+      "word": "various",
+      "start": 8.16,
+      "end": 8.56,
+      "probability": 0.999
+    },
+    {
+      "word": "ways",
+      "start": 8.56,
+      "end": 8.88,
+      "probability": 1.0
+    },
+    {
+      "word": "of",
+      "start": 8.88,
+      "end": 9.12,
+      "probability": 0.998
+    },
+    {
+      "word": "dealing",
+      "start": 9.12,
+      "end": 9.36,
+      "probability": 0.995
+    },
+    {
+      "word": "with",
+      "start": 9.36,
+      "end": 9.6,
+      "probability": 1.0
+    },
+    {
+      "word": "that,",
+      "start": 9.6,
+      "end": 10.0,
+      "probability": 0.995
+    },
+    {
+      "word": "more",
+      "start": 10.32,
+      "end": 10.48,
+      "probability": 0.993
+    },
+    {
+      "word": "batteries,",
+      "start": 10.48,
+      "end": 11.12,
+      "probability": 0.997
+    },
+    {
+      "word": "bigger",
+      "start": 11.28,
+      "end": 11.6,
+      "probability": 0.997
+    },
+    {
+      "word": "batteries,",
+      "start": 11.6,
+      "end": 12.24,
+      "probability": 1.0
+    },
+    {
+      "word": "lithium",
+      "start": 12.48,
+      "end": 12.96,
+      "probability": 0.994
+    },
+    {
+      "word": "batteries,",
+      "start": 12.96,
+      "end": 13.6,
+      "probability": 1.0
+    },
+    {
+      "word": "wireless",
+      "start": 14.0,
+      "end": 14.48,
+      "probability": 0.998
+    },
+    {
+      "word": "charging,",
+      "start": 14.48,
+      "end": 15.04,
+      "probability": 0.968
+    },
+    {
+      "word": "solar",
+      "start": 15.28,
+      "end": 15.44,
+      "probability": 0.95
+    },
+    {
+      "word": "panels,",
+      "start": 15.44,
+      "end": 16.08,
+      "probability": 0.999
+    },
+    {
+      "word": "but",
+      "start": 16.48,
+      "end": 16.64,
+      "probability": 0.997
+    },
+    {
+      "word": "so",
+      "start": 16.64,
+      "end": 16.88,
+      "probability": 0.994
+    },
+    {
+      "word": "few",
+      "start": 16.88,
+      "end": 17.2,
+      "probability": 0.999
+    },
+    {
+      "word": "seem",
+      "start": 17.2,
+      "end": 17.52,
+      "probability": 0.977
+    },
+    {
+      "word": "to",
+      "start": 17.52,
+      "end": 17.68,
+      "probability": 1.0
+    },
+    {
+      "word": "have",
+      "start": 17.68,
+      "end": 17.84,
+      "probability": 0.997
+    },
+    {
+      "word": "taken",
+      "start": 17.84,
+      "end": 18.16,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 18.16,
+      "end": 18.56,
+      "probability": 0.998
+    },
+    {
+      "word": "obvious",
+      "start": 18.56,
+      "end": 19.04,
+      "probability": 0.977
+    },
+    {
+      "word": "step",
+      "start": 19.04,
+      "end": 19.44,
+      "probability": 0.637
+    },
+    {
+      "word": "of",
+      "start": 19.44,
+      "end": 20.0,
+      "probability": 0.933
+    },
+    {
+      "word": "dramatically",
+      "start": 20.0,
+      "end": 20.8,
+      "probability": 0.998
+    },
+    {
+      "word": "reducing",
+      "start": 20.8,
+      "end": 21.52,
+      "probability": 0.996
+    },
+    {
+      "word": "power",
+      "start": 21.52,
+      "end": 22.08,
+      "probability": 0.987
+    },
+    {
+      "word": "consumption,",
+      "start": 22.08,
+      "end": 22.64,
+      "probability": 0.998
+    },
+    {
+      "word": "and",
+      "start": 23.28,
+      "end": 23.44,
+      "probability": 0.999
+    },
+    {
+      "word": "probably",
+      "start": 23.44,
+      "end": 23.76,
+      "probability": 0.964
+    },
+    {
+      "word": "the",
+      "start": 23.76,
+      "end": 24.0,
+      "probability": 0.999
+    },
+    {
+      "word": "largest",
+      "start": 24.0,
+      "end": 24.56,
+      "probability": 0.984
+    },
+    {
+      "word": "power",
+      "start": 24.56,
+      "end": 25.04,
+      "probability": 0.956
+    },
+    {
+      "word": "draw",
+      "start": 25.04,
+      "end": 25.44,
+      "probability": 0.934
+    },
+    {
+      "word": "is",
+      "start": 25.44,
+      "end": 25.92,
+      "probability": 0.983
+    },
+    {
+      "word": "the",
+      "start": 25.92,
+      "end": 26.08,
+      "probability": 0.999
+    },
+    {
+      "word": "electric",
+      "start": 26.08,
+      "end": 26.64,
+      "probability": 0.988
+    },
+    {
+      "word": "motor",
+      "start": 26.64,
+      "end": 27.04,
+      "probability": 0.998
+    },
+    {
+      "word": "that",
+      "start": 27.04,
+      "end": 27.44,
+      "probability": 0.998
+    },
+    {
+      "word": "throws",
+      "start": 27.44,
+      "end": 27.92,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 27.92,
+      "end": 28.56,
+      "probability": 0.999
+    },
+    {
+      "word": "vault.",
+      "start": 28.56,
+      "end": 28.96,
+      "probability": 0.838
+    },
+    {
+      "word": "That's",
+      "start": 29.74,
+      "end": 30.06,
+      "probability": 0.989
+    },
+    {
+      "word": "why",
+      "start": 30.06,
+      "end": 30.22,
+      "probability": 0.998
+    },
+    {
+      "word": "I",
+      "start": 30.22,
+      "end": 30.3,
+      "probability": 0.836
+    },
+    {
+      "word": "love",
+      "start": 30.3,
+      "end": 30.54,
+      "probability": 0.508
+    },
+    {
+      "word": "to",
+      "start": 30.54,
+      "end": 30.7,
+      "probability": 0.989
+    },
+    {
+      "word": "see",
+      "start": 30.7,
+      "end": 30.86,
+      "probability": 0.999
+    },
+    {
+      "word": "locks",
+      "start": 30.86,
+      "end": 31.26,
+      "probability": 0.974
+    },
+    {
+      "word": "like",
+      "start": 31.26,
+      "end": 31.42,
+      "probability": 0.996
+    },
+    {
+      "word": "this",
+      "start": 31.42,
+      "end": 31.66,
+      "probability": 0.996
+    },
+    {
+      "word": "one",
+      "start": 31.66,
+      "end": 31.9,
+      "probability": 0.993
+    },
+    {
+      "word": "from",
+      "start": 31.9,
+      "end": 32.14,
+      "probability": 0.969
+    },
+    {
+      "word": "Gittale.",
+      "start": 32.14,
+      "end": 32.86,
+      "probability": 0.54
+    },
+    {
+      "word": "At",
+      "start": 35.58,
+      "end": 35.74,
+      "probability": 0.569
+    },
+    {
+      "word": "least",
+      "start": 35.74,
+      "end": 35.980000000000004,
+      "probability": 0.986
+    },
+    {
+      "word": "I",
+      "start": 35.980000000000004,
+      "end": 36.38,
+      "probability": 0.744
+    },
+    {
+      "word": "was",
+      "start": 36.38,
+      "end": 36.78,
+      "probability": 0.662
+    },
+    {
+      "word": "till",
+      "start": 36.78,
+      "end": 37.5,
+      "probability": 0.537
+    },
+    {
+      "word": "I",
+      "start": 37.5,
+      "end": 37.66,
+      "probability": 0.999
+    },
+    {
+      "word": "saw",
+      "start": 37.66,
+      "end": 37.9,
+      "probability": 0.991
+    },
+    {
+      "word": "the",
+      "start": 37.9,
+      "end": 38.38,
+      "probability": 0.984
+    },
+    {
+      "word": "tiny",
+      "start": 38.38,
+      "end": 39.1,
+      "probability": 0.979
+    },
+    {
+      "word": "lithium",
+      "start": 39.1,
+      "end": 39.74,
+      "probability": 0.868
+    },
+    {
+      "word": "battery",
+      "start": 39.74,
+      "end": 40.06,
+      "probability": 0.991
+    },
+    {
+      "word": "that",
+      "start": 40.06,
+      "end": 40.38,
+      "probability": 0.998
+    },
+    {
+      "word": "powers",
+      "start": 40.38,
+      "end": 40.86,
+      "probability": 0.991
+    },
+    {
+      "word": "this.",
+      "start": 40.86,
+      "end": 41.18,
+      "probability": 0.977
+    },
+    {
+      "word": "It's",
+      "start": 41.34,
+      "end": 41.58,
+      "probability": 0.995
+    },
+    {
+      "word": "right",
+      "start": 41.58,
+      "end": 41.82,
+      "probability": 0.993
+    },
+    {
+      "word": "on",
+      "start": 41.82,
+      "end": 42.14,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 42.14,
+      "end": 42.38,
+      "probability": 0.993
+    },
+    {
+      "word": "back",
+      "start": 42.38,
+      "end": 42.62,
+      "probability": 0.996
+    },
+    {
+      "word": "of",
+      "start": 42.62,
+      "end": 42.78,
+      "probability": 0.999
+    },
+    {
+      "word": "this",
+      "start": 42.78,
+      "end": 43.019999999999996,
+      "probability": 0.995
+    },
+    {
+      "word": "panel.",
+      "start": 43.019999999999996,
+      "end": 43.66,
+      "probability": 0.997
+    },
+    {
+      "word": "So,",
+      "start": 43.9,
+      "end": 44.14,
+      "probability": 0.956
+    },
+    {
+      "word": "in",
+      "start": 44.14,
+      "end": 44.7,
+      "probability": 0.997
+    },
+    {
+      "word": "practical",
+      "start": 44.7,
+      "end": 45.18,
+      "probability": 0.995
+    },
+    {
+      "word": "terms,",
+      "start": 45.18,
+      "end": 45.58,
+      "probability": 0.999
+    },
+    {
+      "word": "I",
+      "start": 45.82,
+      "end": 45.980000000000004,
+      "probability": 0.997
+    },
+    {
+      "word": "gout",
+      "start": 45.980000000000004,
+      "end": 46.22,
+      "probability": 0.664
+    },
+    {
+      "word": "will",
+      "start": 46.22,
+      "end": 46.379999999999995,
+      "probability": 0.832
+    },
+    {
+      "word": "see",
+      "start": 46.379999999999995,
+      "end": 46.54,
+      "probability": 0.995
+    },
+    {
+      "word": "much",
+      "start": 46.54,
+      "end": 47.1,
+      "probability": 0.988
+    },
+    {
+      "word": "in",
+      "start": 47.1,
+      "end": 47.5,
+      "probability": 0.986
+    },
+    {
+      "word": "the",
+      "start": 47.5,
+      "end": 47.58,
+      "probability": 0.998
+    },
+    {
+      "word": "way",
+      "start": 47.58,
+      "end": 47.739999999999995,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 47.739999999999995,
+      "end": 47.9,
+      "probability": 0.998
+    },
+    {
+      "word": "extra",
+      "start": 47.9,
+      "end": 48.3,
+      "probability": 0.97
+    },
+    {
+      "word": "battery",
+      "start": 48.3,
+      "end": 48.620000000000005,
+      "probability": 0.987
+    },
+    {
+      "word": "life,",
+      "start": 48.620000000000005,
+      "end": 49.1,
+      "probability": 0.998
+    },
+    {
+      "word": "which",
+      "start": 49.18,
+      "end": 49.42,
+      "probability": 0.997
+    },
+    {
+      "word": "is",
+      "start": 49.42,
+      "end": 49.980000000000004,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 49.980000000000004,
+      "end": 50.14,
+      "probability": 0.975
+    },
+    {
+      "word": "shame.",
+      "start": 50.14,
+      "end": 50.46,
+      "probability": 0.993
+    }
+  ],
+  "wall_s": 0.318,
+  "status": "ok",
+  "duration_s": 50.7358125,
+  "rtf": 0.0063
+}

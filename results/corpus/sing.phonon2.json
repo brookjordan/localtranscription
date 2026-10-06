@@ -1,0 +1,10 @@
+{
+  "engine": "phonon-2",
+  "model": "FermionResearch/Phonon-2",
+  "text": "Okay, so this time I'm gonna test various things like if it can hear me when I'm banging, if it gets different noises, or if it can recognize sound. And if you can tell when I start to sing, or if it thinks I'm talking and it doesn't know anything. Doesn't know anything. Does it just think I'm talking normally? Does it just think I'm talking normally? Let's see.",
+  "wall_s": 0.244,
+  "status": "ok",
+  "decode_s": 31.68,
+  "duration_s": 31.68,
+  "rtf": 0.0077
+}

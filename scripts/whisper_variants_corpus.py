@@ -12,8 +12,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "results" / "assets" / "corpus"
+HUMAN = {
+    "brook": ROOT / "results/assets/brook.wav",
+    "silly": ROOT / "results/assets/wav/silly.wav",
+    "sing": ROOT / "results/assets/wav/sing.wav",
+}
 OUTDIR = ROOT / "results" / "corpus"
-
 VARIANTS = {
     "large-v3": "mlx-community/whisper-large-v3-mlx",
     "distil-large-v3": "mlx-community/distil-whisper-large-v3",
@@ -36,11 +40,17 @@ def main() -> None:
         raise SystemExit(2)
     hint = VARIANTS[variant]
     print(f"{variant} corpus: model={hint}", flush=True)
-    for wav in sorted(ASSETS.glob("*.wav")):
+    inputs = list(sorted(ASSETS.glob("*.wav"))) + list(HUMAN.values())
+    for wav in inputs:
         out = OUTDIR / f"{wav.stem}.{variant}.json"
         if out.exists() and out.stat().st_size > 0:
-            print(f"skip {wav.stem} (exists)", flush=True)
-            continue
+            try:
+                cached = json.loads(out.read_text())
+            except json.JSONDecodeError:
+                cached = {}
+            if cached.get("text") and not cached.get("error"):
+                print(f"skip {wav.stem} (exists)", flush=True)
+                continue
         t0 = time.time()
         try:
             result = transcribe(variant, hint, wav)

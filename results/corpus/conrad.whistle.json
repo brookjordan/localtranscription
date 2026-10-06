@@ -1,0 +1,1062 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "As soon as it was early morning, the chief priest, Selders, and teachers, law on the whole high court, had Jesus tied up and then handed him over to the Roman Governor pilot. \"So pilot, too, examined him, are you King of the Jews?\" he said. \"And an answer,\" he says. \"Your words not mine.\" Now the chief priest had charged him with many things, so pilot again interrogated him. \"You're not answering anything like it as long as to charges, but Jesus didn't answer any firm.\" there which astonished Pilot. That was accustomed to festival for him to release a prisoner as requested by the people. There was a man named Barabbas who was imprisoned with some terrorists who had killed people during an uprising. The crowd came up and asked Pilot to do for them what he usually did, and Pilot answered them, saying, \"Do you always release to you this King of the Jews?\" for he knew that the chief priest's main reason for handing him over was envy of Jesus' popularity.",
+  "language": "en",
+  "words": [
+    {
+      "word": "As",
+      "start": 0.96,
+      "end": 1.12,
+      "probability": 0.932
+    },
+    {
+      "word": "soon",
+      "start": 1.12,
+      "end": 1.28,
+      "probability": 0.999
+    },
+    {
+      "word": "as",
+      "start": 1.28,
+      "end": 1.44,
+      "probability": 1.0
+    },
+    {
+      "word": "it",
+      "start": 1.44,
+      "end": 1.52,
+      "probability": 0.999
+    },
+    {
+      "word": "was",
+      "start": 1.52,
+      "end": 1.6,
+      "probability": 0.999
+    },
+    {
+      "word": "early",
+      "start": 1.6,
+      "end": 1.84,
+      "probability": 0.963
+    },
+    {
+      "word": "morning,",
+      "start": 1.84,
+      "end": 2.16,
+      "probability": 0.996
+    },
+    {
+      "word": "the",
+      "start": 2.64,
+      "end": 2.72,
+      "probability": 0.996
+    },
+    {
+      "word": "chief",
+      "start": 2.72,
+      "end": 2.96,
+      "probability": 0.931
+    },
+    {
+      "word": "priest,",
+      "start": 2.96,
+      "end": 3.36,
+      "probability": 0.782
+    },
+    {
+      "word": "Selders,",
+      "start": 3.44,
+      "end": 3.84,
+      "probability": 0.762
+    },
+    {
+      "word": "and",
+      "start": 3.92,
+      "end": 4.0,
+      "probability": 0.997
+    },
+    {
+      "word": "teachers,",
+      "start": 4.0,
+      "end": 4.32,
+      "probability": 0.573
+    },
+    {
+      "word": "law",
+      "start": 4.48,
+      "end": 4.64,
+      "probability": 0.563
+    },
+    {
+      "word": "on",
+      "start": 4.64,
+      "end": 4.8,
+      "probability": 0.244
+    },
+    {
+      "word": "the",
+      "start": 4.8,
+      "end": 4.88,
+      "probability": 0.984
+    },
+    {
+      "word": "whole",
+      "start": 4.88,
+      "end": 4.96,
+      "probability": 0.938
+    },
+    {
+      "word": "high",
+      "start": 4.96,
+      "end": 5.2,
+      "probability": 0.62
+    },
+    {
+      "word": "court,",
+      "start": 5.2,
+      "end": 5.92,
+      "probability": 0.979
+    },
+    {
+      "word": "had",
+      "start": 6.0,
+      "end": 6.16,
+      "probability": 0.999
+    },
+    {
+      "word": "Jesus",
+      "start": 6.16,
+      "end": 6.48,
+      "probability": 0.957
+    },
+    {
+      "word": "tied",
+      "start": 6.48,
+      "end": 6.96,
+      "probability": 0.997
+    },
+    {
+      "word": "up",
+      "start": 6.96,
+      "end": 7.12,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 7.12,
+      "end": 7.28,
+      "probability": 0.83
+    },
+    {
+      "word": "then",
+      "start": 7.28,
+      "end": 7.36,
+      "probability": 0.998
+    },
+    {
+      "word": "handed",
+      "start": 7.36,
+      "end": 7.76,
+      "probability": 0.996
+    },
+    {
+      "word": "him",
+      "start": 7.76,
+      "end": 7.84,
+      "probability": 0.954
+    },
+    {
+      "word": "over",
+      "start": 7.84,
+      "end": 8.0,
+      "probability": 0.999
+    },
+    {
+      "word": "to",
+      "start": 8.0,
+      "end": 8.16,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 8.16,
+      "end": 8.32,
+      "probability": 0.993
+    },
+    {
+      "word": "Roman",
+      "start": 8.32,
+      "end": 8.64,
+      "probability": 0.984
+    },
+    {
+      "word": "Governor",
+      "start": 8.64,
+      "end": 9.2,
+      "probability": 0.861
+    },
+    {
+      "word": "pilot.",
+      "start": 9.2,
+      "end": 10.48,
+      "probability": 0.769
+    },
+    {
+      "word": "\"So",
+      "start": 10.48,
+      "end": 10.72,
+      "probability": 0.628
+    },
+    {
+      "word": "pilot,",
+      "start": 10.72,
+      "end": 11.28,
+      "probability": 0.956
+    },
+    {
+      "word": "too,",
+      "start": 11.36,
+      "end": 11.44,
+      "probability": 0.909
+    },
+    {
+      "word": "examined",
+      "start": 11.76,
+      "end": 12.0,
+      "probability": 0.662
+    },
+    {
+      "word": "him,",
+      "start": 12.0,
+      "end": 12.16,
+      "probability": 0.998
+    },
+    {
+      "word": "are",
+      "start": 12.24,
+      "end": 12.32,
+      "probability": 0.894
+    },
+    {
+      "word": "you",
+      "start": 12.32,
+      "end": 12.48,
+      "probability": 0.986
+    },
+    {
+      "word": "King",
+      "start": 12.48,
+      "end": 12.64,
+      "probability": 0.635
+    },
+    {
+      "word": "of",
+      "start": 12.64,
+      "end": 12.88,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 12.88,
+      "end": 12.96,
+      "probability": 0.996
+    },
+    {
+      "word": "Jews?\"",
+      "start": 12.96,
+      "end": 13.44,
+      "probability": 0.91
+    },
+    {
+      "word": "he",
+      "start": 13.44,
+      "end": 13.76,
+      "probability": 0.991
+    },
+    {
+      "word": "said.",
+      "start": 13.76,
+      "end": 14.88,
+      "probability": 0.872
+    },
+    {
+      "word": "\"And",
+      "start": 14.88,
+      "end": 15.04,
+      "probability": 0.895
+    },
+    {
+      "word": "an",
+      "start": 15.04,
+      "end": 15.2,
+      "probability": 0.926
+    },
+    {
+      "word": "answer,\"",
+      "start": 15.2,
+      "end": 15.76,
+      "probability": 0.965
+    },
+    {
+      "word": "he",
+      "start": 15.76,
+      "end": 16.0,
+      "probability": 0.989
+    },
+    {
+      "word": "says.",
+      "start": 16.0,
+      "end": 17.04,
+      "probability": 0.77
+    },
+    {
+      "word": "\"Your",
+      "start": 17.04,
+      "end": 17.28,
+      "probability": 0.985
+    },
+    {
+      "word": "words",
+      "start": 17.28,
+      "end": 17.6,
+      "probability": 0.864
+    },
+    {
+      "word": "not",
+      "start": 17.6,
+      "end": 18.0,
+      "probability": 0.508
+    },
+    {
+      "word": "mine.\"",
+      "start": 18.0,
+      "end": 19.28,
+      "probability": 0.961
+    },
+    {
+      "word": "Now",
+      "start": 19.28,
+      "end": 19.52,
+      "probability": 0.765
+    },
+    {
+      "word": "the",
+      "start": 19.52,
+      "end": 19.6,
+      "probability": 0.84
+    },
+    {
+      "word": "chief",
+      "start": 19.6,
+      "end": 19.92,
+      "probability": 0.922
+    },
+    {
+      "word": "priest",
+      "start": 19.92,
+      "end": 20.24,
+      "probability": 0.967
+    },
+    {
+      "word": "had",
+      "start": 20.24,
+      "end": 20.4,
+      "probability": 0.384
+    },
+    {
+      "word": "charged",
+      "start": 20.4,
+      "end": 21.04,
+      "probability": 0.992
+    },
+    {
+      "word": "him",
+      "start": 21.04,
+      "end": 21.2,
+      "probability": 0.981
+    },
+    {
+      "word": "with",
+      "start": 21.2,
+      "end": 21.28,
+      "probability": 0.995
+    },
+    {
+      "word": "many",
+      "start": 21.28,
+      "end": 21.6,
+      "probability": 0.994
+    },
+    {
+      "word": "things,",
+      "start": 21.6,
+      "end": 22.0,
+      "probability": 0.996
+    },
+    {
+      "word": "so",
+      "start": 22.56,
+      "end": 22.72,
+      "probability": 0.995
+    },
+    {
+      "word": "pilot",
+      "start": 22.72,
+      "end": 23.04,
+      "probability": 0.994
+    },
+    {
+      "word": "again",
+      "start": 23.04,
+      "end": 23.2,
+      "probability": 0.952
+    },
+    {
+      "word": "interrogated",
+      "start": 23.2,
+      "end": 23.92,
+      "probability": 0.997
+    },
+    {
+      "word": "him.",
+      "start": 23.92,
+      "end": 24.64,
+      "probability": 0.932
+    },
+    {
+      "word": "\"You're",
+      "start": 24.64,
+      "end": 24.96,
+      "probability": 0.907
+    },
+    {
+      "word": "not",
+      "start": 24.96,
+      "end": 25.12,
+      "probability": 0.999
+    },
+    {
+      "word": "answering",
+      "start": 25.12,
+      "end": 25.52,
+      "probability": 0.995
+    },
+    {
+      "word": "anything",
+      "start": 25.52,
+      "end": 25.76,
+      "probability": 0.997
+    },
+    {
+      "word": "like",
+      "start": 25.76,
+      "end": 26.08,
+      "probability": 0.779
+    },
+    {
+      "word": "it",
+      "start": 26.08,
+      "end": 26.16,
+      "probability": 0.88
+    },
+    {
+      "word": "as",
+      "start": 26.16,
+      "end": 26.24,
+      "probability": 0.883
+    },
+    {
+      "word": "long",
+      "start": 26.24,
+      "end": 26.48,
+      "probability": 0.969
+    },
+    {
+      "word": "as",
+      "start": 26.48,
+      "end": 26.56,
+      "probability": 0.792
+    },
+    {
+      "word": "to",
+      "start": 26.56,
+      "end": 26.8,
+      "probability": 0.532
+    },
+    {
+      "word": "charges,",
+      "start": 26.8,
+      "end": 27.28,
+      "probability": 0.774
+    },
+    {
+      "word": "but",
+      "start": 28.0,
+      "end": 28.08,
+      "probability": 0.988
+    },
+    {
+      "word": "Jesus",
+      "start": 28.08,
+      "end": 28.4,
+      "probability": 0.987
+    },
+    {
+      "word": "didn't",
+      "start": 28.4,
+      "end": 28.88,
+      "probability": 0.954
+    },
+    {
+      "word": "answer",
+      "start": 28.88,
+      "end": 29.04,
+      "probability": 0.997
+    },
+    {
+      "word": "any",
+      "start": 29.04,
+      "end": 29.28,
+      "probability": 0.956
+    },
+    {
+      "word": "firm.\"",
+      "start": 29.28,
+      "end": 29.44,
+      "probability": 0.727
+    },
+    {
+      "word": "there",
+      "start": 29.58,
+      "end": 29.74,
+      "probability": 0.447
+    },
+    {
+      "word": "which",
+      "start": 29.74,
+      "end": 29.98,
+      "probability": 0.946
+    },
+    {
+      "word": "astonished",
+      "start": 29.98,
+      "end": 31.02,
+      "probability": 0.965
+    },
+    {
+      "word": "Pilot.",
+      "start": 31.02,
+      "end": 31.5,
+      "probability": 0.59
+    },
+    {
+      "word": "That",
+      "start": 32.54,
+      "end": 32.7,
+      "probability": 0.898
+    },
+    {
+      "word": "was",
+      "start": 32.7,
+      "end": 32.86,
+      "probability": 0.998
+    },
+    {
+      "word": "accustomed",
+      "start": 32.86,
+      "end": 33.66,
+      "probability": 0.856
+    },
+    {
+      "word": "to",
+      "start": 33.66,
+      "end": 33.82,
+      "probability": 0.979
+    },
+    {
+      "word": "festival",
+      "start": 33.82,
+      "end": 34.3,
+      "probability": 0.951
+    },
+    {
+      "word": "for",
+      "start": 34.3,
+      "end": 34.46,
+      "probability": 0.906
+    },
+    {
+      "word": "him",
+      "start": 34.46,
+      "end": 34.62,
+      "probability": 0.998
+    },
+    {
+      "word": "to",
+      "start": 34.62,
+      "end": 34.7,
+      "probability": 0.998
+    },
+    {
+      "word": "release",
+      "start": 34.7,
+      "end": 34.94,
+      "probability": 0.996
+    },
+    {
+      "word": "a",
+      "start": 34.94,
+      "end": 35.1,
+      "probability": 0.873
+    },
+    {
+      "word": "prisoner",
+      "start": 35.1,
+      "end": 35.5,
+      "probability": 0.998
+    },
+    {
+      "word": "as",
+      "start": 35.5,
+      "end": 35.58,
+      "probability": 0.802
+    },
+    {
+      "word": "requested",
+      "start": 35.58,
+      "end": 36.14,
+      "probability": 0.96
+    },
+    {
+      "word": "by",
+      "start": 36.14,
+      "end": 36.22,
+      "probability": 0.992
+    },
+    {
+      "word": "the",
+      "start": 36.22,
+      "end": 36.38,
+      "probability": 0.996
+    },
+    {
+      "word": "people.",
+      "start": 36.38,
+      "end": 36.62,
+      "probability": 0.987
+    },
+    {
+      "word": "There",
+      "start": 37.66,
+      "end": 37.74,
+      "probability": 0.422
+    },
+    {
+      "word": "was",
+      "start": 37.74,
+      "end": 37.82,
+      "probability": 0.986
+    },
+    {
+      "word": "a",
+      "start": 37.82,
+      "end": 37.980000000000004,
+      "probability": 0.977
+    },
+    {
+      "word": "man",
+      "start": 37.980000000000004,
+      "end": 38.06,
+      "probability": 0.84
+    },
+    {
+      "word": "named",
+      "start": 38.06,
+      "end": 38.3,
+      "probability": 0.973
+    },
+    {
+      "word": "Barabbas",
+      "start": 38.3,
+      "end": 38.94,
+      "probability": 0.644
+    },
+    {
+      "word": "who",
+      "start": 38.94,
+      "end": 39.1,
+      "probability": 0.982
+    },
+    {
+      "word": "was",
+      "start": 39.1,
+      "end": 39.18,
+      "probability": 0.993
+    },
+    {
+      "word": "imprisoned",
+      "start": 39.18,
+      "end": 39.74,
+      "probability": 0.906
+    },
+    {
+      "word": "with",
+      "start": 39.74,
+      "end": 39.82,
+      "probability": 0.996
+    },
+    {
+      "word": "some",
+      "start": 39.82,
+      "end": 39.980000000000004,
+      "probability": 0.995
+    },
+    {
+      "word": "terrorists",
+      "start": 39.980000000000004,
+      "end": 40.54,
+      "probability": 0.995
+    },
+    {
+      "word": "who",
+      "start": 40.54,
+      "end": 40.7,
+      "probability": 0.986
+    },
+    {
+      "word": "had",
+      "start": 40.7,
+      "end": 40.78,
+      "probability": 0.996
+    },
+    {
+      "word": "killed",
+      "start": 40.78,
+      "end": 41.1,
+      "probability": 1.0
+    },
+    {
+      "word": "people",
+      "start": 41.1,
+      "end": 41.34,
+      "probability": 0.987
+    },
+    {
+      "word": "during",
+      "start": 41.34,
+      "end": 41.58,
+      "probability": 0.962
+    },
+    {
+      "word": "an",
+      "start": 41.58,
+      "end": 41.74,
+      "probability": 0.987
+    },
+    {
+      "word": "uprising.",
+      "start": 41.74,
+      "end": 42.38,
+      "probability": 0.965
+    },
+    {
+      "word": "The",
+      "start": 42.86,
+      "end": 43.019999999999996,
+      "probability": 0.98
+    },
+    {
+      "word": "crowd",
+      "start": 43.019999999999996,
+      "end": 43.34,
+      "probability": 0.982
+    },
+    {
+      "word": "came",
+      "start": 43.34,
+      "end": 43.42,
+      "probability": 0.998
+    },
+    {
+      "word": "up",
+      "start": 43.42,
+      "end": 43.66,
+      "probability": 0.996
+    },
+    {
+      "word": "and",
+      "start": 43.66,
+      "end": 43.74,
+      "probability": 0.925
+    },
+    {
+      "word": "asked",
+      "start": 43.74,
+      "end": 43.9,
+      "probability": 0.999
+    },
+    {
+      "word": "Pilot",
+      "start": 43.9,
+      "end": 44.3,
+      "probability": 0.986
+    },
+    {
+      "word": "to",
+      "start": 44.3,
+      "end": 44.46,
+      "probability": 0.991
+    },
+    {
+      "word": "do",
+      "start": 44.46,
+      "end": 44.62,
+      "probability": 0.994
+    },
+    {
+      "word": "for",
+      "start": 44.62,
+      "end": 44.78,
+      "probability": 0.812
+    },
+    {
+      "word": "them",
+      "start": 44.78,
+      "end": 44.94,
+      "probability": 0.944
+    },
+    {
+      "word": "what",
+      "start": 44.94,
+      "end": 45.1,
+      "probability": 0.991
+    },
+    {
+      "word": "he",
+      "start": 45.1,
+      "end": 45.26,
+      "probability": 0.998
+    },
+    {
+      "word": "usually",
+      "start": 45.26,
+      "end": 45.42,
+      "probability": 0.993
+    },
+    {
+      "word": "did,",
+      "start": 45.42,
+      "end": 45.82,
+      "probability": 0.996
+    },
+    {
+      "word": "and",
+      "start": 46.379999999999995,
+      "end": 46.46,
+      "probability": 0.986
+    },
+    {
+      "word": "Pilot",
+      "start": 46.46,
+      "end": 46.78,
+      "probability": 0.997
+    },
+    {
+      "word": "answered",
+      "start": 46.78,
+      "end": 47.1,
+      "probability": 0.992
+    },
+    {
+      "word": "them,",
+      "start": 47.1,
+      "end": 47.260000000000005,
+      "probability": 0.932
+    },
+    {
+      "word": "saying,",
+      "start": 47.34,
+      "end": 48.06,
+      "probability": 0.855
+    },
+    {
+      "word": "\"Do",
+      "start": 48.06,
+      "end": 48.22,
+      "probability": 0.787
+    },
+    {
+      "word": "you",
+      "start": 48.22,
+      "end": 48.22,
+      "probability": 0.803
+    },
+    {
+      "word": "always",
+      "start": 48.22,
+      "end": 48.379999999999995,
+      "probability": 0.171
+    },
+    {
+      "word": "release",
+      "start": 48.379999999999995,
+      "end": 48.7,
+      "probability": 0.816
+    },
+    {
+      "word": "to",
+      "start": 48.7,
+      "end": 48.86,
+      "probability": 0.951
+    },
+    {
+      "word": "you",
+      "start": 48.86,
+      "end": 48.94,
+      "probability": 0.922
+    },
+    {
+      "word": "this",
+      "start": 48.94,
+      "end": 49.1,
+      "probability": 0.988
+    },
+    {
+      "word": "King",
+      "start": 49.1,
+      "end": 49.34,
+      "probability": 0.574
+    },
+    {
+      "word": "of",
+      "start": 49.34,
+      "end": 49.42,
+      "probability": 0.996
+    },
+    {
+      "word": "the",
+      "start": 49.42,
+      "end": 49.58,
+      "probability": 0.991
+    },
+    {
+      "word": "Jews?\"",
+      "start": 49.58,
+      "end": 50.14,
+      "probability": 0.868
+    },
+    {
+      "word": "for",
+      "start": 50.14,
+      "end": 50.3,
+      "probability": 0.781
+    },
+    {
+      "word": "he",
+      "start": 50.3,
+      "end": 50.46,
+      "probability": 0.998
+    },
+    {
+      "word": "knew",
+      "start": 50.46,
+      "end": 50.7,
+      "probability": 1.0
+    },
+    {
+      "word": "that",
+      "start": 50.7,
+      "end": 50.94,
+      "probability": 0.986
+    },
+    {
+      "word": "the",
+      "start": 50.94,
+      "end": 51.1,
+      "probability": 0.994
+    },
+    {
+      "word": "chief",
+      "start": 51.1,
+      "end": 51.34,
+      "probability": 0.95
+    },
+    {
+      "word": "priest's",
+      "start": 51.34,
+      "end": 51.82,
+      "probability": 0.955
+    },
+    {
+      "word": "main",
+      "start": 51.82,
+      "end": 51.980000000000004,
+      "probability": 0.988
+    },
+    {
+      "word": "reason",
+      "start": 51.980000000000004,
+      "end": 52.3,
+      "probability": 0.993
+    },
+    {
+      "word": "for",
+      "start": 52.3,
+      "end": 52.78,
+      "probability": 0.944
+    },
+    {
+      "word": "handing",
+      "start": 52.78,
+      "end": 53.1,
+      "probability": 0.973
+    },
+    {
+      "word": "him",
+      "start": 53.1,
+      "end": 53.260000000000005,
+      "probability": 0.994
+    },
+    {
+      "word": "over",
+      "start": 53.260000000000005,
+      "end": 53.58,
+      "probability": 0.999
+    },
+    {
+      "word": "was",
+      "start": 53.58,
+      "end": 54.14,
+      "probability": 0.984
+    },
+    {
+      "word": "envy",
+      "start": 54.14,
+      "end": 54.46,
+      "probability": 0.792
+    },
+    {
+      "word": "of",
+      "start": 54.46,
+      "end": 54.54,
+      "probability": 1.0
+    },
+    {
+      "word": "Jesus'",
+      "start": 54.54,
+      "end": 54.78,
+      "probability": 0.952
+    },
+    {
+      "word": "popularity.",
+      "start": 55.019999999999996,
+      "end": 55.66,
+      "probability": 0.981
+    }
+  ],
+  "wall_s": 0.476,
+  "status": "ok",
+  "duration_s": 56.0,
+  "rtf": 0.0085
+}

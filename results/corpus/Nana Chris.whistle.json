@@ -1,0 +1,702 @@
+{
+  "engine": "whistle",
+  "model": "Cactus-Compute/whistle",
+  "text": "Ha! Can you believe we actually did it? We made it through the storm. Windhousing, rain lashing. I thought we'd never see the sun again. There were nights, nights I cried myself to sleep. Whispering, is anyone even out there? But then you showed up. You smiled and suddenly the world wasn't so dark. I felt seen, understood. Then builds Remember that silly dance in the kitchen with burnt pancakes? Oh, we were a mess. But now now you've gone. The silence is definite. I miss you every single day. But I carry you with me in every laugh, every tear, every quiet moment. And I'll keep going because that's what you would want always.",
+  "language": "en",
+  "words": [
+    {
+      "word": "Ha!",
+      "start": 0.0,
+      "end": 0.88,
+      "probability": 0.539
+    },
+    {
+      "word": "Can",
+      "start": 1.12,
+      "end": 1.28,
+      "probability": 0.943
+    },
+    {
+      "word": "you",
+      "start": 1.28,
+      "end": 1.44,
+      "probability": 0.998
+    },
+    {
+      "word": "believe",
+      "start": 1.44,
+      "end": 1.76,
+      "probability": 1.0
+    },
+    {
+      "word": "we",
+      "start": 1.76,
+      "end": 2.0,
+      "probability": 0.997
+    },
+    {
+      "word": "actually",
+      "start": 2.0,
+      "end": 2.24,
+      "probability": 0.999
+    },
+    {
+      "word": "did",
+      "start": 2.24,
+      "end": 2.64,
+      "probability": 1.0
+    },
+    {
+      "word": "it?",
+      "start": 2.64,
+      "end": 2.88,
+      "probability": 1.0
+    },
+    {
+      "word": "We",
+      "start": 3.6,
+      "end": 3.76,
+      "probability": 0.998
+    },
+    {
+      "word": "made",
+      "start": 3.76,
+      "end": 4.0,
+      "probability": 0.996
+    },
+    {
+      "word": "it",
+      "start": 4.0,
+      "end": 4.16,
+      "probability": 1.0
+    },
+    {
+      "word": "through",
+      "start": 4.16,
+      "end": 4.4,
+      "probability": 1.0
+    },
+    {
+      "word": "the",
+      "start": 4.4,
+      "end": 4.64,
+      "probability": 0.998
+    },
+    {
+      "word": "storm.",
+      "start": 4.64,
+      "end": 5.04,
+      "probability": 0.994
+    },
+    {
+      "word": "Windhousing,",
+      "start": 5.92,
+      "end": 6.56,
+      "probability": 0.701
+    },
+    {
+      "word": "rain",
+      "start": 6.72,
+      "end": 7.04,
+      "probability": 0.966
+    },
+    {
+      "word": "lashing.",
+      "start": 7.04,
+      "end": 7.52,
+      "probability": 0.826
+    },
+    {
+      "word": "I",
+      "start": 8.0,
+      "end": 8.16,
+      "probability": 0.999
+    },
+    {
+      "word": "thought",
+      "start": 8.16,
+      "end": 8.32,
+      "probability": 0.999
+    },
+    {
+      "word": "we'd",
+      "start": 8.32,
+      "end": 8.56,
+      "probability": 0.982
+    },
+    {
+      "word": "never",
+      "start": 8.56,
+      "end": 8.8,
+      "probability": 0.999
+    },
+    {
+      "word": "see",
+      "start": 8.8,
+      "end": 9.04,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 9.04,
+      "end": 9.28,
+      "probability": 0.999
+    },
+    {
+      "word": "sun",
+      "start": 9.28,
+      "end": 9.44,
+      "probability": 0.992
+    },
+    {
+      "word": "again.",
+      "start": 9.44,
+      "end": 9.84,
+      "probability": 1.0
+    },
+    {
+      "word": "There",
+      "start": 10.88,
+      "end": 10.96,
+      "probability": 0.968
+    },
+    {
+      "word": "were",
+      "start": 10.96,
+      "end": 11.2,
+      "probability": 1.0
+    },
+    {
+      "word": "nights,",
+      "start": 11.2,
+      "end": 11.84,
+      "probability": 0.713
+    },
+    {
+      "word": "nights",
+      "start": 11.84,
+      "end": 12.32,
+      "probability": 0.999
+    },
+    {
+      "word": "I",
+      "start": 12.32,
+      "end": 12.4,
+      "probability": 0.949
+    },
+    {
+      "word": "cried",
+      "start": 12.4,
+      "end": 12.96,
+      "probability": 0.779
+    },
+    {
+      "word": "myself",
+      "start": 12.96,
+      "end": 13.6,
+      "probability": 0.981
+    },
+    {
+      "word": "to",
+      "start": 13.6,
+      "end": 13.84,
+      "probability": 0.999
+    },
+    {
+      "word": "sleep.",
+      "start": 13.84,
+      "end": 14.24,
+      "probability": 0.998
+    },
+    {
+      "word": "Whispering,",
+      "start": 14.48,
+      "end": 15.04,
+      "probability": 0.926
+    },
+    {
+      "word": "is",
+      "start": 15.52,
+      "end": 15.6,
+      "probability": 0.592
+    },
+    {
+      "word": "anyone",
+      "start": 15.6,
+      "end": 16.0,
+      "probability": 0.987
+    },
+    {
+      "word": "even",
+      "start": 16.0,
+      "end": 16.48,
+      "probability": 0.996
+    },
+    {
+      "word": "out",
+      "start": 16.48,
+      "end": 16.8,
+      "probability": 0.996
+    },
+    {
+      "word": "there?",
+      "start": 16.8,
+      "end": 17.12,
+      "probability": 0.999
+    },
+    {
+      "word": "But",
+      "start": 17.92,
+      "end": 18.08,
+      "probability": 0.988
+    },
+    {
+      "word": "then",
+      "start": 18.08,
+      "end": 18.32,
+      "probability": 0.999
+    },
+    {
+      "word": "you",
+      "start": 18.32,
+      "end": 18.56,
+      "probability": 0.998
+    },
+    {
+      "word": "showed",
+      "start": 18.56,
+      "end": 18.96,
+      "probability": 0.987
+    },
+    {
+      "word": "up.",
+      "start": 18.96,
+      "end": 19.2,
+      "probability": 1.0
+    },
+    {
+      "word": "You",
+      "start": 20.0,
+      "end": 20.24,
+      "probability": 0.99
+    },
+    {
+      "word": "smiled",
+      "start": 20.24,
+      "end": 20.8,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 20.8,
+      "end": 20.96,
+      "probability": 0.921
+    },
+    {
+      "word": "suddenly",
+      "start": 20.96,
+      "end": 21.44,
+      "probability": 1.0
+    },
+    {
+      "word": "the",
+      "start": 21.44,
+      "end": 21.68,
+      "probability": 0.999
+    },
+    {
+      "word": "world",
+      "start": 21.68,
+      "end": 21.92,
+      "probability": 0.98
+    },
+    {
+      "word": "wasn't",
+      "start": 21.92,
+      "end": 22.48,
+      "probability": 0.999
+    },
+    {
+      "word": "so",
+      "start": 22.48,
+      "end": 22.64,
+      "probability": 0.747
+    },
+    {
+      "word": "dark.",
+      "start": 22.64,
+      "end": 23.04,
+      "probability": 1.0
+    },
+    {
+      "word": "I",
+      "start": 24.08,
+      "end": 24.32,
+      "probability": 0.998
+    },
+    {
+      "word": "felt",
+      "start": 24.32,
+      "end": 24.72,
+      "probability": 0.999
+    },
+    {
+      "word": "seen,",
+      "start": 24.72,
+      "end": 25.92,
+      "probability": 0.92
+    },
+    {
+      "word": "understood.",
+      "start": 26.48,
+      "end": 27.12,
+      "probability": 0.993
+    },
+    {
+      "word": "Then",
+      "start": 28.48,
+      "end": 28.8,
+      "probability": 0.951
+    },
+    {
+      "word": "builds",
+      "start": 28.8,
+      "end": 29.36,
+      "probability": 0.878
+    },
+    {
+      "word": "Remember",
+      "start": 30.46,
+      "end": 31.1,
+      "probability": 0.978
+    },
+    {
+      "word": "that",
+      "start": 31.1,
+      "end": 31.5,
+      "probability": 0.926
+    },
+    {
+      "word": "silly",
+      "start": 31.5,
+      "end": 31.98,
+      "probability": 0.988
+    },
+    {
+      "word": "dance",
+      "start": 31.98,
+      "end": 32.3,
+      "probability": 0.839
+    },
+    {
+      "word": "in",
+      "start": 32.3,
+      "end": 32.54,
+      "probability": 0.995
+    },
+    {
+      "word": "the",
+      "start": 32.54,
+      "end": 32.7,
+      "probability": 0.996
+    },
+    {
+      "word": "kitchen",
+      "start": 32.7,
+      "end": 33.02,
+      "probability": 0.988
+    },
+    {
+      "word": "with",
+      "start": 33.02,
+      "end": 33.34,
+      "probability": 0.989
+    },
+    {
+      "word": "burnt",
+      "start": 33.34,
+      "end": 33.66,
+      "probability": 0.75
+    },
+    {
+      "word": "pancakes?",
+      "start": 33.66,
+      "end": 34.38,
+      "probability": 0.947
+    },
+    {
+      "word": "Oh,",
+      "start": 35.1,
+      "end": 35.5,
+      "probability": 0.99
+    },
+    {
+      "word": "we",
+      "start": 35.5,
+      "end": 35.58,
+      "probability": 0.998
+    },
+    {
+      "word": "were",
+      "start": 35.58,
+      "end": 35.82,
+      "probability": 0.998
+    },
+    {
+      "word": "a",
+      "start": 35.82,
+      "end": 35.980000000000004,
+      "probability": 0.794
+    },
+    {
+      "word": "mess.",
+      "start": 35.980000000000004,
+      "end": 36.3,
+      "probability": 0.998
+    },
+    {
+      "word": "But",
+      "start": 37.18,
+      "end": 37.42,
+      "probability": 0.999
+    },
+    {
+      "word": "now",
+      "start": 37.42,
+      "end": 37.74,
+      "probability": 0.998
+    },
+    {
+      "word": "now",
+      "start": 37.74,
+      "end": 38.14,
+      "probability": 0.724
+    },
+    {
+      "word": "you've",
+      "start": 38.14,
+      "end": 38.54,
+      "probability": 0.995
+    },
+    {
+      "word": "gone.",
+      "start": 38.54,
+      "end": 38.86,
+      "probability": 0.999
+    },
+    {
+      "word": "The",
+      "start": 39.74,
+      "end": 39.9,
+      "probability": 0.999
+    },
+    {
+      "word": "silence",
+      "start": 39.9,
+      "end": 40.38,
+      "probability": 0.997
+    },
+    {
+      "word": "is",
+      "start": 40.38,
+      "end": 40.62,
+      "probability": 0.999
+    },
+    {
+      "word": "definite.",
+      "start": 40.62,
+      "end": 41.18,
+      "probability": 0.79
+    },
+    {
+      "word": "I",
+      "start": 41.82,
+      "end": 41.980000000000004,
+      "probability": 0.999
+    },
+    {
+      "word": "miss",
+      "start": 41.980000000000004,
+      "end": 42.14,
+      "probability": 0.948
+    },
+    {
+      "word": "you",
+      "start": 42.14,
+      "end": 42.54,
+      "probability": 0.999
+    },
+    {
+      "word": "every",
+      "start": 42.54,
+      "end": 43.42,
+      "probability": 0.989
+    },
+    {
+      "word": "single",
+      "start": 43.42,
+      "end": 43.82,
+      "probability": 1.0
+    },
+    {
+      "word": "day.",
+      "start": 43.82,
+      "end": 44.3,
+      "probability": 1.0
+    },
+    {
+      "word": "But",
+      "start": 44.94,
+      "end": 45.1,
+      "probability": 0.998
+    },
+    {
+      "word": "I",
+      "start": 45.1,
+      "end": 45.34,
+      "probability": 0.999
+    },
+    {
+      "word": "carry",
+      "start": 45.34,
+      "end": 45.58,
+      "probability": 0.916
+    },
+    {
+      "word": "you",
+      "start": 45.58,
+      "end": 46.54,
+      "probability": 0.998
+    },
+    {
+      "word": "with",
+      "start": 46.54,
+      "end": 46.86,
+      "probability": 0.99
+    },
+    {
+      "word": "me",
+      "start": 46.86,
+      "end": 47.18,
+      "probability": 1.0
+    },
+    {
+      "word": "in",
+      "start": 47.18,
+      "end": 47.5,
+      "probability": 0.276
+    },
+    {
+      "word": "every",
+      "start": 47.5,
+      "end": 47.82,
+      "probability": 1.0
+    },
+    {
+      "word": "laugh,",
+      "start": 47.82,
+      "end": 48.379999999999995,
+      "probability": 0.996
+    },
+    {
+      "word": "every",
+      "start": 48.46,
+      "end": 48.78,
+      "probability": 0.998
+    },
+    {
+      "word": "tear,",
+      "start": 48.78,
+      "end": 49.66,
+      "probability": 0.783
+    },
+    {
+      "word": "every",
+      "start": 49.739999999999995,
+      "end": 50.06,
+      "probability": 0.999
+    },
+    {
+      "word": "quiet",
+      "start": 50.06,
+      "end": 50.46,
+      "probability": 0.997
+    },
+    {
+      "word": "moment.",
+      "start": 50.46,
+      "end": 50.94,
+      "probability": 0.994
+    },
+    {
+      "word": "And",
+      "start": 51.66,
+      "end": 51.82,
+      "probability": 0.982
+    },
+    {
+      "word": "I'll",
+      "start": 51.82,
+      "end": 52.06,
+      "probability": 0.999
+    },
+    {
+      "word": "keep",
+      "start": 52.06,
+      "end": 52.3,
+      "probability": 1.0
+    },
+    {
+      "word": "going",
+      "start": 52.3,
+      "end": 52.620000000000005,
+      "probability": 1.0
+    },
+    {
+      "word": "because",
+      "start": 52.620000000000005,
+      "end": 53.019999999999996,
+      "probability": 0.918
+    },
+    {
+      "word": "that's",
+      "start": 53.019999999999996,
+      "end": 53.34,
+      "probability": 0.999
+    },
+    {
+      "word": "what",
+      "start": 53.34,
+      "end": 53.5,
+      "probability": 0.999
+    },
+    {
+      "word": "you",
+      "start": 53.5,
+      "end": 53.66,
+      "probability": 0.999
+    },
+    {
+      "word": "would",
+      "start": 53.66,
+      "end": 53.9,
+      "probability": 0.829
+    },
+    {
+      "word": "want",
+      "start": 53.9,
+      "end": 54.22,
+      "probability": 1.0
+    },
+    {
+      "word": "always.",
+      "start": 54.22,
+      "end": 54.94,
+      "probability": 0.396
+    }
+  ],
+  "wall_s": 0.346,
+  "status": "ok",
+  "duration_s": 56.084,
+  "rtf": 0.0062
+}

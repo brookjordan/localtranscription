@@ -13,6 +13,11 @@ import moonshine_onnx
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "results" / "assets" / "corpus"
 OUTDIR = ROOT / "results" / "corpus"
+HUMAN = {
+    "brook": ROOT / "results/assets/brook.wav",
+    "silly": ROOT / "results/assets/wav/silly.wav",
+    "sing": ROOT / "results/assets/wav/sing.wav",
+}
 
 
 def transcribe_chunked(path: Path, chunk_s: float = 30.0) -> str:
@@ -40,7 +45,8 @@ def transcribe_chunked(path: Path, chunk_s: float = 30.0) -> str:
 
 def main() -> None:
     print("moonshine corpus: model=moonshine/base (ONNX)", flush=True)
-    for wav in sorted(ASSETS.glob("*.wav")):
+    inputs = list(sorted(ASSETS.glob("*.wav"))) + list(HUMAN.values())
+    for wav in inputs:
         out = OUTDIR / f"{wav.stem}.moonshine.txt"
         if out.exists() and out.stat().st_size > 0:
             print(f"skip {wav.stem} (exists)", flush=True)

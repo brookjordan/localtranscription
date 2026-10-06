@@ -24,10 +24,19 @@ Git repository; posts link to the exact files on `assets.brook.dev`.
 ## Layout
 
 ```text
-scripts/  Node/Python helpers: downloads, corpus runs, guards, dashboard embed
-docs/     research notes and technical documentation
-results/  corpus audio, ground truths, transcripts, segment WAVs, dashboard (tracked)
+scripts/  Node/Python helpers: runners, guards, embedding, site build/publish
+corpus/   manifest/reference material for the evaluation inputs
+docs/     evaluation notes and technical documentation
+results/  verified dashboard plus legacy-compatible raw/derived corpus outputs
+site/     canonical complete publishable site: page, blog, CSS, images, manifest
 vendor/   compiled engine builds (whisper.cpp, sensevoice.cpp), ignored
           AI model weights live outside the repo in ~/.cache/localtranscription/
           (whisper.cpp ggml, sensevoice gguf) and ~/.cache/huggingface/ (MLX models)
 ```
+
+`results/dashboard.html` remains the verified local dashboard and ground truth.
+The existing `results/corpus/` paths are intentionally retained because the
+runners and dashboard embedder use them; new structural work must not move or
+delete those records without a compatibility plan. `site/` is the only site
+source of truth. Build and publish it with `npm run site:check` and
+`npm run site:publish`.

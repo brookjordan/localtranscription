@@ -1,0 +1,10 @@
+{
+  "engine": "phonon-2",
+  "model": "FermionResearch/Phonon-2",
+  "text": "I went back to Hanoi for two weeks, uh spent times with my family and friends there, went for private Bedminton coaching with my kids and we enjoyed the food, not the weather. Lovely place, lovely memories.",
+  "wall_s": 0.134,
+  "status": "ok",
+  "decode_s": 18.2613125,
+  "duration_s": 18.2613125,
+  "rtf": 0.0073
+}
