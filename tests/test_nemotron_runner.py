@@ -16,8 +16,9 @@ class NemotronRunnerTest(unittest.TestCase):
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         jobs = module.matrix_jobs(Path('/corpus'))
-        self.assertEqual(len(jobs), 18)
+        self.assertEqual(len(jobs), 19)
         self.assertIn(('tse3-three', Path('/corpus/corpus/tse3-three.wav')), jobs)
+        self.assertIn(('tse3-two-wide', Path('/corpus/corpus/tse3-two-wide.wav')), jobs)
 
     def test_resume_keeps_matching_existing_results_without_retranscribing(self):
         spec = importlib.util.spec_from_file_location('nemotron_matrix', ROOT / 'scripts' / 'nemotron_matrix.py')
