@@ -1,0 +1,176 @@
+{
+  "model": "/Users/brook.jordan/models/incoming/moss-transcribe-diarize-8bit",
+  "rows": [
+    {
+      "clip": "tse3-two",
+      "wall_s": 2.49,
+      "truth_speakers": 2,
+      "speakers": 2,
+      "segments": 7,
+      "wer": 0.123,
+      "text": "[0.25][S01] Welcome back to the show.[1.65][2.13][S01] Today we're looking at how speech recognizers handle more than one voice at a time,[6.01][6.25][S01] and why that is harder than it sounds.[8.12][9.42][S02] Right, because a single speaker is predictable,[11.78][12.01][S02] but a conversation overlaps, interrupts and changes pace without warning.[16.25][17.51][S01] Exactly, so keep an ear on the speaker labels as we go.[20.62][21.05][S01] If the engine cannot tell us apart, that is a diarization failure, not a transcription failure.[26.31]"
+    },
+    {
+      "clip": "tse3-three",
+      "wall_s": 0.85,
+      "truth_speakers": 3,
+      "speakers": 3,
+      "segments": 9,
+      "wer": 0.26,
+      "text": "[0.25][S01]Panel time, three voices tonight, and a question for each of you in turn.[4.74][5.13][S01]Let us start with the newest member of the team.[7.76][8.98][S02]Delighted to be here.[10.05][10.55][S02]The hardest part of multi-speaker audio for me is turn-taking,[14.11][14.35][S02]because the model must decide when one person has finished.[17.64][18.91][S03]\u5927\u5bb6\u597d\uff0c\u5f88\u9ad8\u5174\u53c2\u52a0\u8fd9\u4e2a\u8282\u76ee\u3002\u6211\u8ba4\u4e3a\u6700\u56f0\u96be\u7684\u662f\u591a\u4eba\u540c\u65f6\u8bf4\u8bdd\u7684\u65f6\u5019\uff0c\u6a21\u578b\u9700\u8981\u5206\u8fa8\u6bcf\u4e00\u4e2a\u4eba\u7684\u58f0\u97f3\u3002[26.52][27.91][S01]And that is the three-voice problem in one clip:[30.28][30.65][S01]two accents of English and one full turn of Mandarin,[34.18][34.51][S01]with a real-speaker rotation between every turn.[37.86]"
+    },
+    {
+      "clip": "tse3-codeswitch",
+      "wall_s": 0.61,
+      "truth_speakers": 2,
+      "speakers": 2,
+      "segments": 6,
+      "wer": 0.231,
+      "text": "[0.21][S01] So we said we'd try something different this episode. Let's mix it up a little.[4.68][4.75][S01] Prayer to Asir, Jivai's continuer and Francize C2 prayfers.[9.14][10.41][S02] Bien s\u00fbr, pas de probl\u00e8me. Je pense que le passage d'une langue \u00e0 l'autre au milieu d'une phrase[15.61][15.64][S02] est le vrai test pour un mod\u00e8le de transcription.[18.14][19.04][S01] Exactly, code switching. Most engines pick one language per utterance and force everything into it,[25.11][25.14][S01] which is how you get fantasy French or nonsense English.[28.64]"
+    },
+    {
+      "clip": "tse3-two-wide",
+      "wall_s": 0.37,
+      "truth_speakers": 2,
+      "speakers": 2,
+      "segments": 4,
+      "wer": 0.104,
+      "text": "[0.25][S01] This pair test keeps two speakers and widens the gap between them.[4.26][4.68][S01] One voice is a British man, the other an American woman.[8.32][9.58][S02] And that is the whole point.[10.92][11.31][S02] If the labels still collapse with a wide gap, the problem is two voices rather than these particular two.[17.11]"
+    },
+    {
+      "clip": "Balajee",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 2,
+      "segments": 29,
+      "wer": null,
+      "text": "[0.12][S01] Thank you everyone, super excited and full of energy, definitely be interested.[5.12][5.25][S02] This is gonna be a new one for Dave and I for sure, like, I don't think we have done the Laurel and Hardy Tap Dance Show before.[12.01][12.62][S02] Alright, um, so, full disclosure, this is the first time Dave and I are doing, so I'm not quite sure we have their gig down, right?[20.74][20.76][S02] So, uh, we wanted, Phil is joining us and we're gonna start doing this hopefully on a regular basis.[26.45][26.93][S02] Um, the first one off, it's a get to know Phil, and so Phil, welcome, join, welcome to the team.[33.18][33.52][S02] Um, I'll do a quick intro, Dave, feel free to chime in, and then there's a set of questions[37.91][38.24][S02] uh, that, that, that we will ask out Phil, and we'll try and set aside some time at the back end for all of you to go ahead and, and ask questions.[45.41][45.73][S02] Um, as always, my preamble, this is not gonna be fun if you just let the three of us talk.[50.56][51.01][S02] So I'm hoping you guys all ask questions, everyone does.[54.28][54.71][S02] It actually gets more fun that way, you get to ask us embarrassing stuff, focus on Phil if you can, uh, but the two of us are also fair game.[61.72][63.36][S02] Um, Phil was mentioning the scout, uh, the scout piece of it, I was at scout at Amazon before Phil was, um,[69.63][69.78][S02] they kicked me to bring him on, so I don't know, I don't know if I've ever got no of that one.[73.34][73.94][S02] Um, so, you have a, let me, I have a question for you, Phil, I mean, you have a pretty broad spectrum understanding of it, not only from the standpoint of[82.07][82.53][S02] core robotics, uh, but also far broader than that, Derivative is a fantastic way, that's where some of the predictive[89.28][89.67][S02] prediction and forecasting kind of originated, so to speak, that, that we now end up using in the space.[95.01][95.37][S02] What is your vision for autonomy in AI, specifically for emotional but in general too, how do you see this space evolving?[102.48][102.78][S02] How do you see us evolving with that?[104.66][105.51][S01] Yeah, no, that was cool, I, I can, as you said, we can sit and talk for about three hours on this one, but, but that was, I think was a really good summary[112.68][113.21][S01] um, of how to kind of balance today's and then kind of continue to move forward into the future.[118.34][119.18][S01] Um, that was pretty cool.[121.65][122.97][S01] I had a different perspective, I was curious about, to get your take on, on the same thing.[127.82][128.25][S01] Um, we're all, for the, for the, the, the emotional duration, we've been an R and D organization primarily.[136.65][136.94][S01] We've been building the technology towards it, I think, in the offsite, especially, uh, Jacqueline was talking about the inflection point[143.44][143.71][S01] that happens when you transition from an R and D to something that you have to do in commercial and operate a service[150.16][150.48][S01] and do the R and D and work through this lockstep with each other.[153.56][154.21][S01] When you were in cruise, I'm sure you experienced that, there is a, this push-pull of, of trying to move things forward[160.86][160.88][S01] just as a step-by-step progression, because you have a commercial service out there,[164.26][164.56][S01] and yet, knowing that you have to make some fundamental architectural changes to be able to leapfrog what needs to be done.[170.78][171.48][S01] How do you think we should set ourselves up, whether it's mentally or organizationally or however, for us to be able to deal with that?[178.75]"
+    },
+    {
+      "clip": "Brett",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 11,
+      "wer": null,
+      "text": "[1.96][S01] Luke's gospel tells us that Jesus had longed to celebrate this Passover meal with his disciples.[7.34][8.02][S01] Why not dreaded?[9.24][9.64][S01] This was after all the last meal he was going to share with them before his crucifixion.[13.74][15.02][S01] Luke gives us four reasons why Jesus was keen to take part in this meal.[18.73][19.64][S01] At communion, we drink wine and eat bread, but no meat.[23.81][24.54][S01] In this meal, Jesus takes the place of the Passover lamb, Jesus.[29.04][30.96][S01] Although present, will not take part in the communion meal until he returns and each of us are given resurrection bodies.[36.86][38.22][S01] The Passover meal was a celebratory, family meal, hosted by the head of the household.[43.41][43.80][S01] Communion is an educational meal, hosted by Jesus for his disciples, one in which we learn by doing.[50.06][51.88][S01] When Jesus gave his bodies to eat and his blood to drink, he was giving them everything that he had.[56.46][57.00][S01] As we take communion, we tell God that we are open to receiving all that Jesus has for us.[62.34]"
+    },
+    {
+      "clip": "Brook 2",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 12,
+      "wer": null,
+      "text": "[1.38][S01] Byron was at his best and most characteristic in the long poem.[5.52][6.25][S01] Chi- Child Harold's pilgrimage was a sensation that made his name.[10.54][10.92][S01] And Don Juan was the book-length virtuoso extravaganza that sealed the deal.[15.66][16.33][S01] But, anyone who doubts that Byron could have shone if confined to shorter poems should take a close look at this one.[22.92][23.29][S01] And check out the perfection of his balance.[25.41][25.99][S01] One shade the more, one ray the less.[28.94][29.22][S01] It's just a tiny example of the impetus he could keep up for pages.[33.26][33.82][S01] The only thing that makes this particular Byronic poem non Byronic is that it professedly to do with innocence.[41.21][41.68][S01] The innocence is at the heart of the narrator's fancied young lady.[45.01][45.22][S01] And certainly, she is more innocent than Byron truly thought life or love could ever be.[50.24][51.76][S01] She might come good later, i.e. she might turn bad.[55.74][56.08][S01] But at the moment, she is just a stack of iced cake trembling in the strip slip slipstream as Byron sweeps by on his way to depravities unknown in her sweet dreams.[66.88]"
+    },
+    {
+      "clip": "Dave",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 10,
+      "wer": null,
+      "text": "[0.26][S01] No, I don't think so. And fair warning, I've got, I have two new kittens that are gonna be[5.78][5.81][S01] rampaging around this call. So if I get attacked while I'm talking, you all know what's going on.[11.42][11.84][S01] Starting to wake up. They basically sleep most of the time, but when they wake up, they kinda go crazy. So.[16.37][16.85][S01] This is Leonidas. He's eight weeks old.[19.43][20.18][S01] I don't know where his sister is. She's around here somewhere.[23.18][23.42][S01] Hard to get mad.[24.77][25.37][S01] No, I think we got some questions some of you submitted and we're gonna go through that. And then I think there's open Q and A at the end that we're gonna do. So.[31.88][32.15][S01] Yeah, we'll start with the easy one. Uh, you know, you're the newest member of the leadership team. Just, yeah, tell us, I don't know, a little bit about[40.94][41.54][S01] your background. You talked a little bit about some of your technical background, but you know, whatever you wanna, whatever you wanna tell us about. And what brought you to emotional, most importantly, other than biology and I, obviously, like.[49.82][49.85][S01] For those of you who don't know, we did meet Phil before he came and we landed the, landed the big fish. So.[55.49]"
+    },
+    {
+      "clip": "Mum's voice",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 14,
+      "wer": null,
+      "text": "[0.45][S01] Ha! Can you believe we actually did it?[3.74][4.18][S01] We made it through the storm, wind howling, rain lashing.[8.76][9.41][S01] I thought we'd never see the sun again.[11.61][12.78][S01] There were nights, nights I cried myself to sleep,[16.95][18.11][S01] whispering, \"Is anyone even out there?\"[21.03][22.03][S01] But then you showed up, you smiled, and suddenly the world wasn't so dark.[29.06][30.01][S01] I felt seen, understood.[33.11][33.88][S01] Remember that silly dance in the kitchen with the burnt pancakes?[37.56][37.88][S01] Oh, we were a mess.[39.51][40.81][S01] But now, now you're gone.[43.48][44.63][S01] The silence is deafening.[47.03][48.46][S01] I miss you every single day.[52.81][54.11][S01] But I carry you with me in every laugh, every tear, every quiet moment.[60.73][62.23][S01] And I'll keep going because that's what you'd want always.[68.41]"
+    },
+    {
+      "clip": "Nana Chris",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 15,
+      "wer": null,
+      "text": "[0.35][S01] Ha, can you believe we actually did it?[2.82][3.42][S01] We made it through the storm.[5.04][5.48][S01] Wind howling, rain lashing, I thought we'd never see the sun again.[9.94][10.64][S01] There were nights, nights I cried myself to sleep, whispering, is anyone even out there?[17.12][17.75][S01] But then you showed up.[19.14][19.81][S01] You smiled and suddenly the world wasn't so dark.[23.01][23.88][S01] I felt seen, understood.[27.01][28.28][S01] Then builds.[29.48][30.48][S01] Remember that silly dance in the kitchen with burnt pancakes?[34.45][34.92][S01] Oh, we were a mess.[36.45][37.05][S01] But now, now you've gone.[38.88][39.48][S01] The silence is deafening.[41.15][41.58][S01] I miss you every single day.[44.31][44.81][S01] But I carry you with me in every laugh, every tear, every quiet moment.[50.95][51.45][S01] And I'll keep going because that's what you would want, always.[55.12]"
+    },
+    {
+      "clip": "Ping",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 11,
+      "wer": null,
+      "text": "[0.00][S01] All right, you should be able to see my screen now, right? Fantastic. Okay.[3.46][3.91][S01] Uh, cool. I think let's not delay and I think we have a good quorum of folks now, perhaps ten to twenty.[11.36][11.81][S01] So that's good. We will start our meeting formally.[16.06][16.36][S01] So today, this is the, maybe the second time we are gathering together as a group.[20.28][20.63][S01] Um, we want to talk about a little bit about Q one, then moving on to Q two, mainly focusing on what are the things that we are[27.68][28.11][S01] um, kind of looking forward to, right? What's gonna happen in Q two for each of the uh, groups under the platform and apps, um, you know, a team.[37.42][38.01][S01] So let's go ahead and get started. All right. So I think I, uh, you know, before I, by the way, Stacy, your hands are raised, so.[45.46][45.98][S01] Hi.[46.34][47.51][S01] Good morning.[48.04][49.61][S01] Um, I think I want to revisit some of the things that we shared uh, earlier, right? In the last quarterly, all hands.[55.58][55.62][S01] And just for sure that we kind of regroup and see where we are today.[59.98]"
+    },
+    {
+      "clip": "Pritisman",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 6,
+      "wer": null,
+      "text": "[0.00][S01] I don't know what I need to talk about. Let me talk about lot of the rings.[4.98][5.32][S01] Lot of the Rings, there's three, three movies. Okay, no, six movies, bro.[10.62][10.62][S01] Lot of the Rings and the other one was.[13.48][16.88][S01] Hobbits, Hobbits. It had like three movies, so yeah.[21.58][22.24][S01] The third one got like lots of Oscars.[25.82][26.04][S01] So, yeah, that was a good one. But I liked the, the second one, the High Tower. It was really good.[32.78]"
+    },
+    {
+      "clip": "Tung",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 5,
+      "wer": null,
+      "text": "[0.65][S01] I went back to Hanoi for two weeks.[3.41][3.54][S01] Spent times with my family and friends there.[6.35][6.88][S01] Went for private meditation coaching with my kids[10.25][10.31][S01] and we enjoyed the food, not the weather.[13.01][14.41][S01] Lovely place, lovely memories.[16.81]"
+    },
+    {
+      "clip": "antony billington",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 9,
+      "wer": null,
+      "text": "[0.53][S01] A message that we need to own for ourselves before we can pass it on to others.[4.51][5.27][S01] And when he calls us to a difficult task, he'll equip us for that task.[10.71][11.54][S01] So that's where we're going. Let's say a bit about each of those. First of all, God's call.[17.25][18.08][S01] Now, in reality, it's more than a call, it's a summons.[22.25][22.72][S01] As we see in chapter two, verse one, he said to me, \"Son of man, stand upon your feet and I will speak to you.\"[30.63][30.66][S01] The call starts with God.[33.86][34.10][S01] Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide, \"I'm going to be the next new prophet for the people of Israel.\"[42.51][43.67][S01] The initiative lies with God.[46.07][47.17][S01] And I think that's a...[47.91]"
+    },
+    {
+      "clip": "conrad",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 12,
+      "wer": null,
+      "text": "[0.96][S01] As soon as it was early morning, the chief priests, elders, and teachers of the law, and the whole high court[5.82][5.85][S01] had Jesus tied up and then handed him over to the Roman governor Pilate.[9.68][10.34][S01] And so Pilate too examined him, \"Are you king of the Jews?\" he said.[14.06][14.78][S01] \"And in answer, he says, your words, not mine.\"[18.31][19.16][S01] Now, the chief priests had charged him with many things, so Pilate again interrogated him.[24.06][24.41][S01] \"You're not answering anything? Look at this long list of charges.\"[27.22][27.91][S01] But Jesus didn't answer any further, which astonished Pilate.[31.42][32.44][S01] That was a custom at the festival for him to release a prisoner as requested by the people.[36.72][37.54][S01] There was a man named Barabbas who was in prison with some terrorists who had killed people during an uprising.[42.26][42.81][S01] The crowd came up and asked Pilate to do for them what he usually did.[45.78][46.21][S01] And Pilate answered them, saying, \"Do you want me to release to you this king of the Jews?\"[49.96][50.01][S01] for he knew that the chief priest's main reason for handing him over was envy of Jesus' popularity.[55.72]"
+    },
+    {
+      "clip": "lockpicking lawyer voice",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 9,
+      "wer": null,
+      "text": "[0.93][S01] This is the lock picking lawyer and one of the weaknesses with modern smart locks is[5.85][5.91][S01] battery life and there's various ways of dealing with that.[9.84][10.08][S01] More batteries, bigger batteries, lithium batteries, wireless charging, solar panels,[16.11][16.35][S01] but so few seem to have taken the obvious step of dramatically reducing power consumption.[22.89][23.22][S01] And probably the largest power draw is the electric motor that throws the bolt.[28.86][29.64][S01] That's why I love to see locks like this one from Geek Tail.[32.79][35.49][S01] At least I was until I saw the tiny lithium battery that powers this.[41.10][41.31][S01] It's right on the back of this panel.[43.62][43.71][S01] So in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame.[50.37]"
+    },
+    {
+      "clip": "brook",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 2,
+      "wer": null,
+      "text": "[1.02][S01] Okay then, let me do a quick test and see how this ends up sounding.[5.34][5.82][S01] I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later.[10.74]"
+    },
+    {
+      "clip": "silly",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 3,
+      "wer": null,
+      "text": "[0.81][S01] Yeah boy, I think that would be so cool.[4.58][4.64][S01] I go in the grass with the bath and I laugh at you.[8.63][8.66][S01] Ha ha ha.[9.91]"
+    },
+    {
+      "clip": "sing",
+      "wall_s": null,
+      "truth_speakers": null,
+      "speakers": 1,
+      "segments": 7,
+      "wer": null,
+      "text": "[0.65][S01] Okay, so this time I'm gonna test various things like if it can hear me when I'm banging,[6.24][6.27][S01] if it gets different noises, or if it can recognize sound.[11.54][14.88][S01] And if it can tell when I start to sing,[17.64][17.67][S01] or if it thinks I'm talking and it doesn't know anything.[21.46][21.49][S01] Doesn't know anything. Does it just think I'm snorking normally?[26.82][26.85][S01] Does it just think I'm talking normally?[29.85][29.88][S01] Let's see.[30.48]"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "model": "/Users/brook.jordan/models/incoming/moss-transcribe-diarize-8bit",
+  "rows": [
+    {
+      "clip": "tse3-two",
+      "wall_s": 2.88,
+      "truth_speakers": 2,
+      "speakers": 2,
+      "segments": 7,
+      "wer": 0.123,
+      "text": "[0.25][S01] Welcome back to the show.[1.65][2.13][S01] Today we're looking at how speech recognizers handle more than one voice at a time,[6.01][6.25][S01] and why that is harder than it sounds.[8.12][9.42][S02] Right, because a single speaker is predictable,[11.78][12.01][S02] but a conversation overlaps, interrupts and changes pace without warning.[16.25][17.51][S01] Exactly, so keep an ear on the speaker labels as we go.[20.62][21.05][S01] If the engine cannot tell us apart, that is a diarization failure, not a transcription failure.[26.31]"
+    },
+    {
+      "clip": "tse3-three",
+      "wall_s": 0.82,
+      "truth_speakers": 3,
+      "speakers": 3,
+      "segments": 9,
+      "wer": 0.26,
+      "text": "[0.25][S01]Panel time, three voices tonight, and a question for each of you in turn.[4.74][5.13][S01]Let us start with the newest member of the team.[7.76][8.98][S02]Delighted to be here.[10.05][10.55][S02]The hardest part of multi-speaker audio for me is turn-taking,[14.11][14.35][S02]because the model must decide when one person has finished.[17.64][18.91][S03]\u5927\u5bb6\u597d\uff0c\u5f88\u9ad8\u5174\u53c2\u52a0\u8fd9\u4e2a\u8282\u76ee\u3002\u6211\u8ba4\u4e3a\u6700\u56f0\u96be\u7684\u662f\u591a\u4eba\u540c\u65f6\u8bf4\u8bdd\u7684\u65f6\u5019\uff0c\u6a21\u578b\u9700\u8981\u5206\u8fa8\u6bcf\u4e00\u4e2a\u4eba\u7684\u58f0\u97f3\u3002[26.52][27.91][S01]And that is the three-voice problem in one clip:[30.28][30.65][S01]two accents of English and one full turn of Mandarin,[34.18][34.51][S01]with a real-speaker rotation between every turn.[37.86]"
+    },
+    {
+      "clip": "tse3-codeswitch",
+      "wall_s": 0.6,
+      "truth_speakers": 2,
+      "speakers": 2,
+      "segments": 6,
+      "wer": 0.231,
+      "text": "[0.21][S01] So we said we'd try something different this episode. Let's mix it up a little.[4.68][4.75][S01] Prayer to Asir, Jivai's continuer and Francize C2 prayfers.[9.14][10.41][S02] Bien s\u00fbr, pas de probl\u00e8me. Je pense que le passage d'une langue \u00e0 l'autre au milieu d'une phrase[15.61][15.64][S02] est le vrai test pour un mod\u00e8le de transcription.[18.14][19.04][S01] Exactly, code switching. Most engines pick one language per utterance and force everything into it,[25.11][25.14][S01] which is how you get fantasy French or nonsense English.[28.64]"
+    },
+    {
+      "clip": "tse3-two-wide",
+      "wall_s": 0.37,
+      "truth_speakers": 2,
+      "speakers": 2,
+      "segments": 4,
+      "wer": 0.104,
+      "text": "[0.25][S01] This pair test keeps two speakers and widens the gap between them.[4.26][4.68][S01] One voice is a British man, the other an American woman.[8.32][9.58][S02] And that is the whole point.[10.92][11.31][S02] If the labels still collapse with a wide gap, the problem is two voices rather than these particular two.[17.11]"
+    }
+  ]
+}

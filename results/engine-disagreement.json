@@ -1,0 +1,154 @@
+[
+  {
+    "clip": "tse3-three",
+    "mutual": 0.304,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 3,
+    "moss_speakers": 3
+  },
+  {
+    "clip": "Tung",
+    "mutual": 0.237,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "brook",
+    "mutual": 0.194,
+    "nemo_vs_ref": 0.086,
+    "moss_vs_ref": 0.114,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "tse3-codeswitch",
+    "mutual": 0.192,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 2
+  },
+  {
+    "clip": "Pritisman",
+    "mutual": 0.171,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "Nana Chris",
+    "mutual": 0.165,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "silly",
+    "mutual": 0.16,
+    "nemo_vs_ref": 0.0,
+    "moss_vs_ref": 0.16,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "Dave",
+    "mutual": 0.155,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "Ping",
+    "mutual": 0.147,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "sing",
+    "mutual": 0.147,
+    "nemo_vs_ref": 0.1,
+    "moss_vs_ref": 0.186,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "Mum's voice",
+    "mutual": 0.132,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "Brook 2",
+    "mutual": 0.114,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "tse3-two",
+    "mutual": 0.11,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 2
+  },
+  {
+    "clip": "tse3-two-wide",
+    "mutual": 0.104,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 2,
+    "moss_speakers": 2
+  },
+  {
+    "clip": "Balajee",
+    "mutual": 0.096,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 2
+  },
+  {
+    "clip": "conrad",
+    "mutual": 0.092,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "lockpicking lawyer voice",
+    "mutual": 0.092,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "Brett",
+    "mutual": 0.078,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  },
+  {
+    "clip": "antony billington",
+    "mutual": 0.078,
+    "nemo_vs_ref": null,
+    "moss_vs_ref": null,
+    "nemo_speakers": 1,
+    "moss_speakers": 1
+  }
+]

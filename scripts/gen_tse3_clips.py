@@ -49,6 +49,12 @@ CLIPS: dict[str, list[dict]] = {
         {"speaker": 0, "voice": "bm_george", "lang": "en",
          "text": "And that is the three-voice problem in one clip: two accents of English and one full turn of Mandarin, with a real speaker rotation between every turn."},
     ],
+    "tse3-two-wide": [
+        {"speaker": 0, "voice": "bm_george", "lang": "en",
+         "text": "This pair test keeps two speakers and widens the gap between them. One voice is a British man, the other an American woman."},
+        {"speaker": 1, "voice": "af_bella", "lang": "en",
+         "text": "And that is the whole point: if the labels still collapse with a wide gap, the problem is two voices rather than these particular two."},
+    ],
     "tse3-codeswitch": [
         {"speaker": 0, "voice": "am_fenrir", "lang": "en",
          "text": "So, we said we'd try something different this episode. Let's mix it up a little. Prêt à essayer? Je vais continuer en français, si tu préfères."},

@@ -1,0 +1,72 @@
+{
+  "takes": {
+    "take1": {
+      "tse3-two": {
+        "status": "ok",
+        "speakers": 1,
+        "segments": 73
+      },
+      "tse3-three": {
+        "status": "ok",
+        "speakers": 3,
+        "segments": 374
+      },
+      "tse3-codeswitch": {
+        "status": "ok",
+        "speakers": 1,
+        "segments": 78
+      },
+      "tse3-two-wide": {
+        "status": "ok",
+        "speakers": 2,
+        "segments": 48
+      }
+    },
+    "take2": {
+      "tse3-two": {
+        "status": "ok",
+        "speakers": 1,
+        "segments": 73
+      },
+      "tse3-three": {
+        "status": "ok",
+        "speakers": 3,
+        "segments": 374
+      },
+      "tse3-codeswitch": {
+        "status": "ok",
+        "speakers": 1,
+        "segments": 78
+      },
+      "tse3-two-wide": {
+        "status": "ok",
+        "speakers": 2,
+        "segments": 48
+      }
+    },
+    "take3": {
+      "tse3-two": {
+        "status": "ok",
+        "speakers": 1,
+        "segments": 73
+      },
+      "tse3-three": {
+        "status": "ok",
+        "speakers": 3,
+        "segments": 374
+      },
+      "tse3-codeswitch": {
+        "status": "ok",
+        "speakers": 1,
+        "segments": 78
+      },
+      "tse3-two-wide": {
+        "status": "ok",
+        "speakers": 2,
+        "segments": 48
+      }
+    }
+  },
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f"
+}
