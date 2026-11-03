@@ -33,13 +33,12 @@ except ImportError:
     from pipeline_metrics import PipelineMetricsStore, capture_memory_snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
-BROOK = Path('/Users/brook.jordan/ComfyUI-Shared/input/Brook 2.wav')
-CONRAD = Path('/Users/brook.jordan/ComfyUI-Shared/input/conrad.wav')
+INPUT_DIR = Path('/Users/brook.jordan/Documents/ComfyUI-Shared/input')
 REFERENCES = {
-    'brook': BROOK,
-    'conrad': CONRAD,
-    'antony': Path('/Users/brook.jordan/ComfyUI-Shared/input/antony billington.mp3'),
-    'brett': Path('/Users/brook.jordan/ComfyUI-Shared/input/Brett-campplus.wav'),
+    'brook': INPUT_DIR / 'Brook 2.wav',
+    'conrad': INPUT_DIR / 'conrad.wav',
+    'antony': INPUT_DIR / 'antony billington.mp3',
+    'brett': INPUT_DIR / 'Brett-campplus.wav',
 }
 MAX_AUDIO_BYTES = 50 * 1024 * 1024
 EVALUATION_SLOT = threading.BoundedSemaphore(value=1)
@@ -388,7 +387,7 @@ class Handler(BaseHTTPRequestHandler):
 def main() -> None:
     # launchd starts with a minimal PATH; all worker and technical probes need Homebrew ffmpeg/ffprobe.
     os.environ['PATH'] = '/opt/homebrew/bin:' + os.environ.get('PATH', '')
-    host = os.environ.get('PCB010_API_HOST', '100.98.203.89')
+    host = os.environ.get('PCB010_API_HOST', '0.0.0.0')
     port = int(os.environ.get('PCB010_API_PORT', '8765'))
     ThreadingHTTPServer((host, port), Handler).serve_forever()
 
