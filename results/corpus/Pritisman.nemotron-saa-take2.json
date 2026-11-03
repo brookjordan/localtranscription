@@ -1,0 +1,483 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.342221874976531,
+  "audio_file": "Pritisman.wav",
+  "audio_sha256": "8d00c74a4677cc32fc1d69973ef212a10e2cf2b720490c088c859dc65cf52f98",
+  "captured_at": "2026-11-01T17:27:17.105625+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 34.410688,
+  "status": "ok",
+  "text": "<spk:0> I don't know what I need to talk about. Let me talk about Lord of the Rings. Lord of the Rings, there's three three movies. Okay, no, six movies, bro. Lord of the Rings and the other one was. Hobbits, hobbits. It had like three movies. So yeah. The third one got like lots of Oscars. So yeah, that was a good one. But I like the the second one, the High Tower. It's really good.",
+  "wall_s": 1.999891374958679,
+  "rtf": 0.058118319952181106,
+  "segments": [
+    {
+      "text": "I",
+      "start": 0.0,
+      "end": 0.38,
+      "speaker": 0
+    },
+    {
+      "text": "don't",
+      "start": 0.38,
+      "end": 0.6387134570765661,
+      "speaker": 0
+    },
+    {
+      "text": "know",
+      "start": 0.6387134570765661,
+      "end": 0.7983918213457076,
+      "speaker": 0
+    },
+    {
+      "text": "what",
+      "start": 0.7983918213457076,
+      "end": 1.03790936774942,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 1.03790936774942,
+      "end": 1.1177485498839907,
+      "speaker": 0
+    },
+    {
+      "text": "need",
+      "start": 1.1177485498839907,
+      "end": 1.357266096287703,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 1.357266096287703,
+      "end": 1.4371052784222738,
+      "speaker": 0
+    },
+    {
+      "text": "talk",
+      "start": 1.4371052784222738,
+      "end": 1.7564620069605568,
+      "speaker": 0
+    },
+    {
+      "text": "about.",
+      "start": 1.7564620069605568,
+      "end": 2.2354970997679815,
+      "speaker": 0
+    },
+    {
+      "text": "Let",
+      "start": 2.2354970997679815,
+      "end": 2.3552558729698374,
+      "speaker": 0
+    },
+    {
+      "text": "me",
+      "start": 2.3552558729698374,
+      "end": 2.514934237238979,
+      "speaker": 0
+    },
+    {
+      "text": "talk",
+      "start": 2.514934237238979,
+      "end": 2.714532192575406,
+      "speaker": 0
+    },
+    {
+      "text": "about",
+      "start": 2.714532192575406,
+      "end": 3.672602378190255,
+      "speaker": 0
+    },
+    {
+      "text": "Lord",
+      "start": 3.672602378190255,
+      "end": 3.9121199245939677,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 3.9121199245939677,
+      "end": 4.071798288863109,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 4.071798288863109,
+      "end": 4.23147665313225,
+      "speaker": 0
+    },
+    {
+      "text": "Rings.",
+      "start": 4.23147665313225,
+      "end": 4.89,
+      "speaker": 0
+    },
+    {
+      "text": "Lord",
+      "start": 5.49,
+      "end": 5.748421113689095,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 5.748421113689095,
+      "end": 5.828260295823666,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 5.828260295823666,
+      "end": 6.027858251160093,
+      "speaker": 0
+    },
+    {
+      "text": "Rings,",
+      "start": 6.027858251160093,
+      "end": 6.466973752900232,
+      "speaker": 0
+    },
+    {
+      "text": "there's",
+      "start": 6.466973752900232,
+      "end": 6.786330481438515,
+      "speaker": 0
+    },
+    {
+      "text": "three",
+      "start": 6.786330481438515,
+      "end": 7.065767618909513,
+      "speaker": 0
+    },
+    {
+      "text": "three",
+      "start": 7.065767618909513,
+      "end": 7.784320258120649,
+      "speaker": 0
+    },
+    {
+      "text": "movies.",
+      "start": 7.784320258120649,
+      "end": 8.4629533062645,
+      "speaker": 0
+    },
+    {
+      "text": "Okay,",
+      "start": 8.4629533062645,
+      "end": 8.941988399071926,
+      "speaker": 0
+    },
+    {
+      "text": "no,",
+      "start": 8.941988399071926,
+      "end": 9.261345127610209,
+      "speaker": 0
+    },
+    {
+      "text": "six",
+      "start": 9.261345127610209,
+      "end": 9.540782265081207,
+      "speaker": 0
+    },
+    {
+      "text": "movies,",
+      "start": 9.540782265081207,
+      "end": 10.099656540023203,
+      "speaker": 0
+    },
+    {
+      "text": "bro.",
+      "start": 10.099656540023203,
+      "end": 10.698450406032483,
+      "speaker": 0
+    },
+    {
+      "text": "Lord",
+      "start": 10.698450406032483,
+      "end": 10.937967952436194,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 10.937967952436194,
+      "end": 11.017807134570766,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 11.017807134570766,
+      "end": 11.137565907772622,
+      "speaker": 0
+    },
+    {
+      "text": "Rings",
+      "start": 11.137565907772622,
+      "end": 11.33716386310905,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 11.33716386310905,
+      "end": 11.816198955916473,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 11.816198955916473,
+      "end": 11.975877320185615,
+      "speaker": 0
+    },
+    {
+      "text": "other",
+      "start": 11.975877320185615,
+      "end": 12.295234048723898,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 12.295234048723898,
+      "end": 12.614590777262181,
+      "speaker": 0
+    },
+    {
+      "text": "was.",
+      "start": 12.614590777262181,
+      "end": 13.36,
+      "speaker": 0
+    },
+    {
+      "text": "Hobbits,",
+      "start": 17.085584976798145,
+      "end": 17.11,
+      "speaker": 0
+    },
+    {
+      "text": "hobbits.",
+      "start": 17.11,
+      "end": 18.06807018561485,
+      "speaker": 0
+    },
+    {
+      "text": "It",
+      "start": 18.283172708816707,
+      "end": 18.522690255220418,
+      "speaker": 0
+    },
+    {
+      "text": "had",
+      "start": 18.522690255220418,
+      "end": 18.68236861948956,
+      "speaker": 0
+    },
+    {
+      "text": "like",
+      "start": 18.68236861948956,
+      "end": 19.480760440835265,
+      "speaker": 0
+    },
+    {
+      "text": "three",
+      "start": 19.480760440835265,
+      "end": 19.80011716937355,
+      "speaker": 0
+    },
+    {
+      "text": "movies.",
+      "start": 19.80011716937355,
+      "end": 20.438830626450116,
+      "speaker": 0
+    },
+    {
+      "text": "So",
+      "start": 20.438830626450116,
+      "end": 20.91786571925754,
+      "speaker": 0
+    },
+    {
+      "text": "yeah.",
+      "start": 20.91786571925754,
+      "end": 21.396900812064967,
+      "speaker": 0
+    },
+    {
+      "text": "The",
+      "start": 21.396900812064967,
+      "end": 21.44,
+      "speaker": 0
+    },
+    {
+      "text": "third",
+      "start": 22.46,
+      "end": 22.83400609048724,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 22.83400609048724,
+      "end": 23.392880365429235,
+      "speaker": 0
+    },
+    {
+      "text": "got",
+      "start": 23.392880365429235,
+      "end": 23.552558729698376,
+      "speaker": 0
+    },
+    {
+      "text": "like",
+      "start": 23.552558729698376,
+      "end": 23.87191545823666,
+      "speaker": 0
+    },
+    {
+      "text": "lots",
+      "start": 23.87191545823666,
+      "end": 24.191272186774942,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 24.191272186774942,
+      "end": 24.750146461716938,
+      "speaker": 0
+    },
+    {
+      "text": "Oscars.",
+      "start": 24.750146461716938,
+      "end": 25.69,
+      "speaker": 0
+    },
+    {
+      "text": "So",
+      "start": 26.18725174013921,
+      "end": 26.240000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "yeah,",
+      "start": 26.240000000000002,
+      "end": 27.198070185614853,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 27.464678654292342,
+      "end": 27.704196200696057,
+      "speaker": 0
+    },
+    {
+      "text": "was",
+      "start": 27.704196200696057,
+      "end": 27.823954973897912,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 27.823954973897912,
+      "end": 27.903794156032482,
+      "speaker": 0
+    },
+    {
+      "text": "good",
+      "start": 27.903794156032482,
+      "end": 28.023552929234338,
+      "speaker": 0
+    },
+    {
+      "text": "one.",
+      "start": 28.023552929234338,
+      "end": 28.342909657772623,
+      "speaker": 0
+    },
+    {
+      "text": "But",
+      "start": 28.342909657772623,
+      "end": 28.422748839907193,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 28.422748839907193,
+      "end": 28.502588022041763,
+      "speaker": 0
+    },
+    {
+      "text": "like",
+      "start": 28.502588022041763,
+      "end": 28.742105568445474,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 28.742105568445474,
+      "end": 29.2211406612529,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 29.2211406612529,
+      "end": 29.460658207656614,
+      "speaker": 0
+    },
+    {
+      "text": "second",
+      "start": 29.460658207656614,
+      "end": 29.66025616299304,
+      "speaker": 0
+    },
+    {
+      "text": "one,",
+      "start": 29.66025616299304,
+      "end": 30.019532482598606,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 30.019532482598606,
+      "end": 30.09937166473318,
+      "speaker": 0
+    },
+    {
+      "text": "High",
+      "start": 30.09937166473318,
+      "end": 30.41872839327146,
+      "speaker": 0
+    },
+    {
+      "text": "Tower.",
+      "start": 30.41872839327146,
+      "end": 31.12,
+      "speaker": 0
+    },
+    {
+      "text": "It's",
+      "start": 31.775994489559164,
+      "end": 31.95,
+      "speaker": 0
+    },
+    {
+      "text": "really",
+      "start": 31.95,
+      "end": 32.29494917343388,
+      "speaker": 0
+    },
+    {
+      "text": "good.",
+      "start": 32.29494917343388,
+      "end": 32.730000000000004,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3049111552
+}

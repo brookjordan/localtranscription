@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "Ping.wav",
+  "audio_sha256": "ee115d8f6ce29a5ce5c961791948bbffa75678fde5d8ee81e863bb5c20bed35e",
+  "captured_at": "2026-11-01T08:57:53.108442+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 60.0,
+  "status": "ok",
+  "text": "Alright, you should be able to see my screen now, right? Fantastic. Okay. Uh cool. I think uh let's not delay and uh I think we have a good quorum of folks now. Um perhaps ten to twenty. Uh so that's good. Uh we will start our meeting uh formally. So today this is the maybe the second time we are gathering together as a group. Um we want to talk about uh a little bit about q one, then moving on to q two, mainly focusing on what are the things that we are um kind of looking forward to, right? What's gonna happen in q two uh for each of the uh groups under the platform and apps. Um you know, the team. So let's go ahead and get started. Alright, so I think I'm uh you know before I by the way Stacey, your hands are raised so. Hi. Good morning. Um I think I want to revisit some of the things that we shared uh earlier, right? In the last quarterly all hands and just so that we kind of regroup and see where we are today.",
+  "wall_s": 2.6460638329735957,
+  "rtf": 0.04410106388289326,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

@@ -1,0 +1,1083 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.894379499950446,
+  "audio_file": "Brook 2.wav",
+  "audio_sha256": "19b6e0380d63a3992346c887bdc1a89424804b04c5b15a772cc807ea0a8e0aeb",
+  "captured_at": "2026-11-01T17:04:40.615313+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 68.304063,
+  "status": "ok",
+  "text": "<spk:0> Byron was at his best and most characteristic in the long poem. Childe Harold's Pilgrimage was a sensation that made his name, and Don Juan was the book length virtuoso extravaganza that sealed the deal. But anyone who doubts that Byron could have shone if confined to shorter poems should take a close look at this one and check out the perfection of its balance. One shade the more, one ray the less, is just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular Byronic poem non Byronic is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady, and certainly she is more innocent than Byron truly thought life or love could ever be. She might come good later, ie she might turn bad, but at the moment she is just a stack of iced cake trembling in the strip sleep slipstream as Byron sweeps by on his way to depravities unknown in her sweet dreams.",
+  "wall_s": 2.877502999966964,
+  "rtf": 0.04212784530792794,
+  "segments": [
+    {
+      "text": "Byron",
+      "start": 0.0,
+      "end": 0.9597760538641686,
+      "speaker": 0
+    },
+    {
+      "text": "was",
+      "start": 1.47,
+      "end": 1.9995334455503513,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 1.9995334455503513,
+      "end": 2.1594961211943793,
+      "speaker": 0
+    },
+    {
+      "text": "his",
+      "start": 2.1594961211943793,
+      "end": 2.3194587968384077,
+      "speaker": 0
+    },
+    {
+      "text": "best",
+      "start": 2.3194587968384077,
+      "end": 2.8793281615925057,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 2.8793281615925057,
+      "end": 3.119272175058548,
+      "speaker": 0
+    },
+    {
+      "text": "most",
+      "start": 3.119272175058548,
+      "end": 3.279234850702576,
+      "speaker": 0
+    },
+    {
+      "text": "characteristic",
+      "start": 3.279234850702576,
+      "end": 4.079048228922717,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 4.079048228922717,
+      "end": 4.4789549180327874,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 4.4789549180327874,
+      "end": 4.638917593676815,
+      "speaker": 0
+    },
+    {
+      "text": "long",
+      "start": 4.638917593676815,
+      "end": 4.878861607142857,
+      "speaker": 0
+    },
+    {
+      "text": "poem.",
+      "start": 4.878861607142857,
+      "end": 5.46,
+      "speaker": 0
+    },
+    {
+      "text": "Childe",
+      "start": 6.37,
+      "end": 7.118339066159251,
+      "speaker": 0
+    },
+    {
+      "text": "Harold's",
+      "start": 7.118339066159251,
+      "end": 7.918152444379391,
+      "speaker": 0
+    },
+    {
+      "text": "Pilgrimage",
+      "start": 7.918152444379391,
+      "end": 8.47802180913349,
+      "speaker": 0
+    },
+    {
+      "text": "was",
+      "start": 8.47802180913349,
+      "end": 9.037891173887589,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 9.037891173887589,
+      "end": 9.197853849531617,
+      "speaker": 0
+    },
+    {
+      "text": "sensation",
+      "start": 9.197853849531617,
+      "end": 9.6777418764637,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 9.6777418764637,
+      "end": 9.917685889929743,
+      "speaker": 0
+    },
+    {
+      "text": "made",
+      "start": 9.917685889929743,
+      "end": 10.07764856557377,
+      "speaker": 0
+    },
+    {
+      "text": "his",
+      "start": 10.07764856557377,
+      "end": 10.197620572306791,
+      "speaker": 0
+    },
+    {
+      "text": "name,",
+      "start": 10.197620572306791,
+      "end": 10.51,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 10.957443281615925,
+      "end": 11.03,
+      "speaker": 0
+    },
+    {
+      "text": "Don",
+      "start": 11.03,
+      "end": 11.357349970725995,
+      "speaker": 0
+    },
+    {
+      "text": "Juan",
+      "start": 11.357349970725995,
+      "end": 11.597293984192039,
+      "speaker": 0
+    },
+    {
+      "text": "was",
+      "start": 11.597293984192039,
+      "end": 12.157163348946137,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 12.157163348946137,
+      "end": 12.23714468676815,
+      "speaker": 0
+    },
+    {
+      "text": "book",
+      "start": 12.23714468676815,
+      "end": 12.477088700234193,
+      "speaker": 0
+    },
+    {
+      "text": "length",
+      "start": 12.477088700234193,
+      "end": 12.717032713700235,
+      "speaker": 0
+    },
+    {
+      "text": "virtuoso",
+      "start": 12.717032713700235,
+      "end": 13.356883416276347,
+      "speaker": 0
+    },
+    {
+      "text": "extravaganza",
+      "start": 13.356883416276347,
+      "end": 14.316659470140515,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 14.636584821428572,
+      "end": 14.7965474970726,
+      "speaker": 0
+    },
+    {
+      "text": "sealed",
+      "start": 14.7965474970726,
+      "end": 15.156463517271662,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 15.156463517271662,
+      "end": 15.276435524004684,
+      "speaker": 0
+    },
+    {
+      "text": "deal.",
+      "start": 15.276435524004684,
+      "end": 15.516379537470726,
+      "speaker": 0
+    },
+    {
+      "text": "But",
+      "start": 15.516379537470726,
+      "end": 15.68,
+      "speaker": 0
+    },
+    {
+      "text": "anyone",
+      "start": 17.036024956088994,
+      "end": 17.240000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "who",
+      "start": 17.240000000000002,
+      "end": 17.675875658665106,
+      "speaker": 0
+    },
+    {
+      "text": "doubts",
+      "start": 17.675875658665106,
+      "end": 17.995801009953162,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 17.995801009953162,
+      "end": 18.15576368559719,
+      "speaker": 0
+    },
+    {
+      "text": "Byron",
+      "start": 18.15576368559719,
+      "end": 18.475689036885246,
+      "speaker": 0
+    },
+    {
+      "text": "could",
+      "start": 18.475689036885246,
+      "end": 18.71563305035129,
+      "speaker": 0
+    },
+    {
+      "text": "have",
+      "start": 18.71563305035129,
+      "end": 18.875595725995318,
+      "speaker": 0
+    },
+    {
+      "text": "shone",
+      "start": 18.875595725995318,
+      "end": 19.195521077283374,
+      "speaker": 0
+    },
+    {
+      "text": "if",
+      "start": 19.195521077283374,
+      "end": 19.75539044203747,
+      "speaker": 0
+    },
+    {
+      "text": "confined",
+      "start": 19.75539044203747,
+      "end": 19.995334455503514,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 19.995334455503514,
+      "end": 20.15529713114754,
+      "speaker": 0
+    },
+    {
+      "text": "shorter",
+      "start": 20.15529713114754,
+      "end": 20.43523181352459,
+      "speaker": 0
+    },
+    {
+      "text": "poems",
+      "start": 20.43523181352459,
+      "end": 20.755157164812648,
+      "speaker": 0
+    },
+    {
+      "text": "should",
+      "start": 20.755157164812648,
+      "end": 21.11507318501171,
+      "speaker": 0
+    },
+    {
+      "text": "take",
+      "start": 21.11507318501171,
+      "end": 21.275035860655738,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 21.275035860655738,
+      "end": 21.434998536299766,
+      "speaker": 0
+    },
+    {
+      "text": "close",
+      "start": 21.434998536299766,
+      "end": 21.75492388758782,
+      "speaker": 0
+    },
+    {
+      "text": "look",
+      "start": 21.75492388758782,
+      "end": 22.074849238875878,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 22.074849238875878,
+      "end": 22.394774590163934,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 22.394774590163934,
+      "end": 22.55473726580796,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 22.55473726580796,
+      "end": 22.71469994145199,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 22.71469994145199,
+      "end": 22.94,
+      "speaker": 0
+    },
+    {
+      "text": "check",
+      "start": 23.434531981850117,
+      "end": 23.44,
+      "speaker": 0
+    },
+    {
+      "text": "out",
+      "start": 23.44,
+      "end": 23.83443867096019,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 23.83443867096019,
+      "end": 23.994401346604217,
+      "speaker": 0
+    },
+    {
+      "text": "perfection",
+      "start": 23.994401346604217,
+      "end": 24.4742893735363,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 24.4742893735363,
+      "end": 24.594261380269323,
+      "speaker": 0
+    },
+    {
+      "text": "its",
+      "start": 24.594261380269323,
+      "end": 24.794214724824357,
+      "speaker": 0
+    },
+    {
+      "text": "balance.",
+      "start": 24.794214724824357,
+      "end": 25.400000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "One",
+      "start": 26.07391612997658,
+      "end": 26.12,
+      "speaker": 0
+    },
+    {
+      "text": "shade",
+      "start": 26.12,
+      "end": 26.713766832552693,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 26.713766832552693,
+      "end": 26.833738839285715,
+      "speaker": 0
+    },
+    {
+      "text": "more,",
+      "start": 26.833738839285715,
+      "end": 27.3,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 27.73,
+      "end": 28.073449575526933,
+      "speaker": 0
+    },
+    {
+      "text": "ray",
+      "start": 28.073449575526933,
+      "end": 28.23341225117096,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 28.23341225117096,
+      "end": 28.433365595725995,
+      "speaker": 0
+    },
+    {
+      "text": "less,",
+      "start": 28.433365595725995,
+      "end": 28.96,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 29.19318830503513,
+      "end": 29.353150980679157,
+      "speaker": 0
+    },
+    {
+      "text": "just",
+      "start": 29.353150980679157,
+      "end": 29.37,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 29.37,
+      "end": 29.75305766978923,
+      "speaker": 0
+    },
+    {
+      "text": "tiny",
+      "start": 29.75305766978923,
+      "end": 30.152964358899297,
+      "speaker": 0
+    },
+    {
+      "text": "example",
+      "start": 30.152964358899297,
+      "end": 30.63285238583138,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 30.63285238583138,
+      "end": 30.792815061475412,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 30.792815061475412,
+      "end": 30.95277773711944,
+      "speaker": 0
+    },
+    {
+      "text": "impetus",
+      "start": 30.95277773711944,
+      "end": 31.272703088407496,
+      "speaker": 0
+    },
+    {
+      "text": "he",
+      "start": 31.272703088407496,
+      "end": 31.512647101873537,
+      "speaker": 0
+    },
+    {
+      "text": "could",
+      "start": 31.512647101873537,
+      "end": 31.672609777517565,
+      "speaker": 0
+    },
+    {
+      "text": "keep",
+      "start": 31.672609777517565,
+      "end": 31.832572453161593,
+      "speaker": 0
+    },
+    {
+      "text": "up",
+      "start": 31.832572453161593,
+      "end": 32.15249780444965,
+      "speaker": 0
+    },
+    {
+      "text": "for",
+      "start": 32.15249780444965,
+      "end": 32.55240449355972,
+      "speaker": 0
+    },
+    {
+      "text": "pages.",
+      "start": 32.55240449355972,
+      "end": 33.28,
+      "speaker": 0
+    },
+    {
+      "text": "The",
+      "start": 33.352217871779864,
+      "end": 33.91208723653396,
+      "speaker": 0
+    },
+    {
+      "text": "only",
+      "start": 33.91208723653396,
+      "end": 33.94,
+      "speaker": 0
+    },
+    {
+      "text": "thing",
+      "start": 33.94,
+      "end": 34.31199392564403,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 34.31199392564403,
+      "end": 34.471956601288056,
+      "speaker": 0
+    },
+    {
+      "text": "makes",
+      "start": 34.471956601288056,
+      "end": 34.63191927693209,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 34.63191927693209,
+      "end": 34.871863290398124,
+      "speaker": 0
+    },
+    {
+      "text": "particular",
+      "start": 34.871863290398124,
+      "end": 35.431732655152224,
+      "speaker": 0
+    },
+    {
+      "text": "Byronic",
+      "start": 35.431732655152224,
+      "end": 35.8316393442623,
+      "speaker": 0
+    },
+    {
+      "text": "poem",
+      "start": 35.8316393442623,
+      "end": 36.27153670228337,
+      "speaker": 0
+    },
+    {
+      "text": "non",
+      "start": 36.27153670228337,
+      "end": 37.11134074941452,
+      "speaker": 0
+    },
+    {
+      "text": "Byronic",
+      "start": 37.11134074941452,
+      "end": 37.79118212090164,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 37.79118212090164,
+      "end": 38.151098141100704,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 38.151098141100704,
+      "end": 38.31106081674473,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 38.31106081674473,
+      "end": 38.47102349238876,
+      "speaker": 0
+    },
+    {
+      "text": "professedly",
+      "start": 38.47102349238876,
+      "end": 39.190855532786884,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 39.190855532786884,
+      "end": 39.410000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "do",
+      "start": 40.0,
+      "end": 40.19062225556206,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 40.19062225556206,
+      "end": 40.47055693793911,
+      "speaker": 0
+    },
+    {
+      "text": "innocence.",
+      "start": 40.47055693793911,
+      "end": 41.19,
+      "speaker": 0
+    },
+    {
+      "text": "The",
+      "start": 41.27037031615925,
+      "end": 41.81,
+      "speaker": 0
+    },
+    {
+      "text": "innocence",
+      "start": 41.81,
+      "end": 42.15016503220141,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 42.15016503220141,
+      "end": 42.39010904566745,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 42.39010904566745,
+      "end": 42.550071721311475,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 42.550071721311475,
+      "end": 42.71003439695551,
+      "speaker": 0
+    },
+    {
+      "text": "heart",
+      "start": 42.71003439695551,
+      "end": 42.86999707259953,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 42.86999707259953,
+      "end": 43.069950417154566,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 43.069950417154566,
+      "end": 43.149931754976585,
+      "speaker": 0
+    },
+    {
+      "text": "narrator's",
+      "start": 43.149931754976585,
+      "end": 43.70980111973068,
+      "speaker": 0
+    },
+    {
+      "text": "fancied",
+      "start": 43.70980111973068,
+      "end": 44.06971713992974,
+      "speaker": 0
+    },
+    {
+      "text": "young",
+      "start": 44.06971713992974,
+      "end": 44.46962382903981,
+      "speaker": 0
+    },
+    {
+      "text": "lady,",
+      "start": 44.46962382903981,
+      "end": 45.26,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 45.269437207259955,
+      "end": 45.31,
+      "speaker": 0
+    },
+    {
+      "text": "certainly",
+      "start": 45.31,
+      "end": 45.90928790983607,
+      "speaker": 0
+    },
+    {
+      "text": "she",
+      "start": 45.90928790983607,
+      "end": 46.06925058548009,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 46.06925058548009,
+      "end": 46.22921326112412,
+      "speaker": 0
+    },
+    {
+      "text": "more",
+      "start": 46.22921326112412,
+      "end": 46.389175936768154,
+      "speaker": 0
+    },
+    {
+      "text": "innocent",
+      "start": 46.389175936768154,
+      "end": 46.70910128805621,
+      "speaker": 0
+    },
+    {
+      "text": "than",
+      "start": 46.70910128805621,
+      "end": 47.029026639344266,
+      "speaker": 0
+    },
+    {
+      "text": "Byron",
+      "start": 47.029026639344266,
+      "end": 47.428933328454335,
+      "speaker": 0
+    },
+    {
+      "text": "truly",
+      "start": 47.428933328454335,
+      "end": 47.8288400175644,
+      "speaker": 0
+    },
+    {
+      "text": "thought",
+      "start": 47.8288400175644,
+      "end": 48.22874670667447,
+      "speaker": 0
+    },
+    {
+      "text": "life",
+      "start": 48.22874670667447,
+      "end": 48.94,
+      "speaker": 0
+    },
+    {
+      "text": "or",
+      "start": 48.9485787470726,
+      "end": 49.050000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "love",
+      "start": 49.050000000000004,
+      "end": 49.42846677400468,
+      "speaker": 0
+    },
+    {
+      "text": "could",
+      "start": 49.42846677400468,
+      "end": 49.62842011855972,
+      "speaker": 0
+    },
+    {
+      "text": "ever",
+      "start": 49.62842011855972,
+      "end": 49.82837346311476,
+      "speaker": 0
+    },
+    {
+      "text": "be.",
+      "start": 49.82837346311476,
+      "end": 50.230000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "She",
+      "start": 51.827906908665106,
+      "end": 51.86,
+      "speaker": 0
+    },
+    {
+      "text": "might",
+      "start": 51.86,
+      "end": 52.307794935597194,
+      "speaker": 0
+    },
+    {
+      "text": "come",
+      "start": 52.307794935597194,
+      "end": 52.46775761124122,
+      "speaker": 0
+    },
+    {
+      "text": "good",
+      "start": 52.46775761124122,
+      "end": 52.787682962529274,
+      "speaker": 0
+    },
+    {
+      "text": "later,",
+      "start": 52.787682962529274,
+      "end": 53.45,
+      "speaker": 0
+    },
+    {
+      "text": "ie",
+      "start": 53.74745901639344,
+      "end": 53.79,
+      "speaker": 0
+    },
+    {
+      "text": "she",
+      "start": 53.79,
+      "end": 54.70723507025761,
+      "speaker": 0
+    },
+    {
+      "text": "might",
+      "start": 54.70723507025761,
+      "end": 54.907188414812644,
+      "speaker": 0
+    },
+    {
+      "text": "turn",
+      "start": 54.907188414812644,
+      "end": 55.107141759367686,
+      "speaker": 0
+    },
+    {
+      "text": "bad,",
+      "start": 55.107141759367686,
+      "end": 55.75,
+      "speaker": 0
+    },
+    {
+      "text": "but",
+      "start": 56.06691781323185,
+      "end": 56.21,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 56.21,
+      "end": 56.3468524956089,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 56.3468524956089,
+      "end": 56.42683383343091,
+      "speaker": 0
+    },
+    {
+      "text": "moment",
+      "start": 56.42683383343091,
+      "end": 57.02669386709602,
+      "speaker": 0
+    },
+    {
+      "text": "she",
+      "start": 57.02669386709602,
+      "end": 57.186656542740046,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 57.186656542740046,
+      "end": 57.34661921838408,
+      "speaker": 0
+    },
+    {
+      "text": "just",
+      "start": 57.34661921838408,
+      "end": 57.5065818940281,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 57.5065818940281,
+      "end": 57.66654456967213,
+      "speaker": 0
+    },
+    {
+      "text": "stack",
+      "start": 57.66654456967213,
+      "end": 57.98646992096019,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 57.98646992096019,
+      "end": 58.38637661007026,
+      "speaker": 0
+    },
+    {
+      "text": "iced",
+      "start": 58.38637661007026,
+      "end": 58.6263206235363,
+      "speaker": 0
+    },
+    {
+      "text": "cake",
+      "start": 58.6263206235363,
+      "end": 59.02622731264637,
+      "speaker": 0
+    },
+    {
+      "text": "trembling",
+      "start": 59.02622731264637,
+      "end": 59.906022028688525,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 59.906022028688525,
+      "end": 60.02599403542155,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 60.02599403542155,
+      "end": 60.10597537324356,
+      "speaker": 0
+    },
+    {
+      "text": "strip",
+      "start": 60.10597537324356,
+      "end": 60.38591005562061,
+      "speaker": 0
+    },
+    {
+      "text": "sleep",
+      "start": 60.38591005562061,
+      "end": 60.78581674473068,
+      "speaker": 0
+    },
+    {
+      "text": "slipstream",
+      "start": 60.78581674473068,
+      "end": 61.0,
+      "speaker": 0
+    },
+    {
+      "text": "as",
+      "start": 61.28,
+      "end": 62.065518149882905,
+      "speaker": 0
+    },
+    {
+      "text": "Byron",
+      "start": 62.065518149882905,
+      "end": 62.46542483899297,
+      "speaker": 0
+    },
+    {
+      "text": "sweeps",
+      "start": 62.46542483899297,
+      "end": 62.78535019028103,
+      "speaker": 0
+    },
+    {
+      "text": "by",
+      "start": 62.78535019028103,
+      "end": 63.185256879391105,
+      "speaker": 0
+    },
+    {
+      "text": "on",
+      "start": 63.185256879391105,
+      "end": 63.34521955503513,
+      "speaker": 0
+    },
+    {
+      "text": "his",
+      "start": 63.34521955503513,
+      "end": 63.50518223067916,
+      "speaker": 0
+    },
+    {
+      "text": "way",
+      "start": 63.50518223067916,
+      "end": 63.665144906323185,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 63.665144906323185,
+      "end": 63.86509825087822,
+      "speaker": 0
+    },
+    {
+      "text": "depravities",
+      "start": 63.86509825087822,
+      "end": 64.54493962236535,
+      "speaker": 0
+    },
+    {
+      "text": "unknown",
+      "start": 64.54493962236535,
+      "end": 65.50471567622951,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 65.50471567622951,
+      "end": 65.74465968969555,
+      "speaker": 0
+    },
+    {
+      "text": "her",
+      "start": 65.74465968969555,
+      "end": 65.90462236533958,
+      "speaker": 0
+    },
+    {
+      "text": "sweet",
+      "start": 65.90462236533958,
+      "end": 66.22454771662764,
+      "speaker": 0
+    },
+    {
+      "text": "dreams.",
+      "start": 66.22454771662764,
+      "end": 66.87,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 2962276352
+}

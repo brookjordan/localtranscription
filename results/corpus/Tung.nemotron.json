@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "Tung.wav",
+  "audio_sha256": "811ab25f68691942ecf6276b23de280e898dec6021f80f082ee4b1a195015304",
+  "captured_at": "2026-11-01T08:57:57.235725+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 18.261313,
+  "status": "ok",
+  "text": "I went back to Hanoi for two weeks, spent times with my family and friends there, went for private badminton coaching with my kids and we enjoyed the food, not the weather, lovely place, lovely memories.",
+  "wall_s": 0.7186909170122817,
+  "rtf": 0.03935592785755776,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

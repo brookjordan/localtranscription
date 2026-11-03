@@ -1,0 +1,801 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.771887207985856,
+  "audio_file": "antony billington.wav",
+  "audio_sha256": "4e4501680c4166353d27d5e6dc0bb40b3af6d3bbbfac0b6f49e278a07b6da0eb",
+  "captured_at": "2026-11-01T17:25:59.184400+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 47.946688,
+  "status": "ok",
+  "text": "<spk:0> A message that we need to own for ourselves before we can pass it on to others. And when he calls us to a difficult task, he'll equip us for that task. So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now in reality, it's more than a call. It's a summons. As we see in chapter two verse one, he said to me, son of man, stand upon your feet and I will speak to you. The call starts with God. Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide I'm going to be the next new prophet for the people of Israel. The initiative lies with God. And I think that's a",
+  "wall_s": 2.232033583917655,
+  "rtf": 0.046552403868180735,
+  "segments": [
+    {
+      "text": "A",
+      "start": 0.479466875,
+      "end": 0.56,
+      "speaker": 0
+    },
+    {
+      "text": "message",
+      "start": 0.56,
+      "end": 0.95893375,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 0.95893375,
+      "end": 1.1187560416666666,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 1.1187560416666666,
+      "end": 1.1986671875000001,
+      "speaker": 0
+    },
+    {
+      "text": "need",
+      "start": 1.1986671875000001,
+      "end": 1.3584894791666666,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 1.3584894791666666,
+      "end": 1.5183117708333334,
+      "speaker": 0
+    },
+    {
+      "text": "own",
+      "start": 1.5183117708333334,
+      "end": 1.6781340625,
+      "speaker": 0
+    },
+    {
+      "text": "for",
+      "start": 1.6781340625,
+      "end": 1.9977786458333333,
+      "speaker": 0
+    },
+    {
+      "text": "ourselves",
+      "start": 1.9977786458333333,
+      "end": 2.3973343750000002,
+      "speaker": 0
+    },
+    {
+      "text": "before",
+      "start": 2.3973343750000002,
+      "end": 2.9567123958333332,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 2.9567123958333332,
+      "end": 3.076579114583333,
+      "speaker": 0
+    },
+    {
+      "text": "can",
+      "start": 3.076579114583333,
+      "end": 3.2763569791666667,
+      "speaker": 0
+    },
+    {
+      "text": "pass",
+      "start": 3.2763569791666667,
+      "end": 3.4361792708333336,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 3.4361792708333336,
+      "end": 3.5160904166666667,
+      "speaker": 0
+    },
+    {
+      "text": "on",
+      "start": 3.5160904166666667,
+      "end": 3.6359571354166667,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 3.6359571354166667,
+      "end": 3.835735,
+      "speaker": 0
+    },
+    {
+      "text": "others.",
+      "start": 3.835735,
+      "end": 4.235290729166667,
+      "speaker": 0
+    },
+    {
+      "text": "And",
+      "start": 4.235290729166667,
+      "end": 4.46,
+      "speaker": 0
+    },
+    {
+      "text": "when",
+      "start": 5.3100000000000005,
+      "end": 5.5138690625,
+      "speaker": 0
+    },
+    {
+      "text": "he",
+      "start": 5.5138690625,
+      "end": 5.6736913541666665,
+      "speaker": 0
+    },
+    {
+      "text": "calls",
+      "start": 5.6736913541666665,
+      "end": 5.9134247916666665,
+      "speaker": 0
+    },
+    {
+      "text": "us",
+      "start": 5.9134247916666665,
+      "end": 6.233069375,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 6.233069375,
+      "end": 6.392891666666667,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 6.392891666666667,
+      "end": 6.552713958333333,
+      "speaker": 0
+    },
+    {
+      "text": "difficult",
+      "start": 6.552713958333333,
+      "end": 6.872358541666667,
+      "speaker": 0
+    },
+    {
+      "text": "task,",
+      "start": 6.872358541666667,
+      "end": 7.68,
+      "speaker": 0
+    },
+    {
+      "text": "he'll",
+      "start": 8.110981302083333,
+      "end": 8.19,
+      "speaker": 0
+    },
+    {
+      "text": "equip",
+      "start": 8.19,
+      "end": 8.750270468750001,
+      "speaker": 0
+    },
+    {
+      "text": "us",
+      "start": 8.750270468750001,
+      "end": 9.35,
+      "speaker": 0
+    },
+    {
+      "text": "for",
+      "start": 9.669248645833333,
+      "end": 9.68,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 9.68,
+      "end": 10.148715520833333,
+      "speaker": 0
+    },
+    {
+      "text": "task.",
+      "start": 10.148715520833333,
+      "end": 10.468360104166667,
+      "speaker": 0
+    },
+    {
+      "text": "So",
+      "start": 10.468360104166667,
+      "end": 10.71,
+      "speaker": 0
+    },
+    {
+      "text": "that's",
+      "start": 11.57,
+      "end": 11.986671875,
+      "speaker": 0
+    },
+    {
+      "text": "where",
+      "start": 11.986671875,
+      "end": 12.386227604166667,
+      "speaker": 0
+    },
+    {
+      "text": "we're",
+      "start": 12.386227604166667,
+      "end": 12.625961041666667,
+      "speaker": 0
+    },
+    {
+      "text": "going.",
+      "start": 12.625961041666667,
+      "end": 12.865694479166667,
+      "speaker": 0
+    },
+    {
+      "text": "Let's",
+      "start": 12.865694479166667,
+      "end": 13.025516770833335,
+      "speaker": 0
+    },
+    {
+      "text": "say",
+      "start": 13.025516770833335,
+      "end": 13.105427916666667,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 13.105427916666667,
+      "end": 13.225294635416667,
+      "speaker": 0
+    },
+    {
+      "text": "bit",
+      "start": 13.225294635416667,
+      "end": 13.345161354166667,
+      "speaker": 0
+    },
+    {
+      "text": "about",
+      "start": 13.345161354166667,
+      "end": 13.864583802083335,
+      "speaker": 0
+    },
+    {
+      "text": "each",
+      "start": 13.864583802083335,
+      "end": 13.984450520833335,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 13.984450520833335,
+      "end": 14.224183958333334,
+      "speaker": 0
+    },
+    {
+      "text": "those.",
+      "start": 14.224183958333334,
+      "end": 14.943384270833334,
+      "speaker": 0
+    },
+    {
+      "text": "First",
+      "start": 14.943384270833334,
+      "end": 15.1032065625,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 15.1032065625,
+      "end": 15.263028854166667,
+      "speaker": 0
+    },
+    {
+      "text": "all,",
+      "start": 15.263028854166667,
+      "end": 15.5826734375,
+      "speaker": 0
+    },
+    {
+      "text": "God's",
+      "start": 15.5826734375,
+      "end": 15.66,
+      "speaker": 0
+    },
+    {
+      "text": "call.",
+      "start": 15.950000000000001,
+      "end": 16.55,
+      "speaker": 0
+    },
+    {
+      "text": "Now",
+      "start": 16.76,
+      "end": 17.330000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 18.14,
+      "end": 18.379563541666666,
+      "speaker": 0
+    },
+    {
+      "text": "reality,",
+      "start": 18.379563541666666,
+      "end": 19.098763854166666,
+      "speaker": 0
+    },
+    {
+      "text": "it's",
+      "start": 19.098763854166666,
+      "end": 19.498319583333334,
+      "speaker": 0
+    },
+    {
+      "text": "more",
+      "start": 19.498319583333334,
+      "end": 19.897875312500002,
+      "speaker": 0
+    },
+    {
+      "text": "than",
+      "start": 19.897875312500002,
+      "end": 20.137608750000002,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 20.137608750000002,
+      "end": 20.297431041666666,
+      "speaker": 0
+    },
+    {
+      "text": "call.",
+      "start": 20.297431041666666,
+      "end": 20.696986770833334,
+      "speaker": 0
+    },
+    {
+      "text": "It's",
+      "start": 20.696986770833334,
+      "end": 20.936720208333334,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 20.936720208333334,
+      "end": 21.0965425,
+      "speaker": 0
+    },
+    {
+      "text": "summons.",
+      "start": 21.0965425,
+      "end": 22.05547625,
+      "speaker": 0
+    },
+    {
+      "text": "As",
+      "start": 22.694765416666666,
+      "end": 22.75,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 22.75,
+      "end": 22.934498854166666,
+      "speaker": 0
+    },
+    {
+      "text": "see",
+      "start": 22.934498854166666,
+      "end": 23.094321145833334,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 23.094321145833334,
+      "end": 23.2541434375,
+      "speaker": 0
+    },
+    {
+      "text": "chapter",
+      "start": 23.2541434375,
+      "end": 23.533832447916666,
+      "speaker": 0
+    },
+    {
+      "text": "two",
+      "start": 23.533832447916666,
+      "end": 23.7336103125,
+      "speaker": 0
+    },
+    {
+      "text": "verse",
+      "start": 23.7336103125,
+      "end": 24.053254895833334,
+      "speaker": 0
+    },
+    {
+      "text": "one,",
+      "start": 24.053254895833334,
+      "end": 24.292988333333334,
+      "speaker": 0
+    },
+    {
+      "text": "he",
+      "start": 24.292988333333334,
+      "end": 24.412855052083334,
+      "speaker": 0
+    },
+    {
+      "text": "said",
+      "start": 24.412855052083334,
+      "end": 24.612632916666666,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 24.612632916666666,
+      "end": 24.732499635416666,
+      "speaker": 0
+    },
+    {
+      "text": "me,",
+      "start": 24.732499635416666,
+      "end": 24.9322775,
+      "speaker": 0
+    },
+    {
+      "text": "son",
+      "start": 24.9322775,
+      "end": 25.132055364583334,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 25.132055364583334,
+      "end": 25.29187765625,
+      "speaker": 0
+    },
+    {
+      "text": "man,",
+      "start": 25.29187765625,
+      "end": 25.731388958333334,
+      "speaker": 0
+    },
+    {
+      "text": "stand",
+      "start": 25.731388958333334,
+      "end": 25.740000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "upon",
+      "start": 26.02,
+      "end": 26.77023385416667,
+      "speaker": 0
+    },
+    {
+      "text": "your",
+      "start": 26.77023385416667,
+      "end": 27.00996729166667,
+      "speaker": 0
+    },
+    {
+      "text": "feet",
+      "start": 27.00996729166667,
+      "end": 27.48943416666667,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 27.48943416666667,
+      "end": 27.72916760416667,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 27.72916760416667,
+      "end": 28.288545625,
+      "speaker": 0
+    },
+    {
+      "text": "will",
+      "start": 28.288545625,
+      "end": 28.82,
+      "speaker": 0
+    },
+    {
+      "text": "speak",
+      "start": 29.080000000000002,
+      "end": 29.9666796875,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 29.9666796875,
+      "end": 30.206413125,
+      "speaker": 0
+    },
+    {
+      "text": "you.",
+      "start": 30.206413125,
+      "end": 30.60596885416667,
+      "speaker": 0
+    },
+    {
+      "text": "The",
+      "start": 30.60596885416667,
+      "end": 30.765791145833333,
+      "speaker": 0
+    },
+    {
+      "text": "call",
+      "start": 30.765791145833333,
+      "end": 31.005524583333333,
+      "speaker": 0
+    },
+    {
+      "text": "starts",
+      "start": 31.005524583333333,
+      "end": 31.330000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 31.61,
+      "end": 32.56893375,
+      "speaker": 0
+    },
+    {
+      "text": "God.",
+      "start": 33.19,
+      "end": 33.84,
+      "speaker": 0
+    },
+    {
+      "text": "Ezekiel",
+      "start": 34.042148125000004,
+      "end": 34.160000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "doesn't",
+      "start": 34.160000000000004,
+      "end": 34.761348437500004,
+      "speaker": 0
+    },
+    {
+      "text": "wake",
+      "start": 34.761348437500004,
+      "end": 35.001081875000004,
+      "speaker": 0
+    },
+    {
+      "text": "up",
+      "start": 35.001081875000004,
+      "end": 35.16090416666667,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 35.16090416666667,
+      "end": 35.40063760416667,
+      "speaker": 0
+    },
+    {
+      "text": "day,",
+      "start": 35.40063760416667,
+      "end": 35.96,
+      "speaker": 0
+    },
+    {
+      "text": "rub",
+      "start": 35.960015625000004,
+      "end": 36.18,
+      "speaker": 0
+    },
+    {
+      "text": "his",
+      "start": 36.18,
+      "end": 36.479438072916665,
+      "speaker": 0
+    },
+    {
+      "text": "eyes,",
+      "start": 36.479438072916665,
+      "end": 37.07877166666667,
+      "speaker": 0
+    },
+    {
+      "text": "jump",
+      "start": 37.07877166666667,
+      "end": 37.12,
+      "speaker": 0
+    },
+    {
+      "text": "out",
+      "start": 37.58,
+      "end": 37.877883125000004,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 37.877883125000004,
+      "end": 38.03770541666667,
+      "speaker": 0
+    },
+    {
+      "text": "bed",
+      "start": 38.03770541666667,
+      "end": 38.157572135416665,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 38.157572135416665,
+      "end": 38.54,
+      "speaker": 0
+    },
+    {
+      "text": "decide",
+      "start": 38.84,
+      "end": 39.556017187500004,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 39.556017187500004,
+      "end": 39.755795052083336,
+      "speaker": 0
+    },
+    {
+      "text": "going",
+      "start": 39.755795052083336,
+      "end": 39.87566177083333,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 39.87566177083333,
+      "end": 39.95557291666667,
+      "speaker": 0
+    },
+    {
+      "text": "be",
+      "start": 39.95557291666667,
+      "end": 40.19530635416667,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 40.19530635416667,
+      "end": 40.39508421875,
+      "speaker": 0
+    },
+    {
+      "text": "next",
+      "start": 40.39508421875,
+      "end": 40.59486208333333,
+      "speaker": 0
+    },
+    {
+      "text": "new",
+      "start": 40.59486208333333,
+      "end": 40.754684375000004,
+      "speaker": 0
+    },
+    {
+      "text": "prophet",
+      "start": 40.754684375000004,
+      "end": 41.33,
+      "speaker": 0
+    },
+    {
+      "text": "for",
+      "start": 41.473884687500004,
+      "end": 41.57,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 41.57,
+      "end": 41.713618125,
+      "speaker": 0
+    },
+    {
+      "text": "people",
+      "start": 41.713618125,
+      "end": 41.913395989583336,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 41.913395989583336,
+      "end": 42.03326270833333,
+      "speaker": 0
+    },
+    {
+      "text": "Israel.",
+      "start": 42.03326270833333,
+      "end": 42.35290729166667,
+      "speaker": 0
+    },
+    {
+      "text": "The",
+      "start": 42.35290729166667,
+      "end": 42.550000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "initiative",
+      "start": 43.67144119791667,
+      "end": 43.72,
+      "speaker": 0
+    },
+    {
+      "text": "lies",
+      "start": 43.72,
+      "end": 44.67893375,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 45.38953083333333,
+      "end": 45.62926427083333,
+      "speaker": 0
+    },
+    {
+      "text": "God.",
+      "start": 45.62926427083333,
+      "end": 45.86899770833333,
+      "speaker": 0
+    },
+    {
+      "text": "And",
+      "start": 45.86899770833333,
+      "end": 46.1,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 47.2274871875,
+      "end": 47.230000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "think",
+      "start": 47.230000000000004,
+      "end": 47.54713177083333,
+      "speaker": 0
+    },
+    {
+      "text": "that's",
+      "start": 47.54713177083333,
+      "end": 47.78686520833333,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 47.78686520833333,
+      "end": 47.94,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3008413696
+}

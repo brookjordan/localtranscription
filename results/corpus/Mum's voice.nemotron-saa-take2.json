@@ -1,0 +1,711 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.342221874976531,
+  "audio_file": "Mum's voice.wav",
+  "audio_sha256": "35e2524ac83b242419e159a4c8dd24fe6ee367c7c32f8586eca772378d562e8e",
+  "captured_at": "2026-11-01T17:27:07.366056+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 70.4,
+  "status": "ok",
+  "text": "<spk:0> Ha, can you believe we actually did it? We made it through the storm wind howling, rain lashing. I thought we'd never see the sun again. There were nights, nights I cried myself to sleep, whispering, Is anyone even out there? But then you showed up, you smiled, and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone, the silence is deafening. I miss you every single day, but I carry you with me in every laugh, every tear, every quiet moment. And I'll keep going because that's what you'd want, always.",
+  "wall_s": 2.525921166059561,
+  "rtf": 0.03587956201789149,
+  "segments": [
+    {
+      "text": "Ha,",
+      "start": 0.44,
+      "end": 0.9400000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "can",
+      "start": 0.96,
+      "end": 1.45,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 1.45,
+      "end": 1.84,
+      "speaker": 0
+    },
+    {
+      "text": "believe",
+      "start": 1.84,
+      "end": 2.24,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 2.24,
+      "end": 2.56,
+      "speaker": 0
+    },
+    {
+      "text": "actually",
+      "start": 2.56,
+      "end": 3.12,
+      "speaker": 0
+    },
+    {
+      "text": "did",
+      "start": 3.12,
+      "end": 3.36,
+      "speaker": 0
+    },
+    {
+      "text": "it?",
+      "start": 3.36,
+      "end": 3.71,
+      "speaker": 0
+    },
+    {
+      "text": "We",
+      "start": 4.16,
+      "end": 4.2,
+      "speaker": 0
+    },
+    {
+      "text": "made",
+      "start": 4.2,
+      "end": 4.5600000000000005,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 4.5600000000000005,
+      "end": 4.8,
+      "speaker": 0
+    },
+    {
+      "text": "through",
+      "start": 4.8,
+      "end": 5.04,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 5.04,
+      "end": 5.2,
+      "speaker": 0
+    },
+    {
+      "text": "storm",
+      "start": 5.2,
+      "end": 5.8,
+      "speaker": 0
+    },
+    {
+      "text": "wind",
+      "start": 5.8,
+      "end": 5.8100000000000005,
+      "speaker": 0
+    },
+    {
+      "text": "howling,",
+      "start": 6.2,
+      "end": 7.16,
+      "speaker": 0
+    },
+    {
+      "text": "rain",
+      "start": 7.44,
+      "end": 8.08,
+      "speaker": 0
+    },
+    {
+      "text": "lashing.",
+      "start": 8.08,
+      "end": 8.77,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 9.44,
+      "end": 9.46,
+      "speaker": 0
+    },
+    {
+      "text": "thought",
+      "start": 9.46,
+      "end": 9.84,
+      "speaker": 0
+    },
+    {
+      "text": "we'd",
+      "start": 9.84,
+      "end": 10.08,
+      "speaker": 0
+    },
+    {
+      "text": "never",
+      "start": 10.08,
+      "end": 10.32,
+      "speaker": 0
+    },
+    {
+      "text": "see",
+      "start": 10.32,
+      "end": 10.56,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 10.56,
+      "end": 10.72,
+      "speaker": 0
+    },
+    {
+      "text": "sun",
+      "start": 10.72,
+      "end": 10.96,
+      "speaker": 0
+    },
+    {
+      "text": "again.",
+      "start": 10.96,
+      "end": 11.58,
+      "speaker": 0
+    },
+    {
+      "text": "There",
+      "start": 12.8,
+      "end": 12.81,
+      "speaker": 0
+    },
+    {
+      "text": "were",
+      "start": 12.81,
+      "end": 13.120000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "nights,",
+      "start": 13.120000000000001,
+      "end": 13.81,
+      "speaker": 0
+    },
+    {
+      "text": "nights",
+      "start": 13.84,
+      "end": 14.69,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 14.69,
+      "end": 15.36,
+      "speaker": 0
+    },
+    {
+      "text": "cried",
+      "start": 15.36,
+      "end": 15.84,
+      "speaker": 0
+    },
+    {
+      "text": "myself",
+      "start": 15.84,
+      "end": 16.32,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 16.32,
+      "end": 16.44,
+      "speaker": 0
+    },
+    {
+      "text": "sleep,",
+      "start": 16.44,
+      "end": 16.98,
+      "speaker": 0
+    },
+    {
+      "text": "whispering,",
+      "start": 17.04,
+      "end": 18.0,
+      "speaker": 0
+    },
+    {
+      "text": "Is",
+      "start": 18.88,
+      "end": 19.48,
+      "speaker": 0
+    },
+    {
+      "text": "anyone",
+      "start": 19.48,
+      "end": 20.0,
+      "speaker": 0
+    },
+    {
+      "text": "even",
+      "start": 20.0,
+      "end": 20.400000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "out",
+      "start": 20.400000000000002,
+      "end": 20.56,
+      "speaker": 0
+    },
+    {
+      "text": "there?",
+      "start": 20.56,
+      "end": 21.05,
+      "speaker": 0
+    },
+    {
+      "text": "But",
+      "start": 22.0,
+      "end": 22.080000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "then",
+      "start": 22.080000000000002,
+      "end": 22.88,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 22.88,
+      "end": 23.36,
+      "speaker": 0
+    },
+    {
+      "text": "showed",
+      "start": 23.36,
+      "end": 23.76,
+      "speaker": 0
+    },
+    {
+      "text": "up,",
+      "start": 23.76,
+      "end": 24.23,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 24.88,
+      "end": 24.93,
+      "speaker": 0
+    },
+    {
+      "text": "smiled,",
+      "start": 24.93,
+      "end": 25.89,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 26.240000000000002,
+      "end": 26.310000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "suddenly",
+      "start": 26.310000000000002,
+      "end": 27.12,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 27.12,
+      "end": 27.36,
+      "speaker": 0
+    },
+    {
+      "text": "world",
+      "start": 27.36,
+      "end": 27.84,
+      "speaker": 0
+    },
+    {
+      "text": "wasn't",
+      "start": 27.84,
+      "end": 28.240000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 28.240000000000002,
+      "end": 28.400000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "dark.",
+      "start": 28.400000000000002,
+      "end": 29.09,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 30.0,
+      "end": 30.060000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "felt",
+      "start": 30.060000000000002,
+      "end": 30.64,
+      "speaker": 0
+    },
+    {
+      "text": "seen,",
+      "start": 30.64,
+      "end": 31.470000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "understood.",
+      "start": 31.52,
+      "end": 32.48,
+      "speaker": 0
+    },
+    {
+      "text": "Remember",
+      "start": 33.2,
+      "end": 33.9,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 33.9,
+      "end": 34.56,
+      "speaker": 0
+    },
+    {
+      "text": "silly",
+      "start": 34.56,
+      "end": 34.88,
+      "speaker": 0
+    },
+    {
+      "text": "dance",
+      "start": 34.88,
+      "end": 35.28,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 35.28,
+      "end": 35.44,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 35.44,
+      "end": 35.56,
+      "speaker": 0
+    },
+    {
+      "text": "kitchen",
+      "start": 35.56,
+      "end": 36.0,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 36.0,
+      "end": 36.160000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 36.160000000000004,
+      "end": 36.28,
+      "speaker": 0
+    },
+    {
+      "text": "burnt",
+      "start": 36.28,
+      "end": 36.56,
+      "speaker": 0
+    },
+    {
+      "text": "pancakes?",
+      "start": 36.56,
+      "end": 37.51,
+      "speaker": 0
+    },
+    {
+      "text": "Oh,",
+      "start": 37.52,
+      "end": 37.9,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 37.9,
+      "end": 38.4,
+      "speaker": 0
+    },
+    {
+      "text": "were",
+      "start": 38.4,
+      "end": 38.72,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 38.72,
+      "end": 38.88,
+      "speaker": 0
+    },
+    {
+      "text": "mess.",
+      "start": 38.88,
+      "end": 39.47,
+      "speaker": 0
+    },
+    {
+      "text": "But",
+      "start": 39.52,
+      "end": 40.480000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "now,",
+      "start": 40.83,
+      "end": 41.44,
+      "speaker": 0
+    },
+    {
+      "text": "now",
+      "start": 41.44,
+      "end": 42.4,
+      "speaker": 0
+    },
+    {
+      "text": "you're",
+      "start": 42.5,
+      "end": 42.96,
+      "speaker": 0
+    },
+    {
+      "text": "gone,",
+      "start": 42.96,
+      "end": 43.36,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 43.36,
+      "end": 43.46,
+      "speaker": 0
+    },
+    {
+      "text": "silence",
+      "start": 44.67,
+      "end": 45.44,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 45.44,
+      "end": 45.84,
+      "speaker": 0
+    },
+    {
+      "text": "deafening.",
+      "start": 45.84,
+      "end": 45.97,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 46.4,
+      "end": 47.050000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "miss",
+      "start": 48.54,
+      "end": 48.96,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 48.96,
+      "end": 49.47,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 50.49,
+      "end": 50.96,
+      "speaker": 0
+    },
+    {
+      "text": "single",
+      "start": 50.96,
+      "end": 51.92,
+      "speaker": 0
+    },
+    {
+      "text": "day,",
+      "start": 52.08,
+      "end": 52.800000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "but",
+      "start": 52.800000000000004,
+      "end": 52.81,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 54.15,
+      "end": 54.4,
+      "speaker": 0
+    },
+    {
+      "text": "carry",
+      "start": 54.4,
+      "end": 54.72,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 54.72,
+      "end": 54.96,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 54.96,
+      "end": 55.2,
+      "speaker": 0
+    },
+    {
+      "text": "me",
+      "start": 55.2,
+      "end": 55.6,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 55.6,
+      "end": 55.61,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 56.160000000000004,
+      "end": 56.64,
+      "speaker": 0
+    },
+    {
+      "text": "laugh,",
+      "start": 56.64,
+      "end": 57.19,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 57.800000000000004,
+      "end": 57.870000000000005,
+      "speaker": 0
+    },
+    {
+      "text": "tear,",
+      "start": 57.870000000000005,
+      "end": 58.660000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 58.72,
+      "end": 59.18,
+      "speaker": 0
+    },
+    {
+      "text": "quiet",
+      "start": 59.18,
+      "end": 60.14,
+      "speaker": 0
+    },
+    {
+      "text": "moment.",
+      "start": 60.160000000000004,
+      "end": 60.69,
+      "speaker": 0
+    },
+    {
+      "text": "And",
+      "start": 60.72,
+      "end": 61.68,
+      "speaker": 0
+    },
+    {
+      "text": "I'll",
+      "start": 62.29,
+      "end": 62.64,
+      "speaker": 0
+    },
+    {
+      "text": "keep",
+      "start": 62.64,
+      "end": 62.88,
+      "speaker": 0
+    },
+    {
+      "text": "going",
+      "start": 62.88,
+      "end": 63.120000000000005,
+      "speaker": 0
+    },
+    {
+      "text": "because",
+      "start": 63.120000000000005,
+      "end": 63.36,
+      "speaker": 0
+    },
+    {
+      "text": "that's",
+      "start": 64.24,
+      "end": 64.96000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "what",
+      "start": 64.96000000000001,
+      "end": 65.28,
+      "speaker": 0
+    },
+    {
+      "text": "you'd",
+      "start": 65.28,
+      "end": 65.76,
+      "speaker": 0
+    },
+    {
+      "text": "want,",
+      "start": 65.76,
+      "end": 66.34,
+      "speaker": 0
+    },
+    {
+      "text": "always.",
+      "start": 66.4,
+      "end": 67.36,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3049111552
+}

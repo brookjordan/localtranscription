@@ -1,0 +1,243 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.771887207985856,
+  "audio_file": "brook.wav",
+  "audio_sha256": "e32a12e50d9034179a14603820b4440d262f0088f6bebd514a5676e8c1424ed3",
+  "captured_at": "2026-11-01T17:26:12.985210+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 12.032,
+  "status": "ok",
+  "text": "<spk:0> Okay, then let me do a quick test and see how this ends up sounding. Uh, I'm not quite sure what I'm going to say, so I make it up and I will transcribe it later.",
+  "wall_s": 0.6511687079910189,
+  "rtf": 0.0541197396934025,
+  "segments": [
+    {
+      "text": "Okay,",
+      "start": 0.9960264900662251,
+      "end": 1.06,
+      "speaker": 0
+    },
+    {
+      "text": "then",
+      "start": 1.06,
+      "end": 1.9920529801324502,
+      "speaker": 0
+    },
+    {
+      "text": "let",
+      "start": 1.9920529801324502,
+      "end": 2.2310993377483443,
+      "speaker": 0
+    },
+    {
+      "text": "me",
+      "start": 2.2310993377483443,
+      "end": 2.39046357615894,
+      "speaker": 0
+    },
+    {
+      "text": "do",
+      "start": 2.39046357615894,
+      "end": 2.5099867549668873,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 2.5099867549668873,
+      "end": 2.6295099337748344,
+      "speaker": 0
+    },
+    {
+      "text": "quick",
+      "start": 2.6295099337748344,
+      "end": 2.8685562913907283,
+      "speaker": 0
+    },
+    {
+      "text": "test",
+      "start": 2.8685562913907283,
+      "end": 3.2669668874172184,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 3.2669668874172184,
+      "end": 3.5060132450331123,
+      "speaker": 0
+    },
+    {
+      "text": "see",
+      "start": 3.5060132450331123,
+      "end": 3.7450596026490066,
+      "speaker": 0
+    },
+    {
+      "text": "how",
+      "start": 3.7450596026490066,
+      "end": 3.9044238410596024,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 3.9044238410596024,
+      "end": 4.063788079470198,
+      "speaker": 0
+    },
+    {
+      "text": "ends",
+      "start": 4.063788079470198,
+      "end": 4.223152317880794,
+      "speaker": 0
+    },
+    {
+      "text": "up",
+      "start": 4.223152317880794,
+      "end": 4.462198675496689,
+      "speaker": 0
+    },
+    {
+      "text": "sounding.",
+      "start": 4.462198675496689,
+      "end": 5.36,
+      "speaker": 0
+    },
+    {
+      "text": "Uh,",
+      "start": 5.418384105960265,
+      "end": 5.83,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 5.83,
+      "end": 6.2948874172185425,
+      "speaker": 0
+    },
+    {
+      "text": "not",
+      "start": 6.2948874172185425,
+      "end": 6.533933774834437,
+      "speaker": 0
+    },
+    {
+      "text": "quite",
+      "start": 6.533933774834437,
+      "end": 6.772980132450331,
+      "speaker": 0
+    },
+    {
+      "text": "sure",
+      "start": 6.772980132450331,
+      "end": 7.091708609271523,
+      "speaker": 0
+    },
+    {
+      "text": "what",
+      "start": 7.091708609271523,
+      "end": 7.330754966887417,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 7.330754966887417,
+      "end": 7.490119205298013,
+      "speaker": 0
+    },
+    {
+      "text": "going",
+      "start": 7.490119205298013,
+      "end": 7.60964238410596,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 7.60964238410596,
+      "end": 7.729165562913907,
+      "speaker": 0
+    },
+    {
+      "text": "say,",
+      "start": 7.729165562913907,
+      "end": 8.207258278145694,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 8.207258278145694,
+      "end": 8.36662251655629,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 8.36662251655629,
+      "end": 8.605668874172185,
+      "speaker": 0
+    },
+    {
+      "text": "make",
+      "start": 8.605668874172185,
+      "end": 8.765033112582781,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 8.765033112582781,
+      "end": 8.84471523178808,
+      "speaker": 0
+    },
+    {
+      "text": "up",
+      "start": 8.84471523178808,
+      "end": 9.163443708609272,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 9.163443708609272,
+      "end": 9.362649006622517,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 9.362649006622517,
+      "end": 9.442331125827815,
+      "speaker": 0
+    },
+    {
+      "text": "will",
+      "start": 9.442331125827815,
+      "end": 9.56185430463576,
+      "speaker": 0
+    },
+    {
+      "text": "transcribe",
+      "start": 9.56185430463576,
+      "end": 9.960264900662251,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 9.960264900662251,
+      "end": 10.199311258278145,
+      "speaker": 0
+    },
+    {
+      "text": "later.",
+      "start": 10.199311258278145,
+      "end": 10.68,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3008413696
+}

@@ -1,0 +1,435 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.053372499998659,
+  "audio_file": "sing.mp3",
+  "audio_sha256": "8aebd3488c3ea16019a1e2b054f72d65be849c6ef293ba48a0646e8a3f895d08",
+  "captured_at": "2026-11-01T09:34:10.572846+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 31.68,
+  "status": "ok",
+  "text": "<spk:0> Okay, so this time I'm gonna test various things, like if it can hear me when I'm banging, if it gets different noises, or if it can recognize sound. If you can tell when I start to sing, or if it thinks I'm talking and it doesn't know anything, doesn't know anything. Does it just think I'm snorking normally? Does it just think I'm talking normally? Let's see.",
+  "wall_s": 1.0546042079804465,
+  "rtf": 0.033289274241807026,
+  "segments": [
+    {
+      "text": "Okay,",
+      "start": 0.64,
+      "end": 0.7000000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 0.7000000000000001,
+      "end": 1.6600000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 2.08,
+      "end": 2.32,
+      "speaker": 0
+    },
+    {
+      "text": "time",
+      "start": 2.32,
+      "end": 2.72,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 2.72,
+      "end": 2.88,
+      "speaker": 0
+    },
+    {
+      "text": "gonna",
+      "start": 2.88,
+      "end": 3.0,
+      "speaker": 0
+    },
+    {
+      "text": "test",
+      "start": 3.0,
+      "end": 3.2800000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "various",
+      "start": 3.2800000000000002,
+      "end": 3.6,
+      "speaker": 0
+    },
+    {
+      "text": "things,",
+      "start": 3.6,
+      "end": 4.12,
+      "speaker": 0
+    },
+    {
+      "text": "like",
+      "start": 4.12,
+      "end": 4.32,
+      "speaker": 0
+    },
+    {
+      "text": "if",
+      "start": 4.32,
+      "end": 4.48,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 4.48,
+      "end": 4.64,
+      "speaker": 0
+    },
+    {
+      "text": "can",
+      "start": 4.64,
+      "end": 4.8,
+      "speaker": 0
+    },
+    {
+      "text": "hear",
+      "start": 4.8,
+      "end": 5.04,
+      "speaker": 0
+    },
+    {
+      "text": "me",
+      "start": 5.04,
+      "end": 5.12,
+      "speaker": 0
+    },
+    {
+      "text": "when",
+      "start": 5.12,
+      "end": 5.28,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 5.28,
+      "end": 5.6000000000000005,
+      "speaker": 0
+    },
+    {
+      "text": "banging,",
+      "start": 5.6000000000000005,
+      "end": 6.24,
+      "speaker": 0
+    },
+    {
+      "text": "if",
+      "start": 6.24,
+      "end": 6.32,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 6.32,
+      "end": 6.48,
+      "speaker": 0
+    },
+    {
+      "text": "gets",
+      "start": 6.48,
+      "end": 6.72,
+      "speaker": 0
+    },
+    {
+      "text": "different",
+      "start": 6.72,
+      "end": 7.04,
+      "speaker": 0
+    },
+    {
+      "text": "noises,",
+      "start": 7.04,
+      "end": 7.92,
+      "speaker": 0
+    },
+    {
+      "text": "or",
+      "start": 7.92,
+      "end": 8.32,
+      "speaker": 0
+    },
+    {
+      "text": "if",
+      "start": 8.32,
+      "end": 8.370000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 9.88,
+      "end": 9.89,
+      "speaker": 0
+    },
+    {
+      "text": "can",
+      "start": 9.89,
+      "end": 10.08,
+      "speaker": 0
+    },
+    {
+      "text": "recognize",
+      "start": 10.08,
+      "end": 10.64,
+      "speaker": 0
+    },
+    {
+      "text": "sound.",
+      "start": 10.64,
+      "end": 11.600000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "If",
+      "start": 14.88,
+      "end": 14.950000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 14.950000000000001,
+      "end": 15.200000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "can",
+      "start": 15.200000000000001,
+      "end": 15.36,
+      "speaker": 0
+    },
+    {
+      "text": "tell",
+      "start": 15.36,
+      "end": 15.84,
+      "speaker": 0
+    },
+    {
+      "text": "when",
+      "start": 15.84,
+      "end": 16.0,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 16.0,
+      "end": 16.080000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "start",
+      "start": 16.080000000000002,
+      "end": 16.32,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 16.32,
+      "end": 16.64,
+      "speaker": 0
+    },
+    {
+      "text": "sing,",
+      "start": 16.64,
+      "end": 17.36,
+      "speaker": 0
+    },
+    {
+      "text": "or",
+      "start": 17.36,
+      "end": 17.84,
+      "speaker": 0
+    },
+    {
+      "text": "if",
+      "start": 17.84,
+      "end": 18.0,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 18.0,
+      "end": 18.080000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "thinks",
+      "start": 18.080000000000002,
+      "end": 18.32,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 18.32,
+      "end": 18.52,
+      "speaker": 0
+    },
+    {
+      "text": "talking",
+      "start": 18.52,
+      "end": 18.88,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 18.88,
+      "end": 19.04,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 19.04,
+      "end": 19.2,
+      "speaker": 0
+    },
+    {
+      "text": "doesn't",
+      "start": 19.2,
+      "end": 19.52,
+      "speaker": 0
+    },
+    {
+      "text": "know",
+      "start": 19.52,
+      "end": 20.080000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "anything,",
+      "start": 20.080000000000002,
+      "end": 21.040000000000003,
+      "speaker": 0
+    },
+    {
+      "text": "doesn't",
+      "start": 21.36,
+      "end": 21.92,
+      "speaker": 0
+    },
+    {
+      "text": "know",
+      "start": 21.92,
+      "end": 22.48,
+      "speaker": 0
+    },
+    {
+      "text": "anything.",
+      "start": 22.48,
+      "end": 23.36,
+      "speaker": 0
+    },
+    {
+      "text": "Does",
+      "start": 23.36,
+      "end": 23.6,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 23.6,
+      "end": 23.76,
+      "speaker": 0
+    },
+    {
+      "text": "just",
+      "start": 23.76,
+      "end": 23.96,
+      "speaker": 0
+    },
+    {
+      "text": "think",
+      "start": 23.96,
+      "end": 24.32,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 24.32,
+      "end": 24.560000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "snorking",
+      "start": 24.560000000000002,
+      "end": 25.12,
+      "speaker": 0
+    },
+    {
+      "text": "normally?",
+      "start": 25.12,
+      "end": 26.080000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "Does",
+      "start": 26.48,
+      "end": 27.04,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 27.04,
+      "end": 27.2,
+      "speaker": 0
+    },
+    {
+      "text": "just",
+      "start": 27.2,
+      "end": 27.6,
+      "speaker": 0
+    },
+    {
+      "text": "think",
+      "start": 27.6,
+      "end": 27.84,
+      "speaker": 0
+    },
+    {
+      "text": "I'm",
+      "start": 27.84,
+      "end": 28.16,
+      "speaker": 0
+    },
+    {
+      "text": "talking",
+      "start": 28.16,
+      "end": 28.48,
+      "speaker": 0
+    },
+    {
+      "text": "normally?",
+      "start": 28.48,
+      "end": 29.44,
+      "speaker": 0
+    },
+    {
+      "text": "Let's",
+      "start": 29.68,
+      "end": 30.16,
+      "speaker": 0
+    },
+    {
+      "text": "see.",
+      "start": 30.16,
+      "end": 30.52,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3017490432
+}

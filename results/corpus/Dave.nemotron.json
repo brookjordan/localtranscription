@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "Dave.wav",
+  "audio_sha256": "dd3d7245663c29093600503106e6589fca9611c4b5be75017e8173cd20c291cc",
+  "captured_at": "2026-11-01T08:57:45.831302+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 55.625,
+  "status": "ok",
+  "text": "No, I don't think so, and fair fair warning, I've got I am I have two new kittens that are gonna be rampaging around this uh call, so if I get attacked while I'm talking, you all know know what's going on. Starting to wake up, they basically sleep most of the time, but when they wake up, they kind of go crazy, so. This is Leonidas, he's eight weeks old. You can see him, I don't know where his sister is, she's around here somewhere. Hard to hard to get mad. No, I think we got some questions some of you submitted and we're gonna go through that, and then I think there's open Q and A at the end we're gonna do, so. Yeah, we'll start with the easy one, uh, you know, you're the new the newest member of the the leadership team, just yeah, tell us I don't know a little bit about your background, you talked a little bit about some of your technical background, but you know whatever you want to whatever you want to tell us about and what brought you to emotional most importantly other than biology and I obviously like. For those of you who don't know, we did meet Phil before he came and we landed the uh landed the big fish, so.",
+  "wall_s": 3.0753502500010654,
+  "rtf": 0.055287195505637134,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

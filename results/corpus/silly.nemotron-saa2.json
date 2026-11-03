@@ -1,0 +1,177 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.894379499950446,
+  "audio_file": "silly.m4a",
+  "audio_sha256": "b83b1e1481823ea477ea257e697183e418ffdf1561f5c879272e1c5b23e5d3fb",
+  "captured_at": "2026-11-01T17:05:10.858887+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 10.559833,
+  "status": "ok",
+  "text": "<spk:0> Yeah, boy, I think that would be so cool. I go in the grass with the bath and I laugh at you, ha ha ha.",
+  "wall_s": 0.634199166088365,
+  "rtf": 0.06005768898886612,
+  "segments": [
+    {
+      "text": "Yeah,",
+      "start": 0.8,
+      "end": 0.84,
+      "speaker": 0
+    },
+    {
+      "text": "boy,",
+      "start": 0.84,
+      "end": 1.7999999999999998,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 2.0,
+      "end": 2.4,
+      "speaker": 0
+    },
+    {
+      "text": "think",
+      "start": 2.4,
+      "end": 2.72,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 2.72,
+      "end": 2.96,
+      "speaker": 0
+    },
+    {
+      "text": "would",
+      "start": 2.96,
+      "end": 3.16,
+      "speaker": 0
+    },
+    {
+      "text": "be",
+      "start": 3.16,
+      "end": 3.36,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 3.36,
+      "end": 3.52,
+      "speaker": 0
+    },
+    {
+      "text": "cool.",
+      "start": 3.52,
+      "end": 4.48,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 4.48,
+      "end": 4.8,
+      "speaker": 0
+    },
+    {
+      "text": "go",
+      "start": 4.8,
+      "end": 5.04,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 5.04,
+      "end": 5.16,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 5.16,
+      "end": 5.28,
+      "speaker": 0
+    },
+    {
+      "text": "grass",
+      "start": 5.28,
+      "end": 5.6000000000000005,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 5.6000000000000005,
+      "end": 6.08,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 6.08,
+      "end": 6.32,
+      "speaker": 0
+    },
+    {
+      "text": "bath",
+      "start": 6.32,
+      "end": 7.12,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 7.12,
+      "end": 7.36,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 7.36,
+      "end": 7.68,
+      "speaker": 0
+    },
+    {
+      "text": "laugh",
+      "start": 7.68,
+      "end": 7.84,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 7.84,
+      "end": 8.16,
+      "speaker": 0
+    },
+    {
+      "text": "you,",
+      "start": 8.16,
+      "end": 8.56,
+      "speaker": 0
+    },
+    {
+      "text": "ha",
+      "start": 8.56,
+      "end": 8.88,
+      "speaker": 0
+    },
+    {
+      "text": "ha",
+      "start": 8.88,
+      "end": 9.200000000000001,
+      "speaker": 0
+    },
+    {
+      "text": "ha.",
+      "start": 9.200000000000001,
+      "end": 9.96,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 2962276352
+}

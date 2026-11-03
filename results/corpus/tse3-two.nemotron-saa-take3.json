@@ -1,0 +1,465 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.516530999913812,
+  "audio_file": "tse3-two.wav",
+  "audio_sha256": "da921a6f73ead5365fe292f2417839cdd83cc00a7031315f19f47637ca54e8d3",
+  "captured_at": "2026-11-01T17:28:52.415763+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 27.425,
+  "status": "ok",
+  "text": "<spk:0> Welcome back to the show. Today we're looking at how speech recognizers handle more than one voice at a time, and why that is harder than it sounds. Right, because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning. Exactly, so keep an ear on the speaker labels as we go. If the engine cannot tell us apart, that is a diarization failure, not a transcription failure.",
+  "wall_s": 1.4038337910315022,
+  "rtf": 0.051188105415916216,
+  "segments": [
+    {
+      "text": "Welcome",
+      "start": 0.26,
+      "end": 0.6396501457725947,
+      "speaker": 0
+    },
+    {
+      "text": "back",
+      "start": 0.6396501457725947,
+      "end": 0.8795189504373178,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 0.8795189504373178,
+      "end": 1.0794096209912536,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 1.0794096209912536,
+      "end": 1.199344023323615,
+      "speaker": 0
+    },
+    {
+      "text": "show.",
+      "start": 1.199344023323615,
+      "end": 1.6,
+      "speaker": 0
+    },
+    {
+      "text": "Today",
+      "start": 2.0788629737609328,
+      "end": 2.13,
+      "speaker": 0
+    },
+    {
+      "text": "we're",
+      "start": 2.13,
+      "end": 2.558600583090379,
+      "speaker": 0
+    },
+    {
+      "text": "looking",
+      "start": 2.558600583090379,
+      "end": 2.7984693877551017,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 2.7984693877551017,
+      "end": 2.9583819241982505,
+      "speaker": 0
+    },
+    {
+      "text": "how",
+      "start": 2.9583819241982505,
+      "end": 3.1182944606413994,
+      "speaker": 0
+    },
+    {
+      "text": "speech",
+      "start": 3.1182944606413994,
+      "end": 3.4381195335276966,
+      "speaker": 0
+    },
+    {
+      "text": "recognizers",
+      "start": 3.4381195335276966,
+      "end": 3.997813411078717,
+      "speaker": 0
+    },
+    {
+      "text": "handle",
+      "start": 3.997813411078717,
+      "end": 4.557507288629737,
+      "speaker": 0
+    },
+    {
+      "text": "more",
+      "start": 4.557507288629737,
+      "end": 4.717419825072886,
+      "speaker": 0
+    },
+    {
+      "text": "than",
+      "start": 4.717419825072886,
+      "end": 4.877332361516035,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 4.877332361516035,
+      "end": 5.037244897959184,
+      "speaker": 0
+    },
+    {
+      "text": "voice",
+      "start": 5.037244897959184,
+      "end": 5.2771137026239066,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 5.2771137026239066,
+      "end": 5.437026239067055,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 5.437026239067055,
+      "end": 5.556960641399416,
+      "speaker": 0
+    },
+    {
+      "text": "time,",
+      "start": 5.556960641399416,
+      "end": 6.236588921282799,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 6.236588921282799,
+      "end": 6.396501457725947,
+      "speaker": 0
+    },
+    {
+      "text": "why",
+      "start": 6.396501457725947,
+      "end": 6.63637026239067,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 6.63637026239067,
+      "end": 6.796282798833819,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 6.796282798833819,
+      "end": 6.956195335276967,
+      "speaker": 0
+    },
+    {
+      "text": "harder",
+      "start": 6.956195335276967,
+      "end": 7.196064139941691,
+      "speaker": 0
+    },
+    {
+      "text": "than",
+      "start": 7.196064139941691,
+      "end": 7.435932944606414,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 7.435932944606414,
+      "end": 7.515889212827988,
+      "speaker": 0
+    },
+    {
+      "text": "sounds.",
+      "start": 7.515889212827988,
+      "end": 7.835714285714285,
+      "speaker": 0
+    },
+    {
+      "text": "Right,",
+      "start": 7.835714285714285,
+      "end": 7.995626822157434,
+      "speaker": 0
+    },
+    {
+      "text": "because",
+      "start": 7.995626822157434,
+      "end": 8.11,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 8.155539358600583,
+      "end": 9.115014577259474,
+      "speaker": 0
+    },
+    {
+      "text": "single",
+      "start": 17.51042274052478,
+      "end": 17.54,
+      "speaker": 0
+    },
+    {
+      "text": "speaker",
+      "start": 17.54,
+      "end": 17.830247813411077,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 17.830247813411077,
+      "end": 17.910204081632653,
+      "speaker": 0
+    },
+    {
+      "text": "predictable,",
+      "start": 17.910204081632653,
+      "end": 18.150072886297377,
+      "speaker": 0
+    },
+    {
+      "text": "but",
+      "start": 18.150072886297377,
+      "end": 18.23002915451895,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 18.23002915451895,
+      "end": 18.309985422740525,
+      "speaker": 0
+    },
+    {
+      "text": "conversation",
+      "start": 18.309985422740525,
+      "end": 18.50987609329446,
+      "speaker": 0
+    },
+    {
+      "text": "overlaps,",
+      "start": 18.50987609329446,
+      "end": 18.749744897959182,
+      "speaker": 0
+    },
+    {
+      "text": "interrupts",
+      "start": 18.749744897959182,
+      "end": 18.989613702623906,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 18.989613702623906,
+      "end": 19.06956997084548,
+      "speaker": 0
+    },
+    {
+      "text": "changes",
+      "start": 19.06956997084548,
+      "end": 19.22948250728863,
+      "speaker": 0
+    },
+    {
+      "text": "pace",
+      "start": 19.22948250728863,
+      "end": 19.34941690962099,
+      "speaker": 0
+    },
+    {
+      "text": "without",
+      "start": 19.34941690962099,
+      "end": 19.50932944606414,
+      "speaker": 0
+    },
+    {
+      "text": "warning.",
+      "start": 19.50932944606414,
+      "end": 19.669241982507288,
+      "speaker": 0
+    },
+    {
+      "text": "Exactly,",
+      "start": 19.669241982507288,
+      "end": 19.86913265306122,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 19.86913265306122,
+      "end": 19.949088921282797,
+      "speaker": 0
+    },
+    {
+      "text": "keep",
+      "start": 19.949088921282797,
+      "end": 20.06902332361516,
+      "speaker": 0
+    },
+    {
+      "text": "an",
+      "start": 20.06902332361516,
+      "end": 20.148979591836735,
+      "speaker": 0
+    },
+    {
+      "text": "ear",
+      "start": 20.148979591836735,
+      "end": 20.228935860058307,
+      "speaker": 0
+    },
+    {
+      "text": "on",
+      "start": 20.228935860058307,
+      "end": 20.308892128279883,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 20.308892128279883,
+      "end": 20.388848396501455,
+      "speaker": 0
+    },
+    {
+      "text": "speaker",
+      "start": 20.388848396501455,
+      "end": 20.548760932944607,
+      "speaker": 0
+    },
+    {
+      "text": "labels",
+      "start": 20.548760932944607,
+      "end": 20.57,
+      "speaker": 0
+    },
+    {
+      "text": "as",
+      "start": 20.708673469387755,
+      "end": 20.788629737609327,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 20.788629737609327,
+      "end": 20.94854227405248,
+      "speaker": 0
+    },
+    {
+      "text": "go.",
+      "start": 20.94854227405248,
+      "end": 21.06847667638484,
+      "speaker": 0
+    },
+    {
+      "text": "If",
+      "start": 21.06847667638484,
+      "end": 21.1,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 21.1,
+      "end": 21.34832361516035,
+      "speaker": 0
+    },
+    {
+      "text": "engine",
+      "start": 21.34832361516035,
+      "end": 21.74810495626822,
+      "speaker": 0
+    },
+    {
+      "text": "cannot",
+      "start": 21.74810495626822,
+      "end": 21.98797376093294,
+      "speaker": 0
+    },
+    {
+      "text": "tell",
+      "start": 21.98797376093294,
+      "end": 22.227842565597665,
+      "speaker": 0
+    },
+    {
+      "text": "us",
+      "start": 22.227842565597665,
+      "end": 22.387755102040813,
+      "speaker": 0
+    },
+    {
+      "text": "apart,",
+      "start": 22.387755102040813,
+      "end": 23.107361516034985,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 23.107361516034985,
+      "end": 23.267274052478133,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 23.267274052478133,
+      "end": 23.34723032069971,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 23.34723032069971,
+      "end": 23.42718658892128,
+      "speaker": 0
+    },
+    {
+      "text": "diarization",
+      "start": 23.42718658892128,
+      "end": 24.106814868804662,
+      "speaker": 0
+    },
+    {
+      "text": "failure,",
+      "start": 24.106814868804662,
+      "end": 24.786443148688043,
+      "speaker": 0
+    },
+    {
+      "text": "not",
+      "start": 24.786443148688043,
+      "end": 24.906377551020405,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 24.906377551020405,
+      "end": 25.066290087463557,
+      "speaker": 0
+    },
+    {
+      "text": "transcription",
+      "start": 25.066290087463557,
+      "end": 25.665962099125363,
+      "speaker": 0
+    },
+    {
+      "text": "failure.",
+      "start": 25.665962099125363,
+      "end": 26.29,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3118301184
+}

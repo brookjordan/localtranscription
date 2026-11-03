@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "Brook 2.wav",
+  "audio_sha256": "19b6e0380d63a3992346c887bdc1a89424804b04c5b15a772cc807ea0a8e0aeb",
+  "captured_at": "2026-11-01T08:57:43.020710+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 68.304063,
+  "status": "ok",
+  "text": "Byron was at his best and most characteristic in the long poem. Childe Harold's Pilgrimage was a sensation that made his name, and Don Juan was a book-length virtuoso extravaganza that sealed the deal. But anyone who doubts that Byron could have shone if confined to shorter poems should take a close look at this one and check out the perfection of its balance. One shade the more, one ray the less, is just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular Byronic poem non-Byronic is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady, and certainly she is more innocent than Byron truly thought life or love could ever be. She might come good later, ie she might turn bad, but at the moment she is just a stack of iced cake trembling in the strip sleep slipstream as Byron sweeps by on his way to depravities unknown in her sweet dreams.",
+  "wall_s": 2.676344083971344,
+  "rtf": 0.03918279479174385,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

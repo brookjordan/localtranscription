@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "Brett.wav",
+  "audio_sha256": "ba0c5a1288158b14238be869b38276cea11ec5d79c14417480127543572796ee",
+  "captured_at": "2026-11-01T08:57:39.316836+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 62.910688,
+  "status": "ok",
+  "text": "Luke's gospel tells us that Jesus had longed to celebrate this Passover meal with his disciples. Why not dreaded? This was after all the last meal he was going to share with them before his crucifixion. Luke gives us four reasons why Jesus was keen to take part in this meal. At communion we drink wine and eat bread, but no meat. In this meal Jesus takes the place of the Passover lamb, Jesus. Although present, will not take part in the communion meal until he returns and each of us are given resurrection bodies. The Passover meal was a celebratory family meal hosted by the head of the household. Communion is an educational meal hosted by Jesus for his disciples one in which we learn by doing. When Jesus gave his body to eat and his blood to drink he was giving them everything that he had. As we take communion we tell God that we are open to receiving all that Jesus has for us.",
+  "wall_s": 3.5578896250226535,
+  "rtf": 0.05655461318468896,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

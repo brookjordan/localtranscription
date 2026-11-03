@@ -1,0 +1,741 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.516530999913812,
+  "audio_file": "lockpicking lawyer voice.wav",
+  "audio_sha256": "6848250f094ba480adf526a8e34e30da7deb051234610dfe3c6a4d1f5601c282",
+  "captured_at": "2026-11-01T17:28:50.169943+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 50.735813,
+  "status": "ok",
+  "text": "<spk:0> This is the lock picking lawyer and one of the weaknesses with modern smart locks is battery life and there's various ways of dealing with that more batteries bigger batteries lithium batteries wireless charging solar panels but so few seem to have taken the obvious step of dramatically reducing power consumption and probably the largest power draw is the electric motor that throws the bolt that's why I love to see locks like this one from GeekTale at least I was until I saw the tiny lithium battery that powers this it's right on the back of this panel so in practical terms I doubt we'll see much in the way of extra battery life which is a shame",
+  "wall_s": 1.94765912508592,
+  "rtf": 0.03838825101878076,
+  "segments": [
+    {
+      "text": "This",
+      "start": 0.8788880905511811,
+      "end": 0.91,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 0.91,
+      "end": 1.2783826771653544,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 1.2783826771653544,
+      "end": 1.5180794291338584,
+      "speaker": 0
+    },
+    {
+      "text": "lock",
+      "start": 1.5180794291338584,
+      "end": 1.6778772637795276,
+      "speaker": 0
+    },
+    {
+      "text": "picking",
+      "start": 1.6778772637795276,
+      "end": 1.9974729330708663,
+      "speaker": 0
+    },
+    {
+      "text": "lawyer",
+      "start": 1.9974729330708663,
+      "end": 2.6366642716535433,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 2.6366642716535433,
+      "end": 2.876361023622047,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 2.876361023622047,
+      "end": 2.9962093996062995,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 2.9962093996062995,
+      "end": 3.076108316929134,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 3.076108316929134,
+      "end": 3.2359061515748033,
+      "speaker": 0
+    },
+    {
+      "text": "weaknesses",
+      "start": 3.2359061515748033,
+      "end": 3.915046948818898,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 3.915046948818898,
+      "end": 4.154743700787401,
+      "speaker": 0
+    },
+    {
+      "text": "modern",
+      "start": 4.154743700787401,
+      "end": 4.434389911417323,
+      "speaker": 0
+    },
+    {
+      "text": "smart",
+      "start": 4.434389911417323,
+      "end": 4.873833956692914,
+      "speaker": 0
+    },
+    {
+      "text": "locks",
+      "start": 4.873833956692914,
+      "end": 5.193429625984252,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 5.193429625984252,
+      "end": 5.832620964566929,
+      "speaker": 0
+    },
+    {
+      "text": "battery",
+      "start": 5.832620964566929,
+      "end": 6.471812303149607,
+      "speaker": 0
+    },
+    {
+      "text": "life",
+      "start": 6.471812303149607,
+      "end": 6.7115090551181105,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 6.7115090551181105,
+      "end": 7.5104982283464565,
+      "speaker": 0
+    },
+    {
+      "text": "there's",
+      "start": 7.5104982283464565,
+      "end": 7.989891732283465,
+      "speaker": 0
+    },
+    {
+      "text": "various",
+      "start": 7.989891732283465,
+      "end": 8.469285236220472,
+      "speaker": 0
+    },
+    {
+      "text": "ways",
+      "start": 8.469285236220472,
+      "end": 8.788880905511812,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 8.788880905511812,
+      "end": 8.948678740157481,
+      "speaker": 0
+    },
+    {
+      "text": "dealing",
+      "start": 8.948678740157481,
+      "end": 9.26827440944882,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 9.26827440944882,
+      "end": 9.507971161417323,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 9.507971161417323,
+      "end": 9.787617372047244,
+      "speaker": 0
+    },
+    {
+      "text": "more",
+      "start": 9.787617372047244,
+      "end": 10.30696033464567,
+      "speaker": 0
+    },
+    {
+      "text": "batteries",
+      "start": 10.30696033464567,
+      "end": 11.0660000492126,
+      "speaker": 0
+    },
+    {
+      "text": "bigger",
+      "start": 11.0660000492126,
+      "end": 11.425545177165354,
+      "speaker": 0
+    },
+    {
+      "text": "batteries",
+      "start": 11.425545177165354,
+      "end": 12.104685974409449,
+      "speaker": 0
+    },
+    {
+      "text": "lithium",
+      "start": 12.104685974409449,
+      "end": 12.783826771653544,
+      "speaker": 0
+    },
+    {
+      "text": "batteries",
+      "start": 12.783826771653544,
+      "end": 13.542866486220472,
+      "speaker": 0
+    },
+    {
+      "text": "wireless",
+      "start": 13.542866486220472,
+      "end": 14.301906200787402,
+      "speaker": 0
+    },
+    {
+      "text": "charging",
+      "start": 14.301906200787402,
+      "end": 14.981046998031497,
+      "speaker": 0
+    },
+    {
+      "text": "solar",
+      "start": 14.981046998031497,
+      "end": 15.340592125984251,
+      "speaker": 0
+    },
+    {
+      "text": "panels",
+      "start": 15.340592125984251,
+      "end": 16.099631840551183,
+      "speaker": 0
+    },
+    {
+      "text": "but",
+      "start": 16.099631840551183,
+      "end": 16.539075885826772,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 16.539075885826772,
+      "end": 16.778772637795274,
+      "speaker": 0
+    },
+    {
+      "text": "few",
+      "start": 16.778772637795274,
+      "end": 16.938570472440944,
+      "speaker": 0
+    },
+    {
+      "text": "seem",
+      "start": 16.938570472440944,
+      "end": 17.417963976377955,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 17.417963976377955,
+      "end": 17.537812352362206,
+      "speaker": 0
+    },
+    {
+      "text": "have",
+      "start": 17.537812352362206,
+      "end": 17.737559645669293,
+      "speaker": 0
+    },
+    {
+      "text": "taken",
+      "start": 17.737559645669293,
+      "end": 18.137054232283464,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 18.137054232283464,
+      "end": 18.296852066929134,
+      "speaker": 0
+    },
+    {
+      "text": "obvious",
+      "start": 18.296852066929134,
+      "end": 18.77624557086614,
+      "speaker": 0
+    },
+    {
+      "text": "step",
+      "start": 18.77624557086614,
+      "end": 19.175740157480316,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 19.175740157480316,
+      "end": 19.34,
+      "speaker": 0
+    },
+    {
+      "text": "dramatically",
+      "start": 19.650000000000002,
+      "end": 20.608787007874017,
+      "speaker": 0
+    },
+    {
+      "text": "reducing",
+      "start": 20.61392066929134,
+      "end": 21.572707677165354,
+      "speaker": 0
+    },
+    {
+      "text": "power",
+      "start": 21.572707677165354,
+      "end": 21.97220226377953,
+      "speaker": 0
+    },
+    {
+      "text": "consumption",
+      "start": 21.97220226377953,
+      "end": 22.930989271653544,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 23.170686023622046,
+      "end": 23.410382775590552,
+      "speaker": 0
+    },
+    {
+      "text": "probably",
+      "start": 23.410382775590552,
+      "end": 23.650079527559054,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 23.650079527559054,
+      "end": 23.88977627952756,
+      "speaker": 0
+    },
+    {
+      "text": "largest",
+      "start": 23.88977627952756,
+      "end": 24.528967618110237,
+      "speaker": 0
+    },
+    {
+      "text": "power",
+      "start": 24.528967618110237,
+      "end": 24.92846220472441,
+      "speaker": 0
+    },
+    {
+      "text": "draw",
+      "start": 24.92846220472441,
+      "end": 25.24805787401575,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 25.24805787401575,
+      "end": 25.727451377952757,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 25.727451377952757,
+      "end": 25.96714812992126,
+      "speaker": 0
+    },
+    {
+      "text": "electric",
+      "start": 25.96714812992126,
+      "end": 26.326693257874016,
+      "speaker": 0
+    },
+    {
+      "text": "motor",
+      "start": 26.326693257874016,
+      "end": 26.846036220472442,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 26.846036220472442,
+      "end": 27.245530807086613,
+      "speaker": 0
+    },
+    {
+      "text": "throws",
+      "start": 27.245530807086613,
+      "end": 27.645025393700788,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 27.645025393700788,
+      "end": 28.044519980314963,
+      "speaker": 0
+    },
+    {
+      "text": "bolt",
+      "start": 28.044519980314963,
+      "end": 28.603812401574803,
+      "speaker": 0
+    },
+    {
+      "text": "that's",
+      "start": 28.603812401574803,
+      "end": 28.91,
+      "speaker": 0
+    },
+    {
+      "text": "why",
+      "start": 29.650000000000002,
+      "end": 29.962093996062993,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 29.962093996062993,
+      "end": 30.121891830708662,
+      "speaker": 0
+    },
+    {
+      "text": "love",
+      "start": 30.121891830708662,
+      "end": 30.361588582677165,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 30.361588582677165,
+      "end": 30.521386417322834,
+      "speaker": 0
+    },
+    {
+      "text": "see",
+      "start": 30.521386417322834,
+      "end": 30.76108316929134,
+      "speaker": 0
+    },
+    {
+      "text": "locks",
+      "start": 30.76108316929134,
+      "end": 31.000779921259845,
+      "speaker": 0
+    },
+    {
+      "text": "like",
+      "start": 31.000779921259845,
+      "end": 31.240476673228347,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 31.240476673228347,
+      "end": 31.480173425196853,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 31.480173425196853,
+      "end": 31.79976909448819,
+      "speaker": 0
+    },
+    {
+      "text": "from",
+      "start": 31.79976909448819,
+      "end": 31.95956692913386,
+      "speaker": 0
+    },
+    {
+      "text": "GeekTale",
+      "start": 31.95956692913386,
+      "end": 32.518859350393704,
+      "speaker": 0
+    },
+    {
+      "text": "at",
+      "start": 32.518859350393704,
+      "end": 32.78,
+      "speaker": 0
+    },
+    {
+      "text": "least",
+      "start": 35.475119291338586,
+      "end": 35.5,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 35.5,
+      "end": 36.27410846456693,
+      "speaker": 0
+    },
+    {
+      "text": "was",
+      "start": 36.27410846456693,
+      "end": 36.59370413385827,
+      "speaker": 0
+    },
+    {
+      "text": "until",
+      "start": 36.59370413385827,
+      "end": 36.660000000000004,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 37.25,
+      "end": 37.472592224409446,
+      "speaker": 0
+    },
+    {
+      "text": "saw",
+      "start": 37.472592224409446,
+      "end": 37.712288976377955,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 37.712288976377955,
+      "end": 38.11178356299213,
+      "speaker": 0
+    },
+    {
+      "text": "tiny",
+      "start": 38.11178356299213,
+      "end": 39.070570570866145,
+      "speaker": 0
+    },
+    {
+      "text": "lithium",
+      "start": 39.11052002952756,
+      "end": 39.47006515748031,
+      "speaker": 0
+    },
+    {
+      "text": "battery",
+      "start": 39.47006515748031,
+      "end": 39.949458661417324,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 39.949458661417324,
+      "end": 40.189155413385826,
+      "speaker": 0
+    },
+    {
+      "text": "powers",
+      "start": 40.189155413385826,
+      "end": 40.74844783464567,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 40.74844783464567,
+      "end": 40.988144586614176,
+      "speaker": 0
+    },
+    {
+      "text": "it's",
+      "start": 40.988144586614176,
+      "end": 41.46753809055118,
+      "speaker": 0
+    },
+    {
+      "text": "right",
+      "start": 41.46753809055118,
+      "end": 41.78713375984252,
+      "speaker": 0
+    },
+    {
+      "text": "on",
+      "start": 41.78713375984252,
+      "end": 41.90698213582677,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 41.90698213582677,
+      "end": 42.146678887795275,
+      "speaker": 0
+    },
+    {
+      "text": "back",
+      "start": 42.146678887795275,
+      "end": 42.426325098425195,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 42.426325098425195,
+      "end": 42.58612293307087,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 42.58612293307087,
+      "end": 42.90571860236221,
+      "speaker": 0
+    },
+    {
+      "text": "panel",
+      "start": 42.90571860236221,
+      "end": 43.62480885826772,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 43.62480885826772,
+      "end": 44.02430344488189,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 44.02430344488189,
+      "end": 44.42379803149606,
+      "speaker": 0
+    },
+    {
+      "text": "practical",
+      "start": 44.42379803149606,
+      "end": 44.98309045275591,
+      "speaker": 0
+    },
+    {
+      "text": "terms",
+      "start": 44.98309045275591,
+      "end": 45.54238287401575,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 45.54238287401575,
+      "end": 45.702180708661416,
+      "speaker": 0
+    },
+    {
+      "text": "doubt",
+      "start": 45.702180708661416,
+      "end": 45.941877460629925,
+      "speaker": 0
+    },
+    {
+      "text": "we'll",
+      "start": 45.941877460629925,
+      "end": 46.18157421259843,
+      "speaker": 0
+    },
+    {
+      "text": "see",
+      "start": 46.18157421259843,
+      "end": 46.42127096456693,
+      "speaker": 0
+    },
+    {
+      "text": "much",
+      "start": 46.42127096456693,
+      "end": 47.14036122047244,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 47.14036122047244,
+      "end": 47.2602095964567,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 47.2602095964567,
+      "end": 47.340108513779526,
+      "speaker": 0
+    },
+    {
+      "text": "way",
+      "start": 47.340108513779526,
+      "end": 47.53985580708662,
+      "speaker": 0
+    },
+    {
+      "text": "of",
+      "start": 47.53985580708662,
+      "end": 47.77955255905512,
+      "speaker": 0
+    },
+    {
+      "text": "extra",
+      "start": 47.77955255905512,
+      "end": 48.25894606299213,
+      "speaker": 0
+    },
+    {
+      "text": "battery",
+      "start": 48.25894606299213,
+      "end": 48.6584406496063,
+      "speaker": 0
+    },
+    {
+      "text": "life",
+      "start": 48.6584406496063,
+      "end": 49.017985777559055,
+      "speaker": 0
+    },
+    {
+      "text": "which",
+      "start": 49.017985777559055,
+      "end": 49.25768252952756,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 49.25768252952756,
+      "end": 49.777025492125986,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 49.777025492125986,
+      "end": 49.93682332677165,
+      "speaker": 0
+    },
+    {
+      "text": "shame",
+      "start": 49.93682332677165,
+      "end": 50.44,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3118301184
+}

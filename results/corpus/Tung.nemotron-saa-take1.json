@@ -1,0 +1,255 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.771887207985856,
+  "audio_file": "Tung.wav",
+  "audio_sha256": "811ab25f68691942ecf6276b23de280e898dec6021f80f082ee4b1a195015304",
+  "captured_at": "2026-11-01T17:25:58.145968+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 18.261313,
+  "status": "ok",
+  "text": "<spk:0> I went back to Hanoi for two weeks, uh, spent times with my family and friends there, went for private badminton coaching with my kids, and we enjoyed the food, not the weather. Lovely place, lovely memories. So.",
+  "wall_s": 0.8780276250327006,
+  "rtf": 0.048081297606185305,
+  "segments": [
+    {
+      "text": "I",
+      "start": 0.0,
+      "end": 0.65,
+      "speaker": 0
+    },
+    {
+      "text": "went",
+      "start": 0.65,
+      "end": 0.956924672489083,
+      "speaker": 0
+    },
+    {
+      "text": "back",
+      "start": 0.956924672489083,
+      "end": 1.2758995633187773,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 1.2758995633187773,
+      "end": 1.8341056222707424,
+      "speaker": 0
+    },
+    {
+      "text": "Hanoi",
+      "start": 1.8341056222707424,
+      "end": 2.2328242358078603,
+      "speaker": 0
+    },
+    {
+      "text": "for",
+      "start": 2.2328242358078603,
+      "end": 2.631542849344978,
+      "speaker": 0
+    },
+    {
+      "text": "two",
+      "start": 2.631542849344978,
+      "end": 2.8309021561135372,
+      "speaker": 0
+    },
+    {
+      "text": "weeks,",
+      "start": 2.8309021561135372,
+      "end": 3.428980076419214,
+      "speaker": 0
+    },
+    {
+      "text": "uh,",
+      "start": 3.428980076419214,
+      "end": 3.7479549672489085,
+      "speaker": 0
+    },
+    {
+      "text": "spent",
+      "start": 3.7479549672489085,
+      "end": 4.066929858078603,
+      "speaker": 0
+    },
+    {
+      "text": "times",
+      "start": 4.066929858078603,
+      "end": 4.306161026200874,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 4.306161026200874,
+      "end": 4.625135917030567,
+      "speaker": 0
+    },
+    {
+      "text": "my",
+      "start": 4.625135917030567,
+      "end": 4.9441108078602625,
+      "speaker": 0
+    },
+    {
+      "text": "family",
+      "start": 4.9441108078602625,
+      "end": 5.34282942139738,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 5.34282942139738,
+      "end": 5.462445005458515,
+      "speaker": 0
+    },
+    {
+      "text": "friends",
+      "start": 5.462445005458515,
+      "end": 5.9010354803493446,
+      "speaker": 0
+    },
+    {
+      "text": "there,",
+      "start": 5.9010354803493446,
+      "end": 6.8579601528384275,
+      "speaker": 0
+    },
+    {
+      "text": "went",
+      "start": 6.857960152838428,
+      "end": 7.017447598253275,
+      "speaker": 0
+    },
+    {
+      "text": "for",
+      "start": 7.017447598253275,
+      "end": 7.495909934497817,
+      "speaker": 0
+    },
+    {
+      "text": "private",
+      "start": 7.495909934497817,
+      "end": 8.054115993449782,
+      "speaker": 0
+    },
+    {
+      "text": "badminton",
+      "start": 8.054115993449782,
+      "end": 8.412962745633187,
+      "speaker": 0
+    },
+    {
+      "text": "coaching",
+      "start": 8.412962745633187,
+      "end": 9.170528111353711,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 9.170528111353711,
+      "end": 9.409759279475983,
+      "speaker": 0
+    },
+    {
+      "text": "my",
+      "start": 9.409759279475983,
+      "end": 9.728734170305676,
+      "speaker": 0
+    },
+    {
+      "text": "kids,",
+      "start": 9.728734170305676,
+      "end": 10.286940229257642,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 10.286940229257642,
+      "end": 10.526171397379912,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 10.526171397379912,
+      "end": 10.845146288209607,
+      "speaker": 0
+    },
+    {
+      "text": "enjoyed",
+      "start": 10.845146288209607,
+      "end": 11.323608624454149,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 11.323608624454149,
+      "end": 11.682455376637554,
+      "speaker": 0
+    },
+    {
+      "text": "food,",
+      "start": 11.682455376637554,
+      "end": 11.961558406113538,
+      "speaker": 0
+    },
+    {
+      "text": "not",
+      "start": 11.961558406113538,
+      "end": 12.200789574235808,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 12.200789574235808,
+      "end": 12.400148881004366,
+      "speaker": 0
+    },
+    {
+      "text": "weather.",
+      "start": 12.400148881004366,
+      "end": 13.35707355349345,
+      "speaker": 0
+    },
+    {
+      "text": "Lovely",
+      "start": 13.476689137554585,
+      "end": 14.433613810043667,
+      "speaker": 0
+    },
+    {
+      "text": "place,",
+      "start": 14.752588700873362,
+      "end": 15.310794759825328,
+      "speaker": 0
+    },
+    {
+      "text": "lovely",
+      "start": 15.310794759825328,
+      "end": 15.78925709606987,
+      "speaker": 0
+    },
+    {
+      "text": "memories.",
+      "start": 15.78925709606987,
+      "end": 16.74618176855895,
+      "speaker": 0
+    },
+    {
+      "text": "So.",
+      "start": 16.74618176855895,
+      "end": 16.88,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3008413696
+}

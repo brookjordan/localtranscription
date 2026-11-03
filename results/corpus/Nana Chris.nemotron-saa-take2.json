@@ -1,0 +1,717 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.342221874976531,
+  "audio_file": "Nana Chris.wav",
+  "audio_sha256": "506853278f55776f12cc21dfc2dd9893f56d13a982c83756d7c065a45f41f67c",
+  "captured_at": "2026-11-01T17:27:10.226167+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 56.084,
+  "status": "ok",
+  "text": "<spk:0> Oh, can you believe we actually did it? We made it through the storm wind howling, rain lashing I thought we'd never see the sun again. There were nights nights I cried myself to sleep, whispering, is anyone even out there? But then you showed up. You smiled, and suddenly the world wasn't so dark. I felt seen, understood. Then builds remember that silly dance in the kitchen with burnt pancakes? Oh, we were a mess. But now now you've gone. The silence is deafening. I miss you every single day, but I carry you with me in every laugh, every tear, every quiet moment. And I'll keep going because that's what you'd want always.",
+  "wall_s": 2.513784790993668,
+  "rtf": 0.04482178145270787,
+  "segments": [
+    {
+      "text": "Oh,",
+      "start": 0.40002853067047084,
+      "end": 0.41000000000000003,
+      "speaker": 0
+    },
+    {
+      "text": "can",
+      "start": 0.41000000000000003,
+      "end": 1.1200798858773182,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 1.1200798858773182,
+      "end": 1.3600970042796008,
+      "speaker": 0
+    },
+    {
+      "text": "believe",
+      "start": 1.3600970042796008,
+      "end": 1.7601255349500715,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 1.7601255349500715,
+      "end": 1.92013694721826,
+      "speaker": 0
+    },
+    {
+      "text": "actually",
+      "start": 1.92013694721826,
+      "end": 2.2401597717546364,
+      "speaker": 0
+    },
+    {
+      "text": "did",
+      "start": 2.2401597717546364,
+      "end": 2.520179743223966,
+      "speaker": 0
+    },
+    {
+      "text": "it?",
+      "start": 2.520179743223966,
+      "end": 2.79,
+      "speaker": 0
+    },
+    {
+      "text": "We",
+      "start": 3.440245363766049,
+      "end": 3.5,
+      "speaker": 0
+    },
+    {
+      "text": "made",
+      "start": 3.5,
+      "end": 3.84027389443652,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 3.84027389443652,
+      "end": 4.080291012838802,
+      "speaker": 0
+    },
+    {
+      "text": "through",
+      "start": 4.080291012838802,
+      "end": 4.3203081312410845,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 4.3203081312410845,
+      "end": 4.480319543509273,
+      "speaker": 0
+    },
+    {
+      "text": "storm",
+      "start": 4.480319543509273,
+      "end": 4.80034236804565,
+      "speaker": 0
+    },
+    {
+      "text": "wind",
+      "start": 4.80034236804565,
+      "end": 5.01,
+      "speaker": 0
+    },
+    {
+      "text": "howling,",
+      "start": 5.57,
+      "end": 6.480462196861627,
+      "speaker": 0
+    },
+    {
+      "text": "rain",
+      "start": 6.480462196861627,
+      "end": 6.960496433666192,
+      "speaker": 0
+    },
+    {
+      "text": "lashing",
+      "start": 6.960496433666192,
+      "end": 7.560539229671899,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 7.560539229671899,
+      "end": 7.58,
+      "speaker": 0
+    },
+    {
+      "text": "thought",
+      "start": 7.88,
+      "end": 8.240587731811699,
+      "speaker": 0
+    },
+    {
+      "text": "we'd",
+      "start": 8.240587731811699,
+      "end": 8.48060485021398,
+      "speaker": 0
+    },
+    {
+      "text": "never",
+      "start": 8.48060485021398,
+      "end": 8.720621968616264,
+      "speaker": 0
+    },
+    {
+      "text": "see",
+      "start": 8.720621968616264,
+      "end": 8.880633380884452,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 8.880633380884452,
+      "end": 9.120650499286734,
+      "speaker": 0
+    },
+    {
+      "text": "sun",
+      "start": 9.120650499286734,
+      "end": 9.280661911554922,
+      "speaker": 0
+    },
+    {
+      "text": "again.",
+      "start": 9.280661911554922,
+      "end": 9.91,
+      "speaker": 0
+    },
+    {
+      "text": "There",
+      "start": 10.640758915834523,
+      "end": 10.71,
+      "speaker": 0
+    },
+    {
+      "text": "were",
+      "start": 10.71,
+      "end": 10.9607817403709,
+      "speaker": 0
+    },
+    {
+      "text": "nights",
+      "start": 10.9607817403709,
+      "end": 11.6408302425107,
+      "speaker": 0
+    },
+    {
+      "text": "nights",
+      "start": 11.6408302425107,
+      "end": 12.160867332382313,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 12.160867332382313,
+      "end": 12.400884450784595,
+      "speaker": 0
+    },
+    {
+      "text": "cried",
+      "start": 12.400884450784595,
+      "end": 12.88091868758916,
+      "speaker": 0
+    },
+    {
+      "text": "myself",
+      "start": 12.88091868758916,
+      "end": 13.520964336661914,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 13.520964336661914,
+      "end": 13.680975748930102,
+      "speaker": 0
+    },
+    {
+      "text": "sleep,",
+      "start": 13.680975748930102,
+      "end": 14.24101569186876,
+      "speaker": 0
+    },
+    {
+      "text": "whispering,",
+      "start": 14.24101569186876,
+      "end": 14.961067047075609,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 14.961067047075609,
+      "end": 15.01,
+      "speaker": 0
+    },
+    {
+      "text": "anyone",
+      "start": 15.34,
+      "end": 16.081146932952926,
+      "speaker": 0
+    },
+    {
+      "text": "even",
+      "start": 16.081146932952926,
+      "end": 16.481175463623398,
+      "speaker": 0
+    },
+    {
+      "text": "out",
+      "start": 16.481175463623398,
+      "end": 16.72119258202568,
+      "speaker": 0
+    },
+    {
+      "text": "there?",
+      "start": 16.72119258202568,
+      "end": 17.1,
+      "speaker": 0
+    },
+    {
+      "text": "But",
+      "start": 17.761266761768905,
+      "end": 17.830000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "then",
+      "start": 17.830000000000002,
+      "end": 18.241300998573468,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 18.241300998573468,
+      "end": 18.40131241084166,
+      "speaker": 0
+    },
+    {
+      "text": "showed",
+      "start": 18.40131241084166,
+      "end": 18.801340941512127,
+      "speaker": 0
+    },
+    {
+      "text": "up.",
+      "start": 18.801340941512127,
+      "end": 19.2,
+      "speaker": 0
+    },
+    {
+      "text": "You",
+      "start": 19.841415121255352,
+      "end": 19.900000000000002,
+      "speaker": 0
+    },
+    {
+      "text": "smiled,",
+      "start": 19.900000000000002,
+      "end": 20.721477888730387,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 20.721477888730387,
+      "end": 20.881489300998577,
+      "speaker": 0
+    },
+    {
+      "text": "suddenly",
+      "start": 20.881489300998577,
+      "end": 21.36152353780314,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 21.36152353780314,
+      "end": 21.52153495007133,
+      "speaker": 0
+    },
+    {
+      "text": "world",
+      "start": 21.52153495007133,
+      "end": 21.841557774607708,
+      "speaker": 0
+    },
+    {
+      "text": "wasn't",
+      "start": 21.841557774607708,
+      "end": 22.241586305278176,
+      "speaker": 0
+    },
+    {
+      "text": "so",
+      "start": 22.241586305278176,
+      "end": 22.401597717546366,
+      "speaker": 0
+    },
+    {
+      "text": "dark.",
+      "start": 22.401597717546366,
+      "end": 22.801626248216838,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 22.801626248216838,
+      "end": 23.01,
+      "speaker": 0
+    },
+    {
+      "text": "felt",
+      "start": 23.990000000000002,
+      "end": 24.641757489301003,
+      "speaker": 0
+    },
+    {
+      "text": "seen,",
+      "start": 24.641757489301003,
+      "end": 24.67,
+      "speaker": 0
+    },
+    {
+      "text": "understood.",
+      "start": 25.39,
+      "end": 26.35006847360913,
+      "speaker": 0
+    },
+    {
+      "text": "Then",
+      "start": 26.761908701854498,
+      "end": 26.97,
+      "speaker": 0
+    },
+    {
+      "text": "builds",
+      "start": 28.400000000000002,
+      "end": 29.20208273894437,
+      "speaker": 0
+    },
+    {
+      "text": "remember",
+      "start": 29.20208273894437,
+      "end": 29.43,
+      "speaker": 0
+    },
+    {
+      "text": "that",
+      "start": 30.59,
+      "end": 31.442242510699007,
+      "speaker": 0
+    },
+    {
+      "text": "silly",
+      "start": 31.442242510699007,
+      "end": 31.92227674750357,
+      "speaker": 0
+    },
+    {
+      "text": "dance",
+      "start": 31.92227674750357,
+      "end": 32.16229386590585,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 32.16229386590585,
+      "end": 32.40231098430814,
+      "speaker": 0
+    },
+    {
+      "text": "the",
+      "start": 32.40231098430814,
+      "end": 32.56232239657633,
+      "speaker": 0
+    },
+    {
+      "text": "kitchen",
+      "start": 32.56232239657633,
+      "end": 32.8823452211127,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 32.8823452211127,
+      "end": 33.122362339514986,
+      "speaker": 0
+    },
+    {
+      "text": "burnt",
+      "start": 33.122362339514986,
+      "end": 33.362379457917264,
+      "speaker": 0
+    },
+    {
+      "text": "pancakes?",
+      "start": 33.362379457917264,
+      "end": 34.32244793152639,
+      "speaker": 0
+    },
+    {
+      "text": "Oh,",
+      "start": 34.96249358059915,
+      "end": 35.04,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 35.04,
+      "end": 35.442527817403715,
+      "speaker": 0
+    },
+    {
+      "text": "were",
+      "start": 35.442527817403715,
+      "end": 35.682544935806,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 35.682544935806,
+      "end": 35.84255634807418,
+      "speaker": 0
+    },
+    {
+      "text": "mess.",
+      "start": 35.84255634807418,
+      "end": 36.24258487874466,
+      "speaker": 0
+    },
+    {
+      "text": "But",
+      "start": 36.24258487874466,
+      "end": 36.36,
+      "speaker": 0
+    },
+    {
+      "text": "now",
+      "start": 37.160000000000004,
+      "end": 37.76269329529244,
+      "speaker": 0
+    },
+    {
+      "text": "now",
+      "start": 37.76269329529244,
+      "end": 38.082716119828824,
+      "speaker": 0
+    },
+    {
+      "text": "you've",
+      "start": 38.082716119828824,
+      "end": 38.4027389443652,
+      "speaker": 0
+    },
+    {
+      "text": "gone.",
+      "start": 38.4027389443652,
+      "end": 38.85,
+      "speaker": 0
+    },
+    {
+      "text": "The",
+      "start": 39.522818830242514,
+      "end": 39.59,
+      "speaker": 0
+    },
+    {
+      "text": "silence",
+      "start": 39.59,
+      "end": 40.16286447931527,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 40.16286447931527,
+      "end": 40.48288730385165,
+      "speaker": 0
+    },
+    {
+      "text": "deafening.",
+      "start": 40.48288730385165,
+      "end": 40.96292154065621,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 40.96292154065621,
+      "end": 41.09,
+      "speaker": 0
+    },
+    {
+      "text": "miss",
+      "start": 41.71,
+      "end": 42.08300142653353,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 42.08300142653353,
+      "end": 42.47,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 43.04306990014266,
+      "end": 43.07,
+      "speaker": 0
+    },
+    {
+      "text": "single",
+      "start": 43.07,
+      "end": 43.683115549215415,
+      "speaker": 0
+    },
+    {
+      "text": "day,",
+      "start": 43.683115549215415,
+      "end": 44.083144079885884,
+      "speaker": 0
+    },
+    {
+      "text": "but",
+      "start": 44.083144079885884,
+      "end": 44.25,
+      "speaker": 0
+    },
+    {
+      "text": "I",
+      "start": 44.910000000000004,
+      "end": 45.2032239657632,
+      "speaker": 0
+    },
+    {
+      "text": "carry",
+      "start": 45.2032239657632,
+      "end": 45.683258202567764,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 45.683258202567764,
+      "end": 45.93,
+      "speaker": 0
+    },
+    {
+      "text": "with",
+      "start": 46.28,
+      "end": 46.72333238231099,
+      "speaker": 0
+    },
+    {
+      "text": "me",
+      "start": 46.72333238231099,
+      "end": 47.203366619115556,
+      "speaker": 0
+    },
+    {
+      "text": "in",
+      "start": 47.203366619115556,
+      "end": 47.363378031383746,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 47.363378031383746,
+      "end": 47.84341226818831,
+      "speaker": 0
+    },
+    {
+      "text": "laugh,",
+      "start": 47.84341226818831,
+      "end": 48.32344650499287,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 48.32344650499287,
+      "end": 48.803480741797436,
+      "speaker": 0
+    },
+    {
+      "text": "tear,",
+      "start": 48.803480741797436,
+      "end": 49.2,
+      "speaker": 0
+    },
+    {
+      "text": "every",
+      "start": 49.60353780313838,
+      "end": 49.64,
+      "speaker": 0
+    },
+    {
+      "text": "quiet",
+      "start": 49.64,
+      "end": 50.24358345221113,
+      "speaker": 0
+    },
+    {
+      "text": "moment.",
+      "start": 50.24358345221113,
+      "end": 50.88,
+      "speaker": 0
+    },
+    {
+      "text": "And",
+      "start": 51.52367475035664,
+      "end": 51.58,
+      "speaker": 0
+    },
+    {
+      "text": "I'll",
+      "start": 51.58,
+      "end": 52.003708987161204,
+      "speaker": 0
+    },
+    {
+      "text": "keep",
+      "start": 52.003708987161204,
+      "end": 52.323731811697584,
+      "speaker": 0
+    },
+    {
+      "text": "going",
+      "start": 52.323731811697584,
+      "end": 52.64375463623396,
+      "speaker": 0
+    },
+    {
+      "text": "because",
+      "start": 52.64375463623396,
+      "end": 52.96377746077034,
+      "speaker": 0
+    },
+    {
+      "text": "that's",
+      "start": 52.96377746077034,
+      "end": 53.24379743223967,
+      "speaker": 0
+    },
+    {
+      "text": "what",
+      "start": 53.24379743223967,
+      "end": 53.4438116975749,
+      "speaker": 0
+    },
+    {
+      "text": "you'd",
+      "start": 53.4438116975749,
+      "end": 53.763834522111274,
+      "speaker": 0
+    },
+    {
+      "text": "want",
+      "start": 53.763834522111274,
+      "end": 54.06,
+      "speaker": 0
+    },
+    {
+      "text": "always.",
+      "start": 54.40388017118403,
+      "end": 55.12393152639088,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 3049111552
+}

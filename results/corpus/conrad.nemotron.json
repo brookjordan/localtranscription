@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "conrad.wav",
+  "audio_sha256": "569517881049d5562820162442a9c59e3aadbf5c6d947215de3bf7aa023520b0",
+  "captured_at": "2026-11-01T08:58:00.170800+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 56.0,
+  "status": "ok",
+  "text": "As soon as it was early morning, the chief priests, elders, and teachers of the law, and the whole high court, had Jesus tied up and then handed him over to the Roman governor Pilate. And so Pilate too examined him, \"Are you king of the Jews?\" he said. And in answer, he says, \"Your words, not mine.\" Now the chief priests had charged him with many things, so Pilate again interrogated him, \"You're not answering anything? Look at this long list of charges.\" But Jesus didn't answer any further, which astonished Pilate. Now it was a custom at the festival for him to release a prisoner as requested by the people. There was a man named Barabbas who was in prison with some terrorists who had killed people during an uprising. The crowd came up and asked Pilate to do for them what he usually did. And Pilate answered them saying, \"Do you want me to release to you this king of the Jews?\" For he knew that the chief priests' main reason for handing him over was envy of Jesus' popularity.",
+  "wall_s": 2.612282792048063,
+  "rtf": 0.04664790700085827,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

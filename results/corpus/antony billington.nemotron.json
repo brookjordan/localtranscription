@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "antony billington.wav",
+  "audio_sha256": "4e4501680c4166353d27d5e6dc0bb40b3af6d3bbbfac0b6f49e278a07b6da0eb",
+  "captured_at": "2026-11-01T08:57:58.088376+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 47.946688,
+  "status": "ok",
+  "text": "A message that we need to own for ourselves before we can pass it on to others. And when he calls us to a difficult task, he'll equip us for that task. So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now in reality, it's more than a call, it's a summons, as we see in chapter two verse one. He said to me, son of man, stand upon your feet and I will speak to you. The call starts with God. Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide, I'm going to be the next new prophet for the people of Israel. The initiative lies with God. And I think that's a",
+  "wall_s": 1.9431893330183811,
+  "rtf": 0.04052812434131803,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

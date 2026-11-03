@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "Mum's voice.wav",
+  "audio_sha256": "35e2524ac83b242419e159a4c8dd24fe6ee367c7c32f8586eca772378d562e8e",
+  "captured_at": "2026-11-01T08:57:49.040921+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 70.4,
+  "status": "ok",
+  "text": "Ha, can you believe we actually did it? We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again. There were nights, nights I cried myself to sleep, whispering, is anyone even out there? But then you showed up. You smiled, and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes? Oh, we were a mess. But now, now you're gone. The silence is deafening. I miss you every single day. But I carry you with me, in every laugh, every tear, every quiet moment. And I'll keep going, because that's what you'd want. Always.",
+  "wall_s": 1.9315660420106724,
+  "rtf": 0.02743701764219705,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "silly.m4a",
+  "audio_sha256": "b83b1e1481823ea477ea257e697183e418ffdf1561f5c879272e1c5b23e5d3fb",
+  "captured_at": "2026-11-01T08:58:05.503324+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 10.559833,
+  "status": "ok",
+  "text": "Yeah boy, I think that would be so cool. I go in the grass with the bath and I laugh at you. Ha ha ha.",
+  "wall_s": 0.5270798330311663,
+  "rtf": 0.04991365233059712,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

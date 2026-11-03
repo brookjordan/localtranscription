@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "lockpicking lawyer voice.wav",
+  "audio_sha256": "6848250f094ba480adf526a8e34e30da7deb051234610dfe3c6a4d1f5601c282",
+  "captured_at": "2026-11-01T08:58:02.918596+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 50.735813,
+  "status": "ok",
+  "text": "This is the lock picking lawyer and one of the weaknesses with modern smart locks is battery life. And there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging, solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption. And probably the largest power draw is the electric motor that throws the bolt. That's why I love to see locks like this one from GeekTale. At least I was till I saw the tiny lithium battery that powers this. It's right on the back of this panel. So, in practical terms, I doubt we'll see much in the way of extra battery life, which is a shame.",
+  "wall_s": 1.7406264999881387,
+  "rtf": 0.034307649706690195,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

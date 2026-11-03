@@ -1,0 +1,495 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 5.894379499950446,
+  "audio_file": "tse3-codeswitch.wav",
+  "audio_sha256": "d7a2f29b4f97822682e7c7d5c9312ea462490e88a2e6fa072ae6decc854cb5d3",
+  "captured_at": "2026-11-01T17:05:07.700930+00:00",
+  "settings": {
+    "task": "saa",
+    "temperature": 0.0,
+    "word_timestamps": true,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 29.525,
+  "status": "ok",
+  "text": "<spk:0> So we said we'd try something different this episode. Let's mix it up a little. Prayer to Asher G Vays continuer en francis C two prayfers. <spk:1> Bien sûr, pas de problème. Je pense que le passage d'une langue à l'autre au milieu d'une phrase est le vrai test pour un modèle de transcription. <spk:0> Exactly, code switching. Most engines pick one language per utterance and force everything into it, which is how you get fantasy French or nonsense English.",
+  "wall_s": 1.286604833905585,
+  "rtf": 0.04357679369705623,
+  "segments": [
+    {
+      "text": "So",
+      "start": 0.1600271002710027,
+      "end": 0.18,
+      "speaker": 0
+    },
+    {
+      "text": "we",
+      "start": 0.18,
+      "end": 0.6401084010840108,
+      "speaker": 0
+    },
+    {
+      "text": "said",
+      "start": 0.6401084010840108,
+      "end": 0.8801490514905148,
+      "speaker": 0
+    },
+    {
+      "text": "we'd",
+      "start": 0.8801490514905148,
+      "end": 1.1201897018970188,
+      "speaker": 0
+    },
+    {
+      "text": "try",
+      "start": 1.1201897018970188,
+      "end": 1.3602303523035228,
+      "speaker": 0
+    },
+    {
+      "text": "something",
+      "start": 1.3602303523035228,
+      "end": 1.7602981029810296,
+      "speaker": 0
+    },
+    {
+      "text": "different",
+      "start": 1.7602981029810296,
+      "end": 2.1603658536585364,
+      "speaker": 0
+    },
+    {
+      "text": "this",
+      "start": 2.1603658536585364,
+      "end": 2.4004065040650406,
+      "speaker": 0
+    },
+    {
+      "text": "episode.",
+      "start": 2.4004065040650406,
+      "end": 3.1205284552845525,
+      "speaker": 0
+    },
+    {
+      "text": "Let's",
+      "start": 3.1205284552845525,
+      "end": 3.6006097560975605,
+      "speaker": 0
+    },
+    {
+      "text": "mix",
+      "start": 3.6006097560975605,
+      "end": 3.7606368563685635,
+      "speaker": 0
+    },
+    {
+      "text": "it",
+      "start": 3.7606368563685635,
+      "end": 3.8806571815718156,
+      "speaker": 0
+    },
+    {
+      "text": "up",
+      "start": 3.8806571815718156,
+      "end": 4.0806910569105685,
+      "speaker": 0
+    },
+    {
+      "text": "a",
+      "start": 4.0806910569105685,
+      "end": 4.200711382113821,
+      "speaker": 0
+    },
+    {
+      "text": "little.",
+      "start": 4.200711382113821,
+      "end": 4.560772357723577,
+      "speaker": 0
+    },
+    {
+      "text": "Prayer",
+      "start": 4.560772357723577,
+      "end": 5.000846883468834,
+      "speaker": 0
+    },
+    {
+      "text": "to",
+      "start": 5.000846883468834,
+      "end": 5.120867208672086,
+      "speaker": 0
+    },
+    {
+      "text": "Asher",
+      "start": 5.120867208672086,
+      "end": 5.760975609756097,
+      "speaker": 0
+    },
+    {
+      "text": "G",
+      "start": 5.760975609756097,
+      "end": 6.001016260162602,
+      "speaker": 0
+    },
+    {
+      "text": "Vays",
+      "start": 6.001016260162602,
+      "end": 6.481097560975609,
+      "speaker": 0
+    },
+    {
+      "text": "continuer",
+      "start": 6.481097560975609,
+      "end": 7.0411924119241185,
+      "speaker": 0
+    },
+    {
+      "text": "en",
+      "start": 7.0411924119241185,
+      "end": 7.281233062330623,
+      "speaker": 0
+    },
+    {
+      "text": "francis",
+      "start": 7.281233062330623,
+      "end": 7.921341463414634,
+      "speaker": 0
+    },
+    {
+      "text": "C",
+      "start": 7.921341463414634,
+      "end": 8.161382113821137,
+      "speaker": 0
+    },
+    {
+      "text": "two",
+      "start": 8.161382113821137,
+      "end": 8.32140921409214,
+      "speaker": 0
+    },
+    {
+      "text": "prayfers.",
+      "start": 8.32140921409214,
+      "end": 9.09,
+      "speaker": 0
+    },
+    {
+      "text": "Bien",
+      "start": 10.401761517615176,
+      "end": 10.450000000000001,
+      "speaker": 1
+    },
+    {
+      "text": "sûr,",
+      "start": 10.450000000000001,
+      "end": 11.28191056910569,
+      "speaker": 1
+    },
+    {
+      "text": "pas",
+      "start": 11.28191056910569,
+      "end": 11.481944444444444,
+      "speaker": 1
+    },
+    {
+      "text": "de",
+      "start": 11.481944444444444,
+      "end": 11.601964769647696,
+      "speaker": 1
+    },
+    {
+      "text": "problème.",
+      "start": 11.601964769647696,
+      "end": 12.402100271002709,
+      "speaker": 1
+    },
+    {
+      "text": "Je",
+      "start": 12.402100271002709,
+      "end": 12.722154471544714,
+      "speaker": 1
+    },
+    {
+      "text": "pense",
+      "start": 12.722154471544714,
+      "end": 12.962195121951218,
+      "speaker": 1
+    },
+    {
+      "text": "que",
+      "start": 12.962195121951218,
+      "end": 13.122222222222222,
+      "speaker": 1
+    },
+    {
+      "text": "le",
+      "start": 13.122222222222222,
+      "end": 13.322256097560974,
+      "speaker": 1
+    },
+    {
+      "text": "passage",
+      "start": 13.322256097560974,
+      "end": 13.682317073170731,
+      "speaker": 1
+    },
+    {
+      "text": "d'une",
+      "start": 13.682317073170731,
+      "end": 13.882350948509485,
+      "speaker": 1
+    },
+    {
+      "text": "langue",
+      "start": 13.882350948509485,
+      "end": 14.122391598915987,
+      "speaker": 1
+    },
+    {
+      "text": "à",
+      "start": 14.122391598915987,
+      "end": 14.20240514905149,
+      "speaker": 1
+    },
+    {
+      "text": "l'autre",
+      "start": 14.20240514905149,
+      "end": 14.442445799457994,
+      "speaker": 1
+    },
+    {
+      "text": "au",
+      "start": 14.442445799457994,
+      "end": 14.602472899728996,
+      "speaker": 1
+    },
+    {
+      "text": "milieu",
+      "start": 14.602472899728996,
+      "end": 14.80250677506775,
+      "speaker": 1
+    },
+    {
+      "text": "d'une",
+      "start": 14.80250677506775,
+      "end": 15.122560975609755,
+      "speaker": 1
+    },
+    {
+      "text": "phrase",
+      "start": 15.122560975609755,
+      "end": 15.522628726287262,
+      "speaker": 1
+    },
+    {
+      "text": "est",
+      "start": 15.522628726287262,
+      "end": 15.762669376693765,
+      "speaker": 1
+    },
+    {
+      "text": "le",
+      "start": 15.762669376693765,
+      "end": 15.882689701897018,
+      "speaker": 1
+    },
+    {
+      "text": "vrai",
+      "start": 15.882689701897018,
+      "end": 16.08272357723577,
+      "speaker": 1
+    },
+    {
+      "text": "test",
+      "start": 16.08272357723577,
+      "end": 16.48279132791328,
+      "speaker": 1
+    },
+    {
+      "text": "pour",
+      "start": 16.48279132791328,
+      "end": 16.722831978319782,
+      "speaker": 1
+    },
+    {
+      "text": "un",
+      "start": 16.722831978319782,
+      "end": 16.802845528455283,
+      "speaker": 1
+    },
+    {
+      "text": "modèle",
+      "start": 16.802845528455283,
+      "end": 17.12289972899729,
+      "speaker": 1
+    },
+    {
+      "text": "de",
+      "start": 17.12289972899729,
+      "end": 17.322933604336043,
+      "speaker": 1
+    },
+    {
+      "text": "transcription.",
+      "start": 17.322933604336043,
+      "end": 18.1,
+      "speaker": 1
+    },
+    {
+      "text": "Exactly,",
+      "start": 19.04322493224932,
+      "end": 19.05,
+      "speaker": 0
+    },
+    {
+      "text": "code",
+      "start": 19.05,
+      "end": 20.010162601626018,
+      "speaker": 0
+    },
+    {
+      "text": "switching.",
+      "start": 20.083401084010838,
+      "end": 20.7,
+      "speaker": 0
+    },
+    {
+      "text": "Most",
+      "start": 20.723509485094848,
+      "end": 20.96,
+      "speaker": 0
+    },
+    {
+      "text": "engines",
+      "start": 20.96,
+      "end": 21.763685636856366,
+      "speaker": 0
+    },
+    {
+      "text": "pick",
+      "start": 21.763685636856366,
+      "end": 22.083739837398372,
+      "speaker": 0
+    },
+    {
+      "text": "one",
+      "start": 22.083739837398372,
+      "end": 22.323780487804875,
+      "speaker": 0
+    },
+    {
+      "text": "language",
+      "start": 22.323780487804875,
+      "end": 22.803861788617883,
+      "speaker": 0
+    },
+    {
+      "text": "per",
+      "start": 22.803861788617883,
+      "end": 23.083909214092138,
+      "speaker": 0
+    },
+    {
+      "text": "utterance",
+      "start": 23.083909214092138,
+      "end": 23.523983739837398,
+      "speaker": 0
+    },
+    {
+      "text": "and",
+      "start": 23.523983739837398,
+      "end": 23.7640243902439,
+      "speaker": 0
+    },
+    {
+      "text": "force",
+      "start": 23.7640243902439,
+      "end": 24.084078590785907,
+      "speaker": 0
+    },
+    {
+      "text": "everything",
+      "start": 24.084078590785907,
+      "end": 24.644173441734416,
+      "speaker": 0
+    },
+    {
+      "text": "into",
+      "start": 24.644173441734416,
+      "end": 24.92422086720867,
+      "speaker": 0
+    },
+    {
+      "text": "it,",
+      "start": 24.92422086720867,
+      "end": 25.164261517615174,
+      "speaker": 0
+    },
+    {
+      "text": "which",
+      "start": 25.164261517615174,
+      "end": 25.284281842818427,
+      "speaker": 0
+    },
+    {
+      "text": "is",
+      "start": 25.284281842818427,
+      "end": 25.44430894308943,
+      "speaker": 0
+    },
+    {
+      "text": "how",
+      "start": 25.44430894308943,
+      "end": 25.684349593495934,
+      "speaker": 0
+    },
+    {
+      "text": "you",
+      "start": 25.684349593495934,
+      "end": 25.884383468834688,
+      "speaker": 0
+    },
+    {
+      "text": "get",
+      "start": 25.884383468834688,
+      "end": 26.08441734417344,
+      "speaker": 0
+    },
+    {
+      "text": "fantasy",
+      "start": 26.08441734417344,
+      "end": 26.644512195121948,
+      "speaker": 0
+    },
+    {
+      "text": "French",
+      "start": 26.644512195121948,
+      "end": 27.124593495934956,
+      "speaker": 0
+    },
+    {
+      "text": "or",
+      "start": 27.124593495934956,
+      "end": 27.364634146341462,
+      "speaker": 0
+    },
+    {
+      "text": "nonsense",
+      "start": 27.364634146341462,
+      "end": 28.004742547425472,
+      "speaker": 0
+    },
+    {
+      "text": "English.",
+      "start": 28.004742547425472,
+      "end": 28.580000000000002,
+      "speaker": 0
+    }
+  ],
+  "process_peak_rss_bytes": 2962276352
+}

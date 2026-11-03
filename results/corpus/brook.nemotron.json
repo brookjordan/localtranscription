@@ -1,0 +1,26 @@
+{
+  "model_path": "/Users/brook.jordan/models/incoming/nemotron/nvidia--NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "model_revision": "66c6adc4020179567074d0399cda2a4eeb2bb347",
+  "runtime_revision": "5364ef911e2000f0469afd3f4ac534909665953f",
+  "mlx_audio_version": "0.6.3",
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "model_load_s": 7.628354457963724,
+  "audio_file": "brook.wav",
+  "audio_sha256": "e32a12e50d9034179a14603820b4440d262f0088f6bebd514a5676e8c1424ed3",
+  "captured_at": "2026-11-01T08:58:04.796452+00:00",
+  "settings": {
+    "task": "asr",
+    "temperature": 0.0,
+    "word_timestamps": false,
+    "speculative": false,
+    "max_tokens": 8192
+  },
+  "duration_s": 12.032,
+  "status": "ok",
+  "text": "Okay then, let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later.",
+  "wall_s": 0.563152041984722,
+  "rtf": 0.04680452476601746,
+  "segments": null,
+  "process_peak_rss_bytes": 2908749824
+}

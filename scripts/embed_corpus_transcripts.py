@@ -22,6 +22,7 @@ MODEL_SUFFIXES = {
     ".distil-large-v3.json": "distil",
     ".whistle.json": "whistle",
     ".phonon2.json": "phonon2",
+    ".nemotron.json": "nemotron",
 }
 TXT_ENGINES = {
     ".whispercpp.txt": "whispercpp",
@@ -81,6 +82,11 @@ def build_mitigations_block() -> str:
 
 
 def main() -> None:
+    for stem in TSE3_STEMS:
+        baseline = CORPUS_DIR / f"{stem}.json"
+        reference = ROOT / "results" / "assets" / "voices" / f"{stem}.segments.json"
+        if baseline.exists() and not reference.is_file():
+            raise FileNotFoundError(f"missing synthetic reference: {reference}")
     corpus: dict[str, dict] = {}
     for baseline in sorted(CORPUS_DIR.glob("*.json")):
         if baseline.name in ("kyutai_mitigations.json", "kyutai_vad.json") or baseline.name.endswith(".kyutai.human.json"):
@@ -104,7 +110,8 @@ def main() -> None:
         }
         for suffix, key in MODEL_SUFFIXES.items():
             p = CORPUS_DIR / f"{stem}{suffix}"
-            entry[key] = json.loads(p.read_text())["text"] if p.exists() else None
+            payload = json.loads(p.read_text()) if p.exists() else {}
+            entry[key] = payload.get("text") if not payload.get("error") and payload.get("status") in (None, "ok") else None
         for suffix, key in TXT_ENGINES.items():
             p = CORPUS_DIR / f"{stem}{suffix}"
             entry[key] = p.read_text().strip() if p.exists() else None
@@ -204,7 +211,7 @@ def main() -> None:
         )
         extra = ",\n    ".join(
             f"{key}: {js_str(e[key]) if e[key] else 'null'}"
-            for key in ("qwen3", "whisper", "parakeet", "largev3", "distil", "whistle", "phonon2", *TXT_ENGINES.values(), *JSON_ENGINES.values())
+            for key in (*MODEL_SUFFIXES.values(), *TXT_ENGINES.values(), *JSON_ENGINES.values())
         )
         flags = "".join(
             f", {flag}: true" if e.get(flag) else ""
