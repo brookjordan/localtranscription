@@ -1,0 +1,876 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "lockpicking lawyer voice.wav",
+  "audio_sha256": "6848250f094ba480adf526a8e34e30da7deb051234610dfe3c6a4d1f5601c282",
+  "captured_at": "2026-11-25T20:14:02.916128+00:00",
+  "duration_s": 50.735813,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 635 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "this is the lock picking lawyer and one of the weaknesses with modern smart locks is battery life and there's various ways of dealing with that more batteries bigger batteries lithium batteries wireless charging solar panels but so few seem to have taken the obvious step of dramatically reducing power consumption and probably the largest power draw is the electric motor that throws the bolt that's why i love to see locks like this one from geek tale at least i was till i saw the tiny lithium battery that powers this it's right on the back of this panel so in practical terms i doubt we'll see much in the way of extra battery life which is a shame",
+  "wall_s": 5.589,
+  "rtf": 0.1102,
+  "segments": [
+    {
+      "word": "this",
+      "start": 0.92,
+      "end": 1.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 1.198,
+      "end": 1.438,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 1.438,
+      "end": 1.598,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lock",
+      "start": 1.598,
+      "end": 1.758,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "picking",
+      "start": 1.758,
+      "end": 2.237,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lawyer",
+      "start": 2.237,
+      "end": 2.717,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 2.717,
+      "end": 2.956,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 2.956,
+      "end": 3.036,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 3.036,
+      "end": 3.196,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 3.196,
+      "end": 3.276,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "weaknesses",
+      "start": 3.276,
+      "end": 3.995,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 3.995,
+      "end": 4.315,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "modern",
+      "start": 4.315,
+      "end": 4.634,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "smart",
+      "start": 4.634,
+      "end": 5.034,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "locks",
+      "start": 5.034,
+      "end": 5.593,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 5.593,
+      "end": 6.152,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "battery",
+      "start": 6.152,
+      "end": 6.632,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "life",
+      "start": 6.632,
+      "end": 7.431,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 7.431,
+      "end": 7.83,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "there's",
+      "start": 7.83,
+      "end": 8.23,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "various",
+      "start": 8.23,
+      "end": 8.629,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ways",
+      "start": 8.629,
+      "end": 8.869,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 8.869,
+      "end": 9.029,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "dealing",
+      "start": 9.029,
+      "end": 9.428,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 9.428,
+      "end": 9.588,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 9.588,
+      "end": 10.227,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "more",
+      "start": 10.227,
+      "end": 10.547,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "batteries",
+      "start": 10.547,
+      "end": 11.186,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bigger",
+      "start": 11.186,
+      "end": 11.585,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "batteries",
+      "start": 11.585,
+      "end": 12.464,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lithium",
+      "start": 12.464,
+      "end": 13.024,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "batteries",
+      "start": 13.024,
+      "end": 13.982,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "wireless",
+      "start": 13.982,
+      "end": 14.542,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "charging",
+      "start": 14.542,
+      "end": 15.101,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "solar",
+      "start": 15.101,
+      "end": 15.58,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "panels",
+      "start": 15.58,
+      "end": 16.379,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 16.379,
+      "end": 16.619,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 16.619,
+      "end": 16.939,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "few",
+      "start": 16.939,
+      "end": 17.338,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "seem",
+      "start": 17.338,
+      "end": 17.498,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 17.498,
+      "end": 17.578,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "have",
+      "start": 17.578,
+      "end": 17.817,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "taken",
+      "start": 17.817,
+      "end": 18.217,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 18.217,
+      "end": 18.537,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "obvious",
+      "start": 18.537,
+      "end": 19.016,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "step",
+      "start": 19.016,
+      "end": 19.33,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 19.655,
+      "end": 19.66,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "dramatically",
+      "start": 19.66,
+      "end": 20.619,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "reducing",
+      "start": 20.854,
+      "end": 21.733,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "power",
+      "start": 21.733,
+      "end": 22.132,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "consumption",
+      "start": 22.132,
+      "end": 23.091,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 23.251,
+      "end": 23.49,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "probably",
+      "start": 23.49,
+      "end": 23.81,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 23.81,
+      "end": 24.05,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "largest",
+      "start": 24.05,
+      "end": 24.689,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "power",
+      "start": 24.689,
+      "end": 25.008,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "draw",
+      "start": 25.008,
+      "end": 25.648,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 25.648,
+      "end": 25.887,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 25.887,
+      "end": 26.127,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "electric",
+      "start": 26.127,
+      "end": 26.606,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "motor",
+      "start": 26.606,
+      "end": 27.166,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 27.166,
+      "end": 27.325,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "throws",
+      "start": 27.325,
+      "end": 27.965,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 27.965,
+      "end": 28.524,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bolt",
+      "start": 28.524,
+      "end": 28.89,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that's",
+      "start": 29.642,
+      "end": 29.66,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "why",
+      "start": 29.66,
+      "end": 30.042,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 30.042,
+      "end": 30.282,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "love",
+      "start": 30.282,
+      "end": 30.441,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 30.441,
+      "end": 30.601,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 30.601,
+      "end": 30.841,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "locks",
+      "start": 30.841,
+      "end": 31.161,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "like",
+      "start": 31.161,
+      "end": 31.4,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 31.4,
+      "end": 31.56,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 31.56,
+      "end": 31.88,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "from",
+      "start": 31.88,
+      "end": 32.119,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "geek",
+      "start": 32.119,
+      "end": 32.359,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tale",
+      "start": 32.359,
+      "end": 32.78,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 35.51,
+      "end": 35.635,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "least",
+      "start": 35.635,
+      "end": 36.114,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 36.114,
+      "end": 36.354,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 36.354,
+      "end": 36.67,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "till",
+      "start": 37.233,
+      "end": 37.25,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 37.25,
+      "end": 37.632,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "saw",
+      "start": 37.632,
+      "end": 38.032,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 38.032,
+      "end": 38.591,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tiny",
+      "start": 38.591,
+      "end": 39.15,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lithium",
+      "start": 39.15,
+      "end": 39.71,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "battery",
+      "start": 39.71,
+      "end": 40.109,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 40.109,
+      "end": 40.349,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "powers",
+      "start": 40.349,
+      "end": 40.828,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 40.828,
+      "end": 41.228,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it's",
+      "start": 41.228,
+      "end": 41.547,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "right",
+      "start": 41.547,
+      "end": 41.947,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "on",
+      "start": 41.947,
+      "end": 42.107,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 42.107,
+      "end": 42.267,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "back",
+      "start": 42.267,
+      "end": 42.506,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 42.506,
+      "end": 42.666,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 42.666,
+      "end": 43.145,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "panel",
+      "start": 43.145,
+      "end": 43.785,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 43.785,
+      "end": 44.344,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 44.344,
+      "end": 44.584,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "practical",
+      "start": 44.584,
+      "end": 45.143,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "terms",
+      "start": 45.143,
+      "end": 45.622,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 45.622,
+      "end": 45.862,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "doubt",
+      "start": 45.862,
+      "end": 46.102,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we'll",
+      "start": 46.102,
+      "end": 46.261,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 46.261,
+      "end": 46.581,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "much",
+      "start": 46.581,
+      "end": 47.22,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 47.22,
+      "end": 47.3,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 47.3,
+      "end": 47.46,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "way",
+      "start": 47.46,
+      "end": 47.62,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 47.62,
+      "end": 47.859,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "extra",
+      "start": 47.859,
+      "end": 48.339,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "battery",
+      "start": 48.339,
+      "end": 48.738,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "life",
+      "start": 48.738,
+      "end": 49.138,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "which",
+      "start": 49.138,
+      "end": 49.617,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 49.617,
+      "end": 49.857,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 49.857,
+      "end": 50.017,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "shame",
+      "start": 50.017,
+      "end": 50.44,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

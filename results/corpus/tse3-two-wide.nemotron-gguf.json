@@ -1,0 +1,372 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "tse3-two-wide.wav",
+  "audio_sha256": "c65c570752d0f24bef007a28c7bd555bf8867c3428193f37af346fe9cdb3cbb9",
+  "captured_at": "2026-11-25T20:14:18.986000+00:00",
+  "duration_s": 18.075,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 226 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "this pair test keeps two speakers and widens the gap between them one voice is a british man the other an american woman and that is the whole point if the labels still collapse with a wide gap the problem is two voices rather than these particular two",
+  "wall_s": 4.63,
+  "rtf": 0.2561,
+  "segments": [
+    {
+      "word": "this",
+      "start": 0.26,
+      "end": 0.48,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pair",
+      "start": 0.48,
+      "end": 0.8,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "test",
+      "start": 0.8,
+      "end": 1.12,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "keeps",
+      "start": 1.12,
+      "end": 1.44,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "two",
+      "start": 1.44,
+      "end": 1.68,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "speakers",
+      "start": 1.68,
+      "end": 2.22,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 2.479,
+      "end": 2.48,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "widens",
+      "start": 2.48,
+      "end": 3.119,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 3.119,
+      "end": 3.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gap",
+      "start": 3.279,
+      "end": 3.599,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "between",
+      "start": 3.599,
+      "end": 3.919,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "them",
+      "start": 3.919,
+      "end": 4.25,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 4.69,
+      "end": 5.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "voice",
+      "start": 5.039,
+      "end": 5.438,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 5.438,
+      "end": 5.598,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 5.598,
+      "end": 5.758,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "british",
+      "start": 5.758,
+      "end": 6.158,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "man",
+      "start": 6.158,
+      "end": 6.52,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 6.78,
+      "end": 6.958,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "other",
+      "start": 6.958,
+      "end": 7.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "an",
+      "start": 7.198,
+      "end": 7.358,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "american",
+      "start": 7.358,
+      "end": 7.918,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "woman",
+      "start": 7.918,
+      "end": 8.31,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 9.597,
+      "end": 9.6,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "that",
+      "start": 9.6,
+      "end": 9.997,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "is",
+      "start": 9.997,
+      "end": 10.157,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "the",
+      "start": 10.157,
+      "end": 10.237,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "whole",
+      "start": 10.237,
+      "end": 10.557,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "point",
+      "start": 10.557,
+      "end": 10.89,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "if",
+      "start": 11.35,
+      "end": 11.517,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "the",
+      "start": 11.517,
+      "end": 11.677,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "labels",
+      "start": 11.677,
+      "end": 12.077,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "still",
+      "start": 12.077,
+      "end": 12.397,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "collapse",
+      "start": 12.397,
+      "end": 12.796,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "with",
+      "start": 12.796,
+      "end": 12.876,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "a",
+      "start": 12.876,
+      "end": 13.036,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "wide",
+      "start": 13.036,
+      "end": 13.356,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "gap",
+      "start": 13.356,
+      "end": 13.68,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "the",
+      "start": 13.96,
+      "end": 14.156,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "problem",
+      "start": 14.156,
+      "end": 14.556,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "is",
+      "start": 14.556,
+      "end": 14.716,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "two",
+      "start": 14.716,
+      "end": 14.956,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "voices",
+      "start": 14.956,
+      "end": 15.516,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "rather",
+      "start": 15.516,
+      "end": 15.836,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "than",
+      "start": 15.836,
+      "end": 15.996,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "these",
+      "start": 15.996,
+      "end": 16.236,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "particular",
+      "start": 16.236,
+      "end": 16.795,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "two",
+      "start": 16.795,
+      "end": 17.09,
+      "confidence": 0,
+      "speaker": 2
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

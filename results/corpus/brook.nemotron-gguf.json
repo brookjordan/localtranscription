@@ -1,0 +1,288 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "brook.wav",
+  "audio_sha256": "e32a12e50d9034179a14603820b4440d262f0088f6bebd514a5676e8c1424ed3",
+  "captured_at": "2026-11-25T20:14:23.755109+00:00",
+  "duration_s": 12.032,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 151 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "okay then let me do a quick test and see how this ends up sounding uh i'm not quite sure what i'm going to say so i make it up and i will transcribe it later",
+  "wall_s": 4.507,
+  "rtf": 0.3746,
+  "segments": [
+    {
+      "word": "okay",
+      "start": 1.036,
+      "end": 1.06,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "then",
+      "start": 1.06,
+      "end": 2.016,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let",
+      "start": 2.151,
+      "end": 2.311,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "me",
+      "start": 2.311,
+      "end": 2.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "do",
+      "start": 2.47,
+      "end": 2.55,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 2.55,
+      "end": 2.709,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "quick",
+      "start": 2.709,
+      "end": 3.028,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "test",
+      "start": 3.028,
+      "end": 3.347,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 3.347,
+      "end": 3.586,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 3.586,
+      "end": 3.825,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "how",
+      "start": 3.825,
+      "end": 3.984,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 3.984,
+      "end": 4.143,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ends",
+      "start": 4.143,
+      "end": 4.303,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 4.303,
+      "end": 4.542,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sounding",
+      "start": 4.542,
+      "end": 5.37,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 5.817,
+      "end": 5.84,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 5.84,
+      "end": 6.375,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 6.375,
+      "end": 6.614,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "quite",
+      "start": 6.614,
+      "end": 6.932,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sure",
+      "start": 6.932,
+      "end": 7.251,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "what",
+      "start": 7.251,
+      "end": 7.371,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 7.371,
+      "end": 7.49,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "going",
+      "start": 7.49,
+      "end": 7.649,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 7.649,
+      "end": 7.809,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "say",
+      "start": 7.809,
+      "end": 8.287,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 8.287,
+      "end": 8.446,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 8.446,
+      "end": 8.685,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "make",
+      "start": 8.685,
+      "end": 8.765,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 8.765,
+      "end": 8.924,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 8.924,
+      "end": 9.323,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 9.323,
+      "end": 9.402,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 9.402,
+      "end": 9.482,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "will",
+      "start": 9.482,
+      "end": 9.642,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "transcribe",
+      "start": 9.642,
+      "end": 10.04,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 10.04,
+      "end": 10.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "later",
+      "start": 10.279,
+      "end": 10.66,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

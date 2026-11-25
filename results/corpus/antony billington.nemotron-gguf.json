@@ -1,0 +1,925 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "antony billington.wav",
+  "audio_sha256": "4e4501680c4166353d27d5e6dc0bb40b3af6d3bbbfac0b6f49e278a07b6da0eb",
+  "captured_at": "2026-11-25T20:13:50.569078+00:00",
+  "duration_s": 47.946688,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 600 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "a message that we need to own for ourselves before we can pass it on to others and when he calls us to a difficult task he'll equip us for that task so that's where we're going let's say a bit about each of those first of all god's call now in reality it's more than a call it's a summons as we see in chapter two verse one he said to me son of man stand upon your feet and i will speak to you the call starts with god ezekiel doesn't wake up one day rub his eyes jump out of bed and decide i'm gonna be the next new prophet for the people of israel the initiative lies with god and i think that's",
+  "wall_s": 5.681,
+  "rtf": 0.1185,
+  "segments": [
+    {
+      "word": "a",
+      "start": 0.559,
+      "end": 0.57,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "message",
+      "start": 0.57,
+      "end": 1.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 1.039,
+      "end": 1.119,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 1.119,
+      "end": 1.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "need",
+      "start": 1.279,
+      "end": 1.398,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 1.398,
+      "end": 1.598,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "own",
+      "start": 1.598,
+      "end": 1.918,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 1.918,
+      "end": 2.078,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ourselves",
+      "start": 2.078,
+      "end": 2.717,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "before",
+      "start": 2.717,
+      "end": 3.037,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 3.037,
+      "end": 3.117,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "can",
+      "start": 3.117,
+      "end": 3.356,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pass",
+      "start": 3.356,
+      "end": 3.436,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 3.436,
+      "end": 3.596,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "on",
+      "start": 3.596,
+      "end": 3.756,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 3.756,
+      "end": 3.996,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "others",
+      "start": 3.996,
+      "end": 4.46,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 5.274,
+      "end": 5.32,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "when",
+      "start": 5.32,
+      "end": 5.594,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 5.594,
+      "end": 5.754,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "calls",
+      "start": 5.754,
+      "end": 6.073,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 6.073,
+      "end": 6.313,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 6.313,
+      "end": 6.473,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 6.473,
+      "end": 6.633,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "difficult",
+      "start": 6.633,
+      "end": 7.192,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "task",
+      "start": 7.192,
+      "end": 7.69,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he'll",
+      "start": 8.151,
+      "end": 8.19,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "equip",
+      "start": 8.19,
+      "end": 8.95,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 8.95,
+      "end": 9.35,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 9.68,
+      "end": 9.989,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 9.989,
+      "end": 10.229,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "task",
+      "start": 10.229,
+      "end": 10.71,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 11.57,
+      "end": 11.747,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that's",
+      "start": 11.747,
+      "end": 12.226,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "where",
+      "start": 12.226,
+      "end": 12.466,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we're",
+      "start": 12.466,
+      "end": 12.626,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "going",
+      "start": 12.626,
+      "end": 12.866,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let's",
+      "start": 12.866,
+      "end": 13.026,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "say",
+      "start": 13.026,
+      "end": 13.185,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 13.185,
+      "end": 13.265,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bit",
+      "start": 13.265,
+      "end": 13.425,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "about",
+      "start": 13.425,
+      "end": 13.905,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "each",
+      "start": 13.905,
+      "end": 14.144,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 14.144,
+      "end": 14.624,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "those",
+      "start": 14.624,
+      "end": 15.023,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "first",
+      "start": 15.023,
+      "end": 15.183,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 15.183,
+      "end": 15.263,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "all",
+      "start": 15.263,
+      "end": 15.66,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "god's",
+      "start": 15.95,
+      "end": 16.56,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "call",
+      "start": 16.76,
+      "end": 17.33,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 18.06,
+      "end": 18.14,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 18.14,
+      "end": 18.459,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "reality",
+      "start": 18.459,
+      "end": 19.338,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it's",
+      "start": 19.338,
+      "end": 19.738,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "more",
+      "start": 19.738,
+      "end": 20.058,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "than",
+      "start": 20.058,
+      "end": 20.218,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 20.218,
+      "end": 20.377,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "call",
+      "start": 20.377,
+      "end": 20.697,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it's",
+      "start": 20.697,
+      "end": 20.937,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 20.937,
+      "end": 21.336,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "summons",
+      "start": 21.336,
+      "end": 22.27,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 22.75,
+      "end": 22.934,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 22.934,
+      "end": 23.014,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 23.014,
+      "end": 23.174,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 23.174,
+      "end": 23.334,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "chapter",
+      "start": 23.334,
+      "end": 23.574,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "two",
+      "start": 23.574,
+      "end": 23.893,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "verse",
+      "start": 23.893,
+      "end": 24.133,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 24.133,
+      "end": 24.373,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 24.373,
+      "end": 24.453,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "said",
+      "start": 24.453,
+      "end": 24.693,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 24.693,
+      "end": 24.772,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "me",
+      "start": 24.772,
+      "end": 25.092,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "son",
+      "start": 25.092,
+      "end": 25.212,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 25.212,
+      "end": 25.412,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "man",
+      "start": 25.412,
+      "end": 25.75,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "stand",
+      "start": 26.03,
+      "end": 26.531,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "upon",
+      "start": 26.531,
+      "end": 26.93,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "your",
+      "start": 26.93,
+      "end": 27.09,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "feet",
+      "start": 27.09,
+      "end": 27.569,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 27.569,
+      "end": 27.889,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 27.889,
+      "end": 28.368,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "will",
+      "start": 28.368,
+      "end": 28.83,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "speak",
+      "start": 29.08,
+      "end": 30.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 30.127,
+      "end": 30.286,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 30.286,
+      "end": 30.686,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 30.686,
+      "end": 30.846,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "call",
+      "start": 30.846,
+      "end": 31.33,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "starts",
+      "start": 31.61,
+      "end": 32.569,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 33.19,
+      "end": 33.483,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "god",
+      "start": 33.483,
+      "end": 33.84,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ezekiel",
+      "start": 34.122,
+      "end": 34.16,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "doesn't",
+      "start": 34.16,
+      "end": 34.841,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "wake",
+      "start": 34.841,
+      "end": 35.081,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 35.081,
+      "end": 35.241,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 35.241,
+      "end": 35.481,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "day",
+      "start": 35.481,
+      "end": 35.96,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "rub",
+      "start": 36.12,
+      "end": 36.18,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 36.18,
+      "end": 36.599,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "eyes",
+      "start": 36.599,
+      "end": 37.12,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jump",
+      "start": 37.558,
+      "end": 37.59,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "out",
+      "start": 37.59,
+      "end": 37.958,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 37.958,
+      "end": 38.118,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bed",
+      "start": 38.118,
+      "end": 38.54,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 38.837,
+      "end": 38.84,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "decide",
+      "start": 38.84,
+      "end": 39.636,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 39.636,
+      "end": 39.796,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gonna",
+      "start": 39.796,
+      "end": 40.035,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "be",
+      "start": 40.035,
+      "end": 40.355,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 40.355,
+      "end": 40.435,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "next",
+      "start": 40.435,
+      "end": 40.675,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "new",
+      "start": 40.675,
+      "end": 40.915,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "prophet",
+      "start": 40.915,
+      "end": 41.33,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 41.474,
+      "end": 41.58,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 41.58,
+      "end": 41.794,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "people",
+      "start": 41.794,
+      "end": 41.953,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 41.953,
+      "end": 42.113,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "israel",
+      "start": 42.113,
+      "end": 42.55,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 43.631,
+      "end": 43.72,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "initiative",
+      "start": 43.72,
+      "end": 44.67,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lies",
+      "start": 44.67,
+      "end": 45.469,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 45.469,
+      "end": 45.789,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "god",
+      "start": 45.789,
+      "end": 46.11,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 47.148,
+      "end": 47.23,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 47.23,
+      "end": 47.467,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 47.467,
+      "end": 47.627,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that's",
+      "start": 47.627,
+      "end": 47.947,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

@@ -1,0 +1,309 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "Tung.wav",
+  "audio_sha256": "811ab25f68691942ecf6276b23de280e898dec6021f80f082ee4b1a195015304",
+  "captured_at": "2026-11-25T20:13:45.704258+00:00",
+  "duration_s": 18.261313,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 229 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "i went back to hanoi for two weeks uh spent times with my family and friends there went for a private badminton coaching with my kids and we enjoyed the food not the weather lovely place lovely memories so",
+  "wall_s": 4.707,
+  "rtf": 0.2577,
+  "segments": [
+    {
+      "word": "i",
+      "start": 0.65,
+      "end": 0.877,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "went",
+      "start": 0.877,
+      "end": 1.037,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "back",
+      "start": 1.037,
+      "end": 1.356,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 1.356,
+      "end": 1.914,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hanoi",
+      "start": 1.914,
+      "end": 2.472,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 2.472,
+      "end": 2.711,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "two",
+      "start": 2.711,
+      "end": 2.951,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "weeks",
+      "start": 2.951,
+      "end": 3.588,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 3.588,
+      "end": 3.828,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "spent",
+      "start": 3.828,
+      "end": 4.226,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "times",
+      "start": 4.226,
+      "end": 4.545,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 4.545,
+      "end": 4.705,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "my",
+      "start": 4.705,
+      "end": 5.024,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "family",
+      "start": 5.024,
+      "end": 5.423,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 5.423,
+      "end": 5.582,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "friends",
+      "start": 5.582,
+      "end": 5.981,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "there",
+      "start": 5.981,
+      "end": 6.938,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "went",
+      "start": 6.938,
+      "end": 7.177,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 7.177,
+      "end": 7.336,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 7.336,
+      "end": 7.576,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "private",
+      "start": 7.576,
+      "end": 8.134,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "badminton",
+      "start": 8.134,
+      "end": 8.612,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "coaching",
+      "start": 8.612,
+      "end": 9.25,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 9.25,
+      "end": 9.49,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "my",
+      "start": 9.49,
+      "end": 9.808,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "kids",
+      "start": 9.808,
+      "end": 10.367,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 10.367,
+      "end": 10.606,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 10.606,
+      "end": 10.925,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "enjoyed",
+      "start": 10.925,
+      "end": 11.563,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 11.563,
+      "end": 11.722,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "food",
+      "start": 11.722,
+      "end": 12.121,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 12.121,
+      "end": 12.36,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 12.36,
+      "end": 12.44,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "weather",
+      "start": 12.44,
+      "end": 13.397,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lovely",
+      "start": 14.434,
+      "end": 14.912,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "place",
+      "start": 14.912,
+      "end": 15.55,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lovely",
+      "start": 15.55,
+      "end": 15.949,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "memories",
+      "start": 15.949,
+      "end": 16.87,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 17.863,
+      "end": 17.902,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

@@ -1,0 +1,512 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "sing.mp3",
+  "audio_sha256": "8aebd3488c3ea16019a1e2b054f72d65be849c6ef293ba48a0646e8a3f895d08",
+  "captured_at": "2026-11-25T20:14:32.857661+00:00",
+  "duration_s": 31.68,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 397 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "okay so this time i'm gonna test various things like if it can hear me when i'm banging if it gets different noises or if it can recognize sound when it can tell when i start to sing or if it thinks i'm talking and it doesn't know anything doesn't know anything does it just think i'm snoring normally does it just think i'm talking normally let's see",
+  "wall_s": 4.878,
+  "rtf": 0.154,
+  "segments": [
+    {
+      "word": "okay",
+      "start": 0.7,
+      "end": 1.596,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 1.596,
+      "end": 2.155,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 2.155,
+      "end": 2.394,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "time",
+      "start": 2.394,
+      "end": 2.713,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 2.713,
+      "end": 2.873,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gonna",
+      "start": 2.873,
+      "end": 3.112,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "test",
+      "start": 3.112,
+      "end": 3.431,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "various",
+      "start": 3.431,
+      "end": 3.83,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "things",
+      "start": 3.83,
+      "end": 4.15,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "like",
+      "start": 4.15,
+      "end": 4.389,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "if",
+      "start": 4.389,
+      "end": 4.549,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 4.549,
+      "end": 4.708,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "can",
+      "start": 4.708,
+      "end": 4.868,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hear",
+      "start": 4.868,
+      "end": 5.027,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "me",
+      "start": 5.027,
+      "end": 5.187,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "when",
+      "start": 5.187,
+      "end": 5.346,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 5.346,
+      "end": 5.666,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "banging",
+      "start": 5.666,
+      "end": 6.224,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "if",
+      "start": 6.224,
+      "end": 6.384,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 6.384,
+      "end": 6.543,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gets",
+      "start": 6.543,
+      "end": 6.783,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "different",
+      "start": 6.783,
+      "end": 7.182,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "noises",
+      "start": 7.182,
+      "end": 7.98,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "or",
+      "start": 7.98,
+      "end": 8.38,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "if",
+      "start": 9.815,
+      "end": 9.89,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 9.89,
+      "end": 9.975,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "can",
+      "start": 9.975,
+      "end": 10.294,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "recognize",
+      "start": 10.294,
+      "end": 11.012,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sound",
+      "start": 11.012,
+      "end": 11.62,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "when",
+      "start": 14.95,
+      "end": 15.082,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 15.082,
+      "end": 15.202,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "can",
+      "start": 15.202,
+      "end": 15.481,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tell",
+      "start": 15.481,
+      "end": 15.88,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "when",
+      "start": 15.88,
+      "end": 15.96,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 15.96,
+      "end": 16.119,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "start",
+      "start": 16.119,
+      "end": 16.438,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 16.438,
+      "end": 16.758,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sing",
+      "start": 16.758,
+      "end": 17.715,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "or",
+      "start": 17.715,
+      "end": 17.875,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "if",
+      "start": 17.875,
+      "end": 17.955,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 17.955,
+      "end": 18.114,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "thinks",
+      "start": 18.114,
+      "end": 18.354,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 18.354,
+      "end": 18.513,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "talking",
+      "start": 18.513,
+      "end": 18.912,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 18.912,
+      "end": 19.072,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 19.072,
+      "end": 19.231,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "doesn't",
+      "start": 19.231,
+      "end": 19.551,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "know",
+      "start": 19.551,
+      "end": 20.109,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "anything",
+      "start": 20.109,
+      "end": 21.067,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "doesn't",
+      "start": 21.625,
+      "end": 21.945,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "know",
+      "start": 21.945,
+      "end": 22.503,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "anything",
+      "start": 22.503,
+      "end": 23.381,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "does",
+      "start": 23.381,
+      "end": 23.62,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 23.62,
+      "end": 23.78,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "just",
+      "start": 23.78,
+      "end": 24.099,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 24.099,
+      "end": 24.339,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 24.339,
+      "end": 24.658,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "snoring",
+      "start": 24.658,
+      "end": 25.376,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "normally",
+      "start": 25.376,
+      "end": 26.334,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "does",
+      "start": 26.892,
+      "end": 27.052,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 27.052,
+      "end": 27.211,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "just",
+      "start": 27.211,
+      "end": 27.61,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 27.61,
+      "end": 27.85,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'm",
+      "start": 27.85,
+      "end": 28.169,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "talking",
+      "start": 28.169,
+      "end": 28.648,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "normally",
+      "start": 28.648,
+      "end": 29.605,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let's",
+      "start": 29.845,
+      "end": 30.084,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 30.084,
+      "end": 30.52,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

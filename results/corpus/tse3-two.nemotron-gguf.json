@@ -1,0 +1,547 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "tse3-two.wav",
+  "audio_sha256": "da921a6f73ead5365fe292f2417839cdd83cc00a7031315f19f47637ca54e8d3",
+  "captured_at": "2026-11-25T20:11:55.749981+00:00",
+  "duration_s": 27.425,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 343 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "welcome back to the show today we're looking at how speech recognizers handle more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable but a conversation overlaps interrupts and changes pace without warning exactly so keep an ear on the speaker labels as we go if the engine cannot tell us apart that is a diarization failure not a transcription failure",
+  "wall_s": 6.224,
+  "rtf": 0.2269,
+  "segments": [
+    {
+      "word": "welcome",
+      "start": 0.26,
+      "end": 0.8,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "back",
+      "start": 0.8,
+      "end": 1.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 1.039,
+      "end": 1.119,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 1.119,
+      "end": 1.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "show",
+      "start": 1.279,
+      "end": 1.6,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "today",
+      "start": 2.14,
+      "end": 2.439,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we're",
+      "start": 2.439,
+      "end": 2.639,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "looking",
+      "start": 2.639,
+      "end": 2.878,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 2.878,
+      "end": 3.038,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "how",
+      "start": 3.038,
+      "end": 3.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "speech",
+      "start": 3.198,
+      "end": 3.518,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "recognizers",
+      "start": 3.518,
+      "end": 4.238,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "handle",
+      "start": 4.238,
+      "end": 4.637,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "more",
+      "start": 4.637,
+      "end": 4.717,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "than",
+      "start": 4.717,
+      "end": 4.957,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 4.957,
+      "end": 5.117,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "voice",
+      "start": 5.117,
+      "end": 5.357,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 5.357,
+      "end": 5.517,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 5.517,
+      "end": 5.597,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "time",
+      "start": 5.597,
+      "end": 6.317,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 6.317,
+      "end": 6.476,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "why",
+      "start": 6.476,
+      "end": 6.716,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 6.716,
+      "end": 6.796,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 6.796,
+      "end": 7.036,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "harder",
+      "start": 7.036,
+      "end": 7.356,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "than",
+      "start": 7.356,
+      "end": 7.516,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 7.516,
+      "end": 7.676,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sounds",
+      "start": 7.676,
+      "end": 8.11,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "right",
+      "start": 9.46,
+      "end": 9.755,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "because",
+      "start": 9.755,
+      "end": 10.074,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "a",
+      "start": 10.074,
+      "end": 10.234,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "single",
+      "start": 10.234,
+      "end": 10.554,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "speaker",
+      "start": 10.554,
+      "end": 10.954,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "is",
+      "start": 10.954,
+      "end": 11.114,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "predictable",
+      "start": 11.114,
+      "end": 12.073,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "but",
+      "start": 12.073,
+      "end": 12.153,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "a",
+      "start": 12.153,
+      "end": 12.393,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "conversation",
+      "start": 12.393,
+      "end": 13.033,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "overlaps",
+      "start": 13.033,
+      "end": 13.912,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "interrupts",
+      "start": 13.912,
+      "end": 14.512,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "and",
+      "start": 14.512,
+      "end": 14.712,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "changes",
+      "start": 14.712,
+      "end": 15.112,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "pace",
+      "start": 15.112,
+      "end": 15.432,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "without",
+      "start": 15.432,
+      "end": 15.831,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "warning",
+      "start": 15.831,
+      "end": 16.25,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "exactly",
+      "start": 17.54,
+      "end": 18.31,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 18.31,
+      "end": 18.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "keep",
+      "start": 18.47,
+      "end": 18.67,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "an",
+      "start": 18.67,
+      "end": 18.79,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ear",
+      "start": 18.79,
+      "end": 19.03,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "on",
+      "start": 19.03,
+      "end": 19.11,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 19.11,
+      "end": 19.269,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "speaker",
+      "start": 19.269,
+      "end": 19.589,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "labels",
+      "start": 19.589,
+      "end": 19.989,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 19.989,
+      "end": 20.149,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 20.149,
+      "end": 20.229,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "go",
+      "start": 20.229,
+      "end": 20.58,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "if",
+      "start": 21.108,
+      "end": 21.11,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 21.11,
+      "end": 21.428,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "engine",
+      "start": 21.428,
+      "end": 21.828,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "cannot",
+      "start": 21.828,
+      "end": 22.148,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tell",
+      "start": 22.148,
+      "end": 22.308,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 22.308,
+      "end": 22.468,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "apart",
+      "start": 22.468,
+      "end": 23.187,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 23.187,
+      "end": 23.267,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 23.267,
+      "end": 23.347,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 23.347,
+      "end": 23.507,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "diarization",
+      "start": 23.507,
+      "end": 24.307,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "failure",
+      "start": 24.307,
+      "end": 24.866,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 24.866,
+      "end": 25.026,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 25.026,
+      "end": 25.186,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "transcription",
+      "start": 25.186,
+      "end": 25.906,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "failure",
+      "start": 25.906,
+      "end": 26.3,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 29392896
+}

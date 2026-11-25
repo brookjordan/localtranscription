@@ -1,0 +1,561 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "Pritisman.wav",
+  "audio_sha256": "8d00c74a4677cc32fc1d69973ef212a10e2cf2b720490c088c859dc65cf52f98",
+  "captured_at": "2026-11-25T20:13:40.639381+00:00",
+  "duration_s": 34.410688,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 431 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "i don't know what i need to talk about let me talk about lord of the rings lord of the rings there's three three movies okay no six movies bro lord of the rings and the other one was hobbits hobbits yeah like three movies so yeah the third one got like lots of oscars so yeah that was a good one but i like the the second one the high tower it's really good",
+  "wall_s": 4.929,
+  "rtf": 0.1432,
+  "segments": [
+    {
+      "word": "i",
+      "start": 0.38,
+      "end": 0.479,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "don't",
+      "start": 0.479,
+      "end": 0.639,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "know",
+      "start": 0.639,
+      "end": 0.878,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "what",
+      "start": 0.878,
+      "end": 1.118,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 1.118,
+      "end": 1.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "need",
+      "start": 1.198,
+      "end": 1.397,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 1.397,
+      "end": 1.597,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "talk",
+      "start": 1.597,
+      "end": 1.916,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "about",
+      "start": 1.916,
+      "end": 2.315,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let",
+      "start": 2.315,
+      "end": 2.475,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "me",
+      "start": 2.475,
+      "end": 2.635,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "talk",
+      "start": 2.635,
+      "end": 2.954,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "about",
+      "start": 2.954,
+      "end": 3.832,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lord",
+      "start": 3.832,
+      "end": 3.992,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 3.992,
+      "end": 4.152,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 4.152,
+      "end": 4.311,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "rings",
+      "start": 4.311,
+      "end": 4.89,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lord",
+      "start": 5.49,
+      "end": 5.748,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 5.748,
+      "end": 5.908,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 5.908,
+      "end": 6.068,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "rings",
+      "start": 6.068,
+      "end": 6.547,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "there's",
+      "start": 6.547,
+      "end": 6.946,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "three",
+      "start": 6.946,
+      "end": 7.585,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "three",
+      "start": 7.585,
+      "end": 7.904,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "movies",
+      "start": 7.904,
+      "end": 8.543,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "okay",
+      "start": 8.543,
+      "end": 9.022,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "no",
+      "start": 9.022,
+      "end": 9.501,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "six",
+      "start": 9.501,
+      "end": 9.82,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "movies",
+      "start": 9.82,
+      "end": 10.14,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bro",
+      "start": 10.14,
+      "end": 10.858,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lord",
+      "start": 10.858,
+      "end": 10.978,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 10.978,
+      "end": 11.098,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 11.098,
+      "end": 11.177,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "rings",
+      "start": 11.177,
+      "end": 11.657,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 11.657,
+      "end": 11.896,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 11.896,
+      "end": 12.056,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "other",
+      "start": 12.056,
+      "end": 12.375,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 12.375,
+      "end": 12.774,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 12.774,
+      "end": 13.36,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hobbits",
+      "start": 17.11,
+      "end": 17.804,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hobbits",
+      "start": 17.804,
+      "end": 18.523,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "yeah",
+      "start": 18.523,
+      "end": 18.762,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "like",
+      "start": 18.762,
+      "end": 19.64,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "three",
+      "start": 19.64,
+      "end": 19.96,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "movies",
+      "start": 19.96,
+      "end": 20.519,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 20.519,
+      "end": 20.998,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "yeah",
+      "start": 20.998,
+      "end": 21.44,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 22.435,
+      "end": 22.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "third",
+      "start": 22.47,
+      "end": 22.994,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 22.994,
+      "end": 23.473,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "got",
+      "start": 23.473,
+      "end": 23.712,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "like",
+      "start": 23.712,
+      "end": 24.032,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lots",
+      "start": 24.032,
+      "end": 24.431,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 24.431,
+      "end": 24.91,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "oscars",
+      "start": 24.91,
+      "end": 25.69,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 26.24,
+      "end": 27.145,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "yeah",
+      "start": 27.145,
+      "end": 27.545,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 27.545,
+      "end": 27.784,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 27.784,
+      "end": 27.864,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 27.864,
+      "end": 27.944,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "good",
+      "start": 27.944,
+      "end": 28.103,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 28.103,
+      "end": 28.343,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 28.343,
+      "end": 28.503,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 28.503,
+      "end": 28.582,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "like",
+      "start": 28.582,
+      "end": 28.902,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 28.902,
+      "end": 29.381,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 29.381,
+      "end": 29.54,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "second",
+      "start": 29.54,
+      "end": 29.86,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 29.86,
+      "end": 30.099,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 30.099,
+      "end": 30.259,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "high",
+      "start": 30.259,
+      "end": 30.578,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tower",
+      "start": 30.578,
+      "end": 31.12,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it's",
+      "start": 31.856,
+      "end": 31.95,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "really",
+      "start": 31.95,
+      "end": 32.335,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "good",
+      "start": 32.335,
+      "end": 32.74,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

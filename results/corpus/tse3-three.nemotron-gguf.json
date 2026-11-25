@@ -1,0 +1,379 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "tse3-three.wav",
+  "audio_sha256": "37a35e375c7daa14dacea02a8814feb056b7dda9172ade6930db9546f47ade0a",
+  "captured_at": "2026-11-25T20:14:08.655296+00:00",
+  "duration_s": 38.775,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 485 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "panel time three voices tonight and a question for each of you in turn let us start with the newest member of the team delighted to be here the hardest part of multi-speaker audio for me is turn taking because the model must decide when one person has finished",
+  "wall_s": 4.822,
+  "rtf": 0.1244,
+  "segments": [
+    {
+      "word": "panel",
+      "start": 0.24,
+      "end": 0.72,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "time",
+      "start": 0.72,
+      "end": 1.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "three",
+      "start": 1.279,
+      "end": 1.599,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "voices",
+      "start": 1.599,
+      "end": 1.999,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tonight",
+      "start": 1.999,
+      "end": 2.638,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 2.638,
+      "end": 2.798,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 2.798,
+      "end": 2.958,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "question",
+      "start": 2.958,
+      "end": 3.358,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 3.358,
+      "end": 3.518,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "each",
+      "start": 3.518,
+      "end": 3.678,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 3.678,
+      "end": 3.838,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 3.838,
+      "end": 4.077,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 4.077,
+      "end": 4.237,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "turn",
+      "start": 4.237,
+      "end": 4.69,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let",
+      "start": 5.13,
+      "end": 5.277,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 5.277,
+      "end": 5.596,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "start",
+      "start": 5.596,
+      "end": 5.996,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 5.996,
+      "end": 6.156,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 6.156,
+      "end": 6.236,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "newest",
+      "start": 6.236,
+      "end": 6.716,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "member",
+      "start": 6.716,
+      "end": 7.035,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 7.035,
+      "end": 7.115,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 7.115,
+      "end": 7.355,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "team",
+      "start": 7.355,
+      "end": 7.73,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "delighted",
+      "start": 8.98,
+      "end": 9.514,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "to",
+      "start": 9.514,
+      "end": 9.594,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "be",
+      "start": 9.594,
+      "end": 9.754,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "here",
+      "start": 9.754,
+      "end": 10.07,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "the",
+      "start": 10.55,
+      "end": 10.713,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "hardest",
+      "start": 10.713,
+      "end": 11.113,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "part",
+      "start": 11.113,
+      "end": 11.273,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "of",
+      "start": 11.273,
+      "end": 11.433,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "multi-speaker",
+      "start": 11.433,
+      "end": 12.312,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "audio",
+      "start": 12.312,
+      "end": 12.712,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "for",
+      "start": 12.712,
+      "end": 12.792,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "me",
+      "start": 12.792,
+      "end": 13.032,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "is",
+      "start": 13.032,
+      "end": 13.271,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "turn",
+      "start": 13.271,
+      "end": 13.671,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "taking",
+      "start": 13.671,
+      "end": 14.391,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "because",
+      "start": 14.391,
+      "end": 14.711,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "the",
+      "start": 14.711,
+      "end": 14.95,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "model",
+      "start": 14.95,
+      "end": 15.27,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "must",
+      "start": 15.27,
+      "end": 15.51,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "decide",
+      "start": 15.51,
+      "end": 16.07,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "when",
+      "start": 16.07,
+      "end": 16.309,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "one",
+      "start": 16.309,
+      "end": 16.549,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "person",
+      "start": 16.549,
+      "end": 16.949,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "has",
+      "start": 16.949,
+      "end": 17.189,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "finished",
+      "start": 17.189,
+      "end": 17.62,
+      "confidence": 0,
+      "speaker": 2
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

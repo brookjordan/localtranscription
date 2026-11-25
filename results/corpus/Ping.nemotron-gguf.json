@@ -1,0 +1,1359 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "Ping.wav",
+  "audio_sha256": "ee115d8f6ce29a5ce5c961791948bbffa75678fde5d8ee81e863bb5c20bed35e",
+  "captured_at": "2026-11-25T20:13:34.313965+00:00",
+  "duration_s": 60.0,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 751 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "alright you should be able to see my screen now right fantastic okay uh cool i think uh let's not delay and uh i think we have a good quorum of folks now um perhaps ten to twenty so that's good uh we will start our meeting uh formally so today this is the maybe the second time we are gathering together as a group um we want to talk about a little bit about q one then moving on to q two mainly focusing on what are the things that we are um kind of looking forward to right what's gonna happen in q two uh for each of the uh groups under the platform and apps um you know okay so let's go ahead and get started alright so i think um um you know before i by the way stacy your hands are raised so hi good morning um i think i want to revisit some of the things that we shared uh earlier right in the last quarterly all hands and just so so that we kind of regroup and see where we are today",
+  "wall_s": 6.18,
+  "rtf": 0.103,
+  "segments": [
+    {
+      "word": "alright",
+      "start": 0.08,
+      "end": 0.12,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 0.12,
+      "end": 0.719,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "should",
+      "start": 0.719,
+      "end": 0.799,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "be",
+      "start": 0.799,
+      "end": 0.879,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "able",
+      "start": 0.879,
+      "end": 1.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 1.039,
+      "end": 1.119,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 1.119,
+      "end": 1.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "my",
+      "start": 1.198,
+      "end": 1.358,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "screen",
+      "start": 1.358,
+      "end": 1.598,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 1.598,
+      "end": 1.838,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "right",
+      "start": 1.838,
+      "end": 2.237,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "fantastic",
+      "start": 2.237,
+      "end": 3.116,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "okay",
+      "start": 3.116,
+      "end": 3.45,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 3.98,
+      "end": 4.234,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "cool",
+      "start": 4.234,
+      "end": 4.554,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 4.554,
+      "end": 4.634,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 4.634,
+      "end": 4.953,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 4.953,
+      "end": 5.113,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let's",
+      "start": 5.113,
+      "end": 5.353,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 5.353,
+      "end": 5.832,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "delay",
+      "start": 5.832,
+      "end": 6.471,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 6.471,
+      "end": 6.711,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 6.711,
+      "end": 7.031,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 7.031,
+      "end": 7.111,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 7.111,
+      "end": 7.19,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 7.19,
+      "end": 7.35,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "have",
+      "start": 7.35,
+      "end": 7.43,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 7.43,
+      "end": 7.75,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "good",
+      "start": 7.75,
+      "end": 8.069,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "quorum",
+      "start": 8.069,
+      "end": 8.389,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 8.389,
+      "end": 8.708,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "folks",
+      "start": 8.708,
+      "end": 9.108,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 9.108,
+      "end": 9.747,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 9.747,
+      "end": 10.067,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "perhaps",
+      "start": 10.067,
+      "end": 10.546,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ten",
+      "start": 10.546,
+      "end": 10.786,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 10.786,
+      "end": 10.945,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "twenty",
+      "start": 10.945,
+      "end": 11.37,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 11.88,
+      "end": 12.144,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that's",
+      "start": 12.144,
+      "end": 12.383,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "good",
+      "start": 12.383,
+      "end": 12.783,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 12.783,
+      "end": 13.023,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 13.023,
+      "end": 13.422,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "will",
+      "start": 13.422,
+      "end": 13.742,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "start",
+      "start": 13.742,
+      "end": 14.061,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "our",
+      "start": 14.061,
+      "end": 14.7,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meeting",
+      "start": 14.7,
+      "end": 15.419,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 15.419,
+      "end": 15.659,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "formally",
+      "start": 15.659,
+      "end": 16.05,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 16.44,
+      "end": 16.778,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "today",
+      "start": 16.778,
+      "end": 17.257,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 17.257,
+      "end": 17.417,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 17.417,
+      "end": 17.577,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 17.577,
+      "end": 18.056,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "maybe",
+      "start": 18.056,
+      "end": 18.296,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 18.296,
+      "end": 18.455,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "second",
+      "start": 18.455,
+      "end": 18.695,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "time",
+      "start": 18.695,
+      "end": 18.855,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 18.855,
+      "end": 19.015,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 19.015,
+      "end": 19.174,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gathering",
+      "start": 19.174,
+      "end": 19.414,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "together",
+      "start": 19.414,
+      "end": 19.734,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 19.734,
+      "end": 19.814,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 19.814,
+      "end": 19.973,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "group",
+      "start": 19.973,
+      "end": 20.28,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 20.71,
+      "end": 21.012,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 21.012,
+      "end": 21.172,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "want",
+      "start": 21.172,
+      "end": 21.252,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 21.252,
+      "end": 21.332,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "talk",
+      "start": 21.332,
+      "end": 21.571,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "about",
+      "start": 21.571,
+      "end": 21.96,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 22.45,
+      "end": 22.48,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "little",
+      "start": 22.48,
+      "end": 22.85,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bit",
+      "start": 22.85,
+      "end": 23.009,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "about",
+      "start": 23.009,
+      "end": 23.169,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "q",
+      "start": 23.169,
+      "end": 23.409,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 23.409,
+      "end": 23.808,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "then",
+      "start": 23.808,
+      "end": 24.128,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "moving",
+      "start": 24.128,
+      "end": 24.527,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "on",
+      "start": 24.527,
+      "end": 24.687,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 24.687,
+      "end": 24.847,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "q",
+      "start": 24.847,
+      "end": 25.007,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "two",
+      "start": 25.007,
+      "end": 25.326,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "mainly",
+      "start": 25.326,
+      "end": 25.566,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "focusing",
+      "start": 25.566,
+      "end": 26.045,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "on",
+      "start": 26.045,
+      "end": 26.205,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "what",
+      "start": 26.205,
+      "end": 26.285,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 26.285,
+      "end": 26.445,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 26.445,
+      "end": 26.605,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "things",
+      "start": 26.605,
+      "end": 26.844,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 26.844,
+      "end": 27.164,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 27.164,
+      "end": 27.324,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 27.324,
+      "end": 27.58,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 28.19,
+      "end": 28.762,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "kind",
+      "start": 28.762,
+      "end": 28.842,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 28.842,
+      "end": 29.001,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "looking",
+      "start": 29.001,
+      "end": 29.241,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "forward",
+      "start": 29.241,
+      "end": 29.64,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 29.64,
+      "end": 29.8,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "right",
+      "start": 29.8,
+      "end": 30.04,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "what's",
+      "start": 30.04,
+      "end": 30.2,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gonna",
+      "start": 30.2,
+      "end": 30.439,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "happen",
+      "start": 30.439,
+      "end": 30.679,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 30.679,
+      "end": 30.839,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "q",
+      "start": 30.839,
+      "end": 31.079,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "two",
+      "start": 31.079,
+      "end": 31.558,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 31.558,
+      "end": 31.718,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 31.718,
+      "end": 32.037,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "each",
+      "start": 32.037,
+      "end": 32.197,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 32.197,
+      "end": 32.357,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 32.357,
+      "end": 32.7,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 32.916,
+      "end": 32.95,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "groups",
+      "start": 32.95,
+      "end": 33.8,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "under",
+      "start": 33.955,
+      "end": 33.96,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 33.96,
+      "end": 34.434,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "platform",
+      "start": 34.434,
+      "end": 34.674,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 34.674,
+      "end": 34.834,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "apps",
+      "start": 34.834,
+      "end": 35.473,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 35.473,
+      "end": 35.85,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 36.192,
+      "end": 36.27,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "know",
+      "start": 36.27,
+      "end": 36.51,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "okay",
+      "start": 36.911,
+      "end": 37.87,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 38.029,
+      "end": 38.08,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let's",
+      "start": 38.08,
+      "end": 38.988,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "go",
+      "start": 38.988,
+      "end": 39.148,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ahead",
+      "start": 39.148,
+      "end": 39.547,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 39.547,
+      "end": 39.707,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "get",
+      "start": 39.707,
+      "end": 39.947,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "started",
+      "start": 39.947,
+      "end": 40.32,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "alright",
+      "start": 40.586,
+      "end": 40.66,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 40.66,
+      "end": 41.145,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 41.145,
+      "end": 41.225,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 41.225,
+      "end": 41.385,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 41.385,
+      "end": 41.625,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 41.625,
+      "end": 41.91,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 42.104,
+      "end": 42.144,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "know",
+      "start": 42.144,
+      "end": 42.15,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "before",
+      "start": 42.15,
+      "end": 42.663,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 42.663,
+      "end": 43,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "by",
+      "start": 43.222,
+      "end": 43.24,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 43.24,
+      "end": 43.382,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "way",
+      "start": 43.382,
+      "end": 43.702,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "stacy",
+      "start": 43.702,
+      "end": 44.101,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "your",
+      "start": 44.101,
+      "end": 44.261,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hands",
+      "start": 44.261,
+      "end": 44.501,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 44.501,
+      "end": 44.74,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "raised",
+      "start": 44.74,
+      "end": 44.98,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 44.98,
+      "end": 45.41,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hi",
+      "start": 45.939,
+      "end": 46.897,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "good",
+      "start": 47.457,
+      "end": 47.58,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "morning",
+      "start": 47.58,
+      "end": 48.05,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "um",
+      "start": 49.69,
+      "end": 50.013,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 50.013,
+      "end": 50.093,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "think",
+      "start": 50.093,
+      "end": 50.253,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 50.253,
+      "end": 50.333,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "want",
+      "start": 50.333,
+      "end": 50.413,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 50.413,
+      "end": 50.573,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "revisit",
+      "start": 50.573,
+      "end": 51.052,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "some",
+      "start": 51.052,
+      "end": 51.132,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 51.132,
+      "end": 51.212,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 51.212,
+      "end": 51.372,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "things",
+      "start": 51.372,
+      "end": 51.611,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 51.611,
+      "end": 51.691,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 51.691,
+      "end": 51.931,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "shared",
+      "start": 51.931,
+      "end": 52.33,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uh",
+      "start": 52.33,
+      "end": 52.57,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "earlier",
+      "start": 52.57,
+      "end": 52.969,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "right",
+      "start": 52.969,
+      "end": 53.209,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 53.209,
+      "end": 53.369,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 53.369,
+      "end": 53.529,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "last",
+      "start": 53.529,
+      "end": 54.008,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "quarterly",
+      "start": 54.008,
+      "end": 54.807,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "all",
+      "start": 54.807,
+      "end": 55.047,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hands",
+      "start": 55.047,
+      "end": 55.686,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 55.686,
+      "end": 56.16,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "just",
+      "start": 56.325,
+      "end": 56.4,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 56.4,
+      "end": 56.644,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 56.644,
+      "end": 56.804,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 56.804,
+      "end": 56.964,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 56.964,
+      "end": 57.364,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "kind",
+      "start": 57.364,
+      "end": 57.443,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 57.443,
+      "end": 57.603,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "regroup",
+      "start": 57.603,
+      "end": 58.083,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 58.083,
+      "end": 58.39,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 58.802,
+      "end": 58.82,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "where",
+      "start": 58.82,
+      "end": 59.121,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 59.121,
+      "end": 59.281,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 59.281,
+      "end": 59.521,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "today",
+      "start": 59.521,
+      "end": 59.99,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

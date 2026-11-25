@@ -1,0 +1,1282 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "Brook 2.wav",
+  "audio_sha256": "19b6e0380d63a3992346c887bdc1a89424804b04c5b15a772cc807ea0a8e0aeb",
+  "captured_at": "2026-11-25T20:13:08.937883+00:00",
+  "duration_s": 68.304063,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 854 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "byron was at his best and most characteristic in the long poem ch child harold's pilgrimage was a sensation that made his name and don juan was the book length virtuoso extravaganza that sealed the deal but anyone who doubts that byron could have shone if confined to shorter poems should take a close look at this one and check out the perfection of his balance one shade the more one ray the less it's just a tiny example of the impetus he could keep up for pages the only thing that makes this particular byronic poem non byronic is that it professedly to do with innocence the innocence is at the heart of the narrator's fancied young lady and certainly she is more innocent than byron truly thought life or love could ever be she might come good later i e she might turn bad but at the moment she is just a stack of iced cake trembling in the stripped sleep slipstream as byron sweeps by on his way to depravities unknown in her sweet dreams",
+  "wall_s": 6.371,
+  "rtf": 0.0933,
+  "segments": [
+    {
+      "word": "byron",
+      "start": 1.44,
+      "end": 1.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 1.47,
+      "end": 2.08,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 2.08,
+      "end": 2.239,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 2.239,
+      "end": 2.399,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "best",
+      "start": 2.399,
+      "end": 2.959,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 2.959,
+      "end": 3.199,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "most",
+      "start": 3.199,
+      "end": 3.439,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "characteristic",
+      "start": 3.439,
+      "end": 4.399,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 4.479,
+      "end": 4.559,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 4.559,
+      "end": 4.719,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "long",
+      "start": 4.719,
+      "end": 5.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "poem",
+      "start": 5.039,
+      "end": 5.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ch",
+      "start": 6.37,
+      "end": 6.958,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "child",
+      "start": 6.958,
+      "end": 7.518,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "harold's",
+      "start": 7.518,
+      "end": 7.998,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilgrimage",
+      "start": 7.998,
+      "end": 8.958,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 8.958,
+      "end": 9.118,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 9.118,
+      "end": 9.278,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sensation",
+      "start": 9.278,
+      "end": 9.838,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 9.838,
+      "end": 9.918,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "made",
+      "start": 9.918,
+      "end": 10.158,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 10.158,
+      "end": 10.238,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "name",
+      "start": 10.238,
+      "end": 10.51,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 11.03,
+      "end": 11.197,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "don",
+      "start": 11.197,
+      "end": 11.517,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "juan",
+      "start": 11.517,
+      "end": 12.077,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 12.077,
+      "end": 12.237,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 12.237,
+      "end": 12.317,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "book",
+      "start": 12.317,
+      "end": 12.557,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "length",
+      "start": 12.557,
+      "end": 12.877,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "virtuoso",
+      "start": 12.877,
+      "end": 13.597,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "extravaganza",
+      "start": 13.597,
+      "end": 14.557,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 14.717,
+      "end": 14.957,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sealed",
+      "start": 14.957,
+      "end": 15.196,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 15.196,
+      "end": 15.356,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "deal",
+      "start": 15.356,
+      "end": 15.68,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 16.396,
+      "end": 17.25,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "anyone",
+      "start": 17.25,
+      "end": 17.596,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "who",
+      "start": 17.596,
+      "end": 17.756,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "doubts",
+      "start": 17.756,
+      "end": 18.076,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 18.076,
+      "end": 18.236,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "byron",
+      "start": 18.236,
+      "end": 18.636,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "could",
+      "start": 18.636,
+      "end": 18.716,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "have",
+      "start": 18.716,
+      "end": 19.036,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "shone",
+      "start": 19.036,
+      "end": 19.595,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "if",
+      "start": 19.595,
+      "end": 19.835,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "confined",
+      "start": 19.835,
+      "end": 20.155,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 20.155,
+      "end": 20.235,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "shorter",
+      "start": 20.235,
+      "end": 20.555,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "poems",
+      "start": 20.555,
+      "end": 21.035,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "should",
+      "start": 21.035,
+      "end": 21.195,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "take",
+      "start": 21.195,
+      "end": 21.355,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 21.355,
+      "end": 21.515,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "close",
+      "start": 21.515,
+      "end": 21.915,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "look",
+      "start": 21.915,
+      "end": 22.315,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 22.315,
+      "end": 22.475,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 22.475,
+      "end": 22.635,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 22.635,
+      "end": 22.95,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 23.355,
+      "end": 23.45,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "check",
+      "start": 23.45,
+      "end": 23.754,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "out",
+      "start": 23.754,
+      "end": 23.914,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 23.914,
+      "end": 24.074,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "perfection",
+      "start": 24.074,
+      "end": 24.554,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 24.554,
+      "end": 24.634,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 24.634,
+      "end": 24.874,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "balance",
+      "start": 24.874,
+      "end": 25.4,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 26.12,
+      "end": 26.474,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "shade",
+      "start": 26.474,
+      "end": 26.794,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 26.794,
+      "end": 26.874,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "more",
+      "start": 26.874,
+      "end": 27.3,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 27.73,
+      "end": 28.153,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ray",
+      "start": 28.153,
+      "end": 28.393,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 28.393,
+      "end": 28.473,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "less",
+      "start": 28.473,
+      "end": 28.97,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it's",
+      "start": 29.273,
+      "end": 29.38,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "just",
+      "start": 29.38,
+      "end": 29.593,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 29.593,
+      "end": 29.833,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tiny",
+      "start": 29.833,
+      "end": 30.233,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "example",
+      "start": 30.233,
+      "end": 30.793,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 30.793,
+      "end": 30.873,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 30.873,
+      "end": 31.033,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "impetus",
+      "start": 31.033,
+      "end": 31.513,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 31.513,
+      "end": 31.593,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "could",
+      "start": 31.593,
+      "end": 31.753,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "keep",
+      "start": 31.753,
+      "end": 31.993,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 31.993,
+      "end": 32.232,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 32.232,
+      "end": 32.632,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pages",
+      "start": 32.632,
+      "end": 33.28,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 33.832,
+      "end": 33.94,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "only",
+      "start": 33.94,
+      "end": 34.232,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "thing",
+      "start": 34.232,
+      "end": 34.392,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 34.392,
+      "end": 34.552,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "makes",
+      "start": 34.552,
+      "end": 34.792,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 34.792,
+      "end": 34.952,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "particular",
+      "start": 34.952,
+      "end": 35.512,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "byronic",
+      "start": 35.512,
+      "end": 35.912,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "poem",
+      "start": 35.912,
+      "end": 36.711,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "non",
+      "start": 36.711,
+      "end": 37.191,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "byronic",
+      "start": 37.191,
+      "end": 38.071,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 38.071,
+      "end": 38.231,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 38.231,
+      "end": 38.311,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 38.311,
+      "end": 38.551,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "professedly",
+      "start": 38.551,
+      "end": 39.41,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 39.991,
+      "end": 40,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "do",
+      "start": 40,
+      "end": 40.311,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 40.311,
+      "end": 40.551,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "innocence",
+      "start": 40.551,
+      "end": 41.2,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 41.75,
+      "end": 41.81,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "innocence",
+      "start": 41.81,
+      "end": 42.31,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 42.31,
+      "end": 42.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 42.47,
+      "end": 42.63,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 42.63,
+      "end": 42.79,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "heart",
+      "start": 42.79,
+      "end": 43.03,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 43.03,
+      "end": 43.11,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 43.11,
+      "end": 43.19,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "narrator's",
+      "start": 43.19,
+      "end": 43.75,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "fancied",
+      "start": 43.75,
+      "end": 44.23,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "young",
+      "start": 44.23,
+      "end": 44.63,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lady",
+      "start": 44.63,
+      "end": 45.27,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 45.31,
+      "end": 45.589,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "certainly",
+      "start": 45.589,
+      "end": 45.989,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "she",
+      "start": 45.989,
+      "end": 46.149,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 46.149,
+      "end": 46.309,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "more",
+      "start": 46.309,
+      "end": 46.469,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "innocent",
+      "start": 46.469,
+      "end": 46.869,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "than",
+      "start": 46.869,
+      "end": 47.109,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "byron",
+      "start": 47.109,
+      "end": 47.589,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "truly",
+      "start": 47.589,
+      "end": 47.989,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "thought",
+      "start": 47.989,
+      "end": 48.309,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "life",
+      "start": 48.309,
+      "end": 48.98,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "or",
+      "start": 49.029,
+      "end": 49.05,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "love",
+      "start": 49.05,
+      "end": 49.508,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "could",
+      "start": 49.508,
+      "end": 49.748,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "ever",
+      "start": 49.748,
+      "end": 49.908,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "be",
+      "start": 49.908,
+      "end": 50.24,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "she",
+      "start": 51.87,
+      "end": 52.068,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "might",
+      "start": 52.068,
+      "end": 52.388,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "come",
+      "start": 52.388,
+      "end": 52.708,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "good",
+      "start": 52.708,
+      "end": 52.948,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "later",
+      "start": 52.948,
+      "end": 53.46,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 53.79,
+      "end": 53.987,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "e",
+      "start": 53.987,
+      "end": 54.627,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "she",
+      "start": 54.627,
+      "end": 54.787,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "might",
+      "start": 54.787,
+      "end": 55.027,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "turn",
+      "start": 55.027,
+      "end": 55.347,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bad",
+      "start": 55.347,
+      "end": 55.75,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 56.147,
+      "end": 56.21,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 56.21,
+      "end": 56.387,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 56.387,
+      "end": 56.547,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "moment",
+      "start": 56.547,
+      "end": 57.107,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "she",
+      "start": 57.107,
+      "end": 57.267,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 57.267,
+      "end": 57.427,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "just",
+      "start": 57.427,
+      "end": 57.587,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 57.587,
+      "end": 57.827,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "stack",
+      "start": 57.827,
+      "end": 58.226,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 58.226,
+      "end": 58.466,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "iced",
+      "start": 58.466,
+      "end": 58.866,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "cake",
+      "start": 58.866,
+      "end": 59.426,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "trembling",
+      "start": 59.426,
+      "end": 59.986,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 59.986,
+      "end": 60.066,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 60.066,
+      "end": 60.146,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "stripped",
+      "start": 60.146,
+      "end": 60.546,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sleep",
+      "start": 60.546,
+      "end": 61.01,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "slipstream",
+      "start": 61.28,
+      "end": 61.986,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 61.986,
+      "end": 62.225,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "byron",
+      "start": 62.225,
+      "end": 62.545,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sweeps",
+      "start": 62.545,
+      "end": 63.025,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "by",
+      "start": 63.025,
+      "end": 63.265,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "on",
+      "start": 63.265,
+      "end": 63.425,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 63.425,
+      "end": 63.585,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "way",
+      "start": 63.585,
+      "end": 63.825,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 63.825,
+      "end": 63.985,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "depravities",
+      "start": 63.985,
+      "end": 64.945,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "unknown",
+      "start": 65.105,
+      "end": 65.665,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 65.665,
+      "end": 65.825,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "her",
+      "start": 65.825,
+      "end": 65.985,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sweet",
+      "start": 65.985,
+      "end": 66.305,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "dreams",
+      "start": 66.305,
+      "end": 66.87,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

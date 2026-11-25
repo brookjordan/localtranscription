@@ -1,0 +1,1324 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "conrad.wav",
+  "audio_sha256": "569517881049d5562820162442a9c59e3aadbf5c6d947215de3bf7aa023520b0",
+  "captured_at": "2026-11-25T20:13:56.394612+00:00",
+  "duration_s": 56.0,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 701 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "as soon as it was early morning the chief priests elders and teachers of the law and the whole high court had jesus tied up and then handed him over to the roman governor pilate and so pilate too examined him are you king of the jews he said and in answer he says your words not mine now the chief priests had charged him with many things so pilate again interrogated him you you're not answering anything look at this long list of charges but jesus didn't answer any further which astonished pilate now it was a custom at the festival for him to release a prisoner as requested by the people there was a man named barabbas who was in prison with some terrorists who had killed people during an uprising the crowd came up and asked pilate to do for them what he usually did and pilate answered them saying do you want me to release to you this king of the jews for he knew that the chief priests main reason for handing him over was envy of jesus popularity",
+  "wall_s": 6.374,
+  "rtf": 0.1138,
+  "segments": [
+    {
+      "word": "as",
+      "start": 0.959,
+      "end": 0.98,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "soon",
+      "start": 0.98,
+      "end": 1.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 1.198,
+      "end": 1.358,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 1.358,
+      "end": 1.438,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 1.438,
+      "end": 1.678,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "early",
+      "start": 1.678,
+      "end": 1.837,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "morning",
+      "start": 1.837,
+      "end": 2.556,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 2.556,
+      "end": 2.636,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "chief",
+      "start": 2.636,
+      "end": 2.956,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "priests",
+      "start": 2.956,
+      "end": 3.435,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "elders",
+      "start": 3.435,
+      "end": 3.835,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 3.835,
+      "end": 3.914,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "teachers",
+      "start": 3.914,
+      "end": 4.234,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 4.234,
+      "end": 4.314,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 4.314,
+      "end": 4.394,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "law",
+      "start": 4.394,
+      "end": 4.553,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 4.553,
+      "end": 4.633,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 4.633,
+      "end": 4.713,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "whole",
+      "start": 4.713,
+      "end": 4.953,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "high",
+      "start": 4.953,
+      "end": 5.193,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "court",
+      "start": 5.193,
+      "end": 5.912,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "had",
+      "start": 5.912,
+      "end": 6.151,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 6.151,
+      "end": 6.551,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tied",
+      "start": 6.551,
+      "end": 6.87,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 6.87,
+      "end": 7.03,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 7.03,
+      "end": 7.11,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "then",
+      "start": 7.11,
+      "end": 7.35,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "handed",
+      "start": 7.35,
+      "end": 7.589,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "him",
+      "start": 7.589,
+      "end": 7.749,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "over",
+      "start": 7.749,
+      "end": 7.989,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 7.989,
+      "end": 8.068,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 8.068,
+      "end": 8.228,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "roman",
+      "start": 8.228,
+      "end": 8.708,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "governor",
+      "start": 8.708,
+      "end": 9.187,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilate",
+      "start": 9.187,
+      "end": 9.64,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 10.305,
+      "end": 10.42,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 10.42,
+      "end": 10.705,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilate",
+      "start": 10.705,
+      "end": 11.184,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "too",
+      "start": 11.184,
+      "end": 11.504,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "examined",
+      "start": 11.504,
+      "end": 11.903,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "him",
+      "start": 11.903,
+      "end": 12.063,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 12.063,
+      "end": 12.223,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 12.223,
+      "end": 12.462,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "king",
+      "start": 12.462,
+      "end": 12.622,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 12.622,
+      "end": 12.782,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 12.782,
+      "end": 12.862,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jews",
+      "start": 12.862,
+      "end": 13.341,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 13.341,
+      "end": 13.74,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "said",
+      "start": 13.74,
+      "end": 14.03,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 14.779,
+      "end": 14.85,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 14.85,
+      "end": 15.178,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "answer",
+      "start": 15.178,
+      "end": 15.738,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 15.738,
+      "end": 15.977,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "says",
+      "start": 15.977,
+      "end": 16.39,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "your",
+      "start": 17.01,
+      "end": 17.255,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "words",
+      "start": 17.255,
+      "end": 17.735,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 17.735,
+      "end": 17.974,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "mine",
+      "start": 17.974,
+      "end": 18.27,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 19.173,
+      "end": 19.26,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 19.26,
+      "end": 19.572,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "chief",
+      "start": 19.572,
+      "end": 19.812,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "priests",
+      "start": 19.812,
+      "end": 20.131,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "had",
+      "start": 20.131,
+      "end": 20.611,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "charged",
+      "start": 20.611,
+      "end": 20.93,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "him",
+      "start": 20.93,
+      "end": 21.09,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 21.09,
+      "end": 21.33,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "many",
+      "start": 21.33,
+      "end": 21.649,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "things",
+      "start": 21.649,
+      "end": 22.34,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 22.4,
+      "end": 22.688,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilate",
+      "start": 22.688,
+      "end": 22.927,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "again",
+      "start": 22.927,
+      "end": 23.247,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "interrogated",
+      "start": 23.247,
+      "end": 23.886,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "him",
+      "start": 23.886,
+      "end": 24.445,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 24.445,
+      "end": 24.685,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you're",
+      "start": 24.685,
+      "end": 24.884,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 24.884,
+      "end": 25.084,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "answering",
+      "start": 25.084,
+      "end": 25.484,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "anything",
+      "start": 25.484,
+      "end": 25.803,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "look",
+      "start": 25.803,
+      "end": 25.963,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 25.963,
+      "end": 26.043,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 26.043,
+      "end": 26.203,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "long",
+      "start": 26.203,
+      "end": 26.362,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "list",
+      "start": 26.362,
+      "end": 26.522,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 26.522,
+      "end": 26.762,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "charges",
+      "start": 26.762,
+      "end": 27.21,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 27.88,
+      "end": 27.95,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 27.95,
+      "end": 28.439,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "didn't",
+      "start": 28.439,
+      "end": 28.759,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "answer",
+      "start": 28.759,
+      "end": 29.078,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "any",
+      "start": 29.078,
+      "end": 29.238,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "further",
+      "start": 29.238,
+      "end": 29.718,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "which",
+      "start": 29.718,
+      "end": 30.357,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "astonished",
+      "start": 30.357,
+      "end": 30.996,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilate",
+      "start": 30.996,
+      "end": 31.39,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 32.434,
+      "end": 32.52,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 32.52,
+      "end": 32.593,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 32.593,
+      "end": 32.753,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 32.753,
+      "end": 33.073,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "custom",
+      "start": 33.073,
+      "end": 33.472,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 33.472,
+      "end": 33.552,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 33.552,
+      "end": 33.712,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "festival",
+      "start": 33.712,
+      "end": 34.191,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 34.191,
+      "end": 34.351,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "him",
+      "start": 34.351,
+      "end": 34.511,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 34.511,
+      "end": 34.591,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "release",
+      "start": 34.591,
+      "end": 34.91,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 34.91,
+      "end": 35.07,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "prisoner",
+      "start": 35.07,
+      "end": 35.389,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 35.389,
+      "end": 35.549,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "requested",
+      "start": 35.549,
+      "end": 35.949,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "by",
+      "start": 35.949,
+      "end": 36.108,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 36.108,
+      "end": 36.268,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "people",
+      "start": 36.268,
+      "end": 36.67,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "there",
+      "start": 37.546,
+      "end": 37.626,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 37.626,
+      "end": 37.63,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 37.63,
+      "end": 37.786,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "man",
+      "start": 37.786,
+      "end": 38.026,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "named",
+      "start": 38.026,
+      "end": 38.265,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "barabbas",
+      "start": 38.265,
+      "end": 38.825,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "who",
+      "start": 38.825,
+      "end": 38.904,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 38.904,
+      "end": 39.064,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 39.064,
+      "end": 39.304,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "prison",
+      "start": 39.304,
+      "end": 39.544,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 39.544,
+      "end": 39.703,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "some",
+      "start": 39.703,
+      "end": 39.943,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "terrorists",
+      "start": 39.943,
+      "end": 40.422,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "who",
+      "start": 40.422,
+      "end": 40.582,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "had",
+      "start": 40.582,
+      "end": 40.662,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "killed",
+      "start": 40.662,
+      "end": 41.061,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "people",
+      "start": 41.061,
+      "end": 41.301,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "during",
+      "start": 41.301,
+      "end": 41.461,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "an",
+      "start": 41.461,
+      "end": 41.621,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "uprising",
+      "start": 41.621,
+      "end": 42.41,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 42.819,
+      "end": 42.83,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "crowd",
+      "start": 42.83,
+      "end": 43.218,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "came",
+      "start": 43.218,
+      "end": 43.378,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 43.378,
+      "end": 43.458,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 43.458,
+      "end": 43.618,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "asked",
+      "start": 43.618,
+      "end": 43.857,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilate",
+      "start": 43.857,
+      "end": 44.177,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 44.177,
+      "end": 44.337,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "do",
+      "start": 44.337,
+      "end": 44.496,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 44.496,
+      "end": 44.656,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "them",
+      "start": 44.656,
+      "end": 44.896,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "what",
+      "start": 44.896,
+      "end": 44.976,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 44.976,
+      "end": 45.136,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "usually",
+      "start": 45.136,
+      "end": 45.455,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "did",
+      "start": 45.455,
+      "end": 46.1,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 46.174,
+      "end": 46.22,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pilate",
+      "start": 46.22,
+      "end": 46.653,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "answered",
+      "start": 46.653,
+      "end": 46.973,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "them",
+      "start": 46.973,
+      "end": 47.213,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "saying",
+      "start": 47.213,
+      "end": 47.932,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "do",
+      "start": 47.932,
+      "end": 47.971,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 47.971,
+      "end": 48.091,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "want",
+      "start": 48.091,
+      "end": 48.171,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "me",
+      "start": 48.171,
+      "end": 48.251,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 48.251,
+      "end": 48.331,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "release",
+      "start": 48.331,
+      "end": 48.65,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 48.65,
+      "end": 48.73,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 48.73,
+      "end": 48.81,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 48.81,
+      "end": 48.97,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "king",
+      "start": 48.97,
+      "end": 49.21,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 49.21,
+      "end": 49.29,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 49.29,
+      "end": 49.369,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jews",
+      "start": 49.369,
+      "end": 50.009,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 50.009,
+      "end": 50.248,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 50.248,
+      "end": 50.408,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "knew",
+      "start": 50.408,
+      "end": 50.648,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 50.648,
+      "end": 50.887,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 50.887,
+      "end": 50.967,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "chief",
+      "start": 50.967,
+      "end": 51.287,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "priests",
+      "start": 51.287,
+      "end": 51.686,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "main",
+      "start": 51.686,
+      "end": 51.926,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "reason",
+      "start": 51.926,
+      "end": 52.485,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 52.485,
+      "end": 52.725,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "handing",
+      "start": 52.725,
+      "end": 52.964,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "him",
+      "start": 52.964,
+      "end": 53.204,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "over",
+      "start": 53.204,
+      "end": 53.843,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 53.843,
+      "end": 54.083,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "envy",
+      "start": 54.083,
+      "end": 54.322,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 54.322,
+      "end": 54.482,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 54.482,
+      "end": 54.802,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "popularity",
+      "start": 54.802,
+      "end": 55.73,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

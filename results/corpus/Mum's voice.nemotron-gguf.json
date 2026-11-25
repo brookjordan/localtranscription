@@ -1,0 +1,834 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "Mum's voice.wav",
+  "audio_sha256": "35e2524ac83b242419e159a4c8dd24fe6ee367c7c32f8586eca772378d562e8e",
+  "captured_at": "2026-11-25T20:13:22.345242+00:00",
+  "duration_s": 70.4,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 881 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "ha can you believe we actually did it we made it through the storm wind howling rain lashing i thought we'd never see the sun again there were nights nights i cried myself to sleep whispering is anyone even out there but then you showed up you smiled and suddenly the world wasn't so dark i felt seen understood remember that silly dance in the kitchen with the burnt pancakes oh we were a mess but now now you're gone the silence is deafening i miss you every single day but i carry you with me in every laugh every tear every quiet moment and i'll keep going because that's what you'd want always",
+  "wall_s": 5.752,
+  "rtf": 0.0817,
+  "segments": [
+    {
+      "word": "ha",
+      "start": 0.45,
+      "end": 0.94,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "can",
+      "start": 1.46,
+      "end": 1.758,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 1.758,
+      "end": 1.918,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "believe",
+      "start": 1.918,
+      "end": 2.397,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 2.397,
+      "end": 2.717,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "actually",
+      "start": 2.717,
+      "end": 3.196,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "did",
+      "start": 3.196,
+      "end": 3.436,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 3.436,
+      "end": 3.71,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 4.21,
+      "end": 4.475,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "made",
+      "start": 4.475,
+      "end": 4.715,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 4.715,
+      "end": 4.874,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "through",
+      "start": 4.874,
+      "end": 5.114,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 5.114,
+      "end": 5.274,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "storm",
+      "start": 5.274,
+      "end": 5.82,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "wind",
+      "start": 6.21,
+      "end": 6.792,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "howling",
+      "start": 6.792,
+      "end": 7.751,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "rain",
+      "start": 7.751,
+      "end": 8.231,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lashing",
+      "start": 8.231,
+      "end": 8.77,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 9.46,
+      "end": 9.669,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "thought",
+      "start": 9.669,
+      "end": 9.909,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we'd",
+      "start": 9.909,
+      "end": 10.148,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "never",
+      "start": 10.148,
+      "end": 10.388,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "see",
+      "start": 10.388,
+      "end": 10.708,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 10.708,
+      "end": 10.868,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sun",
+      "start": 10.868,
+      "end": 11.107,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "again",
+      "start": 11.107,
+      "end": 11.58,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "there",
+      "start": 12.81,
+      "end": 13.025,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "were",
+      "start": 13.025,
+      "end": 13.265,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "nights",
+      "start": 13.265,
+      "end": 13.81,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "nights",
+      "start": 14.69,
+      "end": 15.263,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 15.263,
+      "end": 15.502,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "cried",
+      "start": 15.502,
+      "end": 15.982,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "myself",
+      "start": 15.982,
+      "end": 16.381,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 16.381,
+      "end": 16.461,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "sleep",
+      "start": 16.461,
+      "end": 16.98,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "whispering",
+      "start": 18.139,
+      "end": 19.098,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 19.49,
+      "end": 19.738,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "anyone",
+      "start": 19.738,
+      "end": 20.137,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "even",
+      "start": 20.137,
+      "end": 20.457,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "out",
+      "start": 20.457,
+      "end": 20.617,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "there",
+      "start": 20.617,
+      "end": 21.05,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 22.055,
+      "end": 22.08,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "then",
+      "start": 22.08,
+      "end": 23.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 23.094,
+      "end": 23.493,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "showed",
+      "start": 23.493,
+      "end": 23.813,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 23.813,
+      "end": 24.24,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 24.932,
+      "end": 24.94,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "smiled",
+      "start": 24.94,
+      "end": 25.899,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 26.29,
+      "end": 26.32,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "suddenly",
+      "start": 26.32,
+      "end": 27.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 27.329,
+      "end": 27.489,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "world",
+      "start": 27.489,
+      "end": 27.888,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "wasn't",
+      "start": 27.888,
+      "end": 28.288,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "so",
+      "start": 28.288,
+      "end": 28.607,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "dark",
+      "start": 28.607,
+      "end": 29.09,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 30.046,
+      "end": 30.07,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "felt",
+      "start": 30.07,
+      "end": 30.925,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "seen",
+      "start": 30.925,
+      "end": 31.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "understood",
+      "start": 32.01,
+      "end": 32.969,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "remember",
+      "start": 33.91,
+      "end": 34.441,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 34.441,
+      "end": 34.681,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "silly",
+      "start": 34.681,
+      "end": 35,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "dance",
+      "start": 35,
+      "end": 35.32,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 35.32,
+      "end": 35.48,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 35.48,
+      "end": 35.56,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "kitchen",
+      "start": 35.56,
+      "end": 36.039,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 36.039,
+      "end": 36.199,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 36.199,
+      "end": 36.279,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "burnt",
+      "start": 36.279,
+      "end": 36.678,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pancakes",
+      "start": 36.678,
+      "end": 37.51,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "oh",
+      "start": 37.877,
+      "end": 37.9,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 37.9,
+      "end": 38.436,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "were",
+      "start": 38.436,
+      "end": 38.756,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 38.756,
+      "end": 38.916,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "mess",
+      "start": 38.916,
+      "end": 39.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 40.754,
+      "end": 40.84,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 40.84,
+      "end": 41.44,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "now",
+      "start": 42.51,
+      "end": 42.751,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you're",
+      "start": 42.751,
+      "end": 42.991,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gone",
+      "start": 42.991,
+      "end": 43.46,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 44.589,
+      "end": 44.68,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "silence",
+      "start": 44.68,
+      "end": 45.628,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 45.628,
+      "end": 45.97,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "deafening",
+      "start": 46.347,
+      "end": 47.306,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 48.505,
+      "end": 48.54,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "miss",
+      "start": 48.54,
+      "end": 49.144,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 49.144,
+      "end": 49.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "every",
+      "start": 50.5,
+      "end": 51.459,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "single",
+      "start": 51.462,
+      "end": 52.181,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "day",
+      "start": 52.181,
+      "end": 52.81,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 54.099,
+      "end": 54.16,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i",
+      "start": 54.16,
+      "end": 54.498,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "carry",
+      "start": 54.498,
+      "end": 54.738,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 54.738,
+      "end": 54.978,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 54.978,
+      "end": 55.217,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "me",
+      "start": 55.217,
+      "end": 55.62,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 56.096,
+      "end": 56.17,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "every",
+      "start": 56.17,
+      "end": 56.656,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "laugh",
+      "start": 56.656,
+      "end": 57.19,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "every",
+      "start": 57.854,
+      "end": 57.88,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tear",
+      "start": 57.88,
+      "end": 58.66,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "every",
+      "start": 59.18,
+      "end": 59.692,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "quiet",
+      "start": 59.692,
+      "end": 60.172,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "moment",
+      "start": 60.172,
+      "end": 60.69,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 62.249,
+      "end": 62.3,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "i'll",
+      "start": 62.3,
+      "end": 62.649,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "keep",
+      "start": 62.649,
+      "end": 62.889,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "going",
+      "start": 62.889,
+      "end": 63.36,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "because",
+      "start": 64.167,
+      "end": 64.24,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that's",
+      "start": 64.24,
+      "end": 65.046,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "what",
+      "start": 65.046,
+      "end": 65.366,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you'd",
+      "start": 65.366,
+      "end": 65.765,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "want",
+      "start": 65.765,
+      "end": 66.34,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "always",
+      "start": 67.43,
+      "end": 68.38,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

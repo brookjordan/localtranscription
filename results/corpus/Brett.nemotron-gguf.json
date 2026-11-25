@@ -1,0 +1,1205 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "Brett.wav",
+  "audio_sha256": "ba0c5a1288158b14238be869b38276cea11ec5d79c14417480127543572796ee",
+  "captured_at": "2026-11-25T20:13:02.426692+00:00",
+  "duration_s": 62.910688,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 787 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "luke's gospel tells us that jesus had longed to celebrate this passover meal with his disciples why not dreaded this was after all the last meal he was going to share with them before his crucifixion luke gives us four reasons why jesus was keen to take part in this meal at communion we drink wine and eat bread but no meat in this meal jesus takes the place of the passover lamb jesus although present will not take part in the communion meal until he returns and each of us are given resurrection bodies the passover meal was a celebratory family meal hosted by the head of the household communion is an educational meal hosted by jesus for his disciples one in which we learn by doing when jesus gave his body to eat and his blood to drink he was giving them everything that he had as we take communion we tell god that we are open to receiving all that jesus has for us",
+  "wall_s": 6.366,
+  "rtf": 0.1012,
+  "segments": [
+    {
+      "word": "luke's",
+      "start": 2.12,
+      "end": 2.478,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gospel",
+      "start": 2.478,
+      "end": 2.878,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tells",
+      "start": 2.878,
+      "end": 3.118,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 3.118,
+      "end": 3.437,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 3.437,
+      "end": 3.597,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 3.597,
+      "end": 3.997,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "had",
+      "start": 3.997,
+      "end": 4.237,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "longed",
+      "start": 4.237,
+      "end": 4.716,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 4.716,
+      "end": 4.876,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "celebrate",
+      "start": 4.876,
+      "end": 5.356,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 5.356,
+      "end": 5.596,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "passover",
+      "start": 5.596,
+      "end": 5.995,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 5.995,
+      "end": 6.235,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 6.235,
+      "end": 6.395,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 6.395,
+      "end": 6.555,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "disciples",
+      "start": 6.555,
+      "end": 7.26,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "why",
+      "start": 8.22,
+      "end": 8.393,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 8.393,
+      "end": 8.633,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "dreaded",
+      "start": 8.633,
+      "end": 9.16,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 9.832,
+      "end": 9.85,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 9.85,
+      "end": 10.232,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "after",
+      "start": 10.232,
+      "end": 10.472,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "all",
+      "start": 10.472,
+      "end": 10.712,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 10.712,
+      "end": 10.871,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "last",
+      "start": 10.871,
+      "end": 11.191,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 11.191,
+      "end": 11.431,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 11.431,
+      "end": 11.511,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 11.511,
+      "end": 11.671,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "going",
+      "start": 11.671,
+      "end": 11.831,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 11.831,
+      "end": 11.991,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "share",
+      "start": 11.991,
+      "end": 12.15,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "with",
+      "start": 12.15,
+      "end": 12.31,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "them",
+      "start": 12.31,
+      "end": 12.47,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "before",
+      "start": 12.47,
+      "end": 12.71,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 12.71,
+      "end": 12.87,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "crucifixion",
+      "start": 12.87,
+      "end": 13.67,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "luke",
+      "start": 15.25,
+      "end": 15.508,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gives",
+      "start": 15.508,
+      "end": 15.748,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 15.748,
+      "end": 15.908,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "four",
+      "start": 15.908,
+      "end": 16.147,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "reasons",
+      "start": 16.147,
+      "end": 16.627,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "why",
+      "start": 16.627,
+      "end": 16.787,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 16.787,
+      "end": 17.107,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 17.107,
+      "end": 17.266,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "keen",
+      "start": 17.266,
+      "end": 17.506,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 17.506,
+      "end": 17.666,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "take",
+      "start": 17.666,
+      "end": 17.826,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "part",
+      "start": 17.826,
+      "end": 18.066,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 18.066,
+      "end": 18.146,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 18.146,
+      "end": 18.386,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 18.386,
+      "end": 18.64,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "at",
+      "start": 19.824,
+      "end": 19.84,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "communion",
+      "start": 19.84,
+      "end": 20.544,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 20.544,
+      "end": 20.704,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "drink",
+      "start": 20.704,
+      "end": 21.024,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "wine",
+      "start": 21.024,
+      "end": 21.663,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 21.663,
+      "end": 21.743,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "eat",
+      "start": 21.743,
+      "end": 21.983,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bread",
+      "start": 21.983,
+      "end": 22.34,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "but",
+      "start": 23.022,
+      "end": 23.06,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "no",
+      "start": 23.06,
+      "end": 23.422,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meat",
+      "start": 23.422,
+      "end": 23.72,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 24.77,
+      "end": 24.94,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 24.94,
+      "end": 25.1,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 25.1,
+      "end": 25.42,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 25.42,
+      "end": 25.82,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "takes",
+      "start": 25.82,
+      "end": 26.06,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 26.06,
+      "end": 26.14,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "place",
+      "start": 26.14,
+      "end": 26.379,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 26.379,
+      "end": 26.459,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 26.459,
+      "end": 26.619,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "passover",
+      "start": 26.619,
+      "end": 27.259,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "lamb",
+      "start": 27.259,
+      "end": 27.61,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 28.26,
+      "end": 29,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "although",
+      "start": 31.21,
+      "end": 31.575,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "present",
+      "start": 31.575,
+      "end": 32.055,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "will",
+      "start": 32.055,
+      "end": 32.135,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "not",
+      "start": 32.135,
+      "end": 32.375,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "take",
+      "start": 32.375,
+      "end": 32.614,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "part",
+      "start": 32.614,
+      "end": 32.854,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 32.854,
+      "end": 32.934,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 32.934,
+      "end": 33.014,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "communion",
+      "start": 33.014,
+      "end": 33.494,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 33.494,
+      "end": 33.734,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "until",
+      "start": 33.734,
+      "end": 33.973,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 33.973,
+      "end": 34.133,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "returns",
+      "start": 34.133,
+      "end": 34.613,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 34.613,
+      "end": 34.853,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "each",
+      "start": 34.853,
+      "end": 35.013,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 35.013,
+      "end": 35.092,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 35.092,
+      "end": 35.252,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 35.252,
+      "end": 35.332,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "given",
+      "start": 35.332,
+      "end": 35.652,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "resurrection",
+      "start": 35.652,
+      "end": 36.212,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bodies",
+      "start": 36.212,
+      "end": 36.76,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 38.41,
+      "end": 38.53,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "passover",
+      "start": 38.53,
+      "end": 39.089,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 39.089,
+      "end": 39.329,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 39.329,
+      "end": 39.489,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 39.489,
+      "end": 39.649,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "celebratory",
+      "start": 39.649,
+      "end": 40.608,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "family",
+      "start": 40.848,
+      "end": 41.168,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 41.168,
+      "end": 41.807,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hosted",
+      "start": 41.807,
+      "end": 42.127,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "by",
+      "start": 42.127,
+      "end": 42.287,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 42.287,
+      "end": 42.367,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "head",
+      "start": 42.367,
+      "end": 42.527,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "of",
+      "start": 42.527,
+      "end": 42.687,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "the",
+      "start": 42.687,
+      "end": 42.846,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "household",
+      "start": 42.846,
+      "end": 43.36,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "communion",
+      "start": 43.99,
+      "end": 44.525,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 44.525,
+      "end": 44.685,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "an",
+      "start": 44.685,
+      "end": 44.845,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "educational",
+      "start": 44.845,
+      "end": 45.564,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "meal",
+      "start": 45.564,
+      "end": 45.94,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "hosted",
+      "start": 46.24,
+      "end": 46.683,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "by",
+      "start": 46.683,
+      "end": 46.923,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 46.923,
+      "end": 47.243,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 47.243,
+      "end": 47.403,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 47.403,
+      "end": 47.483,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "disciples",
+      "start": 47.483,
+      "end": 48.282,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 48.282,
+      "end": 48.442,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "in",
+      "start": 48.442,
+      "end": 48.602,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "which",
+      "start": 48.602,
+      "end": 48.842,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 48.842,
+      "end": 49.002,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "learn",
+      "start": 49.002,
+      "end": 49.401,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "by",
+      "start": 49.401,
+      "end": 49.641,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "doing",
+      "start": 49.641,
+      "end": 50.01,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "when",
+      "start": 52.039,
+      "end": 52.09,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 52.09,
+      "end": 52.599,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "gave",
+      "start": 52.599,
+      "end": 52.839,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 52.839,
+      "end": 52.919,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "body",
+      "start": 52.919,
+      "end": 53.158,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 53.158,
+      "end": 53.318,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "eat",
+      "start": 53.318,
+      "end": 53.558,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 53.558,
+      "end": 53.718,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "his",
+      "start": 53.718,
+      "end": 53.798,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "blood",
+      "start": 53.798,
+      "end": 54.038,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 54.038,
+      "end": 54.198,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "drink",
+      "start": 54.198,
+      "end": 54.597,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 54.597,
+      "end": 54.677,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "was",
+      "start": 54.677,
+      "end": 54.917,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "giving",
+      "start": 54.917,
+      "end": 55.157,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "them",
+      "start": 55.157,
+      "end": 55.357,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "everything",
+      "start": 55.357,
+      "end": 55.796,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 55.796,
+      "end": 55.956,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "he",
+      "start": 55.956,
+      "end": 56.116,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "had",
+      "start": 56.116,
+      "end": 56.4,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "as",
+      "start": 57.22,
+      "end": 57.395,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 57.395,
+      "end": 57.555,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "take",
+      "start": 57.555,
+      "end": 57.795,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "communion",
+      "start": 57.795,
+      "end": 58.354,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 58.354,
+      "end": 58.514,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "tell",
+      "start": 58.514,
+      "end": 58.754,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "god",
+      "start": 58.754,
+      "end": 58.994,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 58.994,
+      "end": 59.074,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 59.074,
+      "end": 59.234,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "are",
+      "start": 59.234,
+      "end": 59.393,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "open",
+      "start": 59.393,
+      "end": 59.713,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 59.713,
+      "end": 59.873,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "receiving",
+      "start": 59.873,
+      "end": 60.433,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "all",
+      "start": 60.433,
+      "end": 60.593,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "that",
+      "start": 60.593,
+      "end": 60.832,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "jesus",
+      "start": 60.832,
+      "end": 61.152,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "has",
+      "start": 61.152,
+      "end": 61.552,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "for",
+      "start": 61.552,
+      "end": 61.792,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "us",
+      "start": 61.792,
+      "end": 62.27,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}

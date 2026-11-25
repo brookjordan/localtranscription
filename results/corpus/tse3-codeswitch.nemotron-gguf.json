@@ -1,0 +1,582 @@
+{
+  "engine": "nemo-speech.cpp",
+  "model": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-IQ4_NL.gguf",
+  "model_revision": "16ec754",
+  "runtime_revision": "NeMo-Speech.cpp 0.3.0 metal",
+  "model_sha256": "001bea92194596abe971528cf903efe2970f766ac809e4b46381d8567e2dfa30",
+  "settings": {
+    "format": "json",
+    "diarize": true,
+    "language": null
+  },
+  "audio_file": "tse3-codeswitch.wav",
+  "audio_sha256": "30e84ff145efe546ec9212ba4d720341c8d81d745e27d23530a107c227a992e5",
+  "captured_at": "2026-11-25T20:14:13.621117+00:00",
+  "duration_s": 29.525,
+  "runtime": {
+    "nemo_speech_version": "NeMo-Speech.cpp 0.3.0 metal",
+    "returncode": 0,
+    "stderr_tail": "[nemo-speech] transcribe session started\nmodel has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring\nmodel has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_q.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_k.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_v.weight (size = 731136 bytes) -- ignoring\nmodel has unused tensor blk.52.attn_output.weight (size = 11698176 bytes) -- ignoring\nmodel has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring\nmodel has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_exps.weight (size = 359202816 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_down_shexp.weight (size = 10601472 bytes) -- ignoring\nmodel has unused tensor blk.52.ffn_up_shexp.weight (size = 10601472 bytes) -- ignoring\n........................................................\n[salm] path=upstream llama.cpp mtp_draft=0 slots=16 n_batch=2048\n[ctc] word-timestamp evidence: +16384 frames on the device (80 MiB), 370 in use\n[nemo-speech] transcribe session finished\n"
+  },
+  "status": "ok",
+  "text": "so we said we'd try something different this episode let's mix it up a little prayer to asseoir g vies continuer en franais c two préfère bien sûr pas de problème je pense que le passage d'une langue à l'autre au milieu d'une phrase est le vrai test pour un modèle de transcription exactly code switching most engines pick one language per utterance and force everything into it which is how you get fantasy french or nonsense english",
+  "wall_s": 5.225,
+  "rtf": 0.177,
+  "segments": [
+    {
+      "word": "so",
+      "start": 0.19,
+      "end": 0.559,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we",
+      "start": 0.559,
+      "end": 0.718,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "said",
+      "start": 0.718,
+      "end": 0.958,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "we'd",
+      "start": 0.958,
+      "end": 1.197,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "try",
+      "start": 1.197,
+      "end": 1.516,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "something",
+      "start": 1.516,
+      "end": 1.915,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "different",
+      "start": 1.915,
+      "end": 2.314,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "this",
+      "start": 2.314,
+      "end": 2.474,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "episode",
+      "start": 2.474,
+      "end": 3.351,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "let's",
+      "start": 3.351,
+      "end": 3.671,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "mix",
+      "start": 3.671,
+      "end": 3.83,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 3.83,
+      "end": 3.91,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "up",
+      "start": 3.91,
+      "end": 4.149,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "a",
+      "start": 4.149,
+      "end": 4.229,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "little",
+      "start": 4.229,
+      "end": 4.788,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "prayer",
+      "start": 4.788,
+      "end": 5.027,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "to",
+      "start": 5.027,
+      "end": 5.267,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "asseoir",
+      "start": 5.267,
+      "end": 5.825,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "g",
+      "start": 5.825,
+      "end": 6.065,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "vies",
+      "start": 6.065,
+      "end": 6.543,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "continuer",
+      "start": 6.543,
+      "end": 7.182,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "en",
+      "start": 7.182,
+      "end": 7.341,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "franais",
+      "start": 7.341,
+      "end": 7.98,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "c",
+      "start": 7.98,
+      "end": 8.219,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "two",
+      "start": 8.219,
+      "end": 8.459,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "préfère",
+      "start": 8.459,
+      "end": 9.09,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "bien",
+      "start": 10.45,
+      "end": 10.773,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "sûr",
+      "start": 10.773,
+      "end": 11.411,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "pas",
+      "start": 11.411,
+      "end": 11.491,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "de",
+      "start": 11.491,
+      "end": 11.73,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "problème",
+      "start": 11.73,
+      "end": 12.528,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "je",
+      "start": 12.528,
+      "end": 12.768,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "pense",
+      "start": 12.768,
+      "end": 13.007,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "que",
+      "start": 13.007,
+      "end": 13.167,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "le",
+      "start": 13.167,
+      "end": 13.326,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "passage",
+      "start": 13.326,
+      "end": 13.645,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "d'une",
+      "start": 13.645,
+      "end": 13.885,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "langue",
+      "start": 13.885,
+      "end": 14.124,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "à",
+      "start": 14.124,
+      "end": 14.204,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "l'autre",
+      "start": 14.204,
+      "end": 14.443,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "au",
+      "start": 14.443,
+      "end": 14.603,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "milieu",
+      "start": 14.603,
+      "end": 14.882,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "d'une",
+      "start": 14.882,
+      "end": 15.161,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "phrase",
+      "start": 15.161,
+      "end": 15.64,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "est",
+      "start": 15.64,
+      "end": 15.8,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "le",
+      "start": 15.8,
+      "end": 15.88,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "vrai",
+      "start": 15.88,
+      "end": 16.199,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "test",
+      "start": 16.199,
+      "end": 16.598,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "pour",
+      "start": 16.598,
+      "end": 16.757,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "un",
+      "start": 16.757,
+      "end": 16.837,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "modèle",
+      "start": 16.837,
+      "end": 17.156,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "de",
+      "start": 17.156,
+      "end": 17.316,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "transcription",
+      "start": 17.316,
+      "end": 18.1,
+      "confidence": 0,
+      "speaker": 2
+    },
+    {
+      "word": "exactly",
+      "start": 19.06,
+      "end": 19.87,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "code",
+      "start": 19.87,
+      "end": 20.109,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "switching",
+      "start": 20.109,
+      "end": 20.7,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "most",
+      "start": 20.97,
+      "end": 21.386,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "engines",
+      "start": 21.386,
+      "end": 21.864,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "pick",
+      "start": 21.864,
+      "end": 22.184,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "one",
+      "start": 22.184,
+      "end": 22.423,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "language",
+      "start": 22.423,
+      "end": 22.902,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "per",
+      "start": 22.902,
+      "end": 23.061,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "utterance",
+      "start": 23.061,
+      "end": 23.62,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "and",
+      "start": 23.62,
+      "end": 23.78,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "force",
+      "start": 23.78,
+      "end": 24.179,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "everything",
+      "start": 24.179,
+      "end": 24.737,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "into",
+      "start": 24.737,
+      "end": 24.897,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "it",
+      "start": 24.897,
+      "end": 25.136,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "which",
+      "start": 25.136,
+      "end": 25.296,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "is",
+      "start": 25.296,
+      "end": 25.535,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "how",
+      "start": 25.535,
+      "end": 25.775,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "you",
+      "start": 25.775,
+      "end": 25.854,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "get",
+      "start": 25.854,
+      "end": 26.174,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "fantasy",
+      "start": 26.174,
+      "end": 26.732,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "french",
+      "start": 26.732,
+      "end": 27.211,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "or",
+      "start": 27.211,
+      "end": 27.45,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "nonsense",
+      "start": 27.45,
+      "end": 28.009,
+      "confidence": 0,
+      "speaker": 1
+    },
+    {
+      "word": "english",
+      "start": 28.009,
+      "end": 28.58,
+      "confidence": 0,
+      "speaker": 1
+    }
+  ],
+  "raw_keys": [
+    "confidence",
+    "duration",
+    "file",
+    "languages",
+    "text",
+    "words"
+  ],
+  "process_peak_rss_bytes": 27607040
+}
