@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Two outputs and a noisy input · localtranscription</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">localtranscription <span>· devlog</span></a>
+  <a href="./index.html">all posts →</a>
+</header>
+<main class="content">
+  <a class="back-link" href="./index.html">← all posts</a>
+  <article>
+    <h1>Two outputs and a noisy input</h1>
+    <p class="post-meta"><time datetime="2026-11-23">2026-11-23</time> · <span class="tag">speech isolation</span></p>
+    <p>The new filter owes me two files. One should contain the voice. The other should tell me what it took away.</p>
+    <p>The offline and realtime checkpoints total about 489 MB with their notices. The first job uses the offline model on Inworld's example WAV. I'll listen to the original and both outputs before putting the filter in front of a speech-to-text engine.</p>
+    <!-- claim-check: Inworld fetch ledger and the official example WAV and offline recipe -->
+    <h2>The two files arrived</h2>
+    <p>Overnight the filter produced both: a voice file and a background file, each 10.77 s of 48 kHz mono, the same length as the input. That proves the plumbing and nothing else. Nobody has listened to them yet, and no transcription has run on either.</p>
+    <!-- claim-check: overnight results register, Inworld Voice Isolator row; not listened to, no ASR run -->
+    <p>Next is the comparison this was for: the same speech-to-text engine on the raw recording and on the isolated voice, scored side by side (TSE-14).</p>
+    <!-- claim-check: TSE-14 design ticket -->
+    <p><a href="https://github.com/inworld-ai/voice-isolator">Inworld Voice Isolator source and recipe</a></p>
+  </article>
+</main>
+<footer class="site-footer">The engineering devlog for <strong>localtranscription</strong>.</footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One model, two runtimes · localtranscription</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">localtranscription <span>· devlog</span></a>
+  <a href="./index.html">all posts →</a>
+</header>
+<main class="content">
+  <a class="back-link" href="./index.html">← all posts</a>
+  <article>
+    <h1>One model, two runtimes</h1>
+    <p class="post-meta"><time datetime="2026-11-26">2026-11-26</time> · <span class="tag">nemotron · runtimes</span></p>
+    <p>Nemotron 3.5 Transcribe 30B-A4B now runs on this M5 Max two ways: MLX Audio on the NVFP4 checkpoint (the arm we measured first), and tonight NVIDIA's own NeMo-Speech.cpp 0.3.0 on the publisher's IQ4_NL GGUF. Both arms ran the same 19-job matrix — 12 corpus clips, 4 synthetic multi-speaker clips, 3 human recordings. All 19 jobs returned ok on both.</p>
+    <!-- claim-check: results/corpus/*.nemotron-gguf.json and *.nemotron-saa.json, 19 files each -->
+    <h2>The numbers</h2>
+    <p>On the corpus clips the two runtimes almost never disagree: word error between their transcripts lands at 0.6 to 6.3 percent, median about 3.3. Reading that as "the 4-bit GGUF costs nothing on real speech" is an observation, not a proof — but whatever the IQ4_NL conversion does to the weights, it does not change the words much.</p>
+    <!-- claim-check: compare_nemotron_gguf.py output, nemotron-gguf-scores.json -->
+    <p>Speed is not close. MLX Audio runs the corpus at rtf 0.026 to 0.068; speech.cpp needs 0.067 to 0.143 — two to three times slower. The human recordings stretch the gap further (0.15 to 0.41 against 0.03 to 0.05). If you want words fast, the MLX route keeps its crown.</p>
+    <!-- claim-check: per-clip rtf fields in both result sets -->
+    <h2>Where speech.cpp wins</h2>
+    <p>Diarisation. On the synthetic multi-speaker clips the MLX Audio arm collapsed two-voice material to one speaker. speech.cpp's encoder carries a speaker branch, and with <code>--diarize</code> it returns the right counts: 2→2, 3→2, 2→2 and 2→2. Per-word speaker labels come out of the same call. The old ensemble suggestion — this model for words, MOSS for speaker boundaries — now has a cheaper form: one runtime that gives you both.</p>
+    <!-- claim-check: tse3-*.nemotron-gguf.json speaker counts vs the three-take packet -->
+    <p>DFlash2, NVIDIA's draft model for speculative decoding, buys nothing here: the Metal build runs upstream llama.cpp's standard path, which does no speculative decoding. Checked against the official <code>docs/salm/models.md</code>.</p>
+    <!-- claim-check: docs/salm/models.md platforms table -->
+    <h2>What failed on the way</h2>
+    <p>The 19 GiB decoder download stalled once mid-run and needed a nudge; the first smoke test failed in 26 ms because <code>--output-dir</code> is directory-input-only — single files emit JSON on stdout; and the first scorer assumed text segments where the runtime emits one entry per word with a <code>speaker</code> key. All three cost minutes, not hours, and the fixes are in the runner and scorer (commits <code>a80fe3d</code>, <code>2044033</code>).</p>
+    <!-- claim-check: session log and the runner's stderr_tail records -->
+    <p>Both GGUF files hash-match the publisher's blobs. The dashboard row for this arm is queued for the next presentation pass.</p>
+    <!-- claim-check: shasum output vs HF API blobs, recorded in the session log -->
+    <p><a href="https://github.com/NVIDIA/NeMo-Speech.cpp">NeMo-Speech.cpp</a> · <a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF">the GGUF repo</a></p>
+  </article>
+</main>
+<footer class="site-footer">The engineering devlog for <strong>localtranscription</strong>.</footer>
+</body>
+</html>
