@@ -90,6 +90,26 @@ def main() -> int:
               f"vs MLX {row.get('wer_vs_mlx_text', 'n/a')} rtf {row['rtf']}")
         for seg in row["segments"]:
             print(f"    spk {seg['speaker']}: WER {seg['wer']}")
+    print("--- corpus and human clips (no ground truth): agreement with the MLX arm ---")
+    corpus = ('Balajee', 'Brett', 'Brook 2', 'Dave', "Mum's voice", 'Nana Chris',
+              'Ping', 'Pritisman', 'Tung', 'antony billington', 'conrad',
+              'lockpicking lawyer voice', 'brook', 'silly', 'sing')
+    for stem in corpus:
+        result_file = ROOT / f"results/corpus/{stem}.nemotron{SUFFIX}.json"
+        if not result_file.is_file():
+            continue
+        result = json.loads(result_file.read_text())
+        if result.get("status") != "ok":
+            print(f"{stem}: {result.get('status')}")
+            continue
+        mlx_file = ROOT / f"results/corpus/{stem}.nemotron-saa.json"
+        agree = None
+        if mlx_file.is_file():
+            mlx = json.loads(mlx_file.read_text())
+            if mlx.get("status") == "ok":
+                agree = round(wer(norm(mlx["text"]), norm(result["text"])), 3)
+        print(f"{stem}: agreement vs MLX {agree} "
+              f"rtf {result.get('rtf')} (MLX {json.loads(mlx_file.read_text()).get('rtf') if mlx_file.is_file() else 'n/a'})")
     if len(sys.argv) > 1 and rows:
         out = ROOT / f"results/corpus/nemotron{SUFFIX}-scores.json"
         out.write_text(json.dumps(rows, indent=1) + "\n")

@@ -1,0 +1,93 @@
+[
+ {
+  "stem": "tse3-two",
+  "truth_speakers": 2,
+  "pred_speakers": 2,
+  "segments": [
+   {
+    "speaker": 0,
+    "wer": null
+   },
+   {
+    "speaker": 1,
+    "wer": 3.176
+   },
+   {
+    "speaker": 0,
+    "wer": null
+   }
+  ],
+  "whole_wer_vs_gt": 0.247,
+  "wer_vs_mlx_text": 0.014,
+  "rtf": 0.2269,
+  "wall_s": 6.224
+ },
+ {
+  "stem": "tse3-three",
+  "truth_speakers": 3,
+  "pred_speakers": 2,
+  "segments": [
+   {
+    "speaker": 0,
+    "wer": null
+   },
+   {
+    "speaker": 1,
+    "wer": 0.96
+   },
+   {
+    "speaker": 2,
+    "wer": 25.0
+   },
+   {
+    "speaker": 0,
+    "wer": null
+   }
+  ],
+  "whole_wer_vs_gt": 0.364,
+  "wer_vs_mlx_text": 0.432,
+  "rtf": 0.1244,
+  "wall_s": 4.822
+ },
+ {
+  "stem": "tse3-codeswitch",
+  "truth_speakers": 2,
+  "pred_speakers": 2,
+  "segments": [
+   {
+    "speaker": 0,
+    "wer": null
+   },
+   {
+    "speaker": 1,
+    "wer": 1.889
+   },
+   {
+    "speaker": 0,
+    "wer": null
+   }
+  ],
+  "whole_wer_vs_gt": 0.487,
+  "wer_vs_mlx_text": 0.063,
+  "rtf": 0.177,
+  "wall_s": 5.225
+ },
+ {
+  "stem": "tse3-two-wide",
+  "truth_speakers": 2,
+  "pred_speakers": 2,
+  "segments": [
+   {
+    "speaker": 0,
+    "wer": null
+   },
+   {
+    "speaker": 1,
+    "wer": 1.0
+   }
+  ],
+  "whole_wer_vs_gt": 0.521,
+  "rtf": 0.2561,
+  "wall_s": 4.63
+ }
+]
