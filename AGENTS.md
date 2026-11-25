@@ -98,3 +98,13 @@ just to decorate a post. QA generated images visually before committing them.
   audio out of Git.
 - Verify `git status` before committing so unrelated work is not included.
 - Push this repository and the website repository as separate operations.
+
+## Shipping
+
+<!-- ship-block v1: checked by ~/.bin/scripts/repo-ship-check.py -->
+- Remote: `origin` at `git@github.com:brookjordan/localtranscription.git`
+- Default branch: `main`
+- Push: `git push origin HEAD`
+- Check: `.venv-nemotron/bin/python -m unittest discover -s tests`
+- CI: none
+- Verified: 2026-11-26
