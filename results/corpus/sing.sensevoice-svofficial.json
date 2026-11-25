@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "sing.mp3",
+  "audio_sha256": "8aebd3488c3ea16019a1e2b054f72d65be849c6ef293ba48a0646e8a3f895d08",
+  "captured_at": "2026-11-25T20:21:41.132363+00:00",
+  "duration_s": 31.68,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 0.95s\n"
+  },
+  "status": "ok",
+  "text": "okay so this time i'm going to test various things like if it can hear me when i'm banging it get different noises or if i can recognize soundyou can tell when i start to sing or if thinks i'm talking and it doesn't know anything doesn't know anything does it just's okay does it just think i'm talking normally let's see",
+  "wall_s": 1.025,
+  "rtf": 0.0324,
+  "process_peak_rss_bytes": 25559040
+}

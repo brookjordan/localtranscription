@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "tse3-codeswitch.wav",
+  "audio_sha256": "30e84ff145efe546ec9212ba4d720341c8d81d745e27d23530a107c227a992e5",
+  "captured_at": "2026-11-25T20:21:38.217756+00:00",
+  "duration_s": 29.525,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 1 vad segments\n[sensevoice] done 1.17s\n"
+  },
+  "status": "ok",
+  "text": "so we said we'd try something different this episode's mix it exactly code switching most engines pick one language per utterance and force everything into it which is how you get fantasy french or nonsense english",
+  "wall_s": 1.26,
+  "rtf": 0.0427,
+  "process_peak_rss_bytes": 25509888
+}

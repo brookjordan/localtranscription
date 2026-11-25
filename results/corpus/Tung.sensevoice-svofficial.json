@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Tung.wav",
+  "audio_sha256": "811ab25f68691942ecf6276b23de280e898dec6021f80f082ee4b1a195015304",
+  "captured_at": "2026-11-25T20:21:28.085552+00:00",
+  "duration_s": 18.261313,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 1 vad segments\n[sensevoice] done 0.61s\n"
+  },
+  "status": "ok",
+  "text": "i went back to hanoi for two weeks spent time with my family and friends there went for private badminton coaching with my kids and we enjoyed the food not the weather lovely place lovely memories",
+  "wall_s": 0.701,
+  "rtf": 0.0384,
+  "process_peak_rss_bytes": 25427968
+}

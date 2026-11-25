@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "antony billington.wav",
+  "audio_sha256": "4e4501680c4166353d27d5e6dc0bb40b3af6d3bbbfac0b6f49e278a07b6da0eb",
+  "captured_at": "2026-11-25T20:21:28.881046+00:00",
+  "duration_s": 47.946688,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 1.83s\n"
+  },
+  "status": "ok",
+  "text": "a message that we need to own for ourselves before we can pass it on to others and when he calls us to a difficult task heal aquipps for that task so that's where we're going let's say a bit about each of those festival god's call now in reality it's more than a call it's a summons as we see in chapter 2 verse1 he said to me son of man stand upon your feet and i will speak toyou the call starts with godel doesn't wake up one day, rub his jump out of bed and decide i'm going be the next new prophet for the people ofel the initiative lies with god and i think that's",
+  "wall_s": 1.93,
+  "rtf": 0.0403,
+  "process_peak_rss_bytes": 25427968
+}

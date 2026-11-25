@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "tse3-two.wav",
+ "duration_s": 27.43,
+ "wall_s": 0.56,
+ "rtf": 0.02,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Welcome back to the show Today we're looking at how speech recognisers handle more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning. Exactly, so keep an ear on the speaker labels as we go, if the engine cannot tell us apart, that is a diaization failure, not a transcription failure."
+  }
+ ],
+ "raw": [
+  "<|en|><|NEUTRAL|><|Speech|><|withitn|>Welcome back to the show Today we're looking at how speech recognisers handle more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning. <|en|><|NEUTRAL|><|Speech|><|withitn|>Exactly, so keep an ear on the speaker labels as we go, if the engine cannot tell us apart, that is a diaization failure, not a transcription failure."
+ ],
+ "text": "Welcome back to the show Today we're looking at how speech recognisers handle more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning. Exactly, so keep an ear on the speaker labels as we go, if the engine cannot tell us apart, that is a diaization failure, not a transcription failure."
+}

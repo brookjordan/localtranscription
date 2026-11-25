@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "lockpicking lawyer voice.wav",
+ "duration_s": 50.74,
+ "wall_s": 1.15,
+ "rtf": 0.023,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": ". This is the Lockpicking lawyer and one of the weaknesses with modern smart locks is battery life and there's various ways of dealing with that more batteries, bigger batteries, lithium batteries, wireless charging solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the volt. That's why I love to see locks like this one from geek Ta. At least I was until I saw the tiny lithium battery that powers this, it's right on the back of this panel, so in practical terms I doubt we'll see much in the way of extra battery life, which is a shame."
+  }
+ ],
+ "raw": [
+  "<|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>This is the Lockpicking lawyer and one of the weaknesses with modern smart locks is battery life and there's various ways of dealing with that more batteries, bigger batteries, lithium batteries, wireless charging solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the volt. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>That's why I love to see locks like this one from geek Ta. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>At least I was until I saw the tiny lithium battery that powers this, it's right on the back of this panel, so in practical terms I doubt we'll see much in the way of extra battery life, which is a shame."
+ ],
+ "text": ". This is the Lockpicking lawyer and one of the weaknesses with modern smart locks is battery life and there's various ways of dealing with that more batteries, bigger batteries, lithium batteries, wireless charging solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption, and probably the largest power draw is the electric motor that throws the volt. That's why I love to see locks like this one from geek Ta. At least I was until I saw the tiny lithium battery that powers this, it's right on the back of this panel, so in practical terms I doubt we'll see much in the way of extra battery life, which is a shame."
+}

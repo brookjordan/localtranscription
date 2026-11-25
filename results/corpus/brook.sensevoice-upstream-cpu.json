@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "brook.wav",
+ "duration_s": 12.03,
+ "wall_s": 0.64,
+ "rtf": 0.053,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Okay, then let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later."
+  }
+ ],
+ "raw": [
+  "<|en|><|NEUTRAL|><|Speech|><|withitn|>Okay, then let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later."
+ ],
+ "text": "Okay, then let me do a quick test and see how this ends up sounding. I'm not quite sure what I'm going to say, so I'll make it up and I'll transcribe it later."
+}

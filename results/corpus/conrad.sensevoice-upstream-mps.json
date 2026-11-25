@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "conrad.wav",
+ "duration_s": 56.0,
+ "wall_s": 1.28,
+ "rtf": 0.023,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Yeah. As soon as it was early morning, the chief priests, elderels and teachers of the law in the whole High court had Jesus tied up and then handed him over to the Roman governor Pi and so Pilate too examined him,A you king of the Jews, he said, and in answer, he says,Your words not mine?\" Now the chief priest charged him with many things, so Pilate again interrogated him, you're not answering anything, look at his long list of charges, but Jesus didn't answer any further which astonished Pilate. That was a custom at the festival for him to release a prisoner as requested by the people, there was a man named Barras who was in prison with some terrorists who had killed people during an uprising, the crowd came up and asked Pilate to do for them what he usually did and Pilate answered them saying,Do you want me to release to you this king of the Jews for he knew that the chief priest's main reason for handing him over was envy of Jesus's popularity?"
+  }
+ ],
+ "raw": [
+  "<|yue|><|EMO_UNKNOWN|><|Speech|><|withitn|>Yeah. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>As soon as it was early morning, the chief priests, elderels and teachers of the law in the whole High court had Jesus tied up and then handed him over to the Roman governor Pi and so Pilate too examined him,A you king of the Jews, he said, and in answer, he says,Your words not mine?\" <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>Now the chief priest charged him with many things, so Pilate again interrogated him, you're not answering anything, look at his long list of charges, but Jesus didn't answer any further which astonished Pilate. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>That was a custom at the festival for him to release a prisoner as requested by the people, there was a man named Barras who was in prison with some terrorists who had killed people during an uprising, the crowd came up and asked Pilate to do for them what he usually did and Pilate answered them saying,Do you want me to release to you this king of the Jews for he knew that the chief priest's main reason for handing him over was envy of Jesus's popularity?"
+ ],
+ "text": "Yeah. As soon as it was early morning, the chief priests, elderels and teachers of the law in the whole High court had Jesus tied up and then handed him over to the Roman governor Pi and so Pilate too examined him,A you king of the Jews, he said, and in answer, he says,Your words not mine?\" Now the chief priest charged him with many things, so Pilate again interrogated him, you're not answering anything, look at his long list of charges, but Jesus didn't answer any further which astonished Pilate. That was a custom at the festival for him to release a prisoner as requested by the people, there was a man named Barras who was in prison with some terrorists who had killed people during an uprising, the crowd came up and asked Pilate to do for them what he usually did and Pilate answered them saying,Do you want me to release to you this king of the Jews for he knew that the chief priest's main reason for handing him over was envy of Jesus's popularity?"
+}

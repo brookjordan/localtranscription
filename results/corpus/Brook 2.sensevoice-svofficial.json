@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Brook 2.wav",
+  "audio_sha256": "19b6e0380d63a3992346c887bdc1a89424804b04c5b15a772cc807ea0a8e0aeb",
+  "captured_at": "2026-11-25T20:21:13.559839+00:00",
+  "duration_s": 68.304063,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 4 vad segments\n[sensevoice] done 2.62s\n"
+  },
+  "status": "ok",
+  "text": "byron was at his best and most characteristic in the long poem child harold's pilgrimage was a sensation that made his name and don juan was a book length virtuoso extravaganza that sealed deal but anyone who doubts that byron could have shone if confined a shorter poems should take a close look at this one and check out the perfection of his balance one shade the more one ray the less is just a tiny example of theshe could keep up for pages the only thing that makes this particular byonic poem nonbirononic is that it professedly to do with innocence the innocence is at the heart of the narrator's fancied young lady and certainly she is more innocent than byron truly thought life or love could ever be she might come good later i e she might turn bad but at the moment she is just a stack of iced cake trembling in the strip sleepslipstream as byron sweeps by on his way to depraavitiesunknown in her sweet dreams",
+  "wall_s": 2.712,
+  "rtf": 0.0397,
+  "process_peak_rss_bytes": 25346048
+}

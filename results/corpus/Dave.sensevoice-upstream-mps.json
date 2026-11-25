@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "Dave.wav",
+ "duration_s": 55.62,
+ "wall_s": 1.65,
+ "rtf": 0.03,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": ". No I don't think so and fair warning I've got I am I have two new kittens that are going be rampaging around this call so if I get attacked while I'm talking you all know know what's going on starting to wake up they basically sleep most of the time, but when they wake up they kind of go crazy so this is Leonidith he's eight weeks old.。s see him I don't know where his sister is she's around here somewhere. hard to get mad. No, I think we got some questions Some of you submitted and we're gonna go through that and then I think there's open Q& A at the end that we're going to do. So yeah, we'll start with the easy one, you know you're the newest member the leadership team just yeah tell I don't know a little bit about your background you talked a little bit about some of your technical background, but you know whatever you want whatever you want to tell us about and what brought you emotional most importantly other than biologyji and I obviously like. Those of you who don't know, we did meet Phil before he came and we landed the big fish."
+  }
+ ],
+ "raw": [
+  "<|yue|><|EMO_UNKNOWN|><|Speech|><|withitn|>. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>No I don't think so and fair warning I've got I am I have two new kittens that are going be rampaging around this call so if I get attacked while I'm talking you all know know what's going on starting to wake up they basically sleep most of the time, but when they wake up they kind of go crazy so this is Leonidith he's eight weeks old. <|zh|><|EMO_UNKNOWN|><|Speech|><|withitn|>。 <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>s see him I don't know where his sister is she's around here somewhere. hard to get mad. No, I think we got some questions Some of you submitted and we're gonna go through that and then I think there's open Q& A at the end that we're going to do. So yeah, we'll start with the easy one, you know you're the newest member the leadership team just yeah tell I don't know a little bit about your background you talked a little bit about some of your technical background, but you know whatever you want whatever you want to tell us about and what brought you emotional most importantly other than biologyji and I obviously like. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>Those of you who don't know, we did meet Phil before he came and we landed the big fish."
+ ],
+ "text": ". No I don't think so and fair warning I've got I am I have two new kittens that are going be rampaging around this call so if I get attacked while I'm talking you all know know what's going on starting to wake up they basically sleep most of the time, but when they wake up they kind of go crazy so this is Leonidith he's eight weeks old.。s see him I don't know where his sister is she's around here somewhere. hard to get mad. No, I think we got some questions Some of you submitted and we're gonna go through that and then I think there's open Q& A at the end that we're going to do. So yeah, we'll start with the easy one, you know you're the newest member the leadership team just yeah tell I don't know a little bit about your background you talked a little bit about some of your technical background, but you know whatever you want whatever you want to tell us about and what brought you emotional most importantly other than biologyji and I obviously like. Those of you who don't know, we did meet Phil before he came and we landed the big fish."
+}

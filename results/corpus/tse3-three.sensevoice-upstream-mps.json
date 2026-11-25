@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "tse3-three.wav",
+ "duration_s": 38.77,
+ "wall_s": 0.69,
+ "rtf": 0.018,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Panel time, three voices tonight and a question for each of you in turn Let us start with the newest member of the team delighted to be here the hardest part of multispeaker audio for me is turntaking because the model must decide when one person has finished.嗯。大家好，很高兴参加这个节目。我认为最困难的是多人同时说话的时候，模型需要分辨每一个人的声音。 and that is the three voice problem in one clip, two accents of English and one full turn of Mandarin with a real speaker rotation between every turn.😊"
+  }
+ ],
+ "raw": [
+  "<|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>Panel time, three voices tonight and a question for each of you in turn Let us start with the newest member of the team delighted to be here the hardest part of multispeaker audio for me is turntaking because the model must decide when one person has finished. <|zh|><|EMO_UNKNOWN|><|Speech|><|withitn|>嗯。 <|zh|><|HAPPY|><|Speech|><|withitn|>大家好，很高兴参加这个节目。我认为最困难的是多人同时说话的时候，模型需要分辨每一个人的声音。 and that is the three voice problem in one clip, two accents of English and one full turn of Mandarin with a real speaker rotation between every turn."
+ ],
+ "text": "Panel time, three voices tonight and a question for each of you in turn Let us start with the newest member of the team delighted to be here the hardest part of multispeaker audio for me is turntaking because the model must decide when one person has finished.嗯。大家好，很高兴参加这个节目。我认为最困难的是多人同时说话的时候，模型需要分辨每一个人的声音。 and that is the three voice problem in one clip, two accents of English and one full turn of Mandarin with a real speaker rotation between every turn.😊"
+}

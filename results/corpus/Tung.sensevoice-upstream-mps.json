@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "Tung.wav",
+ "duration_s": 18.26,
+ "wall_s": 0.49,
+ "rtf": 0.027,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "I went back to Hanoi for two weeks. Sp time with my family and friends there, went for a private badminton coaching with my kids, and we enjoyed the food, not the weather.😊Lovely place, lovely memories."
+  }
+ ],
+ "raw": [
+  "<|en|><|HAPPY|><|Speech|><|withitn|>I went back to Hanoi for two weeks. Sp time with my family and friends there, went for a private badminton coaching with my kids, and we enjoyed the food, not the weather. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>Lovely place, lovely memories."
+ ],
+ "text": "I went back to Hanoi for two weeks. Sp time with my family and friends there, went for a private badminton coaching with my kids, and we enjoyed the food, not the weather.😊Lovely place, lovely memories."
+}

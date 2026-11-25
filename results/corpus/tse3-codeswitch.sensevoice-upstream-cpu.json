@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "tse3-codeswitch.wav",
+ "duration_s": 29.52,
+ "wall_s": 1.44,
+ "rtf": 0.049,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "So we said we'd try something different this episode, Let's mix it up a little, prayer to asker, Gvi's Coner and franchise C2 Preers. Exactly code switching, most engines pick one language per utterance and force everything into it which is how you get fantasy French or nonsense English."
+  }
+ ],
+ "raw": [
+  "<|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>So we said we'd try something different this episode, Let's mix it up a little, prayer to asker, Gvi's Coner and franchise C2 Preers. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|> Exactly code switching, most engines pick one language per utterance and force everything into it which is how you get fantasy French or nonsense English."
+ ],
+ "text": "So we said we'd try something different this episode, Let's mix it up a little, prayer to asker, Gvi's Coner and franchise C2 Preers. Exactly code switching, most engines pick one language per utterance and force everything into it which is how you get fantasy French or nonsense English."
+}

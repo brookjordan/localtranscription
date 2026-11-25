@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, mps",
+ "audio_file": "Brook 2.wav",
+ "duration_s": 68.3,
+ "wall_s": 1.46,
+ "rtf": 0.021,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": ". Byron was at his best and most characteristic in the long poem. Ch Harold's pilgrimage was a sensation that made his name. And Don Juan was a book length virtuo. so extravaganza that sealed deal. But anyone one who doubts that Byron could have shone, if confined a shorter poems should take a close look at this one. and check out the perfection of his balance.😊。1 shade the more. One ray, the less is just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular byrononic poem non byrononic is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady. and certainly she is more innocent than Byron truly thought life or love could ever be.😊Okay. She might come good later. I.e. she might turn bad, but at the moment, she is just a stack of iced cake trembling in the strip sleep slipstream as Byron sweeps by on his way to depraravities, unknown in her sweet dreams."
+  }
+ ],
+ "raw": [
+  "<|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>. <|en|><|HAPPY|><|Speech|><|withitn|>Byron was at his best and most characteristic in the long poem. Ch Harold's pilgrimage was a sensation that made his name. And Don Juan was a book length virtuo. so extravaganza that sealed deal. But anyone one who doubts that Byron could have shone, if confined a shorter poems should take a close look at this one. and check out the perfection of his balance. <|zh|><|EMO_UNKNOWN|><|Speech|><|withitn|>。 <|en|><|HAPPY|><|Speech|><|withitn|>1 shade the more. One ray, the less is just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular byrononic poem non byrononic is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady. and certainly she is more innocent than Byron truly thought life or love could ever be. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>Okay. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>She might come good later. I.e. she might turn bad, but at the moment, she is just a stack of iced cake trembling in the strip sleep slipstream as Byron sweeps by on his way to depraravities, unknown in her sweet dreams."
+ ],
+ "text": ". Byron was at his best and most characteristic in the long poem. Ch Harold's pilgrimage was a sensation that made his name. And Don Juan was a book length virtuo. so extravaganza that sealed deal. But anyone one who doubts that Byron could have shone, if confined a shorter poems should take a close look at this one. and check out the perfection of his balance.😊。1 shade the more. One ray, the less is just a tiny example of the impetus he could keep up for pages. The only thing that makes this particular byrononic poem non byrononic is that it professedly to do with innocence. The innocence is at the heart of the narrator's fancied young lady. and certainly she is more innocent than Byron truly thought life or love could ever be.😊Okay. She might come good later. I.e. she might turn bad, but at the moment, she is just a stack of iced cake trembling in the strip sleep slipstream as Byron sweeps by on his way to depraravities, unknown in her sweet dreams."
+}

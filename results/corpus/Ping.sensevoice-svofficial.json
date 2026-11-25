@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Ping.wav",
+  "audio_sha256": "ee115d8f6ce29a5ce5c961791948bbffa75678fde5d8ee81e863bb5c20bed35e",
+  "captured_at": "2026-11-25T20:21:24.218493+00:00",
+  "duration_s": 60.0,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 2.39s\n"
+  },
+  "status": "ok",
+  "text": "all right you should be able to see my screen now right fantastic okay cool i think let's not delay and i think we have a good quorum of folks now perhaps 10 to 20 so that's good we will start our meeting formally so today this is maybe the second time we are gathering together as a group we want to talk about a little bit about q1 then moving on to q2 mainly focusing on what are the things that we are kind of looking forward to rightwhat's gonna happen in q two for each of the groups under the platform and you know i team so let's go ahead and get started all right so i think you know before i by the way stay your hands are raised hi good morning i think i want to revisit some of the things that we shared earlier right in the last quarterly all hands and just sure that we kind of regroup and see where we are today",
+  "wall_s": 2.485,
+  "rtf": 0.0414,
+  "process_peak_rss_bytes": 25411584
+}

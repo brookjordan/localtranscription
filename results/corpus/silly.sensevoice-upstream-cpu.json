@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "silly.wav",
+ "duration_s": 10.56,
+ "wall_s": 0.66,
+ "rtf": 0.063,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Y, boy, I think that would be so cool. I go in the grass with the bath, and I laugh at you. Ha ha ha.😊"
+  }
+ ],
+ "raw": [
+  "<|en|><|HAPPY|><|Speech|><|withitn|>Y, boy, I think that would be so cool. I go in the grass with the bath, and I laugh at you. Ha ha ha."
+ ],
+ "text": "Y, boy, I think that would be so cool. I go in the grass with the bath, and I laugh at you. Ha ha ha.😊"
+}

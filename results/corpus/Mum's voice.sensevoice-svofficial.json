@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Mum's voice.wav",
+  "audio_sha256": "35e2524ac83b242419e159a4c8dd24fe6ee367c7c32f8586eca772378d562e8e",
+  "captured_at": "2026-11-25T20:21:18.966340+00:00",
+  "duration_s": 70.4,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 6 vad segments\n[sensevoice] done 2.66s\n"
+  },
+  "status": "ok",
+  "text": "ha can you believe we actually did it we made it through the storm wind howling rain lashing i thought we'd never see the sun again there were nights nights i cried myself to sleep whispering is anyone one even out there but then you showed up you smiled and suddenly the world wasn't so dark ifelt seen understood remember that silly dance in the kitchen with a burnt pancakes oh we were a mess but now now you're gone the silence is deafening i miss you every single day but i carry you with me in every laugh every tear every quietvementand i'll keep goingbecause that's what you'd wantalways",
+  "wall_s": 2.76,
+  "rtf": 0.0392,
+  "process_peak_rss_bytes": 25395200
+}

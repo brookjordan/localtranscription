@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "conrad.wav",
+  "audio_sha256": "569517881049d5562820162442a9c59e3aadbf5c6d947215de3bf7aa023520b0",
+  "captured_at": "2026-11-25T20:21:30.906793+00:00",
+  "duration_s": 56.0,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 2.17s\n"
+  },
+  "status": "ok",
+  "text": "as soon as it was the early morning the chief priests sels and teaches the law in the whole high court had jesus tied up and then handed him over to the roman governor pilate and so pilate too examined him are you king of the jews he said and an answer he says your words not mine now the chief priest had charged him with many things so pilate again interrogated him you're not answering anything look at this long list of charges but jesus didn't answer any further which stoppedmonished pilate that was a custom at the festival for him to release a prisoner as requested by the people there was a man named barrabas who was in prison with some terrorists who had killed people during an uprising the crowd came up and asked pilate to do for them what he usually did and pilate answered them saying do you want me to release to you this king of the jews for he knew that the chief priest's main reason for handing him over was en of jesus' popularity",
+  "wall_s": 2.269,
+  "rtf": 0.0405,
+  "process_peak_rss_bytes": 25444352
+}

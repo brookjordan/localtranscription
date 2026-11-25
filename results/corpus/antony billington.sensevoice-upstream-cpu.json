@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "antony billington.wav",
+ "duration_s": 47.95,
+ "wall_s": 2.21,
+ "rtf": 0.046,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "A message that we need to own for ourselves before we can pass it on to others, and when he calls us to a difficult task, he equip us for that task. So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now, in reality, it's more than a call. It's a summons. As we see in chapter 2 verse 1, He said to me, son of man, stand upon your feet and I will speak to you. the call starts, with God, Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide, I'm going to be the next new prophet. For the people of Israel, the initiative lies with God, and I think that's."
+  }
+ ],
+ "raw": [
+  "<|en|><|NEUTRAL|><|Speech|><|withitn|>A message that we need to own for ourselves before we can pass it on to others, and when he calls us to a difficult task, he equip us for that task. <|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now, in reality, it's more than a call. It's a summons. As we see in chapter 2 verse 1, He said to me, son of man, stand upon your feet and I will speak to you. the call starts, with God, Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide, I'm going to be the next new prophet. <|en|><|NEUTRAL|><|Speech|><|withitn|>For the people of Israel, the initiative lies with God, and I think that's."
+ ],
+ "text": "A message that we need to own for ourselves before we can pass it on to others, and when he calls us to a difficult task, he equip us for that task. So that's where we're going. Let's say a bit about each of those. First of all, God's call. Now, in reality, it's more than a call. It's a summons. As we see in chapter 2 verse 1, He said to me, son of man, stand upon your feet and I will speak to you. the call starts, with God, Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide, I'm going to be the next new prophet. For the people of Israel, the initiative lies with God, and I think that's."
+}

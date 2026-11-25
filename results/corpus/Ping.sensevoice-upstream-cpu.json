@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "Ping.wav",
+ "duration_s": 60.0,
+ "wall_s": 2.38,
+ "rtf": 0.04,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Allright you should be able to see my screen now right fantastic okay cool I think let's not delay and I think we have a good quorum of folks now perhaps 10 to 20 so that's good we will start our meeting formally so today this is the maybe the second time we are gathering together as a group we want to talk about a little bit about Q1 then moving on to Q2 mainly focusing on what are the things that we are kind of looking forward to right. What's going to happen in Q2 you know for each of the groups under the platform and apps you know1 a team so let's go ahead and get started al right so I thinkm you know before I by the way Stacey your hands are raised so hi. Good morning I think I want to revisit some of the things that we shared earlier right in the last quarterly or hands and just sure that we kind of regroup and see where we are today."
+  }
+ ],
+ "raw": [
+  "<|en|><|NEUTRAL|><|Speech|><|withitn|>Allright you should be able to see my screen now right fantastic okay cool I think let's not delay and I think we have a good quorum of folks now perhaps 10 to 20 so that's good we will start our meeting formally so today this is the maybe the second time we are gathering together as a group we want to talk about a little bit about Q1 then moving on to Q2 mainly focusing on what are the things that we are kind of looking forward to right. <|en|><|NEUTRAL|><|Speech|><|withitn|>What's going to happen in Q2 you know for each of the groups under the platform and apps you know1 a team so let's go ahead and get started al right so I thinkm you know before I by the way Stacey your hands are raised so hi. <|en|><|NEUTRAL|><|Speech|><|withitn|>Good morning I think I want to revisit some of the things that we shared earlier right in the last quarterly or hands and just sure that we kind of regroup and see where we are today."
+ ],
+ "text": "Allright you should be able to see my screen now right fantastic okay cool I think let's not delay and I think we have a good quorum of folks now perhaps 10 to 20 so that's good we will start our meeting formally so today this is the maybe the second time we are gathering together as a group we want to talk about a little bit about Q1 then moving on to Q2 mainly focusing on what are the things that we are kind of looking forward to right. What's going to happen in Q2 you know for each of the groups under the platform and apps you know1 a team so let's go ahead and get started al right so I thinkm you know before I by the way Stacey your hands are raised so hi. Good morning I think I want to revisit some of the things that we shared earlier right in the last quarterly or hands and just sure that we kind of regroup and see where we are today."
+}

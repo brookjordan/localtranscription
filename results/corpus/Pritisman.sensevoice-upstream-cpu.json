@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "Pritisman.wav",
+ "duration_s": 34.41,
+ "wall_s": 1.97,
+ "rtf": 0.057,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "I don't know what I need to talk about. Let me talk about a lot of the rings. A lot of the rings There3,3 movies. Okay, no,6 movies, bro. lot of the rings, and the other one was. 아. Hobbs hobbets like three movies so yeah, the third one got like lots of Oscars so yeah, that was a good one, but I like the the second one, the high tower is really good."
+  }
+ ],
+ "raw": [
+  "<|en|><|EMO_UNKNOWN|><|Speech|><|withitn|>I don't know what I need to talk about. Let me talk about a lot of the rings. A lot of the rings There3,3 movies. Okay, no,6 movies, bro. lot of the rings, and the other one was. <|ko|><|EMO_UNKNOWN|><|Speech|><|withitn|>아. <|en|><|NEUTRAL|><|Speech|><|withitn|>Hobbs hobbets like three movies so yeah, the third one got like lots of Oscars so yeah, that was a good one, but I like the the second one, the high tower is really good."
+ ],
+ "text": "I don't know what I need to talk about. Let me talk about a lot of the rings. A lot of the rings There3,3 movies. Okay, no,6 movies, bro. lot of the rings, and the other one was. 아. Hobbs hobbets like three movies so yeah, the third one got like lots of Oscars so yeah, that was a good one, but I like the the second one, the high tower is really good."
+}

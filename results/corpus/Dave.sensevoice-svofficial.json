@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Dave.wav",
+  "audio_sha256": "dd3d7245663c29093600503106e6589fca9611c4b5be75017e8173cd20c291cc",
+  "captured_at": "2026-11-25T20:21:16.371434+00:00",
+  "duration_s": 55.625,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 2.40s\n"
+  },
+  "status": "ok",
+  "text": "no i don't think so and fair warning i've got i i have two new kittens that are gonna be rampaging around this call so if i get attacked while i'm talking you all know no what's going on starting to wake up they basically sleep most of the time but when they wake up they kind of go crazy so this is leonids he' eight weeks old can's see him i don't know where his sister is she's around here somewhere to get mad no i think we got some questions some of you submitted and we're gonna go through that and then i think there's openq and a at the end that we're gonna do so yeah we'll start with the easy one you know you're the new the newest member of the that leadership team just yeah tell us i don't know a little bit about your background you talked a little bit about some of your technical background but you know whatever you want whatever you want to tell us about and what brought you emotional most importantly other than biologyji and i obviously like for those of you who don't know we did meet phil before he came and we landed the landed the big fish so",
+  "wall_s": 2.499,
+  "rtf": 0.0449,
+  "process_peak_rss_bytes": 25378816
+}

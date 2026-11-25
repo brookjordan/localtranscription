@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-f16.gguf",
+  "model_sha256": "2389039651f4574dbd674f1f1e296b8b1147b2e19a5fd9c2cd69e82669c78d8e",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "tse3-three.wav",
+  "audio_sha256": "37a35e375c7daa14dacea02a8814feb056b7dda9172ade6930db9546f47ade0a",
+  "captured_at": "2026-11-25T20:21:36.540575+00:00",
+  "duration_s": 38.775,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 1.48s\n"
+  },
+  "status": "ok",
+  "text": "panel time three voices tonight and a question for of the of the team to multi in onecllip two accents of english and one full turn of mandarin with a real speaker rotation between every turn",
+  "wall_s": 1.578,
+  "rtf": 0.0407,
+  "process_peak_rss_bytes": 25460736
+}

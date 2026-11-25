@@ -1,0 +1,20 @@
+{
+ "model": "FunAudioLLM/SenseVoiceSmall@3847d57b6bdf2dd8875cb1508d2af43d80a16bf7",
+ "runtime": "funasr 1.4.27 AutoModel, fsmn-vad, cpu",
+ "audio_file": "Mum's voice.wav",
+ "duration_s": 70.4,
+ "wall_s": 3.98,
+ "rtf": 0.057,
+ "segments": [
+  {
+   "start": null,
+   "end": null,
+   "speaker": null,
+   "text": "Ha, can you believe we actually did it. We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again.😊There were nights, nights. I cried myself to sleep, whispering. I anyone one even out there, But then you showed up. You smiled, and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes. Oh, we were a mess. But now, now you're gone. The silence is deafening. I miss you. Every single day. But I carry you with me in every laugh, every tear, every quiet moment. And I'll keep going because that's what you'd want always.😔"
+  }
+ ],
+ "raw": [
+  "<|en|><|HAPPY|><|Speech|><|withitn|>Ha, can you believe we actually did it. We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again. <|en|><|SAD|><|Speech|><|withitn|>There were nights, nights. I cried myself to sleep, whispering. I anyone one even out there, But then you showed up. You smiled, and suddenly the world wasn't so dark. <|en|><|SAD|><|Speech|><|withitn|>I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes. Oh, we were a mess. <|en|><|SAD|><|Speech|><|withitn|>But now, now you're gone. The silence is deafening. I miss you. <|en|><|SAD|><|Speech|><|withitn|>Every single day. But I carry you with me in every laugh, every tear, every quiet moment. <|en|><|SAD|><|Speech|><|withitn|>And I'll keep going because that's what you'd want always."
+ ],
+ "text": "Ha, can you believe we actually did it. We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again.😊There were nights, nights. I cried myself to sleep, whispering. I anyone one even out there, But then you showed up. You smiled, and suddenly the world wasn't so dark. I felt seen, understood. Remember that silly dance in the kitchen with the burnt pancakes. Oh, we were a mess. But now, now you're gone. The silence is deafening. I miss you. Every single day. But I carry you with me in every laugh, every tear, every quiet moment. And I'll keep going because that's what you'd want always.😔"
+}
