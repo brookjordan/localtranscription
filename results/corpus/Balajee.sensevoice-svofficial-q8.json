@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Balajee.wav",
+  "audio_sha256": "8e881ecb4e0ff4e0f2136596084a3c0daf777ce1c391ab41db35f510a4be9b30",
+  "captured_at": "2026-11-25T20:33:22.011509+00:00",
+  "duration_s": 179.25,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 39 vad segments\n[sensevoice] done 3.81s\n"
+  },
+  "status": "ok",
+  "text": "Thank everyone super excited and full of energy definitely been interesting This is gonna be a new one for Dave and I for sure like I don't think we have done the Lauren Hardy tapdown show before all right so full disclosure is the first time Dave and I are doing so I'm not quite sure we have their gig down right so we want to fill is joining us and we're going to start doing this hopefully on a regular basis the first one off it's a get to know Phil.And so Phil welcome welcome to the team I'll do a quick intro Dave feel free to chime in and then there's a set of questions that we will ask out Phil and we'll try and set aside some time at the back end for all of you to go ahead and ask questions as always my preamble this is not going to be fun if you just let the three of us talk so I'm hoping you guys all ask questions everyone does it actually gets more fun our way you get to ask our some embarrassing stuff focus on Phil if you can.But the two of us are also a fair game.Phil was mentioning, the scout piece of it, I was a Sc at Amazon before Phil was.They kicked me to bring him on. So I don't know. I don't know if I've ever got no that one.嗯.So you have a, let me, I have a question for you, Phil. I mean, you have a pretty broad spectrum understanding of it, not only from the standpoint of.Called robotics.But also far.Bro than that, derivative is a fantastic way. That's where it's one the predictive.Prediction and forecasting kind of autod, so to speak that we now end up using in the space.What is your vision for autonomy?And AI, specifically if you're emotional, but in general, too, how do you see this space evolving.How do you see us evolving with that.Yeah, no, that was cool.I can, as you said, we can sit and talk about three hours on this one, but that was, I think was a really good summary.Of how do can I balance todays and then can I?Continue to move forward into the future..That was pretty cool.I had a different.Proerspectted, I was curious about.To get your take on on the same thing.We're all.For them.For the.The emotional duration, we've been an R&D organization primarily.We've been building the technology towards it, I think.In the off, especially Jacqueline was talking about the inflection point.That happens when you transition from an O D.To something that you have to do in commercial and operator service.And do the R&D and work through this lockstep with each other.When you were in cruise, I'm sure you experience that there is a this push pull of.Of trying to move things forward just as a step by step progression because you have a.Commercial service out there.And yet, knowing that you have to make some fundamental architectural changes.To be able to leapfrog what needs to be done.How do you think we should set ourselves up, whether it's mentally or organizationally or however.For us to be able to deal with that.",
+  "wall_s": 3.842,
+  "rtf": 0.0214,
+  "process_peak_rss_bytes": 28753920
+}

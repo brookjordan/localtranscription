@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "antony billington.wav",
+  "audio_sha256": "4e4501680c4166353d27d5e6dc0bb40b3af6d3bbbfac0b6f49e278a07b6da0eb",
+  "captured_at": "2026-11-25T20:33:37.562451+00:00",
+  "duration_s": 47.946688,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 1.07s\n"
+  },
+  "status": "ok",
+  "text": "A message that we need to own for ourselves before we can pass it on to others and when he calls us to a difficult task, heal aquipps for that task, so that's where we're going, let's say a bit about each of those festival all God's call Now in reality it's more than a call it's a summons as we see in chapter 2 verse1, he said to me sonn of Man, stand upon your feet and I will speak to.The call starts with God Ezekiel doesn't wake up one day, rub his eyes, jump out of bed and decide I'm going to be the next new prophet for the people of Israel The initiative lies with God and I think that's,",
+  "wall_s": 1.117,
+  "rtf": 0.0233,
+  "process_peak_rss_bytes": 28868608
+}

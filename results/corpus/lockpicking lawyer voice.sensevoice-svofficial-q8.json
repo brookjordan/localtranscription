@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "lockpicking lawyer voice.wav",
+  "audio_sha256": "6848250f094ba480adf526a8e34e30da7deb051234610dfe3c6a4d1f5601c282",
+  "captured_at": "2026-11-25T20:33:40.442856+00:00",
+  "duration_s": 50.735813,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 3 vad segments\n[sensevoice] done 1.08s\n"
+  },
+  "status": "ok",
+  "text": "This is the lock picking lawyer, and one of the weaknesses with modern smart locks is battery life. And there's various ways of dealing with that. More batteries, bigger batteries, lithium batteries, wireless charging solar panels, but so few seem to have taken the obvious step of dramatically reducing power consumption. and probably the largest power draw is the electric motor that throws the vol. That's why I'd love to.See locks like this one from geektail.At least I wast until I saw the tiny lithium battery that powers this. it's right on the back of this panel. So in practical terms, I doubt well see much in the way of extra battery life, which is a shame>.",
+  "wall_s": 1.118,
+  "rtf": 0.022,
+  "process_peak_rss_bytes": 28868608
+}

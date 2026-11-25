@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Nana Chris.wav",
+  "audio_sha256": "506853278f55776f12cc21dfc2dd9893f56d13a982c83756d7c065a45f41f67c",
+  "captured_at": "2026-11-25T20:33:32.760871+00:00",
+  "duration_s": 56.084,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 1.40s\n"
+  },
+  "status": "ok",
+  "text": "Ha can you believe we actually did it, we made it through the storm, wind howling, rain lashing, I thought we'd never see the sun again there were nights, nights I cried myself to sleep whispering is anyone even out there but then you showed up you smiled and suddenly the world wasn't so dark I felt seen, understood then build.Remember that silly dance in the kitchen with burnt pancakes, oh we were a mess, but now now you've gone, the silence is deafening, I miss you every single day but I carry you with me in every laugh every tear every quiet moment and I'll keep going because that's what you would want always.",
+  "wall_s": 1.442,
+  "rtf": 0.0257,
+  "process_peak_rss_bytes": 28852224
+}

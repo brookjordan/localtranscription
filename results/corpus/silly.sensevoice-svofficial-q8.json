@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "silly.m4a",
+  "audio_sha256": "b83b1e1481823ea477ea257e697183e418ffdf1561f5c879272e1c5b23e5d3fb",
+  "captured_at": "2026-11-25T20:33:45.803643+00:00",
+  "duration_s": 10.559833,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 1 vad segments\n[sensevoice] done 0.21s\n"
+  },
+  "status": "ok",
+  "text": "Y, boy, I think that would be so cool. I go in the grass with the bath, and I laugh at you. Ha ha ha.",
+  "wall_s": 0.26,
+  "rtf": 0.0246,
+  "process_peak_rss_bytes": 28917760
+}

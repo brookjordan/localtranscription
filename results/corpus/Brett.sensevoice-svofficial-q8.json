@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Brett.wav",
+  "audio_sha256": "ba0c5a1288158b14238be869b38276cea11ec5d79c14417480127543572796ee",
+  "captured_at": "2026-11-25T20:33:25.988785+00:00",
+  "duration_s": 62.910688,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 3 vad segments\n[sensevoice] done 1.29s\n"
+  },
+  "status": "ok",
+  "text": "Luke's gospel tells us that Jesus had longed to celebrate this Passover meal with his disciples why not dreaded this was after all the last meal he was going to share with them before his crucifixion Lukeke gives us four reasons why Jesus was keen to take part in this meal At communion we drink wine and eat bread but no me in this meal Jesus takes the place of the Passover lamb, Jesus.Although present will not take part in the commmunion meal until he returns and each of us a given resurrection bodies, the Passover meal was a celebratory family meal hosted by the head of the household, Communion is an educational meal hosted by Jesus for his disciples, one in which we learn by doing.When Jesus gave his body to eat and his blood to drink, he was giving them everything that he had as we take communion, we tell God that we are open to receiving all that Jesus has for us.",
+  "wall_s": 1.336,
+  "rtf": 0.0212,
+  "process_peak_rss_bytes": 28770304
+}

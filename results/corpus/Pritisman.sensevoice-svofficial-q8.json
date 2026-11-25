@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Pritisman.wav",
+  "audio_sha256": "8d00c74a4677cc32fc1d69973ef212a10e2cf2b720490c088c859dc65cf52f98",
+  "captured_at": "2026-11-25T20:33:36.043617+00:00",
+  "duration_s": 34.410688,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 2 vad segments\n[sensevoice] done 0.69s\n"
+  },
+  "status": "ok",
+  "text": "I don't know what I need to talk about. Let me talk about lot of the rings. A lot of the rings. There's3,3 movies. Okay, no,6 movies, bro, lot of the rings. and the other one was.Hobbs Hobbs you like three movies so yeah, the third one got like lots of Oscars so yeah that was good one, but I like the the second one, the high tower is really good.",
+  "wall_s": 0.731,
+  "rtf": 0.0212,
+  "process_peak_rss_bytes": 28868608
+}

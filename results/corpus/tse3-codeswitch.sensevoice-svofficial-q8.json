@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "tse3-codeswitch.wav",
+  "audio_sha256": "30e84ff145efe546ec9212ba4d720341c8d81d745e27d23530a107c227a992e5",
+  "captured_at": "2026-11-25T20:33:43.793838+00:00",
+  "duration_s": 29.525,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 1 vad segments\n[sensevoice] done 0.67s\n"
+  },
+  "status": "ok",
+  "text": "So we said we'd try something different this episode. Let's mix it up a little. Prata Aser Gvi's continue enfise C 2 Preers. B by the problempon deion exactly code switching. Most engines pick one language per utterance and force everything into it, which is how you get fantasy French or nonsense English.",
+  "wall_s": 0.707,
+  "rtf": 0.024,
+  "process_peak_rss_bytes": 28901376
+}

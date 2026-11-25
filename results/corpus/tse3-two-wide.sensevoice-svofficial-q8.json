@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "tse3-two-wide.wav",
+  "audio_sha256": "c65c570752d0f24bef007a28c7bd555bf8867c3428193f37af346fe9cdb3cbb9",
+  "captured_at": "2026-11-25T20:33:44.684042+00:00",
+  "duration_s": 18.075,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 1 vad segments\n[sensevoice] done 0.42s\n"
+  },
+  "status": "ok",
+  "text": "This pair test keeps two speakers and widens the gap between them. One voice is a British man, the other an American woman and that is the whole point. if the labels still collapse with a wide gap, the problem is two voices rather than these particular two.",
+  "wall_s": 0.474,
+  "rtf": 0.0262,
+  "process_peak_rss_bytes": 28917760
+}

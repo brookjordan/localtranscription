@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "tse3-two.wav",
+  "audio_sha256": "da921a6f73ead5365fe292f2417839cdd83cc00a7031315f19f47637ca54e8d3",
+  "captured_at": "2026-11-25T20:33:41.744827+00:00",
+  "duration_s": 27.425,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 1 vad segments\n[sensevoice] done 0.72s\n"
+  },
+  "status": "ok",
+  "text": "Welcome back to the show Today we're looking at how speech recognizes handle more than one voice at a time and why that is harder than it sounds right because a single speaker is predictable, but a conversation overlaps, interrupts and changes pace without warning Exactly, so keep an ear on the speaker labels as we go If the engine cannot tell us apart that is a diarization failure, not a transcription failure.",
+  "wall_s": 0.761,
+  "rtf": 0.0278,
+  "process_peak_rss_bytes": 28884992
+}

@@ -1,0 +1,24 @@
+{
+  "engine": "sensevoice-official-llamacpp",
+  "model": "sensevoice-small-q8.gguf",
+  "model_sha256": "4ae45c94422de949b387e2e0fb10d7e14e4c42c69db30c3444ecc7d4b844b7c5",
+  "model_revision": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "runtime_revision": "QwenAudio/SenseVoice runtime/llama.cpp @586bbdb",
+  "settings": {
+    "vad": "fsmn-vad.gguf",
+    "threads": 6
+  },
+  "audio_file": "Mum's voice.wav",
+  "audio_sha256": "35e2524ac83b242419e159a4c8dd24fe6ee367c7c32f8586eca772378d562e8e",
+  "captured_at": "2026-11-25T20:33:30.899107+00:00",
+  "duration_s": 70.4,
+  "runtime": {
+    "returncode": 0,
+    "stderr_tail": "[sensevoice] 6 vad segments\n[sensevoice] done 1.65s\n"
+  },
+  "status": "ok",
+  "text": "Ha, can you believe we actually did it, We made it through the storm, wind howling, rain lashing. I thought we'd never see the sun again. There were nights. Nights I cried myself to sleep. whispering. Is anyone one even out there. but then you showed up. You smiled. and suddenly, the world wasn't so dark. I.Felt seen, understood. Remember that silly dance in the kitchen with a burnt pancakes. Oh we were a mess. but now now you're gone. The silence is deafening. I miss you every single day but I carry you with me in every laugh every tear every quiet moment.ment.And I'll keep going.Because that's what you'd want.Always.",
+  "wall_s": 1.689,
+  "rtf": 0.024,
+  "process_peak_rss_bytes": 28835840
+}
