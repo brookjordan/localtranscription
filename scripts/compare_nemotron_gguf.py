@@ -38,14 +38,14 @@ def load_gt(stem: str) -> list[dict]:
 
 
 def seg_text(result: dict, want_speaker: int | None) -> str:
-    """Concatenate the result's segments for one speaker (or all when None)."""
+    """Join the result's per-word segments for one speaker (or all when None)."""
     segs = result.get("segments") or []
     out = []
     for seg in segs:
-        speaker = seg.get("speaker_id", seg.get("speaker"))
-        text = seg.get("text") or ""
+        speaker = seg.get("speaker", seg.get("speaker_id"))
+        word = seg.get("word", seg.get("text") or "")
         if want_speaker is None or speaker == want_speaker:
-            out.append(text)
+            out.append(word)
     return " ".join(out)
 
 
@@ -63,7 +63,7 @@ def main() -> int:
         truth = load_gt(stem)
         truth_speakers = sorted({seg["speaker"] for seg in truth})
         pred_segments = result.get("segments") or []
-        pred_speakers = sorted({s.get("speaker_id", s.get("speaker"))
+        pred_speakers = sorted({s.get("speaker", s.get("speaker_id"))
                                 for s in pred_segments})
         row = {"stem": stem, "truth_speakers": len(truth_speakers),
                "pred_speakers": len(pred_speakers), "segments": []}

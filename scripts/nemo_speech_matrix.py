@@ -65,19 +65,16 @@ def run_clip(nemo: str, model: Path, audio: Path, output: Path, metadata: dict) 
         start = time.monotonic()
         proc = subprocess.run(
             [nemo, 'transcribe', str(normal), '--model', str(model),
-             '--format', 'json', '--diarize', '--output-dir', folder],
+             '--format', 'json', '--diarize'],
             capture_output=True, text=True, timeout=1800)
         elapsed = time.monotonic() - start
         payload['runtime'] = {'nemo_speech_version': metadata['runtime_revision'],
                               'returncode': proc.returncode,
                               'stderr_tail': proc.stderr[-2000:]}
-        json_files = sorted(Path(folder).glob('*.json'))
         try:
             if proc.returncode != 0:
                 raise RuntimeError(f'nemo-speech exited {proc.returncode}')
-            if not json_files:
-                raise RuntimeError('no JSON output written')
-            result = json.loads(json_files[0].read_text())
+            result = json.loads(proc.stdout)
             text = str(result.get('text') or '').strip()
             if not text:
                 raise ValueError('empty transcript')
