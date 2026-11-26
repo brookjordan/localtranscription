@@ -92,6 +92,62 @@ const BANNERS = [
       'cinematic concept art, a dark lab bench at night, two identical glowing audio waveform holograms side by side floating above a single bench, the left waveform thin and fast with a cool white light trail, the right waveform thicker with coloured speaker-band segments in teal amber and violet, subtle split lighting dividing the bench into two halves, deep blue and teal palette, one warm amber accent light, moody atmospheric, wide 16:9 establishing shot, no people, no text',
     seed: 4104,
   },
+  {
+    slug: 'the-silly-test',
+    // The intentionally ridiculous benchmark clip.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'audio'],
+    positive:
+      'cinematic macro concept art, a vintage studio microphone on a dark stage under a single spotlight, a huge glowing translucent speech bubble above it bursting with abstract confetti light fragments and swirling colour shapes spilling out playfully, chaotic but joyful energy, deep blue and teal palette, one warm amber accent light, moody atmospheric, shallow depth of field, wide 16:9 shot, no people, no letters, no text, no symbols',
+    seed: 4160,
+  },
+  {
+    slug: 'when-i-start-to-sing',
+    // Speech, noise and singing braided into one recording.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'audio'],
+    positive:
+      'cinematic concept art, a single backlit human silhouette at a vintage microphone switching between three glowing audio streams that braid together in the dark air: a clean thin speech wave, a burst of noise sparks, and a flowing musical ribbon with soft note shapes, deep blue and teal palette, one warm amber accent light, dramatic side lighting, wide 16:9 shot, no faces, no text',
+    seed: 4107,
+  },
+  {
+    slug: 'the-harness-before-the-zoo',
+    // The result shape that mattered more than the model choice.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'industrial'],
+    positive:
+      'cinematic concept art, a clean dark laboratory bench with one small audio cassette and a single sheet of glowing structured schematic lines floating above it in orderly rows, blueprint aesthetic, precise geometric light lines and neat connection points, deep blue and teal palette, one warm amber accent light, minimal, moody, wide 16:9 shot, no people, no readable text',
+    seed: 4108,
+  },
+  {
+    slug: 'vad-is-a-lever',
+    // Segmentation cutting one waveform into clean pieces.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'audio', 'industrial'],
+    positive:
+      'cinematic concept art, one long continuous glowing waveform stretched across a dark frame being cut by precise vertical light blades into clean segments, the cut points glowing brighter than the rest of the wave, small segment markers hovering under each slice, deep blue and teal palette, one warm amber accent light, industrial precision aesthetic, moody atmospheric, wide 16:9 shot, no people, no text',
+    seed: 4109,
+  },
+  {
+    slug: 'what-the-transcripts-say',
+    // Transcripts kept visible instead of reduced to a winner badge.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'audio'],
+    positive:
+      'cinematic concept art, a dark archive wall of backlit glass panels, each panel displaying lines of glowing abstract transcript marks rendered as luminous dashes in different colours, one panel highlighted brighter than the rest, deep blue and teal palette with warm amber highlights, moody museum lighting, wide 16:9 shot, no people, no readable words',
+    seed: 4110,
+  },
+  {
+    slug: 'the-dashboard-is-a-lab-not-a-product',
+    // An evaluation surface with teeth, honestly work-in-progress.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'industrial'],
+    positive:
+      'cinematic concept art, a workbench of glowing instruments and oscilloscope screens in a dark lab, one large screen showing layered comparison charts as abstract luminous blocks and rows, cables and probes neatly arranged, work-in-progress tools scattered honestly on the bench, deep blue and teal palette, one warm amber accent light, moody atmospheric, wide 16:9 shot, no people, no readable text',
+    seed: 4111,
+  },
+  {
+    slug: 'two-outputs-and-a-noisy-input',
+    // Voice isolation: one input forked into voice and what it took away.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'audio'],
+    positive:
+      'cinematic concept art, a dark recording studio, one glowing microphone feeding two separated light streams into two glass vessels on a bench: one vessel holds a clean bright human voice wave, the other holds swirling dark noise static, the split visualised as a clean fork of light between them, deep blue and teal palette, one warm amber accent light, moody atmospheric, wide 16:9 shot, no people, no text',
+    seed: 4112,
+  },
 ];
 
 function buildWorkflow(banner, workflow, seed) {
