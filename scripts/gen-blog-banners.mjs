@@ -84,6 +84,14 @@ const BANNERS = [
       'dark surreal cinematic concept art, a grand concert choir of translucent glass human figures singing, their mouths emitting streams of glowing scrambled letters and static noise that dissolve into digital snow particles, fragments of broken waveform ribbons, deep indigo and electric blue palette, glitch aesthetic, dramatic stage lighting from below, wide 16:9 shot',
     seed: 4103,
   },
+  {
+    slug: 'one-model-two-runtimes',
+    // Nemotron 3.5 Transcribe on MLX Audio NVFP4 and NeMo-Speech.cpp IQ4_NL.
+    goodFor: ['natural-language', 'cinematic', 'concept-art', 'audio', 'industrial'],
+    positive:
+      'cinematic concept art, a dark lab bench at night, two identical glowing audio waveform holograms side by side floating above a single bench, the left waveform thin and fast with a cool white light trail, the right waveform thicker with coloured speaker-band segments in teal amber and violet, subtle split lighting dividing the bench into two halves, deep blue and teal palette, one warm amber accent light, moody atmospheric, wide 16:9 establishing shot, no people, no text',
+    seed: 4104,
+  },
 ];
 
 function buildWorkflow(banner, workflow, seed) {
